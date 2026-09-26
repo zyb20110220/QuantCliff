@@ -33,6 +33,33 @@
 - 下一步：
 ```
 
+## 会话恢复要点（2026-09-26）
+
+> 若对话丢失，新会话阅读本节 + docs/proposal.md 即可完全恢复上下文。
+
+**项目身份**：QuantCliff《小模型量化能力悬崖的定位研究》；仓库 https://github.com/zyb20110220/QuantCliff；本地 C:\Users\zyb\source\repos\QuantCliff。
+
+**已定决策（grill 三轮全部落定）**：
+- 主模型 Qwen3-1.7B；验证 Qwen2.5-1.5B、Gemma-3-1B（目的：证实规律而非对比差异；口径：相对退化率）
+- 7 档全跑：Q2_K/Q3_K_M/Q4_K_M/Q5_K_M/Q6_K/Q8_0/F16
+- 每档 500 题：MMLU-Pro 150（10 选 1 裁剪为 4 选 1，seed=42）+ TruthfulQA 100 + IFEval 100 + C-Eval 100 + needle 4K×20 + 中文事实 30
+- greedy 采样全局固定；自写评测循环（不用 lm-eval-harness）；下载走 hf-mirror.com
+- 成品：Gradio 网页 + docs/report.md；论文最后写
+- 时间：国庆 1 周（A）+ 寒假 4 周（B）+ 暑假 8 周（C）
+- 代码分工：协作者代写全部代码，本人运行/改参/理解
+- .gitignore 排除 data/ models/（+ pycache/venv 技术排除），其余全提交；每次改动即 commit（纯标题：`type: 窗口X任务X.N - 描述`）
+
+**RQ 体系（经用户批评修订）**：RQ1 衰减形态（开放，不预设悬崖）/ RQ2 维度敏感性差异 / RQ3 跨模型一致性 / RQ4 实用边界。
+统计：线性 vs 分段拟合（AIC/BIC）+ 二阶差分 → PELT 变化点 + McNemar → 退化速率排序 → Kendall W。
+
+**当前进度**：
+- 完成：A1 建仓+方案、A2 环境文档、A3 下载脚本、A4 评测脚手架（仅 MMLU-Pro 基准）。3 commits（2040e51/235cc2d/b5999fc）已推送。
+- 下一步（国庆窗口 A）：用户按 docs/setup.md 装环境、下载 Q4_K_M+F16 两档、跑最小闭环（2 档 × 50 题）+ 单元测试，截图并写窗口 A 小结。
+- 冻结期（10~1 月）：审核 proposal.md 附录 30 条中文事实题。
+- 寒假窗口 B：补齐其余 5 个基准模块 + analyze.py，跑 3 模型全量实验。
+
+**环境要点**：git push 走仓库本地代理 127.0.0.1:7897（勿改全局）；模型存 D 盘；用户 Python 不佳（代码需中文注释、可运行优先）。
+
 ## 各阶段小结
 
 （待填）
