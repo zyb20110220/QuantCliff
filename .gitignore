@@ -1,0 +1,10 @@
+# 数据与模型（大文件，存 D 盘，不入库）
+data/
+models/
+
+# Python 技术性排除
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
