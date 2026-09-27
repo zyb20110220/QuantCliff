@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 说明：`llama-cpp-python` 在 Windows 有官方预编译 wheel（CPU AVX2 版），**无需安装 C++ 编译器**。若 pip 报错装不上，用 `pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu`。
-说明：`torch` 从 PyPI 默认装 CPU 版（约 2GB）；`transformers`/`scikit-learn` 供实验 3（探针）使用，窗口 A 装好只做排雷。建议设 HF 缓存到 D 盘：`$env:HF_HOME = "D:\QuantCliff\hf_cache"`。
+说明：`torch` 从 PyPI 默认装 CPU 版（约 2GB）；`transformers`/`scikit-learn` 供实验 3（探针）使用，窗口 A 装好只做排雷。建议设 HF 缓存到仓库根目录：`$env:HF_HOME = "C:\Users\zyb\source\repos\QuantCliff\hf_cache"`。
 
 ## 3. 配置 HF 镜像
 
@@ -36,11 +36,11 @@ $env:HF_HUB_ENABLE_HF_TRANSFER = "1"
 
 ## 5. 下载模型与数据
 
-模型存 **D 盘**（例如 `D:\QuantCliff\models`），窗口 A 只需两个档位：
+模型统一存**仓库根目录** `C:\Users\zyb\source\repos\QuantCliff\models`（已 git 排除），窗口 A 只需两个档位：
 
 ```powershell
-python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant Q4_K_M --out D:\QuantCliff\models
-python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant F16 --out D:\QuantCliff\models
+python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant Q4_K_M --out C:\Users\zyb\source\repos\QuantCliff\models
+python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant F16 --out C:\Users\zyb\source\repos\QuantCliff\models
 ```
 
 MMLU-Pro 数据由 `scripts/eval_loop.py` 运行时自动经镜像下载。
@@ -48,8 +48,8 @@ MMLU-Pro 数据由 `scripts/eval_loop.py` 运行时自动经镜像下载。
 ## 6. 最小闭环验证（任务 A.4）
 
 ```powershell
-python scripts/eval_loop.py --model D:\QuantCliff\models\Qwen3-1.7B-Q4_K_M.gguf --bench mmlu_pro --n 50 --out results\pilot_q4_mmlupro.csv
-python scripts/eval_loop.py --model D:\QuantCliff\models\Qwen3-1.7B-F16.gguf --bench mmlu_pro --n 50 --out results\pilot_f16_mmlupro.csv
+python scripts/eval_loop.py --model C:\Users\zyb\source\repos\QuantCliff\models\Qwen3-1.7B-Q4_K_M.gguf --bench mmlu_pro --n 50 --out results\pilot_q4_mmlupro.csv
+python scripts/eval_loop.py --model C:\Users\zyb\source\repos\QuantCliff\models\Qwen3-1.7B-F16.gguf --bench mmlu_pro --n 50 --out results\pilot_f16_mmlupro.csv
 python -m unittest discover -s tests
 ```
 
@@ -61,8 +61,8 @@ python -m unittest discover -s tests
 
 ```powershell
 $env:HF_ENDPOINT = "https://hf-mirror.com"
-$env:HF_HOME = "D:\QuantCliff\hf_cache"
+$env:HF_HOME = "C:\Users\zyb\source\repos\QuantCliff\hf_cache"
 python -c "from transformers import AutoModelForCausalLM, AutoTokenizer; m = AutoModelForCausalLM.from_pretrained('Qwen/Qwen3-0.6B'); print('probe route OK, layers =', m.config.num_hidden_layers)"
 ```
 
-验收：打印层数且无报错（首次下载约 1.2GB 到 D 盘缓存），即探针路线可行。
+验收：打印层数且无报错（首次下载约 1.2GB 到仓库根目录 hf_cache/），即探针路线可行。

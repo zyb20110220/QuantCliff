@@ -9,7 +9,7 @@
     MAX_TOKENS             -> int             # 输出长度上限
 
 用法示例：
-    python scripts/eval_loop.py --model D:\\QuantCliff\\models\\Qwen3-1.7B-Q4_K_M.gguf \
+    python scripts/eval_loop.py --model C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\Qwen3-1.7B-Q4_K_M.gguf \
         --bench mmlu_pro --n 50 --out results\\pilot_q4_mmlupro.csv --tag pilot
 """
 import argparse

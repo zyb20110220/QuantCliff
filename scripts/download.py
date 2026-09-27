@@ -1,8 +1,8 @@
 """窗口 A 任务 A.3：从 hf-mirror 镜像下载 GGUF 模型。
 
 用法示例：
-    python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant Q4_K_M --out D:\\QuantCliff\\models
-    python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant F16 --out D:\\QuantCliff\\models
+    python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant Q4_K_M --out C:\\Users\\zyb\\source\\repos\\QuantCliff\\models
+    python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant F16 --out C:\\Users\\zyb\\source\\repos\\QuantCliff\\models
 
 原理：列出远端仓库全部文件，按关键字匹配 .gguf 文件名后下载（无需硬编码文件名）。
 """

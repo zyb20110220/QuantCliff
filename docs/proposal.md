@@ -69,7 +69,7 @@
 
 ## 4. 模型与数据清单
 
-- 主研究模型：HF `ggml-org/Qwen3-1.7B-GGUF`、`ggml-org/Qwen2.5-1.5B-Instruct-GGUF`、Gemma-3-1B GGUF；走 hf-mirror.com 镜像；约 30GB，存 D 盘
+- 主研究模型：HF `ggml-org/Qwen3-1.7B-GGUF`、`ggml-org/Qwen2.5-1.5B-Instruct-GGUF`、Gemma-3-1B GGUF；走 hf-mirror.com 镜像；约 30GB，存仓库根目录 models/
 - 实验 2 模型：`prism-ml/Ternary-Bonsai-1.7B-gguf`（Q2_0 436 MiB）+ 8B 加分版（2.03 GiB）；Apache-2.0；Q2_0 格式可能需 Prism 的 llama.cpp fork，备选 `onnx-community/Ternary-Bonsai-1.7B-ONNX`
 - 实验 3 模型：`Qwen/Qwen3-0.6B`（transformers 原版，~1.2GB）
 - 基准：`TIGER-Lab/MMLU-Pro`、`truthfulqa/truthful_qa`、`ceval/ceval-exam`、IFEval（自写 8 类可判指令解析器）、needle-in-a-haystack（自实现约 40 行）、中文事实 30 条（自构造，见附录）

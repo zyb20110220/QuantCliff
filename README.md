@@ -22,8 +22,8 @@ QuantCliff/
 ├── scripts/       # 实验与演示代码
 ├── results/       # 原始结果 CSV（过程证据，全部提交）
 ├── tests/         # 判分逻辑单元测试
-├── data/          # 基准数据（git 排除，D 盘）
-└── models/        # GGUF 模型（git 排除，D 盘）
+├── data/          # 基准数据（git 排除，仓库根目录下）
+└── models/        # GGUF 模型（git 排除，仓库根目录下）
 ```
 
 ## 环境
