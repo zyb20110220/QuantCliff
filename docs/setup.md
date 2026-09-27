@@ -16,6 +16,7 @@ pip install -r requirements.txt
 ```
 
 说明：`llama-cpp-python` 在 Windows 有官方预编译 wheel（CPU AVX2 版），**无需安装 C++ 编译器**。若 pip 报错装不上，用 `pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu`。
+说明：`torch` 从 PyPI 默认装 CPU 版（约 2GB）；`transformers`/`scikit-learn` 供实验 3（探针）使用，窗口 A 装好只做排雷。建议设 HF 缓存到 D 盘：`$env:HF_HOME = "D:\QuantCliff\hf_cache"`。
 
 ## 3. 配置 HF 镜像
 
@@ -53,3 +54,15 @@ python -m unittest discover -s tests
 ```
 
 验收标准：两条 CSV 各 50 行；F16 正确率明显高于 Q4；单元测试全绿。
+
+## 7. 探针路线排雷（任务 A.5）
+
+实验 3 走 transformers 路线（llama-cpp 取不到隐藏层激活），窗口 A 先做 5 分钟 smoke test：
+
+```powershell
+$env:HF_ENDPOINT = "https://hf-mirror.com"
+$env:HF_HOME = "D:\QuantCliff\hf_cache"
+python -c "from transformers import AutoModelForCausalLM, AutoTokenizer; m = AutoModelForCausalLM.from_pretrained('Qwen/Qwen3-0.6B'); print('probe route OK, layers =', m.config.num_hidden_layers)"
+```
+
+验收：打印层数且无报错（首次下载约 1.2GB 到 D 盘缓存），即探针路线可行。

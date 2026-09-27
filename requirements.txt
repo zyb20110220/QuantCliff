@@ -7,3 +7,7 @@ matplotlib>=3.8.0
 seaborn>=0.13.0
 scipy>=1.12.0
 gradio>=4.44.0
+# 实验 3（探针）：torch 从 PyPI 默认装 CPU 版（Windows）
+torch>=2.2.0
+transformers>=4.44.0
+scikit-learn>=1.4.0
