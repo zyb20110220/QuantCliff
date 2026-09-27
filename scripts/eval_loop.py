@@ -45,7 +45,8 @@ def run(model_path: str, bench_name: str, n: int, out_csv: str,
             prompt = bench.build_prompt(item)
             t0 = time.time()
             # 贪婪解码：temperature=0 且 top_k=1，保证结果可复现
-            resp = llm(prompt, temperature=0.0, top_k=1, max_tokens=bench.MAX_TOKENS)
+            resp = llm(prompt, temperature=0.0, top_k=1,
+                       max_tokens=bench.MAX_TOKENS)
             seconds = time.time() - t0
             output = resp["choices"][0]["text"].strip()
             tokens = resp["usage"]["completion_tokens"]

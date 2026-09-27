@@ -31,14 +31,17 @@ def find_file(repo_id: str, quant: str) -> str:
 
 def main():
     ap = argparse.ArgumentParser(description="下载 GGUF 模型（走 hf-mirror）")
-    ap.add_argument("--repo", required=True, help="HF 仓库 id，如 ggml-org/Qwen3-1.7B-GGUF")
-    ap.add_argument("--quant", required=True, help="量化关键字，如 Q4_K_M / F16 / Q2_K")
+    ap.add_argument("--repo", required=True,
+                    help="HF 仓库 id，如 ggml-org/Qwen3-1.7B-GGUF")
+    ap.add_argument("--quant", required=True,
+                    help="量化关键字，如 Q4_K_M / F16 / Q2_K")
     ap.add_argument("--out", default="models", help="本地保存目录")
     args = ap.parse_args()
 
     fname = find_file(args.repo, args.quant)
     print(f"[1/2] 匹配到文件：{fname}")
-    path = hf_hub_download(repo_id=args.repo, filename=fname, local_dir=args.out)
+    path = hf_hub_download(
+        repo_id=args.repo, filename=fname, local_dir=args.out)
     print(f"[2/2] 已保存：{path}")
 
 
