@@ -1,9 +1,10 @@
 """MMLU-Pro 基准（4 选 1 裁剪版）。
 
-原始 MMLU-Pro 是 10 选 1（TIGER-Lab/MMLU-Pro，test 集 12,032 题）。
+原始 MMLU-Pro 是 10 选 1（TIGER-Lab/MMLU-Pro，test 集 12,032 题），
+但实际数据中每题选项数不固定（3~10 个不等，仅约 83% 的题是 10 选项）。
 处理策略（在报告中如实说明）：
     1. 选择 MMLU-Pro 而非原版 MMLU：题目更新更难，降低"模型训练时见过题"的污染风险；
-    2. 从 10 个选项中随机保留正确答案 + 3 个干扰项 → 4 选 1：
+    2. 按每题实际选项数，随机保留正确答案 + 至多 3 个干扰项 → 4 选 1：
        保证小模型基线（F16）也有足够分辨率，否则 10 选 1 对 1.7B 模型接近随机，
        测不出"退化曲线"；seed 固定，三个模型、七个档位抽到完全相同的选项。
 """
@@ -30,11 +31,11 @@ def load(n: int = 150, seed: int = 42):
 
     out = []
     for idx, raw in enumerate(all_items[:n]):
-        correct_i = raw["answer_index"]          # 0-9
-        correct_letter = raw["answer"]           # A-J
-        # 随机选 3 个干扰项
-        others = [i for i in range(10) if i != correct_i]
-        picked = rng.sample(others, 3) + [correct_i]
+        correct_i = raw["answer_index"]          # 0 ~ 选项数-1
+        # 选项数不固定（3~10）：随机保留正确答案 + 至多 3 个干扰项
+        n_opts = len(raw["options"])
+        others = [i for i in range(n_opts) if i != correct_i]
+        picked = rng.sample(others, min(3, n_opts - 1)) + [correct_i]
         rng.shuffle(picked)
         # 重建 4 个选项并记录正确项的新字母
         options = []

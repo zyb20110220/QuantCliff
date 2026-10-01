@@ -1,0 +1,176 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag
+Qwen3-1.7B-Q4_K_M,mmlu_pro,0,"A
+解析：The available energy for alpha decay is calculated using the formula E = (4 * A - 32) * 2.22",True,True,A,32,2.1,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,1,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,C,32,1.75,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,2,"C
+解析：Marginal product is defined as the amount by which total output increases due to the addition of one unit of a given factor while the amount used",True,True,C,32,1.93,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,3,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,C,32,2.43,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,4,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,B,32,3.11,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,5,"A
+解析：Skinner box, also known as the ""electrode box,"" is a device used in operant conditioning. It is used to reward",True,True,A,32,1.89,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,6,"A
+解析：首先，计算每个物品的利润率。对于第一个物品，成本是 $5.25，售价是 $10，利润率是",True,False,C,32,1.93,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,7,"C
+解析：C选项中的leucine, methionine and threonine are all essential amino acids. 选项C正确。
+这个题目中",True,True,C,32,1.76,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,8,"C
+解析：A balance of payments deficit refers to a country's current account deficit, which occurs when the value of exports is less than the value of imports",True,True,C,32,1.61,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,9,"D
+解析：D选项正确，因为它准确描述了燃烧和有氧呼吸在能量释放速度和方式上的差异。燃烧是快速释放能量，",True,True,D,32,2.21,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,10,"A
+解析：首先计算括号内的部分：$\frac{1}{-3}$ 是负数，所以 $\frac{1}{~\frac",True,False,C,32,2.04,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,11,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,D,32,2.49,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,12,"A
+解析：题干中提到的测试是基于2个不同的工作分析，因此测试的效度是基于工作内容的，所以答案是",True,False,D,32,1.87,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,13,"C
+解析：正确答案是C，因为沉浸式体验（immersive experience）指的是个体完全沉浸在环境中并积极参与，影响实际的环境发生。",True,False,B,32,1.73,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,14,"A
+解析：The planning models of Hendrix (2002), Kendall (1999), Merston (1963) and",True,False,D,32,2.09,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,15,"A
+解析：A is the correct answer. The volume is calculated using the washer method with respect to y. The outer radius is 2 and the inner",True,False,C,32,1.88,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,16,"D
+解析：D选项正确，因为D选项提到细菌和酵母菌生长迅速、成本低、空间小，并且有较高的突变率",True,True,D,32,2.33,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,17,"A
+解析：首先，题目中提到的固体是一个矩形截面，厚度为0.5英寸，其中孔隙占总体积的5",True,False,D,32,2.45,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,18,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,C,32,2.4,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,19,"B
+解析：首先，计算需要的包数。42 ÷ 8 = 5.25。由于不能买0.25",True,False,C,32,1.68,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,20,"A
+解析：The refund is calculated as the annual premium multiplied by the number of days remaining in the policy. The annual premium is $37. The",True,False,D,32,1.8,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,21,"A
+解析：Pre-testing a questionnaire is useful for identifying any problems with the question wording and routing. 选项A正确。
+问题：The process of selecting",True,True,A,32,1.76,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,22,"A
+解析：AR(2) process is a stationary process because the roots of the characteristic equation are all outside the unit circle. The characteristic equation for AR",True,True,A,32,1.8,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,23,"B
+解析：首先，我们需要确定这些烃的沸点顺序。沸点通常与分子量和分子结构有关。较大的分子量通常具有较高的",True,True,B,32,2.43,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,24,"C
+解析：对于一个短天线，最大有效面积A_em的计算公式为A_em = (λ^2)/4π，其中λ",True,True,C,32,1.82,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,25,"A
+解析：首先，题目要求计算一个正方形的面积，其边长等于一个圆的半径。圆的周长是12",True,True,A,32,1.77,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,26,"A
+解析：使用公式 ΔG° = -RT ln K，但题目中没有给出 K 值，因此无法计算。所以答案是",True,False,B,32,2.2,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,27,"A
+解析：首先，将速度转换为英尺/秒，30 mi/hr = 44 ft/sec。然后，使用公式 s =",True,True,A,32,1.89,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,28,"A
+解析：弹簧率的计算公式为：弹簧率 = (重量 / (n * 2π * rpm / 60))，其中",True,False,B,32,1.99,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,29,"B
+解析：在实验中，统计显著性（statistical significance）与实验的功率（power）有关。实验的功率是指实验能够检测",True,False,A,32,1.69,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,30,"A
+解析：Hopewell culture was known for their use of maize, which was a staple food. They also cultivated beans and potatoes, which were important",True,False,C,32,1.59,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,31,"A
+解析：首先，计算负载阻抗相对于特性阻抗的归一化值。负载阻抗为 25 - j75 oh",True,True,A,32,2.09,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,32,"C
+解析：根据《圣经》记载，摩西和亚伦的妹妹是Miriam。她以唱歌为特色，是《出埃及记",True,True,C,32,1.58,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,33,"A
+解析：在产品责任诉讼中，原告需要证明被告存在过错，即被告知道或应当知道产品存在缺陷。选项A正确，因为",True,False,D,32,2.11,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,34,"C
+解析：在多项式回归中，影响欠拟合和过拟合之间权衡的结构假设是多项式度数。当多项",True,True,C,32,1.82,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,35,"A
+解析：首先，确定波的偏振类型。椭圆极化波的偏振方向与电场矢量的轨迹有关。椭",True,False,C,32,2.08,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,36,"B
+解析：Lily can give an equal number of pieces of candy to 5, 3, or 2 people. This means that the number",True,True,B,32,1.91,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,37,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,B,32,2.75,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,38,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,C,32,2.57,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,39,"A
+解析：4 times as many cans as Tom collected. 4 times as many cans as Tom collected is 4 multiplied by the number of cans Tom",True,True,A,32,1.75,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,40,"A
+解析：首先，计算通过孔的气体分子数。使用理想气体定律 $ PV = nRT $，其中 $ P = 0.",True,False,B,32,2.38,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,41,"B
+解析：古典经济学家一般认为（ ）。
+A. 工资迅速波动
+B. Say's law 不成立
+C. 输入和",True,False,D,32,2.0,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,42,"A
+解析：A balance of trade surplus occurs when a country's exports exceed its imports. This can happen if the country has a higher level of income,",True,False,B,32,1.75,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,43,"B
+解析：首先计算溶液的沸点升高。使用公式 ΔT = k_b * m，其中 m 是溶液的 molality。首先计算",True,True,B,32,2.12,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,44,"B
+解析：The patient presents with symptoms consistent with adjustment disorder with anxious mood. The patient relocated 2 months ago to take a promotion and has found himself",True,True,B,32,2.21,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,45,"A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：",True,False,B,32,2.52,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,46,"C
+解析：根据罗尔斯的理论，他的理论的两个部分是相互依赖的，但可以单独接受。因此，正确答案是C。",True,False,B,32,1.84,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,47,"B
+解析：首先，确定两个负数相除的结果是正数。然后，将绝对值相除：40 ÷ 8 =",True,True,B,32,1.72,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,48,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,True,A,32,2.09,pilot
+Qwen3-1.7B-Q4_K_M,mmlu_pro,49,"A
+解析：首先，计算电流通过的总时间，即 20 分钟 = 1200 秒。根据公式 I ×",True,False,C,32,1.86,pilot

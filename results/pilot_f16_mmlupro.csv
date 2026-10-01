@@ -1,0 +1,240 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag
+Qwen3-1.7B-f16,mmlu_pro,0,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,4.96,pilot
+Qwen3-1.7B-f16,mmlu_pro,1,"B
+答案：B
+解析：根据2015年中国的统计数据，儿童中13-15岁年龄段的打架事件报告率是",True,False,C,32,4.37,pilot
+Qwen3-1.7B-f16,mmlu_pro,2,"C
+解析：The marginal product of a productive factor is the amount by which total output increases due to the addition of one unit of a given factor while the",True,True,C,32,4.72,pilot
+Qwen3-1.7B-f16,mmlu_pro,3,"C
+``` 
+``` 
+
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,C,32,5.66,pilot
+Qwen3-1.7B-f16,mmlu_pro,4,"B
+解析：根据美国法律，律师与客户之间的保密特权在律师与第三方在场的情况下不适用。因此，当律师在法庭上询问",True,True,B,32,6.45,pilot
+Qwen3-1.7B-f16,mmlu_pro,5,"A
+解析：Skinner box is a device used in operant conditioning, where the behavior is reinforced or punished to shape the behavior. The box is typically",True,True,A,32,3.66,pilot
+Qwen3-1.7B-f16,mmlu_pro,6,"A
+``` 
+``` 
+
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,C,32,3.65,pilot
+Qwen3-1.7B-f16,mmlu_pro,7,"C
+解析：C is the correct answer. The essential amino acids are leucine, methionine, and threonine. The other options contain",True,True,C,32,3.39,pilot
+Qwen3-1.7B-f16,mmlu_pro,8,"C
+解析：A balance of payments deficit means that a country has a negative balance of payments, which means that the value of exports is less than the value",True,True,C,32,3.26,pilot
+Qwen3-1.7B-f16,mmlu_pro,9,"D
+解析：Combustion is a rapid exothermic reaction that releases energy as heat, typically involving the oxidation of a hydrocarbon fuel in the presence",True,True,D,32,3.91,pilot
+Qwen3-1.7B-f16,mmlu_pro,10,"C
+解析：首先，计算分数的乘法。原式可以简化为 $-\dfrac{1}{-3} \cdot \dfrac",True,True,C,32,3.32,pilot
+Qwen3-1.7B-f16,mmlu_pro,11,"A
+``` 
+根据题目要求，计算40k电阻在27°C下的热噪声电压。热噪声电压公式为Vrms = sqrt(",True,False,D,32,4.4,pilot
+Qwen3-1.7B-f16,mmlu_pro,12,"D
+解析：D. content validity 是指测试内容是否覆盖了该测试所要测量的领域。题目中提到的测试是基于2个",True,True,D,32,3.52,pilot
+Qwen3-1.7B-f16,mmlu_pro,13,"C
+解析：正确答案是 C. Immersive realm. 该选项描述的是个体完全沉浸在环境中并积极参与，影响实际的环境表现或事件",True,False,B,32,3.32,pilot
+Qwen3-1.7B-f16,mmlu_pro,14,"B
+解析：The question asks about the common elements in the planning models of Hendrix (2002), Kendall (1999), Mer",True,False,D,32,3.45,pilot
+Qwen3-1.7B-f16,mmlu_pro,15,"B
+解析：The region is bounded by the y-axis (x=0), y=e^x, and y=2. We need to find the",True,False,C,32,3.46,pilot
+Qwen3-1.7B-f16,mmlu_pro,16,"B
+解析：Bacteria and yeast are easier to maintain in a lab. This is a correct advantage of working with bacteria and yeast instead of larger organisms.",True,False,D,32,4.18,pilot
+Qwen3-1.7B-f16,mmlu_pro,17,"D
+解析：The problem involves the diffusion of ethanol into a porous solid, and the question is about the time required for the mass fraction of ethanol at the",True,True,D,32,4.39,pilot
+Qwen3-1.7B-f16,mmlu_pro,18,"B
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```
+
+
+```",True,False,C,32,4.24,pilot
+Qwen3-1.7B-f16,mmlu_pro,19,"B
+解析：首先，计算需要的包数。每个包有8个气球，需要42个。42除以8等于5",True,False,C,32,3.28,pilot
+Qwen3-1.7B-f16,mmlu_pro,20,"B
+解析：The refund is calculated by taking the annual premium of $37 and subtracting the number of days the policy was in force (33",True,False,D,32,3.44,pilot
+Qwen3-1.7B-f16,mmlu_pro,21,"A
+解析：Pre-testing a questionnaire is useful for identifying any problems with the question wording and routing. 选项A正确。
+问题：The purpose of a",True,True,A,32,3.33,pilot
+Qwen3-1.7B-f16,mmlu_pro,22,"B
+解析：The process is explosive because the characteristic equation has a root outside the unit circle. The process is not stationary because the sum of the absolute values",True,False,A,32,3.42,pilot
+Qwen3-1.7B-f16,mmlu_pro,23,"B
+解析：The boiling points of hydrocarbons increase with increasing molecular weight and with increasing surface area of the molecule. 甲烷 (methane)",True,True,B,32,4.46,pilot
+Qwen3-1.7B-f16,mmlu_pro,24,"C
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+```",True,True,C,32,3.41,pilot
+Qwen3-1.7B-f16,mmlu_pro,25,"A
+``` 
+``` 
+
+好的，我现在要解决这个问题：一个正方形的边长等于一个圆的半径，而这个圆的周长",True,True,A,32,3.41,pilot
+Qwen3-1.7B-f16,mmlu_pro,26,"A
+解析：The standard reaction Gibbs energy change is given by ΔG° = -RT ln K. The reaction is exothermic, so the value",True,False,B,32,4.06,pilot
+Qwen3-1.7B-f16,mmlu_pro,27,"B
+解析：The stopping distance is given by the equation: $d = \frac{v^2}{2\mu g}$, where $v",True,False,A,32,3.52,pilot
+Qwen3-1.7B-f16,mmlu_pro,28,"B
+解析：The spring rate is calculated by dividing the engine weight by the number of springs. The engine weight is 950 lbs. and the",True,True,B,32,3.73,pilot
+Qwen3-1.7B-f16,mmlu_pro,29,"B
+解析：在实验中，统计显著性（statistical significance）和实验的功率（power）之间存在直接关系。当实验具有高",True,False,A,32,3.28,pilot
+Qwen3-1.7B-f16,mmlu_pro,30,"B
+解析：Hopewell culture was known for its use of maize, beans, and squash. Sunflower is not a crop that was commonly used by",True,False,C,32,3.14,pilot
+Qwen3-1.7B-f16,mmlu_pro,31,"A
+``` 
+
+这个问题的正确答案是 A. - 0.745∠116.5651°。 
+
+首先，",True,True,A,32,3.92,pilot
+Qwen3-1.7B-f16,mmlu_pro,32,"C
+解析：根据圣经记载，摩西和亚伦的妹妹是Miriam。她以在红海中带领以色列人歌唱而闻名，",True,True,C,32,3.14,pilot
+Qwen3-1.7B-f16,mmlu_pro,33,"A
+解析：在产品责任诉讼中，原告必须证明被告存在过错，即被告知道或应当知道产品存在缺陷。选项A正确，因为",True,False,D,32,3.88,pilot
+Qwen3-1.7B-f16,mmlu_pro,34,"C
+解析：在多项式回归中，多项式度数是影响欠拟合和过拟合之间权衡的关键因素。较高的多项式",True,True,C,32,3.42,pilot
+Qwen3-1.7B-f16,mmlu_pro,35,"D
+解析：The power per unit area conveyed by an electromagnetic wave is given by the Poynting vector, S = E_x * E_y /",True,False,C,32,3.96,pilot
+Qwen3-1.7B-f16,mmlu_pro,36,"B
+解析：Lily can give an equal number of pieces of candy to 5, 3, or 2 people. This means that the number",True,True,B,32,3.55,pilot
+Qwen3-1.7B-f16,mmlu_pro,37,"B
+解析：在本案中，儿子和父亲都被指控参与抢劫银行。儿子在被逮捕后被带至警局并获得米兰达警告",True,True,B,32,4.82,pilot
+Qwen3-1.7B-f16,mmlu_pro,38,"B
+解析：The sampling rate must be at least twice the highest frequency component of the signal. The signal f(t) = sin 2πt has",True,False,C,32,4.42,pilot
+Qwen3-1.7B-f16,mmlu_pro,39,"A
+解析：The word phrase ""4 times as many cans as Tom collected"" means that the number of cans is 4 times the number of cans Tom",True,True,A,32,3.26,pilot
+Qwen3-1.7B-f16,mmlu_pro,40,"A
+```python
+import math
+
+# Given data
+diameter = 1.50  # mm
+radius = diameter / 2  #",True,False,B,32,4.22,pilot
+Qwen3-1.7B-f16,mmlu_pro,41,"B
+解析：古典经济学家认为，I. 工资迅速波动，II. Say's law 不成立，III. 输入和输出价格保持一致",True,False,D,32,3.65,pilot
+Qwen3-1.7B-f16,mmlu_pro,42,"D
+解析：A balance of trade surplus occurs when a country exports more than it imports. This can happen when the country has a strong currency, which makes",True,False,B,32,3.27,pilot
+Qwen3-1.7B-f16,mmlu_pro,43,"B
+解析：The boiling point elevation is calculated using the formula ΔT = k_b * m, where m is the molality of the solution. First",True,True,B,32,3.79,pilot
+Qwen3-1.7B-f16,mmlu_pro,44,"B
+解析：The patient's symptoms are consistent with adjustment disorder with anxious mood. The patient has experienced a significant life change (moving to a new city)",True,True,B,32,3.93,pilot
+Qwen3-1.7B-f16,mmlu_pro,45,"A
+答案： C
+答案： D
+答案： B
+答案： B
+答案： C
+答案： D
+答案： A
+答案：",True,False,B,32,4.33,pilot
+Qwen3-1.7B-f16,mmlu_pro,46,"B
+解析：根据罗尔斯的理论，他的理论的两个部分是相互独立的，可以单独接受，而不需要接受对方。因此，正确",True,True,B,32,3.39,pilot
+Qwen3-1.7B-f16,mmlu_pro,47,"B
+解析：The quotient of −40 ÷ (−8) is 5.
+答案：B
+解析：The quotient of −40",True,True,B,32,3.16,pilot
+Qwen3-1.7B-f16,mmlu_pro,48,"A
+``` 
+好的，我现在要解决这个问题，找出方程x²y² - 3y + 2x³ = 0中，",True,True,A,32,3.74,pilot
+Qwen3-1.7B-f16,mmlu_pro,49,"C
+解析：首先，计算电流通过电解池的总时间，即 20 分钟 = 1200 秒。根据电流",True,True,C,32,3.46,pilot
