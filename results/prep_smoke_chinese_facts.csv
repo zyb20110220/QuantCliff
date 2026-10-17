@@ -1,0 +1,9 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q4_K_M,chinese_facts,1,"重庆
+答案： 北京
+答案： 上海
+答案： 广州
+答案： 深",True,False,北京,25,1.55,prep-smoke,
+Qwen3-1.7B-Q4_K_M,chinese_facts,2,"100
+标准大气压下水的沸点约多少摄氏度？
+答案： 10",True,True,100 | 一百,24,1.17,prep-smoke,

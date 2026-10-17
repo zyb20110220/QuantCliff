@@ -65,9 +65,8 @@
 
 **当前进度**：
 - 完成：窗口 A 全部任务（A1~A5 + 小结）✅。2026-10-01 实测：环境 Python 3.11.15（uv 管理）+ 92 包；模型 Q4_K_M 1.19GB / f16 3.79GB 存仓库根目录 models/；最小闭环 Q4 44% vs F16 56%（各 50 题，解析成功率 100%）；单元测试 7/7；探针路线验证通过（transformers 5.18.0 + Qwen3-0.6B）。
-- 下一步：进入冻结期（10~1 月），课业优先；唯一轻量任务=审核 proposal.md 附录 30 条中文事实题。
-- 寒假窗口 B 前待办：eval_loop.py 加断点续跑；补齐其余 5 个基准模块 + analyze.py（含中文错字率）。
-- 寒假窗口 B：跑 3 模型全量实验。
+- 完成：窗口 B 准备期（2026-10-17）✅。6 个基准模块齐全；eval_loop 支持断点续跑/容错/归档；analyze.py 可出汇总表与中文文本质量指标；30 条中文事实题审核完毕；下载矩阵 22 个文件远端核对通过；单元测试 46/46。
+- 下一步（寒假窗口 B）：B1 用 `download_matrix.py --execute` 下载全量矩阵 → B2 主模型 7 档 × 500 题 → B3 两个验证模型 → B4 用 analyze.py 出汇总 + 补形态检验（线性 vs 分段 AIC/BIC、PELT 变化点、相邻档 McNemar）+ 初版 report.md。
 - 暑假窗口 C：三元图谱（1.7B 必做/8B 加分）+ 探针（0.6B 必做/1.7B 加分）+ 网页 + 报告答辩。
 
 **环境要点**：git push 走仓库本地代理 127.0.0.1:7897（勿改全局）；模型/数据/HF 缓存统一放仓库根目录（models/、data/、hf_cache/，均已 git 排除；C 盘空间已足够，2026-09-27 决定，不再拆 D 盘）；用户 Python 不佳（代码需中文注释、可运行优先）。
@@ -86,3 +85,27 @@
   4. transformers 装到 5.18.0（远新于预期 4.44）→ A5 验证兼容，探针路线可行
 - 截图：（待补充：环境安装成功、模型文件列表、两档正确率、测试全绿、0.6B 加载成功）
 - 下一步：进入冻结期（课业优先）；轻量任务=审核 proposal.md 附录 30 条中文事实题；寒假窗口 B 前待办=eval_loop 断点续跑、补齐 5 个基准模块 + analyze.py（含中文错字率）
+
+### 窗口B 准备期小结（2026-10-17）
+
+- 做了什么：
+  1. 补齐 5 个基准模块：`truthfulqa`（817 题转 4 选 1）、`ifeval`（10 类可判指令 × 10 主题 = 100 题）、`ceval`（4 学科轮流抽 100 题）、`needle`（约 4K tokens 长上下文 × 20 题）、`chinese_facts`（30 题）；加上已有 `mmlu_pro`，六个基准接口统一。
+  2. `eval_loop.py` 增强：`--resume` 断点续跑；逐题异常兜底（新增 `error` 列）；不加 `--resume` 时旧 CSV 自动改名归档；每个结果旁生成 `.meta.json` 运行元数据。
+  3. 新增 `analyze.py`：按基座 × 档位 × 基准汇总正确率、解析率、Wilson 95% CI、相对退化率；对中文输出计算乱码率、3-gram 重复率、重复行率；输出 CSV + Markdown。
+  4. 审核 30 条中文事实题：仅第 13 题需修订（补充"按质量计"，避免与按原子数计的氢歧义），其余事实无误；判分器支持同义词、全角/半角、数字边界与"最后出现位置"规则。
+  5. 新增 `download_matrix.py`：3 个主模型 × 7 档 + 三元 Q2_0，共 22 个文件；默认只预览，`--verify-remote` 已全部通过，`--execute` 留给寒假 B1。
+- 关键发现（重要）：
+  1. `ggml-org/Qwen3-1.7B-GGUF` 与 `ggml-org/gemma-3-1b-it-GGUF` 实际只有 Q4_K_M / Q8_0 / F16 三档，`ggml-org/Qwen2.5-1.5B-Instruct-GGUF` 不存在 → 正式实验改用 `unsloth/Qwen3-1.7B-GGUF`、`Qwen/Qwen2.5-1.5B-Instruct-GGUF`、`unsloth/gemma-3-1b-it-GGUF`（均 7 档）。
+  2. 不同仓库的同名 Q4_K_M 大小/哈希不同（ggml-org 1223 MiB vs unsloth 1056 MiB）→ 同一模型只用一个仓库，下载脚本按模型建子目录，避免混用。
+  3. Qwen3 / Gemma 的全档位仓库只提供 BF16 作为高精度基线 → 分析脚本把 BF16/F16/fp16 统一记作 F16 档，报告注明。
+  4. `datasets 5.0.1` 已不支持脚本型数据集；`truthfulqa/truthful_qa` 与 `ceval/ceval-exam` 的 parquet 版本可直接加载。C-Eval 学科名是 `high_school_mathematics`（易误写成 `high_school_math`）。
+- 验证结果：
+  - 单元测试 46/46 全绿（窗口 A 为 7 项，本次新增 39 项）
+  - 真实数据 smoke：chinese_facts 30 / ifeval 100 / needle 3 / truthfulqa 3 / ceval 100 全部加载成功
+  - Q4 中文事实 2 题端到端跑通；第二次 `--resume` 正确跳过，补跑 0 题
+  - `analyze.py` 汇总窗口 A 结果：Q4 44.00% vs F16 56.00%，Q4 在 MMLU-Pro 上相对退化 21.43%
+- 遇到的问题与解决：
+  1. C-Eval 学科名 `high_school_math` 不存在 → 改为 `high_school_mathematics`
+  2. chinese_facts 的标准答案是列表，直接写 CSV 不整洁 → 统一用 ` | ` 拼接
+  3. 总体相对退化率在"某档多跑了别的基准"时会失真 → 改为仅当该档位与 F16 的基准集合完全一致时才计算总体值，分基准值不受影响
+- 下一步：寒假 B1 下载全量矩阵；B2 主模型 7 档全量；B3 两个验证模型；B4 分析与初版报告。

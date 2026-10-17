@@ -12,7 +12,7 @@ from pathlib import Path
 
 # 国内镜像：必须先于 huggingface_hub 导入设置
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
-os.environ.setdefault("HF_HUB_ENABLE_HF_TRANSFER", "1")
+os.environ.setdefault("HF_XET_HIGH_PERFORMANCE", "1")
 
 from huggingface_hub import HfApi, hf_hub_download  # noqa: E402
 

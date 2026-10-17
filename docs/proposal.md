@@ -37,14 +37,16 @@
 
 | 要素 | 定稿 |
 |---|---|
-| 模型 | 主：Qwen3-1.7B；验证：Qwen2.5-1.5B、Gemma-3-1B |
-| 档位 | Q2_K / Q3_K_M / Q4_K_M / Q5_K_M / Q6_K / Q8_0 / F16（官方 ggml-org GGUF 全套） |
+| 模型 | 主：Qwen3-1.7B；验证：Qwen2.5-1.5B-Instruct、Gemma-3-1B-it（三个仓库均已核对含全部 7 档） |
+| 档位 | Q2_K / Q3_K_M / Q4_K_M / Q5_K_M / Q6_K / Q8_0 / F16 |
 | 题量/档 | MMLU-Pro 150 + TruthfulQA 100 + IFEval 100 + C-Eval 100 + needle 4K×20 + 中文事实 30 = 500 题 |
 | 总规模 | 3 模型 × 7 档 × 500 = 10,500 次推理 |
 | 采样 | greedy（温度 0）全局固定，保证可复现 |
 | 口径 | 相对退化率 = (F16 正确率 − 档位正确率) / F16 正确率，隔离模型基础能力差异（如 Gemma 中文弱） |
 | 乱码/解析失败 | 单独统计，不混入"答错"（其本身即为退化证据） |
 | 中文错字率 | 新增指标：对 C-Eval/中文事实输出统计乱码比 + 重复 n-gram 率，画入位宽曲线 |
+
+> **2026-10-17 仓库核对修订**：`ggml-org` 的 Qwen3-1.7B / Gemma-3-1B 仓库实际只有 Q4_K_M、Q8_0、F16 三档，`ggml-org/Qwen2.5-1.5B-Instruct-GGUF` 不存在。正式实验改用已核对含全部 7 档的仓库：`unsloth/Qwen3-1.7B-GGUF`、`Qwen/Qwen2.5-1.5B-Instruct-GGUF`、`unsloth/gemma-3-1b-it-GGUF`。其中 Qwen3 / Gemma 的高精度基线为 **BF16**（与 F16 精度等价），分析时统一记作 F16 档并在报告中注明；同一模型的所有档位只取同一仓库，避免不同量化者的同名文件混用（实测同名 Q4_K_M 大小/哈希不同）。
 
 ### 3.2 实验 2：三元能力退化图谱
 
@@ -69,10 +71,10 @@
 
 ## 4. 模型与数据清单
 
-- 主研究模型：HF `ggml-org/Qwen3-1.7B-GGUF`、`ggml-org/Qwen2.5-1.5B-Instruct-GGUF`、Gemma-3-1B GGUF；走 hf-mirror.com 镜像；约 30GB，存仓库根目录 models/
-- 实验 2 模型：`prism-ml/Ternary-Bonsai-1.7B-gguf`（Q2_0 436 MiB）+ 8B 加分版（2.03 GiB）；Apache-2.0；Q2_0 格式可能需 Prism 的 llama.cpp fork，备选 `onnx-community/Ternary-Bonsai-1.7B-ONNX`
+- 主研究模型（2026-10-17 核对）：`unsloth/Qwen3-1.7B-GGUF`（7 档，基线 BF16）、`Qwen/Qwen2.5-1.5B-Instruct-GGUF`（7 档，基线 fp16）、`unsloth/gemma-3-1b-it-GGUF`（7 档，基线 BF16）；走 hf-mirror.com 镜像；按模型分目录存 `models/<模型名>/`
+- 实验 2 模型：`prism-ml/Ternary-Bonsai-1.7B-gguf`（Q2_0 441.8 MiB，2026-10-17 核对）+ 8B 加分版（2.03 GiB）；Apache-2.0；Q2_0 格式可能需 Prism 的 llama.cpp fork，备选 `onnx-community/Ternary-Bonsai-1.7B-ONNX`
 - 实验 3 模型：`Qwen/Qwen3-0.6B`（transformers 原版，~1.2GB）
-- 基准：`TIGER-Lab/MMLU-Pro`、`truthfulqa/truthful_qa`、`ceval/ceval-exam`、IFEval（自写 8 类可判指令解析器）、needle-in-a-haystack（自实现约 40 行）、中文事实 30 条（自构造，见附录）
+- 基准：`TIGER-Lab/MMLU-Pro`、`truthfulqa/truthful_qa`（817 题，转为 4 选 1）、`ceval/ceval-exam`（4 学科 × 25 题）、IFEval（自写 10 类可判指令解析器）、needle-in-a-haystack（自实现约 4K tokens）、中文事实 30 条（自构造，见附录）
 - 全部学术许可，报告注明出处
 
 ## 5. 技术栈与代码结构
@@ -83,10 +85,11 @@ Python 3.11 + `llama-cpp-python`（CPU AVX2）+ `datasets` + `pandas` + `matplot
 QuantCliff/
 ├── docs/proposal.md  report.md  evidence.md
 ├── scripts/
-│   ├── download.py          # hf-mirror 批量下载
-│   ├── eval_loop.py         # 核心评测循环（加载→跑题→判分→写CSV）
-│   ├── benchmarks/          # 六基准各一文件（每文件 30~50 行）
-│   ├── analyze.py           # 形态检验 + 统计 + 热力图 + 中文错字率
+│   ├── download.py          # 单文件下载（窗口 A 用）
+│   ├── download_matrix.py   # 窗口 B：按 3 模型 × 7 档矩阵批量下载（默认预览）
+│   ├── eval_loop.py         # 核心评测循环（加载→跑题→判分→写CSV，支持断点续跑）
+│   ├── benchmarks/          # 六基准各一文件（含统一判分器）
+│   ├── analyze.py           # 汇总 + Wilson CI + 相对退化率 + 中文错字率
 │   ├── probe.py             # 实验3：激活采集→探针训练→校准报告
 │   └── app.py               # Gradio"量化实验室 + 预警拦截器"
 ├── results/                 # CSV 原始结果，全部提交（过程证据）
@@ -154,6 +157,7 @@ QuantCliff/
 | 结论部分可预期（4bit 以下退化） | 创新点放在细粒度中文曲线 + 能力顺序规律 + 跨模型一致性 |
 | Gemma 中文弱干扰 | 相对退化率口径隔离 |
 | 低档位死循环 | 输出截断 + 超时，失败率单独计数 |
+| 模型仓库档位不全 / 同名文件不同源 | 2026-10-17 已核对并改用 unsloth + Qwen 官方仓库；`download_matrix.py --verify-remote` 可随时复查；同一模型只用一个仓库，按模型分目录保存 |
 | 答辩现场无网络 | 演示全离线预载 |
 | Q2_0 不在主线 llama.cpp，llama-cpp-python 未必支持 | 实施时先验证主线；备选 Prism fork 编译或 ONNX 版；eval_loop 加后端适配层 |
 | 8B dense 基线 16.4GB 超内存 | 基线用 Q8_0（报告注明）；仍紧张则降 Q6_K 或弃 8B |
@@ -176,7 +180,7 @@ QuantCliff/
 10. 直角边 3 和 4 的直角三角形斜边是多少？〔5〕
 11. 中国国旗上有几颗五角星？〔五/5〕
 12. 地球唯一的天然卫星是什么？〔月球/月亮〕
-13. 人体中含量最多的元素是什么？〔氧〕
+13. 人体中按质量计含量最多的元素是什么？〔氧〕（2026-10-17 审核修订：补充"按质量计"，避免与按原子数计的氢产生歧义）
 14. 中国历史上第一个大一统王朝是什么？〔秦朝/秦〕
 15. 声音在空气中的传播速度约为每秒多少米？〔340〕
 16. 1 千克等于多少克？〔1000〕
