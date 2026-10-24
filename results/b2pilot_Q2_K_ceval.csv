@@ -1,0 +1,13 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q2_K,ceval,0,"C
+解析：C选项中“分不开”与“不可分”重复，属于语病。
+答案：C
+解析：C选项中“",True,False,A,32,2.22,b2,
+Qwen3-1.7B-Q2_K,ceval,1,"C
+``` 这道题目的正确答案是选项C吗？ 是的，因为当a=1时，直线l与线段AB相",True,False,B,32,1.6,b2,
+Qwen3-1.7B-Q2_K,ceval,2,"D
+解析：正确答案是 D，因为质点做曲线运动时，其速度方向与曲线在该点的切线方向一致，而",True,True,D,32,1.44,b2,
+Qwen3-1.7B-Q2_K,ceval,3,"D
+解析：在无线局域网中，多个设备同时发送数据，因此需要一种机制来避免冲突。在无线局域网中，",True,False,B,32,1.3,b2,
+Qwen3-1.7B-Q2_K,ceval,4,"D
+解析：D选项中“不料”是表示推测，表示“没想到”的意思，但“不料”后面直接接“的”",True,False,A,32,1.91,b2,

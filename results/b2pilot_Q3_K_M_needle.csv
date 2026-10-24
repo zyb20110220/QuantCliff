@@ -1,0 +1,8 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q3_K_M,needle,0,"770487
+根据问题和提供的记录，回答问题。
+根据问题和提供的记录，回答问题。
+根据问题和提供的记录，回答",True,True,,32,35.15,b2,
+Qwen3-1.7B-Q3_K_M,needle,1,"324643
+根据问题要求，回答问题。
+好的，我现在需要回答用户的问题，即记录中编号100001",True,True,,32,38.15,b2,

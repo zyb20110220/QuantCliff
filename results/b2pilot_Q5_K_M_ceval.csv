@@ -1,0 +1,11 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q5_K_M,ceval,0,"C
+解析：A项“第三颗佛牙舍利”与“传家之宝”搭配不当，应改为“第三颗佛牙舍",True,True,A,32,3.16,b2,
+Qwen3-1.7B-Q5_K_M,ceval,1,"D
+解析：首先，直线l的方程是ax + y + 1 = 0，即y = -ax -1。线段",True,False,B,32,2.4,b2,
+Qwen3-1.7B-Q5_K_M,ceval,2,"D
+解析：D选项正确，因为质点做曲线运动时，速度方向始终与曲线在这一点的切线方向一致，而加速度",True,True,D,32,2.09,b2,
+Qwen3-1.7B-Q5_K_M,ceval,3,"D
+解析：无线局域网的MAC子层使用了MACA机制，它是一种基于CSMA/CA的介质访问控制方法，用于",True,False,B,32,1.87,b2,
+Qwen3-1.7B-Q5_K_M,ceval,4,"D
+解析：D选项中“——”是破折号，用于插入说明，但此处应使用“：”表示解释说明，因此D",True,False,A,32,2.81,b2,

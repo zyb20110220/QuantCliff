@@ -1,0 +1,9 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-BF16,needle,0,"770487
+根据上面的对话，回答问题。
+根据上面的对话，回答问题。
+根据上面的对话，回答问题。
+根据",True,True,,32,51.6,b2,
+Qwen3-1.7B-BF16,needle,1,"324643
+根据上面的对话，回答问题。
+好的，我需要回答用户关于编号100001的保险箱",True,True,,32,51.61,b2,

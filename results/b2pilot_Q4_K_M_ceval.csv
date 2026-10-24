@@ -1,0 +1,14 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q4_K_M,ceval,0,"C
+解析：A项“第三颗佛牙舍利”语序不当，应为“第三颗佛牙舍利”；B项“",True,False,A,32,2.5,b2,
+Qwen3-1.7B-Q4_K_M,ceval,1,"D
+解析：首先，求出线段AB的参数方程。点A(1,2)，点B(2,1)，所以线",True,True,B,32,2.2,b2,
+Qwen3-1.7B-Q4_K_M,ceval,2,"D
+```python
+# 代码逻辑
+# 检查选项是否正确
+# 选项D正确，因为质点在曲线运动中",True,True,D,32,2.01,b2,
+Qwen3-1.7B-Q4_K_M,ceval,3,"D
+解析：D选项错误，因为无线局域网在某时刻信道上可能有多个有效数据帧同时传输，这会导致信道",True,False,B,32,1.75,b2,
+Qwen3-1.7B-Q4_K_M,ceval,4,"D
+解析：D选项中“——”是破折号，用于解释说明，但此处应使用“：”表示引语，因此D",True,False,A,32,2.14,b2,

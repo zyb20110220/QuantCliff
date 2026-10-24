@@ -1,0 +1,405 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q3_K_M,ceval,0,"B
+解析：B选项中“电子计较机”应为“电子计算机”，“所需求的息开发工具”语病较多，语义",True,False,A,32,2.01,b2,
+Qwen3-1.7B-Q3_K_M,ceval,1,"D
+首先，我需要分析题目中的条件。题目给出点A(1,2)和点B(2,1)，直线l: ax",True,True,B,32,1.61,b2,
+Qwen3-1.7B-Q3_K_M,ceval,2,"D
+```python
+# 代码
+``` 这段代码的输出是？
+A. A
+B. B
+C. C
+D.",True,True,D,32,1.46,b2,
+Qwen3-1.7B-Q3_K_M,ceval,3,"B
+解析：无线局域网的MAC层采用CSMA/CA机制，而不是CSMA/CD，所以无线局域网的冲突是",True,True,B,32,1.29,b2,
+Qwen3-1.7B-Q3_K_M,ceval,4,"D
+D
+解析：D选项中“——”是破折号，用于引出解释说明，但这里“——”用于引出“",True,False,A,32,1.79,b2,
+Qwen3-1.7B-Q3_K_M,ceval,5,"C
+```python
+from sympy import symbols, sqrt, Eq, solve
+
+x, y = symbols('x y')
+# 点P的坐标",True,True,C,32,1.67,b2,
+Qwen3-1.7B-Q3_K_M,ceval,6,"D
+解析：首先，题目中提到两个小物体从地面上方同一点向东与向西平抛，质量相同，速度分别为v和",True,False,B,32,1.8,b2,
+Qwen3-1.7B-Q3_K_M,ceval,7,"D
+解析：PPP协议支持身份认证，所以D是正确的，因此错误的选项是D。
+答案：D
+解析：PPP协议支持身份",True,False,B,32,1.29,b2,
+Qwen3-1.7B-Q3_K_M,ceval,8,"D
+D. 据统计，多哈亚运会大约90%的专卖产品来自中国，“中国元素”已经成为本届亚运会的一道亮丽风景",True,False,A,32,2.15,b2,
+Qwen3-1.7B-Q3_K_M,ceval,9,"B
+```python
+from sympy import symbols, Eq, solve
+
+# 定义变量
+x, y = symbols('x y')
+
+# 双",True,True,B,33,1.7,b2,
+Qwen3-1.7B-Q3_K_M,ceval,10,"C
+你是否理解了这个题目的意思？是的。那我来思考一下这个问题。
+地球的自转导致地球表面各点做圆",True,True,C,32,1.63,b2,
+Qwen3-1.7B-Q3_K_M,ceval,11,"D
+```python
+# 代码示例
+import time
+import random
+
+# 模拟网络冲突
+def simulate_collision():
+    # 模拟",True,True,D,33,1.66,b2,
+Qwen3-1.7B-Q3_K_M,ceval,12,"B
+解析：B句中“抓不抓青少年理想教育”是“关系到……的大事”，“抓不抓”是“是否”",True,False,D,32,1.91,b2,
+Qwen3-1.7B-Q3_K_M,ceval,13,"B
+```python
+import math
+a = 1 + math.sin(0.1)
+b = math.exp(0.1)
+c =",True,False,D,32,1.61,b2,
+Qwen3-1.7B-Q3_K_M,ceval,14,"B
+解析：速度变化量大，加速度可能很小，例如匀速直线运动时速度变化量为零，但加速度为零。",True,False,C,32,1.58,b2,
+Qwen3-1.7B-Q3_K_M,ceval,15,"C
+```python
+# 代码
+``` 你是一个编程助手，帮助用户解决编程问题。你理解用户的问题吗？是的，我",True,True,C,32,1.53,b2,
+Qwen3-1.7B-Q3_K_M,ceval,16,"D
+解析：D 选项中“在力求历史真实的基础上进行了文学化的叙事”存在语病，主语“《抗日战争》”与",True,False,B,32,2.1,b2,
+Qwen3-1.7B-Q3_K_M,ceval,17,"B
+```python
+import math
+a = -3
+x = 1
+y = a
+r = math.sqrt(x**2 + y**",True,False,A,32,1.75,b2,
+Qwen3-1.7B-Q3_K_M,ceval,18,"B
+这个题目是关于匀变速直线运动的，已知a、b两物体同时、同地、同向做匀变速直线运动，",True,False,A,32,1.78,b2,
+Qwen3-1.7B-Q3_K_M,ceval,19,"A
+```python
+# 代码
+import socket
+import threading
+import time
+
+# 定义TCP的滑动窗口大小
+window_size =",True,False,B,32,1.66,b2,
+Qwen3-1.7B-Q3_K_M,ceval,20,"B
+这道题的正确答案是 B，因为“春寒料峭”是形容春天的寒冷，而“积雪”是春天的",True,False,D,32,1.87,b2,
+Qwen3-1.7B-Q3_K_M,ceval,21,"A
+```python
+import sympy as sp
+from sympy import symbols, Eq, solve
+
+alpha = symbols('alpha')
+equation = Eq(sp",True,True,A,32,1.76,b2,
+Qwen3-1.7B-Q3_K_M,ceval,22,"A
+```python
+# 电梯加速上升，人对电梯底部的压力
+# 人处于电梯中，电梯加速上升，所以人有加",True,True,A,32,1.71,b2,
+Qwen3-1.7B-Q3_K_M,ceval,23,"B
+解析：在TCP中，拥塞窗口（cwnd）的计算基于接收方的确认（ACK）和发送方的拥塞状况",True,False,D,32,2.07,b2,
+Qwen3-1.7B-Q3_K_M,ceval,24,"A
+根据题目中的句子结构，分析句子的逻辑关系。句子的主干是“认真阅读的结果，不但随时会发现晶莹的宝石",True,False,D,32,1.91,b2,
+Qwen3-1.7B-Q3_K_M,ceval,25,"B
+要解决这个问题，我们需要找到表达式 $\left(1+\dfrac{1}{x}+\dfrac{1}{x^2}\",True,False,C,32,1.72,b2,
+Qwen3-1.7B-Q3_K_M,ceval,26,"B
+解析：超重和失重是物体在竖直方向上受到的向上的力大于或小于重力时的现象。当物体加速",True,True,B,32,1.8,b2,
+Qwen3-1.7B-Q3_K_M,ceval,27,"B
+```python
+# 问题：在TCP/IP中，当发送窗口增加到32时，如果发生拥塞，则拥塞窗口将会",True,True,B,32,1.54,b2,
+Qwen3-1.7B-Q3_K_M,ceval,28,"B
+根据题目要求，正确答案是 B。
+解析：选项B中“歌声，笑声，欢呼声响彻云宵”中的逗号使用正确",True,False,C,32,2.53,b2,
+Qwen3-1.7B-Q3_K_M,ceval,29,"A
+好的，我现在要解决这个问题，题目是关于双曲线的，给出双曲线方程是x² - y² = 200",True,True,A,32,1.99,b2,
+Qwen3-1.7B-Q3_K_M,ceval,30,"B
+这个问题的正确选项是 B。  
+首先，我们分析月球的物理特性。月球表面重力加速度为 $g$，",True,False,A,32,2.18,b2,
+Qwen3-1.7B-Q3_K_M,ceval,31,"B
+```python
+# 问题：一个UDP用户数据报的数据字段为8192B，在链路层要使用以太网来",True,False,D,32,1.49,b2,
+Qwen3-1.7B-Q3_K_M,ceval,32,"C
+解析：C 选项语意明确，没有歧义。A 选项“祁爱群”和“组织部新来的援藏干部",True,False,D,32,1.86,b2,
+Qwen3-1.7B-Q3_K_M,ceval,33,"B
+要解决这个问题，我们需要分析如何将内科医生、外科医生和护士分配到两个分队中，并确保每个分队都有内科、外科",True,False,D,32,1.71,b2,
+Qwen3-1.7B-Q3_K_M,ceval,34,"D
+解析：D
+好的，我现在要解决这个问题，题目是问下列单位中属于国际单位制基本单位的是哪一个，选项是A到",True,False,D,32,1.4,b2,
+Qwen3-1.7B-Q3_K_M,ceval,35,"B
+解析：CRC计算过程如下：
+1. 信息码字为10111，长度为4，补零至长度为8",True,False,D,32,1.67,b2,
+Qwen3-1.7B-Q3_K_M,ceval,36,"B
+你可能需要知道的：
+1. 词语的词性与词义：
+   - ①“被”表示被动，表示动作",True,False,C,32,2.09,b2,
+Qwen3-1.7B-Q3_K_M,ceval,37,"B
+```python
+# 问题：等差数列{a_n}中，若a_4 + a_6 + a_8 +",True,False,D,32,1.72,b2,
+Qwen3-1.7B-Q3_K_M,ceval,38,"B
+这个问题的正确答案是 B。解析：当物体做匀速直线运动时，其速度保持恒定，因此加速度为零。",True,False,C,32,1.73,b2,
+Qwen3-1.7B-Q3_K_M,ceval,39,"B
+解析：计算机网络的主要功能包括资源共享、数据通信、分布式处理、提高系统可靠性等。各计算机相对独立是计算机网络的特征之一",True,True,B,32,1.4,b2,
+Qwen3-1.7B-Q3_K_M,ceval,40,"B
+解析：B选项中“通过进一步增加直送专机、加开大量海外仓”存在语病，语序不当，“加开",True,False,D,32,2.44,b2,
+Qwen3-1.7B-Q3_K_M,ceval,41,"B
+解析：首先，确定图形的边界。y轴是x=0，y=0到y=2，y=1/2到",True,False,D,32,1.7,b2,
+Qwen3-1.7B-Q3_K_M,ceval,42,"C
+这个题目是关于牛顿第二定律的应用，当用很小的力去推很重的桌子时，推不动，这说明什么？",True,True,C,32,1.91,b2,
+Qwen3-1.7B-Q3_K_M,ceval,43,"B
+```python
+# 问题：10Base-T以太网的最大网段距离是____
+# 选项：
+# A. 2",True,False,C,32,1.47,b2,
+Qwen3-1.7B-Q3_K_M,ceval,44,"B
+根据题目要求，正确答案是 B。解析：选项B中“抵毁”应为“抵触”，“分道扬镳”",True,True,B,32,2.24,b2,
+Qwen3-1.7B-Q3_K_M,ceval,45,"A
+```python
+# 问题：已知S_n为等差数列{a_n}的前n项和，若S_1",True,True,A,32,1.91,b2,
+Qwen3-1.7B-Q3_K_M,ceval,46,"B
+解析：当橡皮条被拉长时，它内部的分子间作用力会受到拉伸力的影响。在拉伸过程中，",True,False,D,32,1.68,b2,
+Qwen3-1.7B-Q3_K_M,ceval,47,"D
+解析：城域网是连接广域网而覆盖园区的网络，所以D正确。
+根据以上内容，判断下列说法是否正确，",True,False,B,32,1.85,b2,
+Qwen3-1.7B-Q3_K_M,ceval,48,"D
+在脑髓进一步发展的同时，它的最密切的工具，即感觉器官，也进一步发展起来了。____，脑髓的发展也完全是和",True,False,B,32,2.17,b2,
+Qwen3-1.7B-Q3_K_M,ceval,49,"A
+```python
+from sympy import symbols, tan, pi, simplify
+
+A = symbols('A')
+expr = tan(pi/4 + A)",True,False,B,32,1.68,b2,
+Qwen3-1.7B-Q3_K_M,ceval,50,"B
+解析：木块匀速下滑，说明摩擦力与拉力平衡，即F= f= μN=0.4×10",True,False,C,32,1.75,b2,
+Qwen3-1.7B-Q3_K_M,ceval,51,"B
+解析：在选择重传协议中，发送窗口的最大尺寸等于接收窗口的尺寸。因为接收窗口的尺寸等于接收缓冲区的大小",True,False,A,32,1.62,b2,
+Qwen3-1.7B-Q3_K_M,ceval,52,"D
+D
+你可能需要考虑句子的逻辑顺序和句子之间的关系。首先，题目描述的是某校师生野营训练来到村里，然后",True,False,B,32,2.07,b2,
+Qwen3-1.7B-Q3_K_M,ceval,53,"D
+首先，我需要理解这个问题。题目是关于双曲线的，给出双曲线的标准方程是 $\frac{x^2}{a^2",True,True,D,32,2.45,b2,
+Qwen3-1.7B-Q3_K_M,ceval,54,"C
+```python
+# 代码
+``` 这段代码中，哪部分代码是用于计算加速度的？
+A. a = 0",True,False,C,32,1.87,b2,
+Qwen3-1.7B-Q3_K_M,ceval,55,"A
+这个问题的正确答案是 A. 0～1023。
+在TCP/IP协议中，端口号范围是0～102",True,True,A,32,1.63,b2,
+Qwen3-1.7B-Q3_K_M,ceval,56,"D
+```python
+def is_same_sound(word1, word2):
+    # 判断两个词是否读音相同
+    # 例如：is",True,True,D,32,2.42,b2,
+Qwen3-1.7B-Q3_K_M,ceval,57,"D
+首先，我需要理解这个问题。题目给出一个命题P，即存在一个自然数n，使得n² > 2ⁿ。然后要",True,True,D,32,2.04,b2,
+Qwen3-1.7B-Q3_K_M,ceval,58,"C
+解析：在曲线运动中，物体的运动方向不断改变，所以速度方向也不断改变。
+这个题目是关于曲线运动中速度的",True,True,C,32,1.53,b2,
+Qwen3-1.7B-Q3_K_M,ceval,59,"B
+解析：____
+在下列协议中，不会发生碰撞的是____。
+选项：
+A. CSMA/CD
+B. ALOHA",True,False,D,32,1.47,b2,
+Qwen3-1.7B-Q3_K_M,ceval,60,"D
+解析：D选项中“所以”引导的句子是因果关系，句式正确，标点符号使用正确。
+A选项中“佳",True,True,A,32,2.33,b2,
+Qwen3-1.7B-Q3_K_M,ceval,61,"B
+```python
+# 代码
+import numpy as np
+
+# 定义向量a和b
+a = np.array([1,",True,True,B,32,1.86,b2,
+Qwen3-1.7B-Q3_K_M,ceval,62,"B
+解析：当汽车以额定功率行驶时，其发动机的输出功率是固定的，因此汽车的功率是恒定的。在匀",True,False,C,32,1.58,b2,
+Qwen3-1.7B-Q3_K_M,ceval,63,"C
+```python
+# 代码
+``` 这段代码的输出是？
+A. 0
+B. 1
+C. 2",True,False,B,32,1.55,b2,
+Qwen3-1.7B-Q3_K_M,ceval,64,"D
+D选项中的“中国”和“不幸”是否符合对联的平仄和对仗要求？
+
+根据对联的平仄和对",True,False,A,32,2.39,b2,
+Qwen3-1.7B-Q3_K_M,ceval,65,"D
+```python
+A = {1,4,5,7}
+B = {2,3,4,5}
+# 计算A",True,False,C,32,1.95,b2,
+Qwen3-1.7B-Q3_K_M,ceval,66,"D
+解析：人在地面上蹬地时，人对地面的作用力与地面对人的作用力是相互作用力，大小相等，方向",True,False,C,32,1.8,b2,
+Qwen3-1.7B-Q3_K_M,ceval,67,"A
+```python
+# 代码
+import socket
+import threading
+
+def send_data():
+    # 假设发送方发送了100",True,True,A,32,1.74,b2,
+Qwen3-1.7B-Q3_K_M,ceval,68,"D
+根据题目要求，选择正确的答案。
+首先分析每个选项是否存在语病。
+
+A选项：“本栏目将各地电视台选送的歌舞曲艺",True,False,C,32,2.32,b2,
+Qwen3-1.7B-Q3_K_M,ceval,69,"C
+```python
+import math
+a = 3
+b = 2
+angle_A = math.radians(60)
+# 使用余弦定",True,True,A,32,1.96,b2,
+Qwen3-1.7B-Q3_K_M,ceval,70,"A
+好的，我现在要解决这个问题：在月球上以初速度为v₀竖直上抛一小球，经过时间T落回月",True,False,C,32,1.96,b2,
+Qwen3-1.7B-Q3_K_M,ceval,71,"C
+```python
+# 代码
+``` 在CSMA协议中，**p-坚持CSMA**（也称为**p-坚持**）",True,False,D,32,1.67,b2,
+Qwen3-1.7B-Q3_K_M,ceval,72,"C
+解析：C 选项中“对科学问题上的是非之争”语序不当，应改为“对科学问题上的是非之争”。",True,False,B,32,1.98,b2,
+Qwen3-1.7B-Q3_K_M,ceval,73,"D
+```python
+import sympy as sp
+from sympy import symbols, log, diff, solve
+
+x = symbols('x')
+a = symbols",True,True,D,32,1.99,b2,
+Qwen3-1.7B-Q3_K_M,ceval,74,"A
+好的，我现在要解决这个问题。题目是说北京地铁的电气列车以12m/s的速度行驶，然后刹车，做匀减速运动",True,True,A,32,1.91,b2,
+Qwen3-1.7B-Q3_K_M,ceval,75,"B
+```python
+# 问题分析
+# 每秒产生一个60B的数据块，每个数据块被封装到TCP报文中",True,False,C,32,1.95,b2,
+Qwen3-1.7B-Q3_K_M,ceval,76,"B
+解析：B选项中“双刃剑”是比喻，指既有利也有害，这里用来形容科学，是正确的用法。其他",True,False,D,32,2.34,b2,
+Qwen3-1.7B-Q3_K_M,ceval,77,"A
+这个问题的正确答案是 A，因为题目中给出的条件是每个向量的长度之和为 t，而通过分析可以得出这个",True,False,D,32,2.69,b2,
+Qwen3-1.7B-Q3_K_M,ceval,78,"A
+B
+C
+D
+答案：A
+B
+C
+D
+答案：A
+B
+C
+D
+答案：A",True,True,A,32,2.34,b2,
+Qwen3-1.7B-Q3_K_M,ceval,79,"A
+```python
+# 问题：为了检测4bit的错误，编码的海明码距至少应该为____。
+# 选项：
+#",True,False,C,32,1.45,b2,
+Qwen3-1.7B-Q3_K_M,ceval,80,"D
+D. “昆仑者，天象之大也”，昆仑怎么也容纳不了的黄河，正从我身边经过……
+解析：D",True,False,A,32,2.12,b2,
+Qwen3-1.7B-Q3_K_M,ceval,81,"C
+```python
+import math
+def is_circles_intersecting(a, b, c, d):
+    # 计算两圆的圆心",True,False,B,32,1.72,b2,
+Qwen3-1.7B-Q3_K_M,ceval,82,"D
+```python
+# 代码部分
+# 请根据题目要求，完成代码部分
+# 例如：
+# print(""A"")
+# 或",True,True,A,32,2.16,b2,
+Qwen3-1.7B-Q3_K_M,ceval,83,"D
+解析：____
+```python
+# 代码
+``` 在网络通信中，传输层是负责在两个主机之间传递数据的层。",True,False,A,32,1.49,b2,
+Qwen3-1.7B-Q3_K_M,ceval,84,"B
+D
+C
+A
+B
+D
+C
+A
+B
+D
+C
+A
+B
+D
+C
+A",True,True,A,32,2.32,b2,
+Qwen3-1.7B-Q3_K_M,ceval,85,"A
+B
+C
+D
+答案：B
+问题：下列式子的互化正确的是____
+选项：
+A. $x^{-\",True,True,A,32,2.13,b2,
+Qwen3-1.7B-Q3_K_M,ceval,86,"A
+这个问题的正确答案是 A. $4:1$。  
+解析：根据题意，甲、乙两辆汽车质量之比m",True,True,A,32,1.95,b2,
+Qwen3-1.7B-Q3_K_M,ceval,87,"C
+```python
+# 以下代码是用于测试的，不需要运行
+# 代码示例
+def test():
+    pass
+test()
+``",True,False,A,32,1.79,b2,
+Qwen3-1.7B-Q3_K_M,ceval,88,"D
+根据题目要求，选择正确的答案。
+首先分析每个选项是否存在语病：
+
+A选项：“出资购买思想性、艺术性和观赏性俱佳",True,False,D,32,2.33,b2,
+Qwen3-1.7B-Q3_K_M,ceval,89,"A
+```python
+# 用Python代码验证答案
+A = (0, 1)
+B = (0, 2)
+A_intersection_B",True,False,A,32,1.75,b2,
+Qwen3-1.7B-Q3_K_M,ceval,90,"D
+```python
+# 代码
+# 代码
+``` 在EC衰变过程中，核内的一个质子（$_{1}^{1",True,True,D,32,2.21,b2,
+Qwen3-1.7B-Q3_K_M,ceval,91,"C
+这个题目的正确答案是 C，对吗？
+是的，这个题目的正确答案是 C。
+那这个题目的正确答案是 C",True,False,A,32,1.52,b2,
+Qwen3-1.7B-Q3_K_M,ceval,92,"D
+```python
+# 代码
+``` 在这道题目中，我们需要根据上下文来判断哪一项最恰当。题目描述的是20",True,False,B,32,2.19,b2,
+Qwen3-1.7B-Q3_K_M,ceval,93,"A
+```python
+from itertools import combinations
+import numpy as np
+
+# 定义点
+A = np.array([0, 0,",True,False,C,32,1.71,b2,
+Qwen3-1.7B-Q3_K_M,ceval,94,"C
+解析：做曲线运动的物体，其速度方向是不断变化的，所以速度方向与合力方向不在同一直线上，所以合力方向",True,False,B,32,1.55,b2,
+Qwen3-1.7B-Q3_K_M,ceval,95,"B
+```python
+# 代码
+import socket
+import threading
+
+def handle_client(conn):
+    data = conn.recv(1024)",True,False,C,32,1.76,b2,
+Qwen3-1.7B-Q3_K_M,ceval,96,"D
+```python
+# 代码
+``` 这道题考察的是成语的正确使用。我们逐句分析：
+
+A. 海誓山",True,False,B,32,2.2,b2,
+Qwen3-1.7B-Q3_K_M,ceval,97,"D
+解析：首先，题目给出复数z满足1 + zi = 0，i是虚数单位。我们需要解这个方程求z",True,False,C,32,1.46,b2,
+Qwen3-1.7B-Q3_K_M,ceval,98,"C
+好的，我现在要解决这个问题，题目是问以下物理量中哪个属于矢量。选项是A到D，分别是路程、质量、",True,False,C,32,1.46,b2,
+Qwen3-1.7B-Q3_K_M,ceval,99,"D
+解析：分组交换网络的缺点是信道利用率低，因为分组交换网络采用的是分组交换方式，即每个分组",True,False,B,32,1.55,b2,

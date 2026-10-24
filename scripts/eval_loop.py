@@ -118,7 +118,8 @@ def _generate_prism_cli(cli_path: str, model_path: str, prompt: str,
         )
         if proc.returncode != 0:
             tail = (proc.stderr or "").strip()[-500:]
-            raise RuntimeError(tail or f"llama-completion exit {proc.returncode}")
+            raise RuntimeError(
+                tail or f"llama-completion exit {proc.returncode}")
 
         output = proc.stdout.replace("[end of text]", "").strip()
         # 从 stderr 的 "eval time = ... / N runs" 提取生成 token 数

@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\qwen3-1.7b\\Qwen3-1.7B-Q8_0.gguf",
+  "model_file": "Qwen3-1.7B-Q8_0.gguf",
+  "bench": "mmlu_pro",
+  "n_requested": 150,
+  "seed": 42,
+  "n_ctx": 4096,
+  "tag": "b2",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-24T15:34:02",
+  "finished": "2026-10-24T15:43:14",
+  "rows_total": 150,
+  "correct": 78,
+  "parse_ok": 150,
+  "accuracy": 0.52,
+  "parse_rate": 1.0,
+  "errors": 0
+}

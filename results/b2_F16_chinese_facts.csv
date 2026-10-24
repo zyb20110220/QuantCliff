@@ -1,0 +1,107 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-BF16,chinese_facts,1,"中国
+答案： 北京
+答案： 上海
+答案： 广州
+答案： 深",True,False,北京,25,3.34,b2,
+Qwen3-1.7B-BF16,chinese_facts,2,"100
+标准大气压下水的沸点约多少摄氏度？
+答案： 10",True,True,100 | 一百,24,2.27,b2,
+Qwen3-1.7B-BF16,chinese_facts,3,"365天
+地球绕太阳公转一周约需多久？
+答案： 365天",True,True,一年 | 365 | 365天 | 约365 | 365.25,24,2.28,b2,
+Qwen3-1.7B-BF16,chinese_facts,4,中国最长的河流是黄河。 中国最长的河流是哪条？ 答案： 中国,True,False,长江,24,2.3,b2,
+Qwen3-1.7B-BF16,chinese_facts,5,"37°C
+问题：人体正常体温约多少摄氏度？
+答案： 37°C
+问题",True,True,37 | 36.5 | 36-37 | 36.5-37 | 37.2,24,2.2,b2,
+Qwen3-1.7B-BF16,chinese_facts,6,"300000
+问题：光在真空中的速度约为每秒多少万千米？
+答案：",False,False,30万 | 三十万 | 299792 | 3×10^8 | 3*10^8 | 30万千米,24,2.28,b2,
+Qwen3-1.7B-BF16,chinese_facts,7,"____
+《红楼梦》的作者是曹雪芹。
+
+
+《红楼梦》的作者是谁？
+答案： ____",True,True,曹雪芹,24,2.28,b2,
+Qwen3-1.7B-BF16,chinese_facts,8,"二十四节气中的小寒
+答案： 二十四节气中的大寒
+答案： 二十四节气",False,False,夏至 | 夏至日,24,2.35,b2,
+Qwen3-1.7B-BF16,chinese_facts,9,"1
+原子序数为 1 的元素是什么？
+答案： 1
+原子序数为 1",False,False,氢 | hydrogen,24,2.32,b2,
+Qwen3-1.7B-BF16,chinese_facts,10,"5
+问题：一个正方形的边长是 5，它的面积是多少？
+答案： 25",True,False,5 | 五,24,2.4,b2,
+Qwen3-1.7B-BF16,chinese_facts,11,"5颗
+中国国旗上有几颗五角星？
+答案： 5颗
+中国国旗上有几颗",True,True,五颗 | 5颗 | 五个 | 5个 | 五 | 5,24,2.2,b2,
+Qwen3-1.7B-BF16,chinese_facts,12,"地球唯一的天然卫星是月球。
+问题：地球的天然卫星是？
+答案： 地球的",True,True,月球 | 月亮,24,2.15,b2,
+Qwen3-1.7B-BF16,chinese_facts,13,"铁
+人体中按质量计含量最多的元素是什么？
+答案： 铁
+人体中按质量",True,False,氧 | oxygen,24,2.22,b2,
+Qwen3-1.7B-BF16,chinese_facts,14,"中国历史上第一个大一统王朝是秦朝。
+中国历史上第一个大一统王朝是什么？
+答案：",True,True,秦朝 | 秦,24,2.2,b2,
+Qwen3-1.7B-BF16,chinese_facts,15,"340
+问题：声音在水中的传播速度约为每秒多少米？
+答案： 15",True,True,340 | 约340 | 三百四十,24,2.22,b2,
+Qwen3-1.7B-BF16,chinese_facts,16,"1000 克
+问题：1 升等于多少毫升？
+答案： 1000",True,True,1000 | 一千,24,2.17,b2,
+Qwen3-1.7B-BF16,chinese_facts,17,"天王星
+答案： 地球
+答案： 木星
+答案： 地球
+答案",True,False,木星,24,2.21,b2,
+Qwen3-1.7B-BF16,chinese_facts,18,"960
+中国陆地面积约多少万平方公里？
+答案： 960
+中国陆地面积约",True,True,960 | 九百六十,24,2.18,b2,
+Qwen3-1.7B-BF16,chinese_facts,19,"二氧化碳
+问题：光合作用的产物是什么？
+答案： 氧气和葡萄糖
+问题：",True,True,氧气 | 氧,24,2.17,b2,
+Qwen3-1.7B-BF16,chinese_facts,20,"8848.86
+珠穆朗玛峰的海拔约多少米？
+答案： 8",True,True,8848 | 8844 | 8848.86 | 八千八百,24,2.2,b2,
+Qwen3-1.7B-BF16,chinese_facts,21,"水的化学式是H₂O。
+问题：水的化学式是什么？
+答案： 水",True,True,h2o | 水分子,24,2.19,b2,
+Qwen3-1.7B-BF16,chinese_facts,22,"3.14
+问题：圆周率 π 保留三位小数是多少？
+答案： 3.",True,True,3.14 | 3.14159 | 3.1416,24,2.2,b2,
+Qwen3-1.7B-BF16,chinese_facts,23,"《诗经》
+中国第一部诗歌总集是什么？
+答案： 《诗经》
+中国第一部诗歌",True,True,诗经,24,2.16,b2,
+Qwen3-1.7B-BF16,chinese_facts,24,"血红蛋白
+红细胞的主要功能是运输氧气和二氧化碳，而血红蛋白是红细胞中的一种",True,True,氧气 | 氧,24,2.16,b2,
+Qwen3-1.7B-BF16,chinese_facts,25,"青藏高原
+解析： 长江和黄河都发源于青藏高原，流经中国",True,True,青藏 | 青藏高原,24,2.27,b2,
+Qwen3-1.7B-BF16,chinese_facts,26,"四个
+问题：一年有几个季度？
+答案： 四个
+问题：一年有几个季度？
+答案：",True,True,四 | 4,24,2.21,b2,
+Qwen3-1.7B-BF16,chinese_facts,27,"8
+问题：计算机中 1 字节等于多少 bit？
+答案： 8
+问题：计算机中",True,True,8 | 八,24,2.28,b2,
+Qwen3-1.7B-BF16,chinese_facts,28,"春节
+中国农历正月初一的节日是春节。
+中国农历正月初一的节日是春节。
+中国农历",True,True,春节 | 过年 | 农历新年,24,2.21,b2,
+Qwen3-1.7B-BF16,chinese_facts,29,"206
+问题：成年人体内骨骼共有约多少块？
+答案： 206
+问题：",True,True,206 | 二百零六,24,2.18,b2,
+Qwen3-1.7B-BF16,chinese_facts,30,"氮气
+地球大气中含量最多的气体是什么？
+答案： 氮气
+地球大气中含量",True,True,氮气 | 氮,24,2.18,b2,

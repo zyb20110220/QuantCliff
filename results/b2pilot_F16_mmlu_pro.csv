@@ -1,0 +1,66 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-BF16,mmlu_pro,0,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,3.81,b2,
+Qwen3-1.7B-BF16,mmlu_pro,1,"B
+答案：B
+解析：根据2015年中国的统计数据，儿童中13-15岁年龄段的打架事件报告率是",True,False,C,32,3.21,b2,
+Qwen3-1.7B-BF16,mmlu_pro,2,"C
+解析：The marginal product of a productive factor is the amount by which total output increases due to the addition of one unit of a given factor while the",True,True,C,32,3.56,b2,
+Qwen3-1.7B-BF16,mmlu_pro,3,"C
+``` 
+``` 
+
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,C,32,4.4,b2,
+Qwen3-1.7B-BF16,mmlu_pro,4,"B
+解析：根据美国法律，律师与客户之间的保密特权在律师与第三方在场的情况下不适用。因此，当律师在法庭上询问",True,True,B,32,5.21,b2,
+Qwen3-1.7B-BF16,mmlu_pro,5,"A
+解析：Skinner box is a device used in operant conditioning, where the behavior is reinforced or punished to shape the behavior. The box is typically",True,True,A,32,3.49,b2,
+Qwen3-1.7B-BF16,mmlu_pro,6,"A
+``` 
+``` 
+
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,C,32,3.5,b2,
+Qwen3-1.7B-BF16,mmlu_pro,7,"C
+解析：C is the correct answer. The essential amino acids are leucine, methionine, and threonine. The other options contain",True,True,C,32,3.27,b2,
+Qwen3-1.7B-BF16,mmlu_pro,8,"C
+解析：A balance of payments deficit means that a country has a negative balance of payments, which means that the value of exports is less than the value",True,True,C,32,3.08,b2,
+Qwen3-1.7B-BF16,mmlu_pro,9,"D
+解析：Combustion is a rapid exothermic reaction that releases energy as heat, typically involving the oxidation of a hydrocarbon fuel in the presence",True,True,D,32,3.78,b2,

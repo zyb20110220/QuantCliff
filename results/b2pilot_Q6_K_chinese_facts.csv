@@ -1,0 +1,12 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q6_K,chinese_facts,1,"中国
+答案： 北京
+答案： 上海
+答案： 广州
+答案： 深",True,False,北京,25,1.94,b2,
+Qwen3-1.7B-Q6_K,chinese_facts,2,"100
+标准大气压下水的沸点约多少摄氏度？
+答案： 10",True,True,100 | 一百,24,1.51,b2,
+Qwen3-1.7B-Q6_K,chinese_facts,3,"365天
+地球绕太阳公转一周约需多久？
+答案： 365天",True,True,一年 | 365 | 365天 | 约365 | 365.25,24,1.49,b2,

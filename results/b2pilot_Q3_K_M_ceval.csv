@@ -1,0 +1,18 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q3_K_M,ceval,0,"B
+解析：B选项中“电子计较机”应为“电子计算机”，“所需求的息开发工具”语病较多，语义",True,False,A,32,2.39,b2,
+Qwen3-1.7B-Q3_K_M,ceval,1,"D
+首先，我需要分析题目中的条件。题目给出点A(1,2)和点B(2,1)，直线l: ax",True,True,B,32,1.81,b2,
+Qwen3-1.7B-Q3_K_M,ceval,2,"D
+```python
+# 代码
+``` 这段代码的输出是？
+A. A
+B. B
+C. C
+D.",True,True,D,32,1.55,b2,
+Qwen3-1.7B-Q3_K_M,ceval,3,"B
+解析：无线局域网的MAC层采用CSMA/CA机制，而不是CSMA/CD，所以无线局域网的冲突是",True,True,B,32,1.43,b2,
+Qwen3-1.7B-Q3_K_M,ceval,4,"D
+D
+解析：D选项中“——”是破折号，用于引出解释说明，但这里“——”用于引出“",True,False,A,32,1.99,b2,

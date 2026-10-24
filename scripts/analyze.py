@@ -26,7 +26,8 @@ import numpy as np
 import pandas as pd
 
 # 位宽从低到高（用于排序与曲线）
-QUANT_ORDER = ["Q2_0", "Q2_K", "Q3_K_M", "Q4_K_M", "Q5_K_M", "Q6_K", "Q8_0", "F16"]
+QUANT_ORDER = ["Q2_0", "Q2_K", "Q3_K_M",
+               "Q4_K_M", "Q5_K_M", "Q6_K", "Q8_0", "F16"]
 
 # 常见写法统一（大小写不敏感）
 QUANT_ALIASES = {
@@ -124,8 +125,9 @@ def wilson_ci(k: int, n: int, z: float = 1.96):
     return center - half, center + half
 
 
-def load_results(results_dir: Path, include_backups=False, dedupe=True):
-    paths = sorted(results_dir.glob("*.csv"))
+def load_results(results_dir: Path, include_backups=False, dedupe=True,
+                 pattern: str = "*.csv"):
+    paths = sorted(results_dir.glob(pattern))
     frames = []
     for path in paths:
         name = path.name
@@ -319,10 +321,13 @@ def main():
                     help="把 _bak_ 归档文件也纳入分析")
     ap.add_argument("--no-dedupe", action="store_true",
                     help="不按 (model, bench, item_id) 去重")
+    ap.add_argument("--pattern", default="*.csv",
+                    help="只分析匹配的文件名，例如 b2_*.csv")
     args = ap.parse_args()
 
     results_dir = Path(args.results_dir)
-    df = load_results(results_dir, args.include_backups, not args.no_dedupe)
+    df = load_results(results_dir, args.include_backups,
+                      not args.no_dedupe, args.pattern)
     print(f"读取 {df['source_file'].nunique()} 个结果文件，{len(df)} 条记录")
 
     by_bench = summarize(df)

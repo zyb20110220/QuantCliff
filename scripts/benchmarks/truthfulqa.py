@@ -36,7 +36,8 @@ def load(n: int = 100, seed: int = 42):
 
     candidates = []
     for raw in ds:
-        correct = [str(x).strip() for x in raw["correct_answers"] if str(x).strip()]
+        correct = [str(x).strip()
+                   for x in raw["correct_answers"] if str(x).strip()]
         if not correct:
             continue
         # 去重，并排除与正确答案重复的干扰项

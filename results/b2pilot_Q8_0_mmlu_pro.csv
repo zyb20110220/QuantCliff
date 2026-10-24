@@ -1,0 +1,43 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q8_0,mmlu_pro,0,"A
+``` 
+``` 
+
+问题：What is the available energy for the \alpha decay of Po^210 ?
+选项：
+A. 5.",True,True,A,32,2.96,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,1,"B
+答案：B
+解析：根据2015年《中国青少年犯罪白皮书》的统计数据，中国青少年犯罪率中，1",True,False,C,32,2.59,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,2,"C
+解析：The marginal product of a productive factor is the amount by which total output increases due to the addition of one unit of a given factor while the",True,True,C,32,3.07,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,3,"C
+``` 
+``` 
+
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,C,32,4.39,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,4,"B
+解析：根据美国法律，律师与客户之间的顾问关系中，顾问保密原则（attorney-client privilege）是保护双方沟通内容的法律",True,True,B,32,5.57,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,5,"A
+解析：Skinner box is a device used in operant conditioning, where the behavior is reinforced or punished. The box is used to reward or punish",True,True,A,32,2.96,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,6,"A
+``` 为了计算平均利润率，我们需要确定每种商品的利润率，并找到它们的加权平均。首先，计算每种商品的利润率",True,False,C,32,3.05,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,7,"C
+解析：C选项中的leucine, methionine and threonine are all essential amino acids. 选项C正确。
+问题：The",True,True,C,32,2.68,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,8,"C
+解析：A balance of payments deficit means that a country has a negative balance of payments, which means that the value of exports is less than the value",True,True,C,32,2.42,b2,
+Qwen3-1.7B-Q8_0,mmlu_pro,9,"D
+解析：Combustion is a rapid exothermic reaction that releases energy as heat, typically involving the oxidation of a hydrocarbon fuel in the presence",True,True,D,32,3.47,b2,

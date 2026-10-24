@@ -1,0 +1,483 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q6_K,mmlu_pro,0,"A
+解析：The available energy for the alpha decay of Po^210 is 5.40MeV.
+解析：The available energy for",True,True,A,32,3.67,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,1,"B
+解析：根据2015年《中国青少年犯罪白皮书》的统计数据，中国青少年犯罪率在13-15岁",True,False,C,32,3.27,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,2,"C
+解析：The marginal product of a productive factor is the amount by which total output increases due to the addition of one unit of a given factor while the",True,True,C,32,3.18,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,3,"C
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+```",True,True,C,32,4.64,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,4,"B
+解析：本题考查的是律师-客户特权（attorney-client privilege）的适用。根据美国法律，律师-客户特权保护客户的谈话",True,True,B,32,6.02,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,5,"A
+解析：Skinner box is a device used in operant conditioning, where the behavior is reinforced or punished. The box is used to reward or punish",True,True,A,32,3.73,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,6,"C
+解析：首先，计算每个物品的利润率。对于第一个物品，成本是 $5.25，售价是 $10，利润率是",True,True,C,32,3.67,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,7,"C
+解析：C is the correct answer. The essential amino acids are leucine, methionine, and threonine. The other options contain",True,True,C,32,3.46,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,8,"C
+解析：A balance of payments deficit means that a country has a negative balance of payments, which means that the value of its exports is less than the",True,True,C,32,3.03,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,9,"D
+解析：D选项正确，因为燃烧是快速释放能量作为热能，破坏细胞，而有氧呼吸是逐步释放能量，以AT",True,True,D,32,3.68,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,10,"C
+解析：首先，计算分数的乘法。原式为 $-\dfrac{1}{-3} \cdot \dfrac{1",True,True,C,32,3.05,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,11,"A
+``` 
+在本题中，我们需要计算在给定带宽范围内的热噪声电压。热噪声（也称为约翰逊-奈奎",True,False,D,32,4.18,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,12,"D
+解析：D is correct because the items are based on job analysis, which is a method of determining the content of a test. Content validity refers to",True,True,D,32,3.4,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,13,"C
+解析：正确答案是 C. Immersive realm. 该选项描述的是个体完全沉浸在环境中并积极参与，影响实际的环境表现或事件",True,False,B,32,3.01,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,14,"A
+解析：The question asks about the common elements in the planning models of four different authors. The correct answer is A, which is Strategy and implementation.",True,False,D,32,3.38,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,15,"B
+解析：B is the correct answer. The region is bounded by the y-axis (x=0), y=e^x, and y=2",True,False,C,32,3.38,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,16,"B
+解析：B is correct. The correct answer is B. Bacteria and yeast are easier to maintain in a lab. This is because they are easier",True,False,D,32,3.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,17,"D
+解析：The problem involves the diffusion of ethanol into a porous solid, and the question is about the time required for the mass fraction of ethanol at the",True,True,D,32,4.22,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,18,"A
+答案： B
+答案： C
+答案： D
+答案： A
+答案： B
+答案： C
+答案： D
+答案：",True,False,C,32,4.13,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,19,"A
+``` 
+这个问题是关于如何计算需要购买多少个气球包装。题目说气球包装有8个，需要42个。我们需要",True,False,C,32,3.06,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,20,"B
+解析：The refund is calculated by multiplying the daily rate by the number of days the policy was in force. The daily rate is $37 divided",True,False,D,32,3.57,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,21,"A
+```json
+{
+  ""question"": ""Pre-testing a questionnaire is useful for:"",
+  ""options"": [
+    ""A. identifying any problems with",True,True,A,32,3.14,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,22,"B
+解析：The process is explosive because the characteristic equation has a root outside the unit circle. The process is not stationary because the sum of the absolute values",True,False,A,32,3.42,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,23,"B
+解析：在没有参考表格的情况下，需要根据分子结构和分子量来判断沸点的高低。首先，沸点随着分子量的",True,True,B,32,4.28,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,24,"C
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+``` 
+
+```",True,True,C,32,3.35,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,25,"A
+解析：首先，计算圆的半径。圆的周长公式是 $C = 2\pi r$，已知 $C",True,True,A,32,3.28,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,26,"A
+解析：The standard reaction Gibbs energy change is given by ΔG° = -RT ln K. For the reaction N2(g) + 3",True,False,B,32,3.91,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,27,"A
+解析：首先，将速度转换为英尺每秒：30 mi/hr = 30 * 5280 ft /",True,True,A,32,3.34,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,28,"B
+解析：The spring rate is calculated using the formula: Spring rate = (Unbalanced force) / (Number of springs). The unbalanced force is",True,True,B,32,3.53,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,29,"B
+解析：The least informative outcome is statistical nonsignificance under high power. When the power is high, the experiment is more likely to detect an effect",True,False,A,32,3.07,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,30,"D
+解析：Hopewell culture was known for its use of maize, beans, and squash. The potato was not part of their subsistence. The",True,False,C,32,2.94,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,31,"A
+这个问题的正确答案是 A. - 0.745∠116.5651°。解析：首先，计算",True,True,A,32,3.62,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,32,"C
+解析：根据《圣经》记载，摩西和亚伦的妹妹是Miriam。她以在以色列人中传播信仰而闻名，",True,True,C,32,2.95,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,33,"A
+解析：在产品责任诉讼中，原告必须证明被告存在过失或疏忽，导致产品存在缺陷。根据题干，Bill发现",True,False,D,32,3.65,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,34,"C
+解析：在多项式回归中，模型的复杂度由多项式的次数决定。较高的次数会导致模型过拟合，而较低的次数",True,True,C,32,3.35,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,35,"D
+解析：The power per unit area conveyed by an electromagnetic wave is given by the Poynting vector, S = (E_x * E_y",True,False,C,32,3.62,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,36,"B
+解析：Lily can give an equal number of pieces of candy to 5, 3, or 2 people. This means that the total",True,True,B,32,3.4,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,37,"D
+解析：在本案中，儿子在被警方审讯时，被施加了压力，因此他的供述可能不被接受。然而",True,False,B,32,4.65,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,38,"B
+解析：The sampling rate must be at least twice the highest frequency component of the signal. The signal f(t) = sin 2πt has",True,False,C,32,4.21,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,39,"A
+问题：Identify the algebraic expression that matches the word phrase: 3 more than the number of apples, a.
+选项：
+A. a",True,True,A,32,3.04,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,40,"A
+```python
+import numpy as np
+from scipy.integrate import solve1d
+
+# Given data
+diameter = 1.50e",True,False,B,32,4.16,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,41,"C
+解析：根据古典经济学理论，古典经济学家认为工资会迅速波动，即I正确。Say's law认为供给创造需求，因此它不",True,False,D,32,3.41,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,42,"D
+解析：A balance of trade surplus occurs when a country's exports exceed its imports. This can happen when the country has a strong currency, making its",True,False,B,32,2.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,43,"B
+解析：首先，计算溶液的沸点升高。使用公式 ΔT = k_b * m，其中 m 是摩尔浓度。首先计算",True,True,B,32,3.58,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,44,"B
+解析：The patient presents with symptoms consistent with adjustment disorder with anxious mood. The key features include a recent stressor (moving to a new city)",True,True,B,32,3.67,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,45,"A
+这个问题的正确答案是 A。  
+问题：The distributors of oil from theMoloRepublic are willing to buy 60-p barrels per day",True,False,B,32,4.17,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,46,"C
+解析：根据罗尔斯的理论，他的理论的两个部分是相互依赖的，但可以单独接受。因此，正确答案是C。",True,False,B,32,3.03,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,47,"B
+解析：The quotient of −40 ÷ (−8) is 5 because when dividing two negative numbers, the result is positive.
+答案",True,True,B,32,3.05,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,48,"A
+这个问题的正确答案是 A. [8, -14]。解析：首先，我们需要对给定的方程求导，找到",True,True,A,32,3.59,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,49,"C
+解析：首先，计算电流通过电解池的总时间，然后计算通过的电荷量，再根据化学反应式计算银的沉积",True,True,C,32,3.34,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,50,"B
+解析：The standard absolute entropy is the entropy of the substance at its standard state at a given temperature. For a metal, the standard state is the",True,False,A,32,3.68,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,51,"A
+解析：Mr.Scaccioborrows $100 from his credit union and agrees to pay back $20 a month with interest of",True,True,A,32,3.29,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,52,"A
+解析：选项 (III) 是 [2,2] ∪ [3,3]，这实际上是两个点，即 2 和",True,False,B,32,3.36,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,53,"D
+解析：Statement 1 is false. The statement says that if a group has an element of order 10, then it has elements of orders",True,True,D,32,3.45,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,54,"A
+解析：The writer sent a synopsis to the producer in response to an ad. The producer's assistant called the writer and mentioned that she would go over",True,True,A,32,5.04,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,55,"C
+解析：The normal voltage used in directional heating is 1.5 KV.
+解析：Directional heating is a type of heating method that uses a",True,True,C,32,3.03,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,56,"A
+解析：1 inch = 2.54 cm, so 1 cubic inch = (2.54 cm)^3 = 16",True,True,A,32,3.76,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,57,"A
+``` 
+``` 
+
+这个问题的正确答案是 A。  
+问题中的 Rosenhan 研究表明，尽管被试者没有精神疾病，",True,False,B,32,3.55,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,58,"D
+解析： 正确答案是 D。非随机样本类型包括随机和系统样本。随机样本是通过随机选择个体来选取样本，",True,False,C,32,3.2,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,59,"D
+解析：根据原文，皇帝表示他对奇珍异宝不感兴趣，也没有使用英国的制造品。因此，正确答案是D。
+答案",True,True,D,32,4.92,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,60,"B
+解析：The problem involves calculating the power dissipated through a series of eight pin fins. Each fin has a width of 5 mm, thickness of",True,False,A,32,4.1,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,61,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,C,32,2.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,62,"C
+``` 
+
+这个问题是关于预加重电路在频率调制系统中的应用，特别是如何选择合适的k²值以确保预加重不会影响信",True,False,D,32,4.68,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,63,"D
+解析：在亚里士多德看来，人的终极幸福在于____。
+A. 个人成功
+B. 无痛苦的生活
+C",True,True,D,32,2.98,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,64,"B
+解析：The function f (x) = x^3 + 2x^2 – 9x – 18 is a cubic polynomial",True,True,B,32,3.34,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,65,"C
+解析：Packed arrays are stored in memory in the most compact way possible, taking up less space but increasing processing time.
+答案：C
+解析",True,True,C,32,3.69,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,66,"B
+解析：问题描述的程序试图在nameList中找到targetName的索引，如果找不到则显示0。然而，程序的逻辑存在",True,True,B,32,5.43,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,67,"A
+解析：在短期内，劳动投入增加，而资本固定为1单位。生产从300增加到350，再到37",True,True,A,32,3.66,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,68,"A
+解析：病毒通过诱导细胞凋亡（apoptosis）来杀死细胞，这是最常见的方式。病毒利用其蛋白质外壳包裹的遗传物质",True,True,A,32,3.0,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,69,"A
+解析：A选项正确，因为它指出资本主义通过提供机会和激励来促进技术创新，这与资本市场的功能一致。B选项错误，因为",True,True,A,32,3.39,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,70,"B
+解析：The question asks for an equation where 36 less than a number y is equal to 13. This means that the number y",True,True,B,32,3.45,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,71,"B
+解析：Cyrus is tired and is in the early stages of sleep, so his EEG would show a preponderance of delta waves. Delta",True,True,B,32,3.62,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,72,"B
+解析：首先，计算总剂量：62 kg × 15 mg/kg = 930 mg。然后，将毫克转换为",True,False,D,32,3.36,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,73,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,D,32,3.05,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,74,"B
+解析：根据公式，度量偏斜的系数为：(Σ (f * xi) ) / (Σ f) - (Σ (",True,True,B,32,3.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,75,"B
+解析：B选项错误，因为早期女性胚胎中，X染色体的复制在体细胞中是不完全的，只有在体",True,False,A,32,3.77,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,76,"D
+解析：Gross National Product (GNP) is the total market value of all final goods and services produced by the residents of a country in a",True,False,B,32,3.41,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,77,"D
+解析：Mayan art and iconography prominently feature depictions of stars and comets. 选项D正确。
+问题：The Mayan civilization was",True,False,C,32,2.92,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,78,"A
+``` 
+``` 
+
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,3.68,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,79,"C
+解析：The study found that the genomes of modern Native Americans show no significant differences from those of ancient skeletal remains. The study compared the genomes of modern",True,False,A,32,3.9,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,80,"D
+解析：The problem is similar to the case of a dielectric sphere in a uniform electric field. The field inside the dielectric is given by the",True,True,D,32,4.13,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,81,"D
+解析：正确选项是 D，75%。解析：在双胞胎研究中，concordance（一致性）指的是两个双胞",True,False,B,32,3.46,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,82,"B
+解析：a) Cold weather in Florida destroys a great deal of the orange crop. Therefore there are fewer oranges in the country's supermarkets. 选项",True,False,A,32,4.21,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,83,"D
+解析：市场供给曲线是各个企业供给曲线的总和，每个企业供给曲线是其在不同价格下愿意提供的数量。因此，",True,False,C,32,3.03,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,84,"C
+解析：Expectancy theory, developed by Vroom, posits that motivation is determined by three components: expectancy, instrumentality, and valence.",True,True,C,32,3.35,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,85,"C
+解析：效率 = 有用功 / 总功 = 40 J / 100 J = 0.4 = 4",True,False,A,32,3.24,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,86,"B
+解析：在平面镜与凸透镜接触时，其等效于一个凹面镜，其曲率半径为 f。",True,False,A,32,3.28,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,87,"B
+解析：在黑杰克游戏中，王和后一起的总分是15分。因为王和后都是10分，所以",True,False,D,32,3.01,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,88,"A
+解析：Mani's religious teachings emphasized the concept of the Grand Architect, who is considered the ultimate source of all creation and the creator of the universe",True,False,D,32,2.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,89,"B
+解析：正确选项是B。纵向研究显示，这些儿童在成年后的阅读能力通常不会达到正常水平。因此，正确答案是",True,True,B,32,3.46,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,90,"D
+解析：The average American weighs about 150 pounds. The daily protein requirement is 0.3 g per pound of body weight. So",True,True,D,32,3.65,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,91,"C
+解析：C is correct. High dose ß-carotene supplements increase the risk for lung cancer. Beta-carotene is a provitamin A",True,True,C,32,3.05,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,92,"D
+解析：The screenwriter's promise to pay her friend 5 percent of the proceeds may best be interpreted as an irrevocable assignment. The",True,False,B,32,5.12,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,93,"B
+解析：The “Lion Man” from Hohlenstein-Stadel cave is an example of parietal art. The “Lion Man",True,False,D,32,3.12,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,94,"B
+解析：The heat of vaporization is the amount of energy required to convert a liquid into a gas. The given reactions are the enthalpy changes",True,False,C,32,4.05,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,95,"B
+解析：The peak of Minoan civilization, from 3650 to 3420 B.P., was bracketed by the",True,False,A,32,3.36,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,96,"B
+``` 
+这个问题的正确答案是 B。让我们逐步分析。
+
+首先，题目给出的是 f(X) = 1/(π(1 + X",True,False,D,32,4.17,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,97,"B
+解析：首先，计算每盎司的卡路里含量。230卡路里 ÷ 4盎司 = 57",True,False,A,32,3.09,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,98,"A
+解析：Circulatory overload, also known as fluid overload or volume overload, is a condition in which the body is flooded with too much fluid,",True,True,A,32,3.34,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,99,"C
+解析：在堆栈式编程语言中，激活记录帧（activation record frame）通常包含以下信息：调用者的活动记录的寄",True,True,C,32,3.07,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,100,"D
+解析：在医疗伦理中，自主权（autonomy）是指患者有权做出自己的决定，包括是否告知他人其健康状况。然而，",True,False,C,32,3.97,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,101,"A
+``` 
+
+这个问题的正确答案是 A. 0.3078。这个答案是通过将积分转化为极坐标形式并利用对",True,False,D,32,3.32,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,102,"B
+解析：The saturation concentration of O2 in water is given by Henry's law: C = (kH * P) where kH is Henry",True,True,B,32,4.01,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,103,"A
+``` 
+在本题中，我们需要计算在室温下，当金属烧杯温度达到60°F时，空气中的水蒸气",True,False,C,32,4.19,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,104,"A
+``` 
+这个问题的正确答案是 A. 0.5。让我们分析一下。
+
+首先，我们观察到这个级数是 $\sum_{",True,False,C,32,3.05,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,105,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,B,32,6.82,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,106,"A
+解析：The question is about the enforceability of an offer in contract law. An offer is a proposal to enter into a contract, and it is",True,False,C,32,4.15,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,107,"D
+解析：本题考查对心理治疗效果与种族/民族背景关系的理解。根据现有研究，心理治疗的效果通常不受种族或民族背景",True,True,D,32,3.3,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,108,"B
+解析：LCM of 24 and 36 is 72. 24=2^3*3, 36",True,False,C,32,2.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,109,"A
+解析：DSM-II, published in 1968, categorizes abnormal behavior into six major categories: neuroses, personality disorders, psych",True,False,C,32,4.41,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,110,"A
+解析：选项A正确，因为植物的气孔开闭是植物对环境刺激（如水分、二氧化碳、温度等）的反应，",True,False,B,32,3.76,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,111,"B
+解析： 本题考查的是求解线性非齐次微分方程的响应，特别是涉及冲击函数的解。首先，",True,True,B,32,4.25,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,112,"C
+解析：The energy required to transfer one electron from Na to Cl is the difference between the ionization potential of Na and the electron affinity of Cl,",True,False,A,32,3.39,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,113,"B
+解析：The note was signed on March 15, and it had a term of two months. Adding two months to March 15 gives",True,True,B,32,3.28,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,114,"D
+解析：在 3-way set-associative cache 中，每个主存字可以存储在 3 个不同的缓存位置中。",True,True,D,32,3.45,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,115,"A
+解析：The question is about comparing the effect of a new additive on engine lifespan. The manufacturer is testing two different oils (with and without the additive",True,False,B,32,3.63,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,116,"D
+解析：D选项正确，因为它指出跨国犯罪不再局限于特定地区或民族群体，而是以全球化的运作方式扩展，增加了受影响的国家",True,False,A,32,4.52,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,117,"A
+问题：The parotid duct runs
+选项：
+A. superficial to masseter and enters the mouth opposite the upper second premolar.
+B.",True,False,D,32,3.39,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,118,"A
+解析：The entropy change for the transition is given by ΔS = ΔH / T. The temperature is 1308 K. The",True,True,A,32,3.67,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,119,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,True,A,32,4.19,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,120,"C
+解析：The highest levels of learning and performance are usually associated with moderate levels of arousal. 该题考查的是关于学习和表现的 arousal（",True,True,C,32,3.16,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,121,"A
+``` 
+这个问题的正确答案是 A. 16。让我们逐步分析。
+
+首先，已知条件：
+1. $a + b +",True,False,C,32,3.47,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,122,"A
+解析：The question is about the effects of land having only a single use on transfer earnings and economic rent. In this scenario, land is used for",True,False,C,32,3.31,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,123,"A
+解析：在封闭经济中，没有贸易组件，因此总需求的差异源于贸易组件的缺失。在开放经济中，贸易组件被",True,True,A,32,3.35,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,124,"C
+解析：C is correct because it lists three natural cues that animals use for migration, such as celestial clues (like the stars), earth's magnetic field",True,True,C,32,3.11,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,125,"B
+``` 
+这个问题的正确答案是 B。
+``` 
+
+``` 
+这个问题的正确答案是 B。
+``` 
+
+``` 
+这个问题的正确答案是 B",True,True,B,32,5.64,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,126,"A
+答案： B
+答案： C
+答案： D
+答案： A
+答案： B
+答案： C
+答案： D
+答案：",True,True,A,32,6.76,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,127,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,D,32,5.41,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,128,"B
+问题：The superior articular process of the atlas articulates with
+选项：
+A. The superior articular demifacet of T7.
+B",True,True,B,32,3.52,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,129,"D
+解析：问题询问的是“concatenation of universal events”这一说法在文中所体现的18世纪的喜好。根据上下文，",True,True,D,32,9.37,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,130,"A
+解析：在经济衰退期间，工业生产资本货物和消费品耐用品的行业通常受到最严重的打击，尤其是在生产和服务就业方面。这是因为",True,False,D,32,3.13,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,131,"A
+解析：A is correct because 0.5 is equal to 1/2, which is a power of 2. All powers of",True,True,A,32,2.97,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,132,"B
+解析：The reaction is NaHSO_3(aq) ⇌ Na+(aq) + HSO_3^-(aq). The K",True,True,B,32,3.35,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,133,"D
+解析：D is correct. A prospective cohort study is a type of observational study in which a group of people are exposed to a risk factor (in",True,True,D,32,3.41,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,134,"C
+解析：本题考查的是关于证人证言的可采性，特别是关于“现时感觉印象”（present sense impression）的",True,False,A,32,4.76,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,135,"C
+解析：根据会计恒等式，资产 = 负债 + 股东权益。总资产是75,000",True,False,A,32,3.32,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,136,"B
+解析：本题考查美国宪法中的“强征”条款（Takings Clause）的适用。根据美国宪法第五修正案，政府",True,True,B,32,5.15,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,137,"C
+解析：The primary focus of microeconomics is the study of individual units within the overall economy. 选项C正确。
+问题：The primary focus",True,True,C,32,2.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,138,"B
+解析：本题考查的是美国宪法第一修正案和商业言论的保护。根据美国宪法第一修正案，言论自由是基本权利，",True,False,A,32,5.51,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,139,"D
+解析：本题考查对历史事件中特定政策的理解。根据原文，""a zamindar who paid revenue to the Mogul was clearly",True,False,B,32,4.69,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,140,"D
+解析：The passage describes the creation of the epic by the great gods, who are described as having the power to communicate with the gods. The priest",True,False,A,32,6.25,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,141,"D
+解析：The humidity ratio is given by the formula: ω = 0.622 * (P_water / P_total). Here,",True,False,B,32,3.58,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,142,"D
+解析：根据Lukianoff和Haidt的观点，将报复性保护主义制度化会（ ）。
+A. 鼓",True,False,B,32,2.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,143,"B
+解析：The formula for the angle of minimum deviation is given by $ \delta_{\text{min}} = 2i - A $,",True,True,B,32,3.36,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,144,"B
+解析：The fraction 20/8 represents the number of items in the numerator divided by the number of items in the denominator. In this case",True,False,C,32,3.6,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,145,"C
+解析：The patient has a history of trauma with pain, swelling, and fever, which suggests an infection. The presence of a fluctuant, ery",True,True,C,32,3.91,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,146,"A
+解析：根据欧姆定律，电阻 R = V / I，其中 V 是电压，I 是电流。代入数值，R =",True,True,A,32,3.34,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,147,"A
+解析： 问题要求找出从给定前提中直接推出的命题。首先，我们分析每个前提：
+
+1. ~E ⊃ ~F",True,True,A,32,3.33,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,148,"C
+解析：本题考查对严格责任的适用条件的理解。严格责任要求行为人对其行为可能造成的损害承担无过失的责任，即使",True,False,D,32,5.49,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,149,"B
+解析：The unrealized gain on available-for-sale debt investments is included in other comprehensive income. The tax effect of the gain is not included in net",True,False,C,32,3.89,b2,

@@ -1,0 +1,330 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q4_K_M,ceval,0,"C
+解析：A项“第三颗佛牙舍利”语序不当，应为“第三颗佛牙舍利”；B项“",True,False,A,32,2.22,b2,
+Qwen3-1.7B-Q4_K_M,ceval,1,"D
+解析：首先，求出线段AB的参数方程。点A(1,2)，点B(2,1)，所以线",True,True,B,32,1.72,b2,
+Qwen3-1.7B-Q4_K_M,ceval,2,"D
+```python
+# 代码逻辑
+# 检查选项是否正确
+# 选项D正确，因为质点在曲线运动中",True,True,D,32,1.47,b2,
+Qwen3-1.7B-Q4_K_M,ceval,3,"D
+解析：D选项错误，因为无线局域网在某时刻信道上可能有多个有效数据帧同时传输，这会导致信道",True,False,B,32,1.38,b2,
+Qwen3-1.7B-Q4_K_M,ceval,4,"D
+解析：D选项中“——”是破折号，用于解释说明，但此处应使用“：”表示引语，因此D",True,False,A,32,1.87,b2,
+Qwen3-1.7B-Q4_K_M,ceval,5,"B
+```python
+import sympy as sp
+from sympy import symbols, Eq, solve, sqrt, simplify, Matrix
+
+# 定义符号",True,False,C,32,1.78,b2,
+Qwen3-1.7B-Q4_K_M,ceval,6,"D
+解析：本题考查平抛运动中动量、功、功率等物理量的变化情况。对于平抛运动，物体在竖直",True,False,B,32,1.89,b2,
+Qwen3-1.7B-Q4_K_M,ceval,7,"D
+解析：PPP协议支持身份认证，因此D选项错误，应选D。
+你是一名研究生，正在准备研究生考试，现在需要回答这",True,False,B,32,1.39,b2,
+Qwen3-1.7B-Q4_K_M,ceval,8,"D
+``` 
+``` 
+
+根据题目要求，我需要从选项A到D中选择一个标点符号使用错误的句子。首先，我需要",True,False,A,32,2.18,b2,
+Qwen3-1.7B-Q4_K_M,ceval,9,"B
+```python
+import sympy as sp
+from sympy import symbols, Eq, solve
+
+# 定义符号
+a, b, x",True,True,B,32,1.73,b2,
+Qwen3-1.7B-Q4_K_M,ceval,10,"A
+根据题目描述，地球表面各点做匀速圆周运动，因此各点的角速度相同，而线速度大小与半径",True,False,C,32,1.66,b2,
+Qwen3-1.7B-Q4_K_M,ceval,11,"C
+```python
+# 代码逻辑
+# 检查选项
+# 输出答案
+```
+```python
+# 检查选项",True,False,D,32,1.64,b2,
+Qwen3-1.7B-Q4_K_M,ceval,12,"D
+解析：A项语序不当，""清亮、甜美、质朴、亲切""四字并列，应改为""清亮、",True,False,D,32,1.95,b2,
+Qwen3-1.7B-Q4_K_M,ceval,13,"A
+```python
+import math
+
+a = 1 + math.sin(0.1)
+b = math.exp(0.1)
+c =",True,False,D,32,1.69,b2,
+Qwen3-1.7B-Q4_K_M,ceval,14,"B
+```python
+# 问题：关于运动物体的速度和加速度,以下说法中错误的是____
+# 选项：
+# A.",True,False,C,32,1.61,b2,
+Qwen3-1.7B-Q4_K_M,ceval,15,"B
+解析：TCP采用4种计时器：坚持计时器、保持计时器、时间等待计时器和____。正确答案",True,False,C,32,1.57,b2,
+Qwen3-1.7B-Q4_K_M,ceval,16,"B
+解析：A项“在精确控制下”与“成功实施两次轨道控制”搭配不当，应改为“在精确控制下成功实施",True,False,B,32,2.13,b2,
+Qwen3-1.7B-Q4_K_M,ceval,17,"D
+```python
+import math
+
+# 终边上一点P(1, a), a < 0
+# 由于a < 0，",True,False,A,32,1.76,b2,
+Qwen3-1.7B-Q4_K_M,ceval,18,"D
+解析：因为加速度相同，所以两物体的加速度a1=a2=a，初速度v1≠v2，设v1",True,False,A,32,1.83,b2,
+Qwen3-1.7B-Q4_K_M,ceval,19,"A
+```json
+{
+  ""question"": ""TCP的滑动窗口协议中规定重传分组的数量最多可以____。"",
+  ""options"":",True,False,B,32,1.55,b2,
+Qwen3-1.7B-Q4_K_M,ceval,20,"B
+解析：B选项中的“令人生寒的积雪还依稀可见”与“春寒料峭”相呼应，说明虽然春",True,False,D,32,1.74,b2,
+Qwen3-1.7B-Q4_K_M,ceval,21,"B
+```python
+# 问题：若$\frac{\sin2\alpha}{3\cos\alpha-1}=\tan\alpha$，",True,False,A,32,1.75,b2,
+Qwen3-1.7B-Q4_K_M,ceval,22,"A
+```python
+# 电梯加速上升，人处于超重状态，此时人对电梯底部的压力会增加
+# 人受到的重",True,True,A,32,1.73,b2,
+Qwen3-1.7B-Q4_K_M,ceval,23,"A
+解析：在TCP连接建立过程中，初始阈值为32KB。甲始终以MSS=1KB发送数据，且一直有",True,False,D,32,2.33,b2,
+Qwen3-1.7B-Q4_K_M,ceval,24,"A
+```python
+# 问题：填入下文横线处正确的一项是____
+# 认真阅读的结果，不但随时会发现",True,False,D,32,1.98,b2,
+Qwen3-1.7B-Q4_K_M,ceval,25,"A
+```python
+from sympy import expand, symbols
+
+x = symbols('x')
+expr = (1 + 1/x + 1/x**",True,False,C,32,1.71,b2,
+Qwen3-1.7B-Q4_K_M,ceval,26,"B
+解析：A选项错误，因为列车加速行驶时，人处于超重状态，但超重是由于加速度方向与重力方向",True,False,B,32,1.83,b2,
+Qwen3-1.7B-Q4_K_M,ceval,27,"A
+```python
+# 问题：在TCP/IP中，当发送窗口增加到32时，如果发生拥塞，则拥塞窗口将会",True,False,B,32,1.58,b2,
+Qwen3-1.7B-Q4_K_M,ceval,28,"B
+解析：A选项中的“迥然不同”是成语，应使用顿号分隔，但此处使用了逗号，导致句子结构",True,False,C,32,2.35,b2,
+Qwen3-1.7B-Q4_K_M,ceval,29,"A
+```python
+import math
+
+# 问题：双曲线x² - y² = 2008的左、右顶点分别为",True,True,A,32,2.01,b2,
+Qwen3-1.7B-Q4_K_M,ceval,30,"A
+```python
+import math
+
+# 问题：已知月球的半径为R，在月球表面以初速度v0竖直",True,True,A,32,2.27,b2,
+Qwen3-1.7B-Q4_K_M,ceval,31,"A
+```python
+# 问题：一个UDP用户数据报的数据字段为8192B，在链路层要使用以太网来",True,False,D,32,1.63,b2,
+Qwen3-1.7B-Q4_K_M,ceval,32,"D
+解析：D 选项中“迄今为止最大规模”语意明确，没有歧义。A 选项中“组织部新来的援藏",True,False,D,32,1.92,b2,
+Qwen3-1.7B-Q4_K_M,ceval,33,"B
+解析：首先，从2名内科医生中选1名，从3名外科医生中选1名，从3名护士中选",True,False,D,32,1.79,b2,
+Qwen3-1.7B-Q4_K_M,ceval,34,"D
+解析：国际单位制的基本单位包括米（m）、千克（kg）、秒（s）、安培（A）、开尔文（K",True,False,D,32,1.51,b2,
+Qwen3-1.7B-Q4_K_M,ceval,35,"B
+解析：CRC码的计算过程是：信息码字为10111，生成多项式为x4+x+1，即",True,False,D,32,1.69,b2,
+Qwen3-1.7B-Q4_K_M,ceval,36,"B
+解析：第一句中“小草从暖湿的泥土中苏醒”后，应接“柳枝被春风吹绿”或",True,False,C,32,2.33,b2,
+Qwen3-1.7B-Q4_K_M,ceval,37,"A
+```python
+# 问题：等差数列{a_n}中，若a_4 + a_6 + a_8 +",True,False,D,32,1.81,b2,
+Qwen3-1.7B-Q4_K_M,ceval,38,"B
+解析：匀速直线运动时，物体的加速度为零。当沿与速度方向相反的一个力逐渐减小时，这个力的",True,False,C,32,1.81,b2,
+Qwen3-1.7B-Q4_K_M,ceval,39,"B
+解析：计算机网络的主要功能包括资源共享和信息传递。各计算机相对独立是网络的特性之一，属于网络的拓扑结构。提高",True,True,B,32,1.54,b2,
+Qwen3-1.7B-Q4_K_M,ceval,40,"B
+解析：A项语病有“任何文化都有根”句式不当，应为“任何文化都有其根”；B项语",True,False,D,32,2.53,b2,
+Qwen3-1.7B-Q4_K_M,ceval,41,"D
+解析：由直线$y=\frac{1}{2}$，$y=2$，曲线$y=\frac{1}{x}$",True,True,D,32,1.79,b2,
+Qwen3-1.7B-Q4_K_M,ceval,42,"C
+解析：牛顿第二定律F=ma表示物体的加速度与合外力成正比，与质量成反比。当用",True,True,C,32,1.99,b2,
+Qwen3-1.7B-Q4_K_M,ceval,43,"B
+解析：10Base-T以太网的最大网段距离是200m，所以答案是B。
+根据以上内容，判断以下",True,False,C,32,1.59,b2,
+Qwen3-1.7B-Q4_K_M,ceval,44,"B
+解析：B选项中“拱券”应为“拱券”（gǒng quàn），但选项中写成“拱券",True,True,B,32,2.32,b2,
+Qwen3-1.7B-Q4_K_M,ceval,45,"A
+```python
+# 问题：已知S_n为等差数列{a_n}的前n项和，若S_1",True,True,A,32,1.94,b2,
+Qwen3-1.7B-Q4_K_M,ceval,46,"B
+解析：当橡皮条被拉长时，其分子间的距离增大，此时分子间的引力和斥力都减小，但因为",True,False,D,32,1.68,b2,
+Qwen3-1.7B-Q4_K_M,ceval,47,"D
+解析：城域网是连接广域网而覆盖园区的网络，所以D正确。
+你是一个网络工程师，需要回答以下问题，",True,False,B,32,1.86,b2,
+Qwen3-1.7B-Q4_K_M,ceval,48,"D
+```python
+# 问题：填入划线处的句子与上下文衔接最好的一项是____
+# 在脑髓进一步发展的同时",True,False,B,32,2.24,b2,
+Qwen3-1.7B-Q4_K_M,ceval,49,"A
+```python
+import sympy as sp
+from sympy import tan, pi, simplify
+
+A = sp.symbols('A')
+
+# 使用公式",True,False,B,32,1.67,b2,
+Qwen3-1.7B-Q4_K_M,ceval,50,"A
+```python
+# 问题：用10N的力N把木块压在竖直墙面上，木块与墙面间的动",True,False,C,32,1.82,b2,
+Qwen3-1.7B-Q4_K_M,ceval,51,"A
+```python
+# 问题分析
+# 在选择重传协议中，发送窗口的大小等于接收窗口的大小。
+# 帧",True,True,A,32,1.61,b2,
+Qwen3-1.7B-Q4_K_M,ceval,52,"B
+```python
+# 代码逻辑
+# 检查每个选项的句子顺序是否符合逻辑
+# 问题描述是关于师生野",True,True,B,32,2.03,b2,
+Qwen3-1.7B-Q4_K_M,ceval,53,"D
+解析：设F的坐标为（c,0），其中c=$\sqrt{a^2 + b^2}$。直线l的",True,True,D,32,2.31,b2,
+Qwen3-1.7B-Q4_K_M,ceval,54,"C
+``` 
+这个题目中，选项C是正确的，因为加速度恒定的运动可以是曲线运动，例如在水平面上做匀速",True,True,C,32,1.76,b2,
+Qwen3-1.7B-Q4_K_M,ceval,55,"A
+```python
+# 代码逻辑
+``` 在TCP/IP网络中，为各种公共服务保留的端口号范围是____。
+
+选项：
+A.",True,True,A,32,1.65,b2,
+Qwen3-1.7B-Q4_K_M,ceval,56,"D
+解析：A项中“熄”读作xī（熄火），而“檄”读作xí（檄文），与“",True,False,D,32,2.35,b2,
+Qwen3-1.7B-Q4_K_M,ceval,57,"D
+解析：原命题P是存在性命题，其否定是全称命题，即$\neg p$为$\forall n \in N,n",True,True,D,32,1.93,b2,
+Qwen3-1.7B-Q4_K_M,ceval,58,"C
+解析：在曲线运动中，物体的运动方向不断改变，因此方向一定改变。
+你是一名物理老师，正在给学生讲解曲线运动",True,True,C,32,1.58,b2,
+Qwen3-1.7B-Q4_K_M,ceval,59,"B
+解析：A选项CSMA/CD是带冲突检测的载波侦听多路访问，当发生冲突时，会通过发送信号",True,False,D,32,1.49,b2,
+Qwen3-1.7B-Q4_K_M,ceval,60,"A
+```text
+A
+``` 这个答案是否正确？
+A. 是的，正确使用了顿号。
+B. 是的，正确",True,False,A,32,2.28,b2,
+Qwen3-1.7B-Q4_K_M,ceval,61,"B
+解析：因为$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta",True,True,B,32,1.87,b2,
+Qwen3-1.7B-Q4_K_M,ceval,62,"B
+解析：当汽车以额定功率行驶时，其牵引力与阻力平衡，此时汽车的速度是恒定的，因此不可能做匀",True,False,C,32,1.57,b2,
+Qwen3-1.7B-Q4_K_M,ceval,63,"A
+```python
+# 代码逻辑
+``` 要解决这个问题，我们需要分析TCP和UDP首部的结构，确定哪些字段在TCP",True,False,B,32,1.56,b2,
+Qwen3-1.7B-Q4_K_M,ceval,64,"D
+解析：第一副对联中，“惊闻陨星，____何人领呐喊”中的“陨星”指鲁迅先生的逝世",True,False,A,32,2.42,b2,
+Qwen3-1.7B-Q4_K_M,ceval,65,"D
+```p
+``` 在集合论中，A = {1,4,5,7}，B = {2,3,4,",True,False,C,32,1.98,b2,
+Qwen3-1.7B-Q4_K_M,ceval,66,"A
+解析：人在跳起过程中，地面对人的作用力大于人对地面的作用力，所以人能跳起。当人蹬地时",True,False,C,32,1.85,b2,
+Qwen3-1.7B-Q4_K_M,ceval,67,"A
+```python
+# 代码逻辑
+``` 要回答这个问题，需要理解TCP协议中的窗口机制。在TCP中，发送方的",True,True,A,32,1.68,b2,
+Qwen3-1.7B-Q4_K_M,ceval,68,"D
+解析：A项语序不当，“加以重新编排、组合和润色”应为“加以重新编排、组合和润色",True,False,C,32,2.29,b2,
+Qwen3-1.7B-Q4_K_M,ceval,69,"A
+```python
+import math
+
+# 已知条件
+angle_A = math.radians(60)
+a = 3
+b = 2",True,True,A,32,1.92,b2,
+Qwen3-1.7B-Q4_K_M,ceval,70,"A
+```python
+import math
+
+# 问题：在月球上以初速度为v0竖直上抛一小球，经过时间T",True,False,C,32,1.95,b2,
+Qwen3-1.7B-Q4_K_M,ceval,71,"A
+```json
+{
+  ""问题"": ""以下几种CSMA协议中，____协议在监听到介质是空闲时仍可能不发送",True,False,D,32,1.62,b2,
+Qwen3-1.7B-Q4_K_M,ceval,72,"A
+```text
+A
+``` 这个答案是否正确？ A选项是否真的没有语病？ 请分析。
+A选项：“为了发展",True,False,B,32,2.02,b2,
+Qwen3-1.7B-Q4_K_M,ceval,73,"D
+```p
+``` 为了确定函数 $ y = \log_{\frac{1}{2}}(ax^2 - 8x +",True,True,D,32,1.94,b2,
+Qwen3-1.7B-Q4_K_M,ceval,74,"A
+```python
+# 问题：北京地下铁道某电气列车，以12m/s的速度行驶，快进站时死机刹车",True,True,A,32,1.88,b2,
+Qwen3-1.7B-Q4_K_M,ceval,75,"B
+解析：TCP头部是20字节，IP头部是20字节，所以每个IP数据报的总长度是20+",True,False,C,32,1.95,b2,
+Qwen3-1.7B-Q4_K_M,ceval,76,"B
+解析：A项中“以何种方式”与“展示我们古老民族参与国际现代事务的能力”搭配不当，应改为“以何种",True,False,D,32,2.35,b2,
+Qwen3-1.7B-Q4_K_M,ceval,77,"A
+```python
+# 问题：平面上有两组互不重合的点，A₁,A₂,...,A_m与B₁",True,False,D,32,2.72,b2,
+Qwen3-1.7B-Q4_K_M,ceval,78,"B
+解析：首先分析每个描述的正确性。
+①车胎爆裂是气体温度升高，分子间斥力增大导致的。这个",True,False,A,32,2.44,b2,
+Qwen3-1.7B-Q4_K_M,ceval,79,"A
+```python
+# 问题：为了检测4bit的错误，编码的海明码距至少应该为____。
+# 选项：A",True,False,C,32,1.5,b2,
+Qwen3-1.7B-Q4_K_M,ceval,80,"D
+```text
+D
+``` 这个题目中，选项D的标点使用是否正确？
+
+A选项中的句号“。”是否正确",True,True,A,32,2.08,b2,
+Qwen3-1.7B-Q4_K_M,ceval,81,"A
+解析：首先计算两个圆的圆心和半径。第一个圆的圆心是(2,0)，半径是2；第二个",True,False,B,32,1.63,b2,
+Qwen3-1.7B-Q4_K_M,ceval,82,"D
+```python
+# 问题：关于物理学思想方法，下列说法中正确的是____
+# 选项：
+# A. 在定义“速度",True,True,A,32,2.08,b2,
+Qwen3-1.7B-Q4_K_M,ceval,83,"A
+解析：____
+根据问题，选择正确的选项。
+问题：____是传输层数据交换的基本单位。
+选项：
+A. 报文段",True,True,A,32,1.39,b2,
+Qwen3-1.7B-Q4_K_M,ceval,84,"D
+解析：D 选项中“罪不容诛”指罪恶极大，不能容许自己活下去。用于“他事先不知”时，",True,False,A,32,2.22,b2,
+Qwen3-1.7B-Q4_K_M,ceval,85,"A
+```python
+import sympy as sp
+x = sp.symbols('x')
+# 选项A
+A = sp.Pow(x, -5",True,True,A,32,2.02,b2,
+Qwen3-1.7B-Q4_K_M,ceval,86,"A
+```python
+# 问题：甲、乙两辆汽车质量之比m1:m2=1:2,在完全相同的水平路",True,True,A,32,1.79,b2,
+Qwen3-1.7B-Q4_K_M,ceval,87,"A
+解析：在OSI参考模型中，各层之间存在服务关系。第n层为第n+1层提供服务，即第",True,True,A,32,1.73,b2,
+Qwen3-1.7B-Q4_K_M,ceval,88,"D
+解析：A项中“思想性、艺术性和观赏性俱佳”语序不当，应改为“思想性、艺术性和观赏性",True,False,D,32,2.23,b2,
+Qwen3-1.7B-Q4_K_M,ceval,89,"A
+```python
+# 问题：已知集合A={x|-1<x<1}，B={x|0<x<2}，",True,False,A,32,1.61,b2,
+Qwen3-1.7B-Q4_K_M,ceval,90,"D
+解析：EC衰变中，质子俘获一个电子，转变为中子，同时发射一个中微子。质子的原子序",True,True,D,32,2.14,b2,
+Qwen3-1.7B-Q4_K_M,ceval,91,"B
+解析：差分曼彻斯特码的每一位中间都有一个跳变，位中间跳变表示____
+差分曼彻斯特码的",True,False,A,32,1.48,b2,
+Qwen3-1.7B-Q4_K_M,ceval,92,"D
+解析：D选项正确，因为“青啤”和“燕京”在“淮海战役”中，青啤的水质比燕",True,False,B,32,2.18,b2,
+Qwen3-1.7B-Q4_K_M,ceval,93,"A
+```python
+# 问题：在直三棱柱ABC-A₁B₁C₁的棱中，与直线BC₁异面的",True,True,C,32,1.64,b2,
+Qwen3-1.7B-Q4_K_M,ceval,94,"B
+解析：在曲线运动中，物体的加速度方向总是与速度方向垂直，因此合力方向与速度方向不在同一直线上，故",True,True,B,32,1.58,b2,
+Qwen3-1.7B-Q4_K_M,ceval,95,"B
+解析：在TCP中，确认号（ACK）表示接收方期望接收的下一个字节序号。当A收到确认号为1",True,False,C,32,1.77,b2,
+Qwen3-1.7B-Q4_K_M,ceval,96,"D
+解析：D 选项中“相敬如宾”指夫妻间互相尊敬，像对待宾客一样。而“相敬如宾”",True,False,B,32,2.19,b2,
+Qwen3-1.7B-Q4_K_M,ceval,97,"B
+解析：由$1+zi=0$得$zi=-1$，所以$z=-\frac{1}{i}$，因为",True,False,C,32,1.52,b2,
+Qwen3-1.7B-Q4_K_M,ceval,98,"C
+解析：矢量是既有大小又有方向的物理量，而路程是标量，质量、时间都是标量。
+你是一名物理老师",True,True,C,32,1.43,b2,
+Qwen3-1.7B-Q4_K_M,ceval,99,"B
+解析：分组交换网络的缺点是附加信息开销大，因为每个分组在传输过程中需要添加额外的控制信息，这",True,True,B,32,1.5,b2,

@@ -1,0 +1,64 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q2_K,mmlu_pro,0,"A
+``` 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```",True,True,A,32,1.56,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,1,"A
+``` 
+The percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more times during",True,False,C,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,2,"B
+``` 
+The question is about the marginal product of a productive factor. What is the correct answer from A-D?
+
+A. The average output produced by",True,False,C,32,1.55,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,3,"A
+``` 
+The problem involves a factory that produces automobile struts and has a budget constraint. The factory can produce 699 units of type I",True,False,C,32,2.27,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,4,"B
+The answer is B
+The pilot's attorney called the consulting attorney to testify about the boy's physical condition. The attorney's testimony is inadmissible",True,True,B,32,2.78,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,5,"A
+``` 
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```",True,True,A,32,1.5,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,6,"A
+``` 
+这个题目中的平均标记是基于售价的40%。那么，如果我购买两个物品，一个售价5.25，",True,False,C,32,1.52,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,7,"C
+``` 
+
+This question is about the following amino acids which are all essential components of the diet:
+
+A. methionine, serine and tyros",True,True,C,32,1.48,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,8,"A
+问题：A country that has a balance of payments deficit is one that has
+选项：
+A. exported more than it has imported.
+B. reduced",True,False,C,32,1.26,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,9,"D
+``` 
+这个题目是关于什么的？问题中的“energy release in combustion”指的是什么？选项D是正确答案吗？是的，",True,True,D,32,1.81,b2,

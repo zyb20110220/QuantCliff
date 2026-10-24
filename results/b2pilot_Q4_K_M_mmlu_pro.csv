@@ -1,0 +1,40 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q4_K_M,mmlu_pro,0,"A
+```python
+import numpy as np
+import math
+from scipy.optimize import minimize_scalar
+
+# 问题：What is the available energy for the alpha",True,True,A,32,1.8,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,1,"A
+```json
+{
+  ""question"": ""What is the percentage of children aged 13-15 in China who reported being in a physical",True,False,C,32,1.57,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,2,"C
+解析：The marginal product of a productive factor is the increase in total output resulting from the addition of one unit of that factor, while other factors remain",True,True,C,32,1.8,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,3,"B
+```python
+# 问题 (i) 如何计算每天生产多少类型Y的支架？
+# 已知：生产类型I支架的",True,False,C,32,2.34,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,4,"B
+你认为这个答案是否正确？为什么？
+
+根据问题描述，律师在法庭上作证，陈述了男孩在与他父亲的咨询中",True,True,B,32,2.97,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,5,"A
+你理解这个题目和选项吗？是的。那么，现在请你用中文回答以下问题，回答要简洁，不要使用Markdown格式，",True,True,A,32,1.75,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,6,"A
+```p
+``` 
+
+The problem is asking for the ratio of two items that must be purchased to achieve an average markup based on the selling price of",True,False,C,32,1.73,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,7,"C
+```python
+def is_essential_amino_acid(a):
+    # 本题中，只有C选项中的三个氨基酸是必需的",True,True,C,32,1.66,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,8,"C
+```python
+# 问题：A balance of payments deficit means that a country has
+# 选项：
+# A. exported more than it has",True,True,C,32,1.53,b2,
+Qwen3-1.7B-Q4_K_M,mmlu_pro,9,"D
+解析：燃烧是放热反应，通常发生在可燃物与氧气的反应中，释放出大量热能和光能。而有",True,True,D,32,1.94,b2,

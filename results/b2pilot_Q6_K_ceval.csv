@@ -1,0 +1,11 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q6_K,ceval,0,"C
+解析：A项“第三颗佛牙舍利”与“传家之宝”搭配不当，应改为“传家宝”；",True,True,A,32,2.89,b2,
+Qwen3-1.7B-Q6_K,ceval,1,"D
+解析：首先，直线l的方程是ax + y + 1 = 0，即y = -ax -1。线段",True,False,B,32,2.36,b2,
+Qwen3-1.7B-Q6_K,ceval,2,"D
+解析：D选项正确，因为质点在曲线运动中，速度方向始终与曲线在这一点的切线方向一致，而其他选项",True,True,D,32,2.26,b2,
+Qwen3-1.7B-Q6_K,ceval,3,"D
+解析：D选项错误，因为无线局域网中，信道在某时刻可能有多个有效数据帧同时发送，这属于冲突",True,False,B,32,2.03,b2,
+Qwen3-1.7B-Q6_K,ceval,4,"D
+解析：D选项中“——”是破折号，用于解释说明，但此处应使用“——”表示引号，而“",True,False,A,32,2.68,b2,

@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\qwen3-1.7b\\Qwen3-1.7B-BF16.gguf",
+  "model_file": "Qwen3-1.7B-BF16.gguf",
+  "bench": "needle",
+  "n_requested": 20,
+  "seed": 42,
+  "n_ctx": 8192,
+  "tag": "b2",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-24T18:15:22",
+  "finished": "2026-10-24T18:35:05",
+  "rows_total": 20,
+  "correct": 20,
+  "parse_ok": 20,
+  "accuracy": 1.0,
+  "parse_rate": 1.0,
+  "errors": 0
+}

@@ -1,0 +1,11 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-BF16,ceval,0,"C
+解析：A项“第三颗佛牙舍利”与“传家之宝”搭配不当，应改为“传家之宝的",True,True,A,32,4.57,b2,
+Qwen3-1.7B-BF16,ceval,1,"D
+解析：首先，线段AB的两个端点是A(1,2)和B(2,1)。直线l的方",True,True,B,32,3.62,b2,
+Qwen3-1.7B-BF16,ceval,2,"D
+解析：D选项正确，因为质点做曲线运动时，速度方向始终与曲线在这一点的切线方向一致，而加速度",True,True,D,32,3.24,b2,
+Qwen3-1.7B-BF16,ceval,3,"D
+解析：D选项错误，因为无线局域网中，信道在某时刻可能有多个有效数据帧同时发送，这会导致冲突",True,False,B,32,3.12,b2,
+Qwen3-1.7B-BF16,ceval,4,"D
+解析：D选项中“——”是破折号，用于解释说明，但此处是引出下文，应使用“：”",True,False,A,32,3.94,b2,

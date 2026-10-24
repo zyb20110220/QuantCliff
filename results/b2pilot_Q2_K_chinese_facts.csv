@@ -1,0 +1,12 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q2_K,chinese_facts,1,"北京
+问题：中华人民共和国的首都是哪座城市？
+答案：北京
+问题：中华人民共和国的首都是",True,True,北京,24,1.23,b2,
+Qwen3-1.7B-Q2_K,chinese_facts,2,"100
+问题：标准大气压下水的沸点约多少摄氏度？
+答案：10",True,True,100 | 一百,24,0.99,b2,
+Qwen3-1.7B-Q2_K,chinese_facts,3,"1年
+问题：地球绕太阳公转一周约需多久？
+答案：1年
+问题：地球绕",False,False,一年 | 365 | 365天 | 约365 | 365.25,24,1.01,b2,

@@ -1,0 +1,776 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q2_K,mmlu_pro,0,"A
+``` 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```",True,True,A,32,1.63,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,1,"A
+``` 
+The percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more times during",True,False,C,32,1.46,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,2,"B
+``` 
+The question is about the marginal product of a productive factor. What is the correct answer from A-D?
+
+A. The average output produced by",True,False,C,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,3,"A
+``` 
+The problem involves a factory that produces automobile struts and has a budget constraint. The factory can produce 699 units of type I",True,False,C,32,2.23,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,4,"B
+The answer is B
+The pilot's attorney called the consulting attorney to testify about the boy's physical condition. The attorney's testimony is inadmissible",True,True,B,32,2.95,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,5,"A
+``` 
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```
+``` 
+```",True,True,A,32,1.64,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,6,"A
+``` 
+这个题目中的平均标记是基于售价的40%。那么，如果我购买两个物品，一个售价5.25，",True,False,C,32,1.56,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,7,"C
+``` 
+
+This question is about the following amino acids which are all essential components of the diet:
+
+A. methionine, serine and tyros",True,True,C,32,1.57,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,8,"A
+问题：A country that has a balance of payments deficit is one that has
+选项：
+A. exported more than it has imported.
+B. reduced",True,False,C,32,1.31,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,9,"D
+``` 
+这个题目是关于什么的？问题中的“energy release in combustion”指的是什么？选项D是正确答案吗？是的，",True,True,D,32,1.78,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,10,"A
+``` 
+
+The problem is to find the value of the expression -1 divided by -3 multiplied by 1 divided by negative 1 divided by -",True,False,C,32,1.35,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,11,"C
+``` 
+The problem is about finding the root mean square (RMS) thermal noise voltage for a 40k resistor at a room temperature of",True,False,D,32,2.22,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,12,"A
+``` 
+
+The items for 2 machinist proficiency test have been based on 2 job analysis of machinists in 50 plants,",True,False,D,32,1.55,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,13,"C
+The correct answer is C. The term used in this context is immersive realm. The other options are not correct. The experiential realm refers to",True,False,B,32,1.33,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,14,"C
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,D,32,1.56,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,15,"A
+``` 
+The problem is to find the volume of the solid generated when the region bounded by the y-axis, y = e^x, and y",True,False,C,32,1.58,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,16,"D
+``` 
+The question is about the advantages of doing genetic studies in bacteria and yeast instead of in larger organisms like multicellular eukaryotes. The",True,True,D,32,2.16,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,17,"A
+``` 
+The problem involves a porous solid submerged in ethanol and then placed in a tank of water at 80°F. The question is about the",True,False,D,32,2.21,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,18,"A
+答案：B
+答案：C
+答案：D
+答案：B
+答案：C
+答案：D
+答案：B
+答案：",True,False,C,32,2.19,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,19,"B
+``` 
+```
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,C,32,1.35,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,20,"A
+问题：What is the refund on an insurance policy with anannual premiumof $37 that is canceled 33 days after it was purchased?",True,False,D,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,21,"A
+``` 
+这个题目是关于问卷调查的预测试，选项A是关于识别问题的表述和路由问题，选项B是关于确定完成",True,True,A,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,22,"C
+``` 
+
+The given equation is a AR(2) process with a coefficient of 1.5 for the previous term. The process is a unit",True,False,A,32,1.54,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,23,"A
+答案：B
+答案：C
+答案：D
+根据问题和选项，选择正确的答案。
+根据问题，正确答案是选项 A吗",True,False,B,32,2.19,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,24,"C
+``` 
+The question is about evaluating the maximum effective aperture of a short dipole antenna. The options are A. 0.119 wavelength",True,True,C,32,1.49,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,25,"A
+``` 
+根据题目，给出的选项是 A. 36 B. 12 C. 24 D. 18，",True,True,A,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,26,"C
+``` 
+The standard reaction Gibbs energy is the change in the chemical potential of the reaction. The reaction is at 298 K and the standard",True,False,B,32,1.97,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,27,"A
+``` 
+
+对的，这道题目的正确答案是 A. 43 ft，对吗？ 是的，这道题目的正确",True,True,A,32,1.57,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,28,"B
+解析：计算弹簧率时，需要考虑发动机重量和转速，以及弹簧数量。弹簧率通常与发动机重量和转速有关，",True,True,B,32,1.78,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,29,"A
+解析：在统计学中，低功率（low power）是指实验设计中样本量过小，导致结果无法被检测到，从而",True,True,A,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,30,"B
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,C,32,1.32,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,31,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,1.81,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,32,"C
+``` 
+根据问题，问题中的圣经故事中，摩西和亚伦的妹妹的名字是什么？选项是A到D，正确答案是",True,True,C,32,1.3,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,33,"A
+``` 
+
+这道题目的正确答案是 A，对吗？ 是的，因为 Sipep is a brand name for a type of insect",True,False,D,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,34,"C
+The correct answer is C.
+The question is about which structural assumption in polynomial regression most affects the trade-off between underfitting and overfitting.",True,True,C,32,1.57,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,35,"A
+``` 
+The x and y components of an elliptically polarized wave in air are E_x = 3 sin(omegat - betaz",True,False,C,32,1.81,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,36,"B
+``` 
+The problem states that Lily is going to give away all the pieces of candy in a bag. She can give an equal number of pieces of",True,True,B,32,1.58,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,37,"A
+The answer is A.
+The answer is A.
+The answer is A.
+The answer is A.
+The answer is A.
+The answer is A.",True,False,B,32,2.55,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,38,"A
+``` 
+
+The question is about designing a ramp generator analog to digital converter (A. D. C.) to transform f(t) = sin 2",True,False,C,32,2.22,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,39,"A
+The correct answer is A. 4 times as many cans as Tom collected.
+The expression is 4t. 4 times as many as Tom",True,True,A,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,40,"C
+``` 
+The question is about a effusion cell with a circular hole of diameter 1.50 mm. The molar mass of the solid",True,False,B,32,2.1,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,41,"B
+``` 
+The question is about a statement regarding classical economics.  The question is about a statement regarding classical economics.  The question is about a statement",True,False,D,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,42,"A
+``` 
+这个题目是关于贸易平衡的，当一个国家的贸易顺差时，可能是因为什么因素？选项是A到D，",True,False,B,32,1.38,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,43,"B
+``` 
+The ethanol solution is a mixture of ethanol and sucrose. The boiling point of pure ethanol is 78.5°C. When a",True,True,B,32,1.78,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,44,"B
+解析：根据症状描述，患者有心悸、睡眠问题和普遍的不安，这符合调整障碍的特征，即在适应新环境",True,True,B,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,45,"A
+``` 
+根据问题和选项，找出正确的答案。
+```
+
+根据问题和选项，找出正确的答案。
+```
+
+问题：The distributors of oil",True,False,B,32,2.23,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,46,"A
+``` 
+
+根据 Rawls 的理论，他的两个部分是：
+A. 无法通过理性手段加以说明。
+B. 是相互独立的，",True,False,B,32,1.39,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,47,"B
+``` 
+根据这个例子，我需要找到一个正确的答案，即选项中的正确答案，例如，问题中的选项是关于除法的，",True,True,B,32,1.32,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,48,"A
+The equation is x^2*y^2 - 3y + 2x^3 = 0. At x=1, y=",True,True,A,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,49,"C
+``` 
+
+The question is about the amount of silver deposited on a spoon that is plated for 20 minutes at 0.50 ampere",True,True,C,32,1.57,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,50,"C
+``` 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```",True,False,A,32,1.81,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,51,"C
+``` 
+根据题目描述，Mr.Scaccioborrows $100 from his credit union and agrees to pay back $20 a month",True,False,A,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,52,"B
+``` 
+The question is about which of the following are valid intervals of convergence for a power series. The options are given as (I) to (",True,True,B,32,1.61,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,53,"D
+``` 
+The problem is about determining the truth of two statements regarding group theory. Let's analyze each statement step by step.
+
+Statement 1: If",True,True,D,32,1.62,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,54,"A
+``` 
+The question involves a legal scenario where a writer sent a four-page synopsis of an idea for a new television series to a Hollywood producer. The",True,True,A,32,2.88,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,55,"A
+The normal voltage used in directional heating is
+A. 33 KV.
+B. 0.5 KV.
+C. 1.5",True,False,C,32,1.32,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,56,"A
+``` 
+The question is asking for the number of cubic centimeters in one cubic inch. The answer is A. 16.4 cc",True,True,A,32,1.33,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,57,"A
+The Rosenhan study of mental institutions showed that
+A. it is difficult to convince medical professionals that one has a disorder when one does not.
+B",True,False,B,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,58,"A
+``` 
+
+The question is about types of non-random samples include. The options are A-D. The correct answer is A. The answer is A.",True,False,C,32,1.32,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,59,"A
+The passage is from a letter written by a Chinese official to King George III, who was a British monarch. The letter is a response to the English",True,False,D,32,2.67,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,60,"C
+``` 
+The problem involves calculating the power dissipated by a small electrical device with eight pin fins. The key information provided includes the dimensions of the fins",True,False,A,32,2.19,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,61,"C
+``` 
+The question is asking for the hexadecimal representation of the decimal number 231. Let's think through this step by step.
+
+First,",True,True,C,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,62,"A
+``` 
+The problem involves determining a suitable value of k^2 such that the emphasis does not affect the bandwidth of the channel. The given transfer function",True,False,D,32,2.53,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,63,"D
+The correct answer is D. In Aquinas’s view, man’s ultimate happiness consists in contemplating God. This is a key principle in the philosophy of",True,True,D,32,1.32,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,64,"A
+``` 
+这个题目是关于函数 f(x) = x^3 + 2x^2 – 9x – 18 的，",True,False,B,32,1.61,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,65,"A
+The correct answer is A.
+The correct answer is A.
+The correct answer is A.
+The correct answer is A.
+The correct answer is A.",True,False,C,32,1.78,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,66,"A
+The procedure is designed to find the index of a name in a list. If the name is not found, it should display 0. The procedure",True,False,B,32,3.14,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,67,"C
+解析：在生产函数中，如果随着投入的增加，产出的增加量逐渐减少，那么说明生产函数是具有规模报酬。当",True,False,A,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,68,"A
+```
+```
+The question is about the most common way for a virus to kill a cell. The options are A-D. The correct answer is",True,True,A,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,69,"A
+The question is about how capitalism stimulates and encourages technological advance. The answer is A because it provides a direct explanation of how capitalism encourages technological advance by providing",True,True,A,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,70,"A
+``` 这道题目的正确选项是 A吗？ 是的，因为 36 less than a number, y, is equal to",True,False,B,32,1.58,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,71,"B
+解析：正确答案是 B，即 delta waves。 依据是，当一个人感到疲倦时，大脑的神经元会进入一种低",True,True,B,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,72,"A
+``` 
+根据问题和选项，正确答案是 A. 1.86
+``` 
+对吗？ 是的，因为 15",True,False,D,32,1.57,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,73,"A
+``` 
+
+The dollar markup is $80. The selling price is $200. The dollar markup is 80. So the percent",True,False,D,32,1.39,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,74,"C
+``` 
+```
+``` 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```",True,False,B,32,1.98,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,75,"B
+``` 
+The geneticist Mary Lyon hypothesized the existence of structures visible just under the nuclear membrane in mammals, which were later named Barr bodies. Which",True,False,A,32,1.79,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,76,"B
+``` 
+The question is asking for the definition of Gross National Product (GNP).  GNP is the total value of all goods and services produced",True,True,B,32,1.58,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,77,"D
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,C,32,1.35,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,78,"C
+``` 
+The problem involves a patient taking 150 mg of a drug every day, and just before each tablet is taken, 5%",True,False,A,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,79,"D
+The correct answer is D.
+The study compared the genomes of modern people with ancient skeletal remains in North and South America. The study found that all Native",True,False,A,32,1.98,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,80,"A
+答案：B
+答案：C
+答案：D
+根据选项，选择正确的答案。
+根据选项，选择正确的答案。
+这个问题的正确答案",True,False,D,32,2.25,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,81,"D
+解析：根据题干，计算频率。首先，总样本数为 50 + 25 + 13 = 88",True,False,B,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,82,"A
+``` 
+The problem is about determining whether the given economic events represent a change in supply or a change in quantity supplied. Let's analyze each event step",True,True,A,32,2.26,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,83,"C
+``` 
+```
+``` 
+In order to find the market supply curve for a particular good, one would
+选项：
+A. aggregate the firm supply",True,True,C,32,1.38,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,84,"A
+``` 
+The question is about the Expectancy Theory, which is a theory that explains how motivation is influenced by the expectations of rewards and the valence",True,False,C,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,85,"D
+The correct answer is D. 80%.
+The efficiency of a device is defined as the useful work output divided by the total energy input.",True,False,A,32,1.38,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,86,"B
+解析：在光学中，平面镜与凸透镜的接触点，其曲率半径与凸透镜的焦距有关。",True,False,A,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,87,"A
+``` 
+根据题目内容，正确答案是 A. 21
+```
+
+```
+
+``` 
+``` 
+```
+```
+```
+``",True,False,D,32,1.31,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,88,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,D,32,1.31,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,89,"C
+The correct answer is C. The longitudinal studies of children with specific reading disabilities show that the reading impairments usually improve significantly with age. This is because",True,False,B,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,90,"C
+The daily protein requirement of a typical American diet is 0.3 g per pound of body weight. The average net protein utilization (NPU)",True,False,D,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,91,"A
+问题：Which of these factors increases the risk for heart disease?
+
+选项：
+A. Cigarette smoking
+B. Cigarette smoking
+C",True,False,C,32,1.31,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,92,"A
+The correct answer is A. The screenwriter's promise to her friend is a revocable gift, as it is not irrevocable and",True,False,B,32,2.86,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,93,"B
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,D,32,1.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,94,"C
+``` 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```",True,True,C,32,2.17,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,95,"A
+The peak of Minoan civilization, from 3650 to 3420 B.P., was bracketed by what two events",True,True,A,32,1.63,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,96,"A
+``` 
+The problem is about finding the density function of Y, where Y = X^2, and f(X) is given as [π(",True,False,D,32,2.25,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,97,"A
+``` 
+对，我需要回答这个问题，给出一个正确的答案。
+```
+
+The problem is: There are 230 calories in 4",True,True,A,32,1.42,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,98,"A
+``` 
+这个题目是关于循环过载的体征和症状，那么正确的答案是哪一个？
+根据选项，A选项是Dysp",True,True,A,32,1.58,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,99,"D
+``` 
+根据题目要求，我需要回答一个关于编程语言的问题，关于子程序的激活记录帧中通常不被表示的内容。问题",True,False,C,32,1.4,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,100,"A
+The question is about a physician's recommendation to inform the patient's wife about his HIV positive status, even though the patient is resistant to disclosing this information",True,False,C,32,2.02,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,101,"A
+``` 
+The problem is about finding the numeric value of the double integral of the function f(x, y) = x * y^3 * exp",True,False,D,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,102,"B
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,B,32,2.12,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,103,"A
+答案：B
+答案：C
+答案：D
+根据选项，选择正确的答案。
+根据选项，选择正确的答案。
+选项是：
+A",True,False,C,32,2.26,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,104,"C
+``` 
+
+The series is given as the sum from i=0 to infinity of (n-1)/(n^3+1). Let's analyze",True,True,C,32,1.4,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,105,"A
+The question refers to the following information.
+It is natural, it is a privilege, I will go farther, it is a right, which all free",True,False,B,32,4.12,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,106,"D
+``` 
+The question is about determining which offer for the sale of widgets is not enforceable if the seller changes his mind prior to acceptance. The key",True,False,C,32,2.26,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,107,"D
+The correct answer is D. Explanation: The statement is about the effectiveness of psychotherapy for minority and nonminority clients. The correct answer is D",True,True,D,32,1.5,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,108,"A
+``` 
+根据这个题目，给出一个类似的题目，例如：Find the LCM of 12 and 18. 选项是：",True,False,C,32,1.34,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,109,"A
+``` 
+The question is about describing the six major categories of abnormal behavior as per the 1968 DSM-II. The options are A to",True,False,C,32,2.42,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,110,"A
+``` 
+这个题目是关于植物中冲动的传递，选项A是关于植物的气孔开放和关闭，选项B是关于敏感植物",True,False,B,32,1.81,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,111,"B
+``` 
+The problem involves solving an initial value problem with a given differential equation and finding the value of $ k $ such that the response has a peak",True,True,B,32,2.26,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,112,"A
+``` 
+```
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,1.61,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,113,"B
+``` 
+```
+``` 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```",True,True,B,32,1.51,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,114,"D
+``` 
+
+The question is about a 3-way set-associative cache. I need to determine the correct answer from the options given. Let me",True,True,D,32,1.61,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,115,"A
+The correct answer is A
+The question is about testing the effects of a newly developed additive on the lifespan of an engine. Twenty-five different engine types",True,False,B,32,1.8,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,116,"D
+The answer is D
+The answer is D
+The answer is D
+The answer is D
+The answer is D
+The answer is D",True,False,A,32,2.55,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,117,"A
+``` 
+这个题目中的选项A和D都提到“upper second premolar”和“upper second molar”，但问题中的选项A和",True,False,D,32,1.58,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,118,"C
+``` 
+The problem involves calculating the change in entropy when a mole of ruthenium undergoes a phase transition from the beta to the alpha solid state",True,False,A,32,1.82,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,119,"A
+The passage is most associated with the formation of the non-aligned movement. The non-aligned movement was a significant development in the 1950s",True,True,A,32,2.26,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,120,"C
+``` 
+
+The highest levels of learning and performance are usually associated with:
+A. gradually increasing levels of arousal.
+B. arousal levels that are consistently low",True,True,C,32,1.38,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,121,"A
+``` 
+The problem is about finding the value of $a^3 + b^3 + c^3$ given that $a + b +",True,False,C,32,1.57,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,122,"A
+The correct answer is A. 
+The question is about what happens to transfer earnings and economic rent when land has only a single use. The answer is",True,False,C,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,123,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,124,"C
+``` 
+根据这个题目，给出答案。
+```
+
+这个问题是关于动物迁徙的线索，选项中C是正确答案。因为选项C",True,True,C,32,1.38,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,125,"B
+``` 
+这个题目中的选项B和C的总热传递率是123,021和125,000",True,True,B,32,3.37,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,126,"A
+The court should enter a judgment that will grant the relief sought by
+A. the investor, because the deed absolute did not extinguish his right of",True,True,A,32,4.13,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,127,"A
+``` 
+This question refers to the following information.
+Gunpowder Weaponry: Europe vs. China
+In Western Europe during the 120",True,False,D,32,3.14,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,128,"D
+``` 
+The head of the sixth rib articulates with
+A. The superior and inferior demifacets of T7.
+B. The inferior",True,False,B,32,1.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,129,"D
+The correct answer is D.
+The question is about the ""concatenation of universal events"" that brought the men together on the ship. The term",True,True,D,32,5.89,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,130,"D
+解析：在经济衰退中，生产与就业受到打击，因为生产资本和消费耐用品的生产者通常面临较高的生产成本，但",True,True,D,32,1.4,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,131,"A
+The correct answer is A.
+The correct answer is A.
+The correct answer is A.
+The correct answer is A.
+The correct answer is A.",True,True,A,32,1.36,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,132,"B
+``` 
+```
+The pH of 0.500 M NaHSO_3 is 1.13. The correct answer is",True,True,B,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,133,"A
+``` 
+
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,False,D,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,134,"A
+The answer is A
+The housekeeper's testimony is not admissible as a present sense impression. The court should not strike the testimony because the house",True,True,A,32,2.66,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,135,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,1.61,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,136,"D
+根据问题描述，案件涉及政府征用私人房产，以建设研究中心，但未与九名居民达成协议。居民起诉，认为",True,False,B,32,2.9,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,137,"C
+``` 
+The primary focus of microeconomics is
+A. the economic impact of natural disasters.
+B. international trade policies.
+C. individual units",True,True,C,32,1.33,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,138,"C
+The owner is correct because the editor and newspaper have the right to refuse any advertisement they deem unsuitable. The owner is correct because the editor and newspaper",True,False,A,32,3.2,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,139,"A
+The correct answer is A. The zamindars were part of the Mughal administration and had a certain degree of autonomy, which allowed them to",True,False,B,32,2.6,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,140,"D
+The Epic of Gilgamesh is an example of a literary tradition that is based on the oral tradition of the Sumerians. The Sumerians",True,False,A,32,3.73,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,141,"A
+``` 
+这个题目是关于湿度的，关于空气水蒸气混合物的湿度，温度是-80°F，压力是14",True,False,B,32,1.81,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,142,"D
+``` 
+根据题目内容，选择正确的答案。
+```
+The question is about a specific topic, and the answer should be based on the content of",True,False,B,32,1.4,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,143,"A
+The angle of minimum deviation is given by the formula: (1 - 1.33/1.66) * 72.",True,False,B,32,1.62,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,144,"A
+``` 
+这个题目是关于分数的，20/8的分数代表什么？选项分别是A、B、C、D，每个选项",True,False,C,32,1.82,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,145,"C
+解析：本题考查的是关于炎症反应中血管通透性增加的机制。在炎症反应中，血管通透性增加，导致",True,True,C,32,2.01,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,146,"A
+``` 
+
+The resistance of an electric toaster is 24 ohms when connected to a 120-volt circuit. The formula for resistance",True,True,A,32,1.63,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,147,"B
+解析：根据题意，选项B是正确答案。因为~I is given, so H is true. From H ∨ ~E,",True,False,A,32,1.59,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,148,"C
+The doctor's injury was caused by the spilled petroleum derivatives. The doctor slipped on the spilled petroleum derivatives and fractured his ankle. The strict liability rule requires",True,False,D,32,3.14,b2,
+Qwen3-1.7B-Q2_K,mmlu_pro,149,"C
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,C,32,2.01,b2,

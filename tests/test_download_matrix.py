@@ -13,7 +13,8 @@ from analyze import quant_of  # noqa: E402
 class TestDownloadMatrix(unittest.TestCase):
 
     def test_three_main_models_have_seven_levels(self):
-        expected = {"Q2_K", "Q3_K_M", "Q4_K_M", "Q5_K_M", "Q6_K", "Q8_0", "F16"}
+        expected = {"Q2_K", "Q3_K_M", "Q4_K_M",
+                    "Q5_K_M", "Q6_K", "Q8_0", "F16"}
         for model in ["qwen3-1.7b", "qwen2.5-1.5b", "gemma-3-1b"]:
             self.assertEqual(set(download_matrix.MATRIX[model]["files"]),
                              expected, model)

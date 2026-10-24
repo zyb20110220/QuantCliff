@@ -1,0 +1,9 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q4_K_M,needle,0,"770487
+根据问题，回答问题。
+根据问题，回答问题。
+根据问题，回答问题。
+根据问题，回答问题。
+根据",True,True,,32,37.28,b2,
+Qwen3-1.7B-Q4_K_M,needle,1,"324643
+好的，我需要回答用户的问题，即记录中编号100001的保险箱密码是多少。首先",True,True,,32,39.91,b2,

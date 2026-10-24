@@ -1,0 +1,5 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q2_K,needle,0,"770487
+在问题中，给出的记录中编号 100000 的保险箱密码是多少？只输出",True,True,,32,36.75,b2,
+Qwen3-1.7B-Q2_K,needle,1,"324643
+在问题中，给出的文本中，关于保险箱密码的描述是：特别记录：编号 100",True,True,,32,39.7,b2,

@@ -1,0 +1,46 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q5_K_M,mmlu_pro,0,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,2.25,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,1,"B
+答案：B
+解析：根据2015年中国的统计数据，约9%的13-15岁儿童在过去的12",True,False,C,32,2.19,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,2,"C
+问题：What is meant by the marginal revenue product of a productive factor?
+选项：
+A. The average output produced by all units of a factor",True,True,C,32,2.66,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,3,"B
+``` 
+在问题中，工厂可以生产699个类型I汽车悬挂支架每小时（使用新机器），平均成本为每单位",True,False,C,32,3.07,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,4,"B
+解析：根据美国法律，律师与客户之间的顾问关系中，顾问的保密义务是存在的，除非存在某些例外情况，如涉及公共",True,True,B,32,3.68,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,5,"A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：",True,True,A,32,2.12,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,6,"C
+解析：首先，计算每个物品的利润率。对于第一个物品，成本是 $5.25，售价是 $10，利润率是",True,True,C,32,2.16,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,7,"C
+解析：C is the correct answer. The essential amino acids are leucine, methionine, and valine. Isoleucine,",True,True,C,32,2.01,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,8,"C
+解析：A balance of payments deficit refers to a situation where a country's total imports exceed its total exports. This means that the country's foreign exchange",True,True,C,32,1.76,b2,
+Qwen3-1.7B-Q5_K_M,mmlu_pro,9,"D
+解析：Combustion is a rapid exothermic reaction that releases energy as heat, typically involving the oxidation of a hydrocarbon fuel in the presence",True,True,D,32,2.32,b2,

@@ -1,0 +1,54 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q3_K_M,mmlu_pro,0,"A
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.integrate as integrate
+import scipy.optimize as optimize
+import scipy.special",True,True,A,32,1.8,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,1,"B
+```python
+# 问题：What is the percentage of children aged 13-15 in China who reported being in a physical fight at",True,False,C,32,1.59,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,2,"C
+```python
+# 代码
+# 问题：What is meant by the marginal product of a productive factor?
+# 选项：
+# A.",True,True,C,32,1.82,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,3,"B
+```python
+# 问题分析
+# 工厂每天生产24小时，预算为4050美元
+# 问题(i",True,False,C,32,2.61,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,4,"A
+答案：B
+答案：C
+答案：D
+答案：A
+答案：B
+答案：C
+答案：D
+答案：",True,False,B,32,3.24,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,5,"A
+```python
+# 以下代码是用于测试逻辑推理能力的逻辑谜题，用于训练逻辑思维和推理能力
+# 请根据",True,True,A,32,1.81,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,6,"A
+```python
+# 问题：A store sells two items for $10 each. One item costs $5.25, while the other",True,False,C,32,1.78,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,7,"C
+```python
+# 代码
+# 代码
+``` 你可能需要使用一些工具来解决这个问题，比如使用Python的正则表达",True,True,C,32,1.78,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,8,"C
+```python
+# 代码
+# 问题：A balance of payments deficit means that a country has
+# 选项：
+# A. exported",True,True,C,32,1.54,b2,
+Qwen3-1.7B-Q3_K_M,mmlu_pro,9,"D
+```python
+# 问题：How does energy release in combustion differ from energy release in aerobic respiration?
+# 选项：
+# A. Comb",True,True,D,32,2.03,b2,

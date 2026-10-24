@@ -1,0 +1,43 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q6_K,mmlu_pro,0,"A
+解析：The available energy for the alpha decay of Po^210 is 5.40MeV.
+解析：The available energy for",True,True,A,32,2.2,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,1,"B
+解析：根据2015年《中国青少年犯罪白皮书》的统计数据，中国青少年犯罪率在13-15岁",True,False,C,32,1.92,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,2,"C
+解析：The marginal product of a productive factor is the amount by which total output increases due to the addition of one unit of a given factor while the",True,True,C,32,2.11,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,3,"C
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+``` 
+``` 
+
+```",True,True,C,32,2.74,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,4,"B
+解析：本题考查的是律师-客户特权（attorney-client privilege）的适用。根据美国法律，律师-客户特权保护客户的谈话",True,True,B,32,3.36,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,5,"A
+解析：Skinner box is a device used in operant conditioning, where the behavior is reinforced or punished. The box is used to reward or punish",True,True,A,32,1.96,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,6,"C
+解析：首先，计算每个物品的利润率。对于第一个物品，成本是 $5.25，售价是 $10，利润率是",True,True,C,32,1.99,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,7,"C
+解析：C is the correct answer. The essential amino acids are leucine, methionine, and threonine. The other options contain",True,True,C,32,1.97,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,8,"C
+解析：A balance of payments deficit means that a country has a negative balance of payments, which means that the value of its exports is less than the",True,True,C,32,1.72,b2,
+Qwen3-1.7B-Q6_K,mmlu_pro,9,"D
+解析：D选项正确，因为燃烧是快速释放能量作为热能，破坏细胞，而有氧呼吸是逐步释放能量，以AT",True,True,D,32,2.16,b2,

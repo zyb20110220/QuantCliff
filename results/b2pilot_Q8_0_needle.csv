@@ -1,0 +1,9 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q8_0,needle,0,"770487
+根据上面的对话，回答问题。
+根据上面的对话，回答问题。
+根据上面的对话，回答问题。
+根据",True,True,,32,73.56,b2,
+Qwen3-1.7B-Q8_0,needle,1,"324643
+根据上面的对话，回答问题。
+好的，我来仔细看看这个问题。首先，我需要找到记录中提到的",True,True,,32,65.95,b2,

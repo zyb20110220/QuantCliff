@@ -65,6 +65,7 @@ def _download_with_retry(repo: str, filename: str, model_dir: Path,
                 time.sleep(5 * i)
     raise last_error
 
+
 # 已验证的下载矩阵：label -> 精确文件名
 MATRIX = {
     "qwen3-1.7b": {
@@ -115,7 +116,8 @@ MATRIX = {
     },
 }
 
-ALL_LABELS = ["Q2_K", "Q3_K_M", "Q4_K_M", "Q5_K_M", "Q6_K", "Q8_0", "F16", "Q2_0"]
+ALL_LABELS = ["Q2_K", "Q3_K_M", "Q4_K_M",
+              "Q5_K_M", "Q6_K", "Q8_0", "F16", "Q2_0"]
 
 
 def _selected(args):

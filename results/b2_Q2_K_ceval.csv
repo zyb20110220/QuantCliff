@@ -1,0 +1,418 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Qwen3-1.7B-Q2_K,ceval,0,"C
+解析：C选项中“分不开”与“不可分”重复，属于语病。
+答案：C
+解析：C选项中“",True,False,A,32,2.61,b2,
+Qwen3-1.7B-Q2_K,ceval,1,"C
+``` 这道题目的正确答案是选项C吗？ 是的，因为当a=1时，直线l与线段AB相",True,False,B,32,1.79,b2,
+Qwen3-1.7B-Q2_K,ceval,2,"D
+解析：正确答案是 D，因为质点做曲线运动时，其速度方向与曲线在该点的切线方向一致，而",True,True,D,32,1.51,b2,
+Qwen3-1.7B-Q2_K,ceval,3,"D
+解析：在无线局域网中，多个设备同时发送数据，因此需要一种机制来避免冲突。在无线局域网中，",True,False,B,32,1.4,b2,
+Qwen3-1.7B-Q2_K,ceval,4,"D
+解析：D选项中“不料”是表示推测，表示“没想到”的意思，但“不料”后面直接接“的”",True,False,A,32,2.08,b2,
+Qwen3-1.7B-Q2_K,ceval,5,"C
+``` 
+The problem involves finding the slope of a line that passes through the point $ P(2\sqrt{6}, 2\sqrt{",True,True,C,32,1.89,b2,
+Qwen3-1.7B-Q2_K,ceval,6,"A
+答案：B
+答案：C
+答案：D
+根据题目，正确答案是选项 A，即正确答案是选项 A，即正确",True,False,B,32,2.1,b2,
+Qwen3-1.7B-Q2_K,ceval,7,"D
+解析：正确答案是 D，因为支持身份认证是错误的。 选项 D 是“支持身份认证”，但 PPP协议本身并不支持",True,False,B,32,1.49,b2,
+Qwen3-1.7B-Q2_K,ceval,8,"A
+B
+C
+D
+答案：D
+解析：选项D中“大约90%的专卖产品来自中国”中的“专卖产品",True,False,A,32,2.38,b2,
+Qwen3-1.7B-Q2_K,ceval,9,"A
+``` 
+根据题目内容，选择正确的答案。
+```
+
+根据题目内容，选择正确的答案。
+```
+
+已知双曲线C: $\frac",True,False,B,32,1.91,b2,
+Qwen3-1.7B-Q2_K,ceval,10,"D
+``` 
+根据这个例子，我需要回答一个关于地球自转导致的物理现象，比如地球自转导致的风向，或者地球",True,False,C,32,1.73,b2,
+Qwen3-1.7B-Q2_K,ceval,11,"C
+解析：在计算机网络中，介质访问冲突的解决方式是使用二进制指数回退算法，即所谓的“退避算法”",True,False,D,32,1.73,b2,
+Qwen3-1.7B-Q2_K,ceval,12,"D
+解析：D选项中“实施名牌战略”与“精心打造世界知名品牌”结构不一致，属于语病。A选项中“清",True,False,D,32,2.13,b2,
+Qwen3-1.7B-Q2_K,ceval,13,"A
+``` 
+根据题目中的信息，计算出各变量的值后，比较它们的大小关系。首先，计算a的值，a=",True,False,D,32,1.73,b2,
+Qwen3-1.7B-Q2_K,ceval,14,"D
+解析：选项D是错误的，因为速度不变时加速度为零，而加速度是速度的变化率，当速度不变时，",True,False,C,32,1.71,b2,
+Qwen3-1.7B-Q2_K,ceval,15,"A
+``` 
+```
+```
+
+The question is about the four timers used in TCP. The four timers are:坚持计时器 (staying timer",True,False,C,32,1.75,b2,
+Qwen3-1.7B-Q2_K,ceval,16,"A
+``` 
+在回答这个问题时，需要考虑以下几点：
+1. 问题：下列各句中，没有语病的一句是____",True,False,B,32,2.44,b2,
+Qwen3-1.7B-Q2_K,ceval,17,"D
+``` 
+
+这道题目的正确答案是D吗？是的，因为sinθ等于- a / sqrt(1 + a²)。",True,False,A,32,2.07,b2,
+Qwen3-1.7B-Q2_K,ceval,18,"A
+``` 
+根据题目内容，选择正确的答案。
+```
+
+根据题目内容，选择正确的答案。
+```
+
+在物理学中，匀变速直线运动",True,True,A,32,2.07,b2,
+Qwen3-1.7B-Q2_K,ceval,19,"A
+``` 
+根据这个题目，给出一个类似的题目，例如，问题中的选项是关于TCP的滑动窗口协议中规定重传分组",True,False,B,32,1.82,b2,
+Qwen3-1.7B-Q2_K,ceval,20,"D
+解析：正确答案是 D，因为“刚吹过一阵暖人心意的春风”是“春意甚浓”的最佳描述，其他",True,True,D,32,2.11,b2,
+Qwen3-1.7B-Q2_K,ceval,21,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,1.9,b2,
+Qwen3-1.7B-Q2_K,ceval,22,"C
+``` 
+在电梯中，人处于竖直方向的加速度，电梯加速上升，加速度为$\frac{1}{3}g",True,False,A,32,1.83,b2,
+Qwen3-1.7B-Q2_K,ceval,23,"C
+解析：在TCP中，发送窗口的大小与拥塞控制的初始阈值有关。初始阈值为32KB，意味着在",True,False,D,32,2.27,b2,
+Qwen3-1.7B-Q2_K,ceval,24,"A
+解析：问题中的横线处需要填入一个正确的句子，使得整句通顺。原句是“认真阅读的结果，不但随时",True,False,D,32,2.1,b2,
+Qwen3-1.7B-Q2_K,ceval,25,"B
+解析：问题中的表达式是 (1 + 1/x + 1/x²)(1 + x)^6，其中 x 的指数为",True,False,C,32,1.84,b2,
+Qwen3-1.7B-Q2_K,ceval,26,"D
+``` 
+根据这个例子，我需要回答一个关于超重和失重现象的问题，选择正确的选项。问题中的选项包括A-D，",True,False,B,32,1.81,b2,
+Qwen3-1.7B-Q2_K,ceval,27,"C
+``` 
+```
+```
+
+在TCP/IP中，当发送窗口增加到32时，如果发生拥塞，则拥塞窗口将会变为",True,False,B,32,1.68,b2,
+Qwen3-1.7B-Q2_K,ceval,28,"A
+解析：A选项中的标点符号使用正确，其他选项中存在错误。例如，选项B中“云宵”应为“云",True,False,C,32,2.56,b2,
+Qwen3-1.7B-Q2_K,ceval,29,"C
+解析：首先，将问题转化为数学语言。设双曲线的方程为 $x^2 - y^2 = 200",True,False,A,32,2.13,b2,
+Qwen3-1.7B-Q2_K,ceval,30,"A
+解析：月球引力加速度为g，物体在月球表面以初速度v0竖直上抛，物体在月球表面",True,True,A,32,2.45,b2,
+Qwen3-1.7B-Q2_K,ceval,31,"C
+``` 
+```
+
+在问题中，给出的UDP数据字段为8192B，这可能是一个特定的数值，但问题中",True,False,D,32,1.58,b2,
+Qwen3-1.7B-Q2_K,ceval,32,"D
+``` 
+这个题目中的选项D是正确答案吗？ 问题中的句子是“印度洋海啸发生后，中国政府进行了迄今为止最大规模",True,True,D,32,2.02,b2,
+Qwen3-1.7B-Q2_K,ceval,33,"B
+解析：本题考查组合数的计算，需要计算从8人中选出2名内科医生、3名外科医生和3名护士",True,False,D,32,1.87,b2,
+Qwen3-1.7B-Q2_K,ceval,34,"D
+``` 
+根据这个例子，我需要回答一个类似的问题，但问题中的单位是“国际单位制基本单位”，并且问题中的单位是",True,True,D,32,1.53,b2,
+Qwen3-1.7B-Q2_K,ceval,35,"B
+解析：信息码字为10111，生成多项式为x4+x+1，信息码字为1011",True,False,D,32,1.76,b2,
+Qwen3-1.7B-Q2_K,ceval,36,"C
+``` 这道题目的正确答案是 C，即选项②和③的组合。 问题中的两句话，第一句的",True,True,C,32,2.27,b2,
+Qwen3-1.7B-Q2_K,ceval,37,"C
+``` 
+
+这个问题的正确答案是 C. 36
+```
+在等差数列中，a_n = a_1 + (",True,False,D,32,1.78,b2,
+Qwen3-1.7B-Q2_K,ceval,38,"A
+``` 
+根据题目内容，选择正确的答案。
+```
+```
+在物理学中，物体在匀速直线运动中，其加速度为",True,False,C,32,1.84,b2,
+Qwen3-1.7B-Q2_K,ceval,39,"D
+解析：问题问的是“不属于计算机网络功能”的选项。选项A是“提高系统可靠性”，这属于计算机网络功能吗？计算机网络",True,False,B,32,1.47,b2,
+Qwen3-1.7B-Q2_K,ceval,40,"A
+``` 
+这个题目中的选项A是正确答案吗？ 问题中的句子是“任何文化都有根，根脉里都藏着人类为",True,False,D,32,2.85,b2,
+Qwen3-1.7B-Q2_K,ceval,41,"A
+``` 
+
+这个问题的正确答案是 A吗？ 是的，因为选项A是1/2 ln2，而其他选项的值都比",True,False,D,32,1.8,b2,
+Qwen3-1.7B-Q2_K,ceval,42,"A
+解析：在牛顿第二定律中，F=ma，当物体静止时，推力F是推物体的力，而物体",True,False,C,32,2.0,b2,
+Qwen3-1.7B-Q2_K,ceval,43,"C
+``` 
+```
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,C,32,1.53,b2,
+Qwen3-1.7B-Q2_K,ceval,44,"C
+解析：选项C中的“分道扬镳”中的“biāo”是错误的，正确应为“dào”。
+在",True,False,B,32,2.46,b2,
+Qwen3-1.7B-Q2_K,ceval,45,"C
+``` 
+根据题目描述，已知S1=1，S4/S2=4，求S6/S4的值。首先，",True,False,A,32,1.99,b2,
+Qwen3-1.7B-Q2_K,ceval,46,"B
+解析：在橡皮条拉伸时，分子间距离增大，分子间的引力和斥力都存在，但引力是相互的，",True,False,D,32,1.73,b2,
+Qwen3-1.7B-Q2_K,ceval,47,"D
+解析：城域网是连接广域网和园区的网络，而局域网是连接局域网和广域网的网络",True,False,B,32,2.14,b2,
+Qwen3-1.7B-Q2_K,ceval,48,"D
+``` 
+The question is about a sentence that needs to be filled in the blank to connect with the context. The sentence is: ""In the further",True,False,B,32,2.49,b2,
+Qwen3-1.7B-Q2_K,ceval,49,"C
+解析：根据三角恒等式，化简表达式。
+首先，利用三角恒等式，化简表达式。
+根据三角恒等",True,False,B,32,1.83,b2,
+Qwen3-1.7B-Q2_K,ceval,50,"C
+``` 
+根据题目描述，木块在竖直墙面上的受力情况，木块与墙面之间的摩擦力为0.4，",True,True,C,32,1.9,b2,
+Qwen3-1.7B-Q2_K,ceval,51,"A
+``` 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```",True,True,A,32,1.69,b2,
+Qwen3-1.7B-Q2_K,ceval,52,"A
+``` 
+``` 
+A. ①④②③
+B. ④②③①
+C.",True,False,B,32,2.2,b2,
+Qwen3-1.7B-Q2_K,ceval,53,"D
+``` 这道题目的正确答案是D吗？ 问题：过双曲线C：$\frac{x^2}{a^2}-",True,False,D,32,2.64,b2,
+Qwen3-1.7B-Q2_K,ceval,54,"C
+解析：正确答案是 C，因为匀变速直线运动的加速度是恒定的，所以A错误；当质点的加速度",True,False,C,32,1.94,b2,
+Qwen3-1.7B-Q2_K,ceval,55,"A
+``` 
+根据问题和选项，选择正确的答案。
+```
+```
+在TCP/IP网络中，为各种公共服务保留的端口号范围是",True,True,A,32,1.58,b2,
+Qwen3-1.7B-Q2_K,ceval,56,"B
+问题：下列词语中下划线的读音，全都相同的一组是____
+选项：
+A. 灭火$\underline{",True,False,D,32,2.57,b2,
+Qwen3-1.7B-Q2_K,ceval,57,"C
+``` 
+The problem is about finding the negation of the statement P: ""There exists an n in N such that n² > 2ⁿ",True,False,D,32,2.05,b2,
+Qwen3-1.7B-Q2_K,ceval,58,"C
+解析：在曲线运动中，物体的运动速度方向不断变化，而速度大小可能不变，也可能变化，取决于具体情况。因此，",True,True,C,32,1.59,b2,
+Qwen3-1.7B-Q2_K,ceval,59,"D
+解析：正确答案是 D，因为 TDM 通信方式不会发生碰撞。在 TDM 中，所有节点同时发送数据，但因为",True,True,D,32,1.44,b2,
+Qwen3-1.7B-Q2_K,ceval,60,"D
+``` 
+正确答案是 D，因为其他选项中存在错误的标点符号使用。
+是的，选项A中“，”后面没有",True,True,A,32,2.49,b2,
+Qwen3-1.7B-Q2_K,ceval,61,"A
+``` 
+The problem is about determining the correct condition between the dot product of two vectors and the angle between them. The question is asking which of the",True,False,B,32,1.8,b2,
+Qwen3-1.7B-Q2_K,ceval,62,"D
+``` 
+根据题目内容，选择正确的答案。
+```
+根据题目内容，选择正确的答案。
+```
+A. 匀速直线运动",True,False,C,32,1.52,b2,
+Qwen3-1.7B-Q2_K,ceval,63,"D
+解析：正确答案是D，因为TCP协议使用了端口号作为地址，而UDP协议使用了端口号作为地址，但TCP首",True,False,B,32,1.51,b2,
+Qwen3-1.7B-Q2_K,ceval,64,"D
+解析：问题中的对联是“译著尚未成书，惊闻陨星，____何人领呐喊?先生____作古",True,False,A,32,2.49,b2,
+Qwen3-1.7B-Q2_K,ceval,65,"D
+``` 
+The problem is about finding the correct answer from the options given. The set A is {1,4,5,7} and set",True,False,C,32,1.99,b2,
+Qwen3-1.7B-Q2_K,ceval,66,"A
+``` 
+根据这个题目，我需要回答问题，给出正确答案。
+```
+
+根据题目内容，我需要回答问题，给出正确答案。",True,False,C,32,1.74,b2,
+Qwen3-1.7B-Q2_K,ceval,67,"A
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+``` 
+```",True,True,A,32,1.76,b2,
+Qwen3-1.7B-Q2_K,ceval,68,"D
+你可能需要参考以下内容：
+A. 本栏目将各地电视台选送的歌舞曲艺、风情民俗、文化娱乐和体育活动",True,False,C,32,2.48,b2,
+Qwen3-1.7B-Q2_K,ceval,69,"C
+``` 
+根据提供的题目，选择正确的答案。
+```
+
+在三角形 $ \triangle ABC $ 中，已知角 $ A $、$",True,True,A,32,1.97,b2,
+Qwen3-1.7B-Q2_K,ceval,70,"A
+答案：B
+答案：C
+答案：D
+根据选项和问题，正确答案是____
+根据问题和选项，正确答案是",True,False,C,32,1.98,b2,
+Qwen3-1.7B-Q2_K,ceval,71,"C
+``` 
+```
+``` 
+以下是一种CSMA协议中，____协议在监听到介质是空闲时仍可能不发送。
+选项：",True,False,D,32,1.55,b2,
+Qwen3-1.7B-Q2_K,ceval,72,"C
+``` 
+这个题目中的选项C是正确答案吗？ 问题中的句子是“对科学问题上的是非之争，不应采纳压服",True,False,B,32,2.04,b2,
+Qwen3-1.7B-Q2_K,ceval,73,"C
+``` 
+根据题目描述，若函数y=log_{1/2}(ax^2-8x+15)在区间(1,",True,False,D,32,2.02,b2,
+Qwen3-1.7B-Q2_K,ceval,74,"C
+解析：根据匀变速直线运动的公式，位移公式为 s = v0 * t + 0.5 * a * t^",True,False,A,32,2.02,b2,
+Qwen3-1.7B-Q2_K,ceval,75,"D
+解析：TCP和IP头部没有附加字段，所以每个数据块的大小为60B。TCP头部有2个字节的头部",True,False,C,32,2.02,b2,
+Qwen3-1.7B-Q2_K,ceval,76,"D
+解析：选项D中“与打电话相比”中的“与”是介词，后面应接“比较”或“对比”等，",True,True,D,32,2.48,b2,
+Qwen3-1.7B-Q2_K,ceval,77,"A
+``` 这道题目的意思是说，平面上有两组互不重合的点，A1,A2,...Am与B",True,False,D,32,2.98,b2,
+Qwen3-1.7B-Q2_K,ceval,78,"A
+答案：B
+答案：C
+答案：D
+根据问题和选项，给出正确答案。
+这个问题的正确答案是选项D吗？",True,False,A,32,2.46,b2,
+Qwen3-1.7B-Q2_K,ceval,79,"B
+解析：海明码的编码距离是海明码的最小距离，即码字中任意两个相邻的码字之间的距离。海",True,False,C,32,1.46,b2,
+Qwen3-1.7B-Q2_K,ceval,80,"D
+The answer is D.
+The answer is D.
+The answer is D.
+The answer is D.
+The answer is D.
+The answer is D.",True,False,A,32,2.21,b2,
+Qwen3-1.7B-Q2_K,ceval,81,"B
+``` 
+The given problem is about determining the relationship between two circles. The first circle is given by the equation (x-2)^2 + y",True,True,B,32,1.78,b2,
+Qwen3-1.7B-Q2_K,ceval,82,"A
+``` 
+The question is about physics methods, and the correct answer is A. Let me think. The question is about physics methods, and the correct",True,True,A,32,2.31,b2,
+Qwen3-1.7B-Q2_K,ceval,83,"C
+解析： 传输层数据交换的基本单位是帧，即以太网的帧，而报文段、分组、位分别属于",True,False,A,32,1.47,b2,
+Qwen3-1.7B-Q2_K,ceval,84,"C
+The correct answer is C.
+The correct answer is C.
+The correct answer is C.
+The correct answer is C.
+The correct answer is C.",True,False,A,32,2.44,b2,
+Qwen3-1.7B-Q2_K,ceval,85,"A
+``` 这道题目的正确选项是 A吗？ 问题中的选项是关于指数和根号的运算，比如 A选项是关于",True,True,A,32,2.18,b2,
+Qwen3-1.7B-Q2_K,ceval,86,"A
+``` 
+根据问题和选项，选择正确的答案。
+```
+
+根据问题描述，甲、乙两辆汽车质量之比m1:m2",True,True,A,32,2.01,b2,
+Qwen3-1.7B-Q2_K,ceval,87,"A
+``` 
+
+This question is about the OSI reference model. The question is about the relationship between the nth layer and the (n+1)th layer",True,True,A,32,1.8,b2,
+Qwen3-1.7B-Q2_K,ceval,88,"D
+你可能需要参考以下内容：
+A. 《中国互联网发展简史》
+B. 《中国互联网发展简史》
+C",True,False,D,32,2.52,b2,
+Qwen3-1.7B-Q2_K,ceval,89,"A
+``` 
+The problem is about finding the intersection of two sets A and B. Set A is defined as {x | -1 < x <",True,True,A,32,1.77,b2,
+Qwen3-1.7B-Q2_K,ceval,90,"D
+``` 
+根据题目内容，回答问题，选择正确的答案。
+```
+```
+在核反应中，EC衰变是一种重要的过程，通常",True,True,D,32,2.31,b2,
+Qwen3-1.7B-Q2_K,ceval,91,"A
+问题：差分曼彻斯特码的原理是：每一位中间都有一个跳变，位中间跳变表示____
+选项：
+A.",True,True,A,32,1.52,b2,
+Qwen3-1.7B-Q2_K,ceval,92,"D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：",True,False,B,32,2.33,b2,
+Qwen3-1.7B-Q2_K,ceval,93,"B
+解析：在直三棱柱ABC-A1B1C1中，与直线BC1异面的直线条数为____
+首先",True,True,C,32,1.75,b2,
+Qwen3-1.7B-Q2_K,ceval,94,"C
+解析：在做曲线运动时，物体的加速度是变化的，所以合力也是变化的。因此，选项C正确，因为合力",True,False,B,32,1.56,b2,
+Qwen3-1.7B-Q2_K,ceval,95,"A
+``` 
+```
+```
+
+The question is about a TCP connection between A and B. When A receives an acknowledgment number of 100,",True,False,C,32,1.8,b2,
+Qwen3-1.7B-Q2_K,ceval,96,"C
+The correct answer is C.
+The correct answer is C.
+The correct answer is C.
+The correct answer is C.
+The correct answer is C.",True,False,B,32,2.34,b2,
+Qwen3-1.7B-Q2_K,ceval,97,"B
+``` 
+根据题目要求，选择正确的答案。
+```
+
+根据题目要求，选择正确的答案。
+```
+
+首先，题目给出的方程是",True,False,C,32,1.49,b2,
+Qwen3-1.7B-Q2_K,ceval,98,"C
+解析：在物理中，矢量是具有方向和大小的物理量，而标量是不具有方向的物理量。路程是",True,True,C,32,1.47,b2,
+Qwen3-1.7B-Q2_K,ceval,99,"D
+``` 
+根据问题和选项，选择正确的答案。
+```
+```
+A. 传播时延大
+B. 附加信息开销",True,True,B,32,1.54,b2,
