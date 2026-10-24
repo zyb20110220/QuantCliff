@@ -15,7 +15,12 @@
     # 先核对远端文件是否都存在（联网，几秒）
     python scripts/download_matrix.py --verify-remote
 
-    # 正式下载全部模型（约 20~30GB，寒假 B1 执行）
+    # 正式下载全部模型（约 17~20GB）
+    # 2026-10-24 实测：直连 hf-mirror 会间歇性 SSL 中断；
+    # 设置本地代理后走官方 HF 可稳定续传。
+    $env:HTTPS_PROXY = "http://127.0.0.1:7897"
+    $env:HTTP_PROXY = "http://127.0.0.1:7897"
+    $env:HF_ENDPOINT = "https://huggingface.co"
     python scripts/download_matrix.py --execute
 
     # 只下载某一模型 / 某一档位
@@ -23,16 +28,42 @@
 
 默认保存到 `models/<模型名>/` 子目录，保证同一个模型只使用同一来源的量化文件
 （2026-10-17 核对：ggml-org 与 unsloth 的同名 Q4_K_M 大小/哈希不同，不能混用）。
-本地文件已存在且非空时自动跳过，可安全重复执行。
+本地文件已存在且非空时自动跳过；中断后重跑会自动从 `.incomplete` 续传。
 """
 import argparse
+import csv
 import os
+import time
 from pathlib import Path
 
-os.environ.setdefault("HF_ENDPOINT", "https://hf-mirror.com")
-os.environ.setdefault("HF_XET_HIGH_PERFORMANCE", "1")
+# 若设置了代理，默认走官方 HF；否则回退 hf-mirror。
+_PROXY = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")
+os.environ.setdefault(
+    "HF_ENDPOINT",
+    "https://huggingface.co" if _PROXY else "https://hf-mirror.com",
+)
+# 关闭 Xet，改用普通 HTTP Range 续传；实测更稳。
+os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
+os.environ.setdefault("HF_HUB_DOWNLOAD_TIMEOUT", "60")
+os.environ.setdefault("HF_HUB_ETAG_TIMEOUT", "30")
 
 from huggingface_hub import HfApi, hf_hub_download  # noqa: E402
+
+
+def _download_with_retry(repo: str, filename: str, model_dir: Path,
+                         attempts: int = 3):
+    """下载单个文件；失败后等待并重试，已下载部分会自动续传。"""
+    last_error = None
+    for i in range(1, attempts + 1):
+        try:
+            return hf_hub_download(
+                repo_id=repo, filename=filename, local_dir=str(model_dir))
+        except Exception as exc:
+            last_error = exc
+            print(f"[重试 {i}/{attempts}] {filename}: {exc}")
+            if i < attempts:
+                time.sleep(5 * i)
+    raise last_error
 
 # 已验证的下载矩阵：label -> 精确文件名
 MATRIX = {
@@ -77,9 +108,9 @@ MATRIX = {
     },
     "ternary-bonsai-1.7b": {
         "repo": "prism-ml/Ternary-Bonsai-1.7B-gguf",
-        "note": "实验 2 三元模型；只需 Q2_0（441.8 MiB）",
+        "note": "实验 2 三元模型；用 Q2_0 g64（Prism 新构建要求 group-64）",
         "files": {
-            "Q2_0": "Ternary-Bonsai-1.7B-Q2_0.gguf",
+            "Q2_0": "Ternary-Bonsai-1.7B-Q2_0_g64.gguf",
         },
     },
 }
@@ -117,6 +148,61 @@ def verify_remote():
     return ok
 
 
+def verify_local(root: Path):
+    """逐个比对本地文件大小与远端文件大小，并写出模型清单。"""
+    api = HfApi()
+    rows = []
+    ok = True
+    total_bytes = 0
+    for model, entry in MATRIX.items():
+        try:
+            info = api.model_info(entry["repo"], files_metadata=True)
+            remote_sizes = {s.rfilename: (s.size or 0) for s in info.siblings}
+        except Exception as exc:
+            print(f"[失败] {model}: 无法读取远端信息 -> {exc}")
+            ok = False
+            continue
+        for label, filename in entry["files"].items():
+            local = root / model / filename
+            local_size = local.stat().st_size if local.exists() else 0
+            remote_size = remote_sizes.get(filename, 0)
+            if local_size == 0:
+                status = "MISSING"
+            elif remote_size and local_size != remote_size:
+                status = "SIZE_MISMATCH"
+            elif remote_size and local_size == remote_size:
+                status = "OK"
+            else:
+                status = "REMOTE_UNKNOWN"
+            if status != "OK":
+                ok = False
+            total_bytes += local_size
+            rows.append({
+                "model": model,
+                "quant": label,
+                "repo": entry["repo"],
+                "filename": filename,
+                "local_mib": round(local_size / 1024 / 1024, 2),
+                "remote_mib": round(remote_size / 1024 / 1024, 2),
+                "status": status,
+                "path": str(local),
+            })
+            print(f"[{status:13s}] {model:20s} {label:5s} "
+                  f"{local_size/1024/1024:8.1f} MiB")
+
+    out_dir = Path("results")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_csv = out_dir / "model_manifest.csv"
+    with open(out_csv, "w", newline="", encoding="utf-8-sig") as f:
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer.writeheader()
+        writer.writerows(rows)
+    print(f"\n清单已写入：{out_csv}")
+    print(f"本地模型合计：{total_bytes/1024/1024/1024:.2f} GiB")
+    print("全部通过 ✅" if ok else "存在缺失或大小不一致 ❌")
+    return ok
+
+
 def main():
     ap = argparse.ArgumentParser(description="按矩阵下载 GGUF 模型")
     ap.add_argument("--out", default="models", help="本地保存根目录")
@@ -130,15 +216,21 @@ def main():
                     help="真正下载；不加此参数只打印计划")
     ap.add_argument("--verify-remote", action="store_true",
                     help="联网核对远端文件是否存在后退出")
+    ap.add_argument("--verify-local", action="store_true",
+                    help="核对本地文件大小并生成 results/model_manifest.csv")
     args = ap.parse_args()
 
     if args.verify_remote:
         raise SystemExit(0 if verify_remote() else 1)
 
     root = Path(args.out)
+    if args.verify_local:
+        raise SystemExit(0 if verify_local(root) else 1)
     plan = list(_selected(args))
     print(f"共 {len(plan)} 个文件，保存根目录：{root.resolve()}")
-    print(f"模式：{'下载' if args.execute else '仅预览（加 --execute 才会下载）'}\n")
+    print(f"模式：{'下载' if args.execute else '仅预览（加 --execute 才会下载）'}")
+    print(f"端点：{os.environ.get('HF_ENDPOINT')}  "
+          f"代理：{'已设置' if _PROXY else '未设置'}\n")
 
     failures = []
     for model, repo, label, filename in plan:
@@ -153,9 +245,12 @@ def main():
         if not args.execute:
             continue
         try:
-            path = hf_hub_download(
-                repo_id=repo, filename=filename, local_dir=str(model_dir))
-            print(f"[完成] {path}")
+            path = _download_with_retry(repo, filename, model_dir)
+            size = Path(path).stat().st_size / 1024 / 1024
+            print(f"[完成] {path}（{size:.0f} MiB）")
+        except KeyboardInterrupt:
+            print("\n已手动中断；重跑本脚本会从断点续传。")
+            raise SystemExit(130)
         except Exception as exc:
             failures.append((filename, str(exc)))
             print(f"[失败] {filename} -> {exc}")

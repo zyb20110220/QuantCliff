@@ -21,6 +21,8 @@ class TestDownloadMatrix(unittest.TestCase):
     def test_ternary_has_q2_0(self):
         files = download_matrix.MATRIX["ternary-bonsai-1.7b"]["files"]
         self.assertEqual(list(files), ["Q2_0"])
+        # 最新 Prism 运行时要求 group-64，不能退回旧的 g128 文件
+        self.assertIn("g64", files["Q2_0"])
 
     def test_all_filenames_are_gguf(self):
         for entry in download_matrix.MATRIX.values():

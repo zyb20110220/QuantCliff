@@ -1,0 +1,9 @@
+﻿model,quant,backend,file,status,seconds,output,error
+qwen3-1.7b,Q2_K,llama_cpp,Qwen3-1.7B-Q2_K.gguf,OK,1.4,太阳是太阳系的中心恒星,
+qwen3-1.7b,Q4_K_M,llama_cpp,Qwen3-1.7B-Q4_K_M.gguf,OK,2.2,太阳是太阳系中最大的,
+qwen3-1.7b,F16,llama_cpp,Qwen3-1.7B-BF16.gguf,OK,4.2,太阳是太阳系的中心,
+qwen2.5-1.5b,Q2_K,llama_cpp,qwen2.5-1.5b-instruct-q2_k.gguf,OK,1.2,"介绍太阳的特征。
+
+太阳是",
+gemma-3-1b,Q2_K,llama_cpp,gemma-3-1b-it-Q2_K.gguf,OK,1.4,太阳是地球上最重要、,
+ternary-bonsai-1.7b,Q2_0,prism_cli,Ternary-Bonsai-1.7B-Q2_0_g64.gguf,OK,1.9,太阳是太阳系中最巨大的天体,

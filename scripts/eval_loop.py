@@ -19,12 +19,21 @@
     # 长上下文基准必须给足 n_ctx
     python scripts/eval_loop.py --model models/Qwen3-1.7B-Q4_K_M.gguf \
         --bench needle --n 20 --n_ctx 8192 --out results/q4_needle.csv
+    # 三元 Q2_0：主线 llama-cpp-python 不支持，改用 Prism CLI 后端
+    python scripts/eval_loop.py \
+        --model models/ternary-bonsai-1.7b/Ternary-Bonsai-1.7B-Q2_0_g64.gguf \
+        --backend prism_cli --bench mmlu_pro --n 150 \
+        --out results/bonsai_q2_0_mmlu_pro.csv
 """
 import argparse
 import csv
 import importlib
 import json
+import os
+import re
+import subprocess
 import sys
+import tempfile
 import time
 from datetime import datetime
 from pathlib import Path
@@ -82,9 +91,52 @@ def _archive(path: Path):
     return dest
 
 
+def _generate_prism_cli(cli_path: str, model_path: str, prompt: str,
+                        max_tokens: int, n_ctx: int, seed: int):
+    """用 Prism llama.cpp 的 llama-completion 生成（供 Q2_0 三元模型使用）。
+
+    主线 llama-cpp-python 不支持 Q2_0；Prism 的预编译 CLI 支持。
+    这里每题启动一次 CLI，读取 stdout 的生成文本；日志在 stderr，不会混入结果。
+    """
+    prompt_file = None
+    try:
+        with tempfile.NamedTemporaryFile(
+                "w", encoding="utf-8", suffix=".txt", delete=False) as f:
+            f.write(prompt)
+            prompt_file = f.name
+
+        cmd = [
+            str(cli_path), "-m", str(model_path), "-f", prompt_file,
+            "-n", str(max_tokens), "-c", str(n_ctx),
+            "-t", str(min(8, os.cpu_count() or 4)),
+            "--temp", "0", "--top-k", "1", "-s", str(seed),
+            "--no-display-prompt", "-no-cnv",
+        ]
+        proc = subprocess.run(
+            cmd, capture_output=True, text=True, encoding="utf-8",
+            errors="replace", timeout=600,
+        )
+        if proc.returncode != 0:
+            tail = (proc.stderr or "").strip()[-500:]
+            raise RuntimeError(tail or f"llama-completion exit {proc.returncode}")
+
+        output = proc.stdout.replace("[end of text]", "").strip()
+        # 从 stderr 的 "eval time = ... / N runs" 提取生成 token 数
+        m = re.search(r"eval time\s*=.*?/\s*(\d+)\s+runs", proc.stderr or "")
+        tokens = int(m.group(1)) if m else 0
+        return output, tokens
+    finally:
+        if prompt_file:
+            try:
+                os.unlink(prompt_file)
+            except OSError:
+                pass
+
+
 def run(model_path: str, bench_name: str, n: int, out_csv: str,
         tag: str = "", seed: int = 42, n_ctx: int = 4096,
-        resume: bool = False):
+        resume: bool = False, backend: str = "llama_cpp",
+        cli_path: str = ""):
     bench = importlib.import_module(f"benchmarks.{bench_name}")
     items = bench.load(n, seed)
     print(f"基准 {bench_name}：加载 {len(items)} 题")
@@ -119,8 +171,18 @@ def run(model_path: str, bench_name: str, n: int, out_csv: str,
     if done:
         print(f"断点续跑：已完成 {len(done)} 题，本次只补跑剩余题目")
 
-    llm = Llama(model_path=model_path, n_ctx=n_ctx, seed=seed, verbose=False)
-    print(f"模型加载完成：{Path(model_path).name}")
+    llm = None
+    if backend == "llama_cpp":
+        llm = Llama(model_path=model_path, n_ctx=n_ctx, seed=seed,
+                    verbose=False)
+        print(f"模型加载完成：{Path(model_path).name}")
+    elif backend == "prism_cli":
+        if not Path(cli_path).exists():
+            raise SystemExit(f"找不到 Prism CLI：{cli_path}")
+        print(f"Prism CLI 后端：{cli_path}")
+        print(f"模型：{Path(model_path).name}（每题启动一次 CLI）")
+    else:
+        raise SystemExit(f"未知后端：{backend}")
 
     started = datetime.now().isoformat(timespec="seconds")
     ran = 0
@@ -134,11 +196,16 @@ def run(model_path: str, bench_name: str, n: int, out_csv: str,
         output, tokens, error = "", 0, ""
         correct = parse_ok = False
         try:
-            # 贪婪解码：temperature=0 且 top_k=1，保证结果可复现
-            resp = llm(prompt, temperature=0.0, top_k=1,
-                       max_tokens=bench.MAX_TOKENS)
-            output = resp["choices"][0]["text"].strip()
-            tokens = resp["usage"]["completion_tokens"]
+            if backend == "prism_cli":
+                output, tokens = _generate_prism_cli(
+                    cli_path, model_path, prompt, bench.MAX_TOKENS,
+                    n_ctx, seed)
+            else:
+                # 贪婪解码：temperature=0 且 top_k=1，保证结果可复现
+                resp = llm(prompt, temperature=0.0, top_k=1,
+                           max_tokens=bench.MAX_TOKENS)
+                output = resp["choices"][0]["text"].strip()
+                tokens = resp["usage"]["completion_tokens"]
             res = bench.judge(output, item)
             correct, parse_ok = bool(res["correct"]), bool(res["parse_ok"])
         except Exception as exc:  # 单题异常不拖垮整轮实验
@@ -184,6 +251,8 @@ def run(model_path: str, bench_name: str, n: int, out_csv: str,
         "seed": seed,
         "n_ctx": n_ctx,
         "tag": tag,
+        "backend": backend,
+        "cli_path": cli_path if backend == "prism_cli" else "",
         "started": started,
         "finished": datetime.now().isoformat(timespec="seconds"),
         "rows_total": total,
@@ -212,9 +281,15 @@ def main():
                     help="上下文长度；needle 基准请用 8192")
     ap.add_argument("--resume", action="store_true",
                     help="断点续跑：跳过已完成题目，只补跑剩余/报错题目")
+    ap.add_argument("--backend", choices=["llama_cpp", "prism_cli"],
+                    default="llama_cpp",
+                    help="推理后端；Q2_0 三元模型请用 prism_cli")
+    ap.add_argument("--cli_path",
+                    default="models/_runtime/prism-llama/llama-completion.exe",
+                    help="prism_cli 后端的 llama-completion.exe 路径")
     args = ap.parse_args()
     run(args.model, args.bench, args.n, args.out, args.tag,
-        args.seed, args.n_ctx, args.resume)
+        args.seed, args.n_ctx, args.resume, args.backend, args.cli_path)
 
 
 if __name__ == "__main__":

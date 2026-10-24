@@ -66,7 +66,8 @@
 **当前进度**：
 - 完成：窗口 A 全部任务（A1~A5 + 小结）✅。2026-10-01 实测：环境 Python 3.11.15（uv 管理）+ 92 包；模型 Q4_K_M 1.19GB / f16 3.79GB 存仓库根目录 models/；最小闭环 Q4 44% vs F16 56%（各 50 题，解析成功率 100%）；单元测试 7/7；探针路线验证通过（transformers 5.18.0 + Qwen3-0.6B）。
 - 完成：窗口 B 准备期（2026-10-17）✅。6 个基准模块齐全；eval_loop 支持断点续跑/容错/归档；analyze.py 可出汇总表与中文文本质量指标；30 条中文事实题审核完毕；下载矩阵 22 个文件远端核对通过；单元测试 46/46。
-- 下一步（寒假窗口 B）：B1 用 `download_matrix.py --execute` 下载全量矩阵 → B2 主模型 7 档 × 500 题 → B3 两个验证模型 → B4 用 analyze.py 出汇总 + 补形态检验（线性 vs 分段 AIC/BIC、PELT 变化点、相邻档 McNemar）+ 初版 report.md。
+- 完成：窗口 B 任务 B1（2026-10-24）✅。22 个模型文件全部下载并核对（27.41 GiB）；6 个代表档位兼容性冒烟全过；Bonsai Q2_0 g64 通过 Prism CLI 跑通端到端。
+- 下一步（寒假窗口 B）：B2 主模型 7 档 × 500 题 → B3 两个验证模型 → B4 用 analyze.py 出汇总 + 补形态检验（线性 vs 分段 AIC/BIC、PELT 变化点、相邻档 McNemar）+ 初版 report.md。
 - 暑假窗口 C：三元图谱（1.7B 必做/8B 加分）+ 探针（0.6B 必做/1.7B 加分）+ 网页 + 报告答辩。
 
 **环境要点**：git push 走仓库本地代理 127.0.0.1:7897（勿改全局）；模型/数据/HF 缓存统一放仓库根目录（models/、data/、hf_cache/，均已 git 排除；C 盘空间已足够，2026-09-27 决定，不再拆 D 盘）；用户 Python 不佳（代码需中文注释、可运行优先）。
@@ -109,3 +110,18 @@
   2. chinese_facts 的标准答案是列表，直接写 CSV 不整洁 → 统一用 ` | ` 拼接
   3. 总体相对退化率在"某档多跑了别的基准"时会失真 → 改为仅当该档位与 F16 的基准集合完全一致时才计算总体值，分基准值不受影响
 - 下一步：寒假 B1 下载全量矩阵；B2 主模型 7 档全量；B3 两个验证模型；B4 分析与初版报告。
+
+### 窗口B 任务B1 小结（2026-10-24）
+
+- 做了什么：下载全部 22 个模型文件（Qwen3-1.7B / Qwen2.5-1.5B / Gemma-3-1B 各 7 档 + Ternary-Bonsai Q2_0 g64），合计 **27.41 GiB**；逐文件与远端大小比对 **22/22 通过**，生成 `results/model_manifest.csv`。
+- 下载问题与解决：
+  1. 直连 `hf-mirror.com` 出现 SSL 中断（`UNEXPECTED_EOF_WHILE_READING`），Q3 卡在 510MB。
+  2. 改用本地代理 `127.0.0.1:7897` + 官方 `huggingface.co`，关闭 Xet，Q3 从断点续传到 896 MiB 成功。
+  3. `download_matrix.py` 已加入失败重试、断点续传、`--verify-local` 清单核对。
+- 兼容性冒烟（6 个代表档位）：
+  - Qwen3 Q2_K / Q4_K_M / BF16、Qwen2.5 Q2_K、Gemma-3 Q2_K 全部通过；
+  - Bonsai Q2_0 主线 llama.cpp 不支持；最新 Prism 构建又要求 **group-64**，旧 g128 文件加载失败；
+  - 改用 Prism 官方预编译 Windows CPU 运行时（build 10787）+ `Ternary-Bonsai-1.7B-Q2_0_g64.gguf`，通过。
+- 新增能力：`eval_loop.py --backend prism_cli`，用 `llama-completion.exe` 生成；stdout 取文本，stderr 取 token 数。Bonsai 2 题端到端 **2/2 正确**，约 4.5s/题（每题重新加载模型）。
+- 关键数字：22/22 文件通过；27.41 GiB；代表档位冒烟 6/6；全 22 档加载测试 0 失败；Bonsai 2/2。
+- 下一步：B2 主模型 7 档 × 500 题全量实验。

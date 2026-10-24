@@ -52,30 +52,56 @@ python scripts/download.py --repo ggml-org/Qwen3-1.7B-GGUF --quant F16 --out C:\
 2026-10-17 远程核对结论：`ggml-org` 的 Qwen3/Gemma 只有 3 档，Qwen2.5 仓库名不存在。
 正式实验改用 `unsloth/Qwen3-1.7B-GGUF`、`Qwen/Qwen2.5-1.5B-Instruct-GGUF`、
 `unsloth/gemma-3-1b-it-GGUF`（均为 7 档），三元模型用
-`prism-ml/Ternary-Bonsai-1.7B-gguf`（Q2_0 441.8 MiB）。
+`prism-ml/Ternary-Bonsai-1.7B-gguf`（Q2_0 g64，467.5 MiB）。
+2026-10-24 实测：最新 Prism 运行时要求 **group-64**，旧的 g128 文件会加载失败，因此矩阵已切换为 g64。
 
 ```powershell
+# 0) 如果直连 hf-mirror 出现 SSL 中断，设置本地代理后走官方端点
+$env:HTTPS_PROXY = "http://127.0.0.1:7897"
+$env:HTTP_PROXY = "http://127.0.0.1:7897"
+$env:HF_ENDPOINT = "https://huggingface.co"
+$env:HF_HUB_DISABLE_XET = "1"
+
 # 1) 只预览计划，不下载
 python scripts/download_matrix.py
 
 # 2) 联网核对远端文件是否都存在
 python scripts/download_matrix.py --verify-remote
 
-# 3) 正式下载全部 22 个文件（约 17GB，建议寒假 B1 执行）
+# 3) 正式下载全部 22 个文件（约 27 GiB）
 python scripts/download_matrix.py --execute
 
 # 4) 只下载单个模型 / 单个档位
 python scripts/download_matrix.py --model qwen3-1.7b --quant Q2_K --execute
+
+# 5) 核对本地文件大小并生成 results/model_manifest.csv
+python scripts/download_matrix.py --verify-local
 ```
 
 默认保存到 `models/<模型名>/` 子目录。**同一个模型只使用同一仓库的量化文件**：
 实测 ggml-org 与 unsloth 的同名 Q4_K_M 大小/哈希不同，混用会引入额外变量。
-脚本会跳过已存在且非空的文件，可随时中断重跑。
+脚本会跳过已存在且非空的文件；中断后重跑会从 `.incomplete` 自动续传。
 
 说明：Qwen3 / Gemma 的全档位仓库只提供 BF16 作为高精度基线（与 F16 精度等价），
 `analyze.py` 会把 BF16/F16/fp16 统一记作 F16 档，报告中注明。
 
-### 5.3 基准数据
+### 5.4 三元 Q2_0 运行时（Prism llama.cpp）
+
+Q2_0 不在主线 llama.cpp 中，需使用 Prism 官方预编译的 Windows CPU 运行时：
+
+```powershell
+New-Item -ItemType Directory -Force -Path models\_runtime\prism-llama
+gh release download prism-b10787-73bfe6c -R PrismML-Eng/llama.cpp `
+  -p "llama-prism-b10787-73bfe6c-bin-win-cpu-x64.zip" `
+  -D models\_runtime\prism-llama --clobber
+Expand-Archive -Path models\_runtime\prism-llama\llama-prism-b10787-73bfe6c-bin-win-cpu-x64.zip `
+  -DestinationPath models\_runtime\prism-llama -Force
+```
+
+运行时入口是 `models\_runtime\prism-llama\llama-completion.exe`。
+`eval_loop.py --backend prism_cli` 会调用它；生成文本在 stdout，日志在 stderr。
+
+### 5.5 基准数据
 
 MMLU-Pro、TruthfulQA、C-Eval 由 `eval_loop.py` 首次运行时自动经镜像下载，
 统一缓存在仓库根目录 `hf_cache/`（已 git 排除）。首次运行需要联网，之后离线可跑。
@@ -102,6 +128,9 @@ python scripts/eval_loop.py --model models\qwen3-1.7b\Qwen3-1.7B-Q4_K_M.gguf --b
 
 # 中文事实 30
 python scripts/eval_loop.py --model models\qwen3-1.7b\Qwen3-1.7B-Q4_K_M.gguf --bench chinese_facts --n 30 --out results\q4_chinese_facts.csv
+
+# 三元 Bonsai Q2_0（必须用 Prism CLI 后端；每题重新加载模型，约 4~5s/题）
+python scripts/eval_loop.py --model models\ternary-bonsai-1.7b\Ternary-Bonsai-1.7B-Q2_0_g64.gguf --backend prism_cli --bench mmlu_pro --n 150 --out results\bonsai_q2_0_mmlu_pro.csv
 ```
 
 断点续跑与结果保护：

@@ -52,7 +52,7 @@
 
 | 要素 | 定稿 |
 |---|---|
-| 核心对比 | `prism-ml/Ternary-Bonsai-1.7B`（Q2_0，436 MiB）vs Qwen3-1.7B 的 PTQ 曲线（尤其 Q2_K） |
+| 核心对比 | `prism-ml/Ternary-Bonsai-1.7B`（Q2_0 **g64**，467.5 MiB；需 Prism llama.cpp 运行时）vs Qwen3-1.7B 的 PTQ 曲线（尤其 Q2_K） |
 | 底模关系 | 两者底模同为 Qwen3-1.7B——三元版是"训练式 1.58-bit"，PTQ 各档是"训练后量化"，同尺度同题池可对照 |
 | 题量 | 1.7B 全套 500 题；8B 加分版 180 题（MMLU-Pro 150 + 中文事实 30） |
 | 分析 | 三元点挂到主研究位宽轴（1.58bit 落 Q2_K 左侧）；5 维能力雷达图（dense F16 为基准）；中文错字率对比 |
@@ -72,7 +72,7 @@
 ## 4. 模型与数据清单
 
 - 主研究模型（2026-10-17 核对）：`unsloth/Qwen3-1.7B-GGUF`（7 档，基线 BF16）、`Qwen/Qwen2.5-1.5B-Instruct-GGUF`（7 档，基线 fp16）、`unsloth/gemma-3-1b-it-GGUF`（7 档，基线 BF16）；走 hf-mirror.com 镜像；按模型分目录存 `models/<模型名>/`
-- 实验 2 模型：`prism-ml/Ternary-Bonsai-1.7B-gguf`（Q2_0 441.8 MiB，2026-10-17 核对）+ 8B 加分版（2.03 GiB）；Apache-2.0；Q2_0 格式可能需 Prism 的 llama.cpp fork，备选 `onnx-community/Ternary-Bonsai-1.7B-ONNX`
+- 实验 2 模型：`prism-ml/Ternary-Bonsai-1.7B-gguf`（Q2_0 g64 467.5 MiB，2026-10-24 核对；需 Prism 预编译 llama.cpp 运行时）+ 8B 加分版（2.03 GiB）；Apache-2.0；备选 `onnx-community/Ternary-Bonsai-1.7B-ONNX`
 - 实验 3 模型：`Qwen/Qwen3-0.6B`（transformers 原版，~1.2GB）
 - 基准：`TIGER-Lab/MMLU-Pro`、`truthfulqa/truthful_qa`（817 题，转为 4 选 1）、`ceval/ceval-exam`（4 学科 × 25 题）、IFEval（自写 10 类可判指令解析器）、needle-in-a-haystack（自实现约 4K tokens）、中文事实 30 条（自构造，见附录）
 - 全部学术许可，报告注明出处
@@ -159,7 +159,7 @@ QuantCliff/
 | 低档位死循环 | 输出截断 + 超时，失败率单独计数 |
 | 模型仓库档位不全 / 同名文件不同源 | 2026-10-17 已核对并改用 unsloth + Qwen 官方仓库；`download_matrix.py --verify-remote` 可随时复查；同一模型只用一个仓库，按模型分目录保存 |
 | 答辩现场无网络 | 演示全离线预载 |
-| Q2_0 不在主线 llama.cpp，llama-cpp-python 未必支持 | 实施时先验证主线；备选 Prism fork 编译或 ONNX 版；eval_loop 加后端适配层 |
+| Q2_0 不在主线 llama.cpp，llama-cpp-python 未必支持 | **已解决（2026-10-24）**：改用 Prism 官方 Windows CPU 预编译运行时 + Q2_0 g64；eval_loop 新增 `--backend prism_cli`；模型冒烟 6/6 通过 |
 | 8B dense 基线 16.4GB 超内存 | 基线用 Q8_0（报告注明）；仍紧张则降 Q6_K 或弃 8B |
 | 探针可能只比置信度基线好一点点 | 如实报告（"预警无增益"也是有效结论）；尺度对比仍可产出 |
 | 0.6B 在个别基准几乎全错→标签失衡 | 分层抽样；报告每基准可用样本数；失衡过重的基准退出探针训练 |
