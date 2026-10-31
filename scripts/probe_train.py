@@ -27,6 +27,7 @@ import json
 import sys
 from pathlib import Path
 
+import joblib
 import numpy as np
 import pandas as pd
 from scipy import stats
@@ -394,6 +395,82 @@ def cross_benchmark(all_data: dict, seed: int) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def _save_model(all_data: dict, ok_rows: list, prefix: Path,
+                bench: str, red_pct: float = 30.0,
+                green_pct: float = 80.0) -> None:
+    """在全量数据上重训一个探针并落盘，供 Gradio 演示直接推理。
+
+    阈值用折外（OOF）预测的分位数来定，并把每一档的实际正确率与覆盖率
+    一并写进 meta——这样演示里的"绿灯"是可解释的统计量，而不是拍脑袋的 0.5。
+    之所以不用三分位：TruthfulQA 上的风险-覆盖曲线是不对称的，
+    前 20% 的绿灯有 62% 正确率，而后 30% 的红灯只有 19%，用三分位会把这
+    两个差异很大的区间压平成 52% / 28% / 20%，演示时说服务不强。
+    """
+    if bench not in all_data:
+        print(f"[跳过] 没有 {bench} 的数据，无法保存模型")
+        return
+    row = next((r for r in ok_rows if r["bench"] == bench), None)
+    if row is None:
+        print(f"[跳过] {bench} 的评估未成功，无法保存模型")
+        return
+
+    d = all_data[bench]
+    layer = int(row["layer_mode"])
+    pipe = _pipeline()
+    pipe.fit(d[f"L{layer}"], d["correct"])
+
+    oof = row["_oof"]["probe"]
+    y = row["_oof"]["y"]
+    q_lo, q_hi = np.percentile(oof, [red_pct, green_pct])
+
+    def band_acc(mask):
+        return float(y[mask].mean()) if mask.any() else float("nan")
+
+    bands = {
+        "green": {"threshold": float(q_hi), "n": int((oof >= q_hi).sum()),
+                  "coverage": float((oof >= q_hi).mean()),
+                  "accuracy": band_acc(oof >= q_hi)},
+        "yellow": {"threshold": float(q_lo),
+                   "n": int(((oof >= q_lo) & (oof < q_hi)).sum()),
+                   "coverage": float(((oof >= q_lo) & (oof < q_hi)).mean()),
+                   "accuracy": band_acc((oof >= q_lo) & (oof < q_hi))},
+        "red": {"threshold": float(q_lo), "n": int((oof < q_lo).sum()),
+                "coverage": float((oof < q_lo).mean()),
+                "accuracy": band_acc(oof < q_lo)},
+    }
+
+    model_path = prefix.with_name(prefix.name + f"_model_{bench}.joblib")
+    joblib.dump({"pipeline": pipe, "layer": layer, "bench": bench,
+                 "n_train": int(len(y))}, model_path)
+
+    meta = {
+        "bench": bench,
+        "layer": layer,
+        "n_train": int(len(y)),
+        "auroc_oof": float(row["auc_probe"]),
+        "auroc_ci": [row["auc_probe_lo"], row["auc_probe_hi"]],
+        "auc_conf": row["auc_conf"],
+        "auc_group": row["auc_group"],
+        "thr_yellow": float(q_lo),
+        "thr_green": float(q_hi),
+        "bands": bands,
+        "note": "阈值取折外预测概率的三分位；bands 内为各档的实际正确率",
+    }
+    meta_path = prefix.with_name(prefix.name + f"_model_{bench}.json")
+    meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2),
+                         encoding="utf-8")
+
+    print(f"\n已保存探针模型：{model_path}")
+    print(f"已保存阈值与分档准确率：{meta_path}")
+    print(f"  层 L{layer}，折外 AUROC {row['auc_probe']:.3f}")
+    print(f"  绿灯 p≥{q_hi:.3f} → 实际正确率 {bands['green']['accuracy'] * 100:.0f}%"
+          f"（{bands['green']['n']} 题）")
+    print(f"  黄灯 {q_lo:.3f}≤p<{q_hi:.3f} → "
+          f"{bands['yellow']['accuracy'] * 100:.0f}%（{bands['yellow']['n']} 题）")
+    print(f"  红灯 p<{q_lo:.3f} → 实际正确率 "
+          f"{bands['red']['accuracy'] * 100:.0f}%（{bands['red']['n']} 题）")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description="失效预警探针训练与评估")
     ap.add_argument("--results-dir", default="results")
@@ -401,6 +478,14 @@ def main() -> None:
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--n-splits", type=int, default=5,
                     help="嵌套 CV 的折数（外层评估、内层选层）")
+    ap.add_argument("--save-model", action="store_true",
+                    help="额外保存可推理的探针模型与红黄绿阈值（供 app.py 用）")
+    ap.add_argument("--model-bench", default="truthfulqa",
+                    help="--save-model 时用哪个基准训练最终模型")
+    ap.add_argument("--red-pct", type=float, default=30.0,
+                    help="红灯阈值取折外预测的哪个分位（默认 30）")
+    ap.add_argument("--green-pct", type=float, default=80.0,
+                    help="绿灯阈值取折外预测的哪个分位（默认 80）")
     args = ap.parse_args()
 
     results = Path(args.results_dir)
@@ -532,6 +617,11 @@ def main() -> None:
 
     out_md = prefix.with_name(prefix.name + "_report.md")
     out_md.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    # ---- 可选：保存最终探针模型 + 红黄绿阈值 ----
+    if args.save_model:
+        _save_model(all_data, ok_rows, prefix, args.model_bench,
+                    args.red_pct, args.green_pct)
 
     print(f"\n已写入：{prefix.with_name(prefix.name + '_metrics.csv')}")
     if not cross.empty:

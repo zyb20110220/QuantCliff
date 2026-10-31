@@ -164,7 +164,7 @@ python scripts/analyze.py --results-dir results --out-prefix results\summary
 
 - `results/summary_overall.csv`：按基座 × 档位汇总（正确率、解析率、Wilson 95% CI、相对退化率）
 - `results/summary_by_bench.csv`：按模型 × 基准汇总（含乱码率、3-gram 重复率、重复行率）
-- `results/summary.md`：可直接贴进报告/答辩材料的 Markdown 表
+- `results/summary.md`：可直接贴进报告/展示材料的 Markdown 表
 
 默认对同一 `(model, bench, item_id)` 保留最后写入的一行，避免 pilot 与全量结果重复计数；
 需要保留全部原始行时加 `--no-dedupe`。
