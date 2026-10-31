@@ -1,0 +1,18 @@
+{
+  "bench": "chinese_facts",
+  "n_items": 30,
+  "errors": 0,
+  "accuracy": 0.5,
+  "layers": [
+    7,
+    14,
+    21,
+    28
+  ],
+  "max_len": 2048,
+  "seed": 42,
+  "model": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\hf_cache\\hub\\models--Qwen--Qwen3-0.6B\\snapshots\\c1899de289a04d12100db370d81485cdf75e47ca",
+  "chat_template": false,
+  "started": "2026-10-31T20:22:47",
+  "elapsed_min": 1.79
+}
