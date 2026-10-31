@@ -146,3 +146,60 @@
   6. 中文事实：Q2_K 解析成功率 66.7%，其余档 90%~96.7%；解析失败本身是退化证据。
 - 产出：`results/b2_*.csv`（42 组）、`results/summary_b2.*`、`results/shape_analysis_b2.*`、`docs/report.md` 初稿。
 - 下一步：B3 两个验证模型（Qwen2.5-1.5B、Gemma-3-1B）；同时考虑加长 needle 或增加难度，避免天花板效应。
+
+### 窗口B 任务B3 断点（2026-10-24）
+
+- 进度：Qwen2.5-1.5B 已完成 **33/42** 组合；Gemma-3-1B 尚未开始。
+- 最后完成组：**Q8_0 / IFEval**，100 题，正确率 49.00%，解析率 100%，0 错误。
+- 断点位置：按用户要求，当前组跑完后停止调度器；剩余 9 组（Q8_0 的 ceval/needle/chinese_facts + F16 的 6 组）留待下次。
+- 数据安全：33 组 CSV + `.meta.json` 已落盘；若下一组有部分 CSV，`--resume` 会在下次从断点继续。
+- 恢复命令：
+
+```powershell
+# 继续 Qwen2.5-1.5B（自动跳过已完成组）
+python scripts/run_b3.py --model qwen2.5-1.5b
+
+# 再跑 Gemma-3-1B 全量
+python scripts/run_b3.py --model gemma-3-1b
+```
+
+- 新增脚本：`scripts/run_b3.py`（支持 `--model/--quant/--bench/--pilot/--dry-run`），尚未提交 git。
+
+### 窗口B 任务B3 小结（2026-10-31 完成）
+
+**执行**
+
+- 单条命令 `python scripts/run_b3.py --model all` 从断点续跑：前 33 组被自动跳过，剩余 51 组连续完成。
+- 交付：**84/84 组**（Qwen2.5-1.5B 42 组 + Gemma-3-1B 42 组），**7,000 题**，**0 错误行**、**0 缺题**，全部走 `llama_cpp` 后端。
+- 数据集全程离线读取（`HF_HUB_OFFLINE=1` / `HF_DATASETS_OFFLINE=1` + `hf_cache/`），不依赖网络。
+- 新增分析脚本：`scripts/cross_model.py`（三模型一致性 + Kendall's W）；`scripts/shape_analysis.py` 增加 `--base` / `--title` 参数以支持按模型分别分析。
+
+**核心结果**
+
+| 模型 | 跨档极差 | Q2_K 相对退化 | ALL ΔAIC | 是否有悬崖 |
+|---|---:|---:|---:|---|
+| Qwen3-1.7B | 14.40pp | +24.60% | −14.99 | 有（Q5_K_M 附近） |
+| Qwen2.5-1.5B | 9.40pp | +14.10% | −8.01 | 弱（仅 Q2_K） |
+| Gemma-3-1B | 2.80pp | +4.35% | −0.36 | 无（打平） |
+
+- 敏感度排序一致性：Kendall's W = 0.517；两两 Spearman −0.086 / +0.771 / +0.143。
+- 唯一跨模型一致的退化档位是 **Q2_K**；Q3_K_M 及以上普遍出现负退化（量化后反而更好），说明已进入噪声范围。
+- 最一致的高敏感基准是 **chinese_facts**（三模型 Q2_K 相对退化 +19.05% / +41.67% / +36.36%）。
+
+**质量控制**
+
+- `pytest tests -q` → **54 passed**（安装 pytest 9.2.0 后首次执行）。
+- 所有 meta 校验：`errors == 0` 且 `rows_total == n_requested`，无异常组。
+
+**已知混淆（写入报告局限）**
+
+1. Gemma 的 TruthfulQA 基线 27% ≈ 随机水平 25%，存在地板效应，陡峭度对比被压缩。
+2. Gemma 中文事实解析率仅 60~77%（Qwen 系 93~100%），准确率含格式失败成分。
+3. needle 三模型几乎全 100%，天花板未消除。
+
+**产出文件**
+
+- `results/b3_<模型>_<档位>_<基准>.csv` + `.meta.json`：84 组
+- `results/summary_b3.md`、`results/shape_b3_qwen25.md`、`results/shape_b3_gemma.md`
+- `results/cross_model.md` / `_overall.csv` / `_flatness.csv` / `_bench.csv` / `_ranking.csv` / `_bench_range.csv`
+- `docs/report.md` 升级为 B3 阶段稿（新增 3.7 节与 RQ3 讨论）

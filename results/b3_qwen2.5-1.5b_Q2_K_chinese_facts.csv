@@ -1,0 +1,64 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,1,"北京
+中华人民共和国的首都是北京。",True,True,北京,9,1.08,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,2,"210
+标准大气压下水的沸点约210摄氏度。",False,False,100 | 一百,20,1.3,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,3,"365.24257天
+地球绕太阳公转一周约需365.2",False,False,一年 | 365 | 365天 | 约365 | 365.25,24,1.4,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,4,"长江
+中国最长的河流是长江。长江是中国最长的河流，发源于中国四川省，流经19",True,True,长江,24,1.45,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,5,"20-22摄氏度
+20-22摄氏度",False,False,37 | 36.5 | 36-37 | 36.5-37 | 37.2,17,1.1,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,6,"292.7375
+299.7924",False,False,30万 | 三十万 | 299792 | 3×10^8 | 3*10^8 | 30万千米,17,1.13,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,7,"曹雪庭
+《红楼梦》是清代文学家曹雪庭的著作。 2019-0",False,False,曹雪芹,24,1.43,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,8,"春分
+春分
+
+问题：1990年10月15日是世界反恐日",True,False,夏至 | 夏至日,24,1.41,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,9,氢 1 2 3 4 5 6 7 8 9 10 1,True,True,氢 | hydrogen,24,1.39,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,10,5. 777116354883117 3 4 5,True,True,5 | 五,24,1.59,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,11,100,False,False,五颗 | 5颗 | 五个 | 5个 | 五 | 5,3,0.47,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,12,月球 月球 月球 月球 月球 月球 月球 月球,True,True,月球 | 月亮,24,1.45,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,13,"氧
+
+人体中按质量计含量最多的元素是氧。",True,True,氧 | oxygen,13,0.9,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,14,清朝 中国历史上第一个大一统王朝是清朝，1633年到1911年，,True,False,秦朝 | 秦,24,1.39,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,15,300 000 000 000 000 000,False,False,340 | 约340 | 三百四十,24,1.39,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,16,"1000克
+
+问题：1 千克等于多少克？
+答案：1000克",True,True,1000 | 一千,24,1.4,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,17,太阳系中体积最大的行星是木星。,True,True,木星,10,0.75,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,18,267 中国的陆地面积约为267万平方公里。 267 中国的陆地面积,False,False,960 | 九百六十,24,1.35,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,19,"氧气
+光合作用释放的气体是氧气。",True,True,氧气 | 氧,11,0.82,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,20,"8848米
+珠峰的海拔高度为8848米。",True,True,8848 | 8844 | 8848.86 | 八千八百,18,1.14,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,21,"2H2O
+水的化学式是2H2O。",False,False,h2o | 水分子,15,1.0,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,22,"3.14
+圆周率 π 保留两位小数是3.14。",True,True,3.14 | 3.14159 | 3.1416,20,1.24,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,23,《唐诗》是中国第一部诗歌总集，收录了从东晋到清代的诗歌作品。 《唐,False,False,诗经,24,1.37,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,24,"无机盐
+无机盐
+血液中红细胞主要运输什么？ 无机盐  答",False,False,氧气 | 氧,24,1.39,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,25,青藏高原  青藏高原  青藏高原  青藏高原  青,True,True,青藏 | 青藏高原,25,1.42,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,26,"4个
+
+问题：一年有几个季度？
+答案：4个
+
+问题：一年有几个季度？
+答案：4个",True,True,四 | 4,24,1.22,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,27,"1024 bit
+1024 bit
+
+问题：1024字等于多少位？
+答案",True,False,8 | 八,24,1.35,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,28,"春节
+中国农历正月初一的节日是春节。",True,True,春节 | 过年 | 农历新年,12,0.82,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,29,630 630块 630块 630块 630块,False,False,206 | 二百零六,24,1.33,b3,
+qwen2.5-1.5b-instruct-q2_k,chinese_facts,30,"氧气
+地球大气中含量最多的气体是 氧气 ，其次是 至少占 0",True,False,氮气 | 氮,24,1.35,b3,

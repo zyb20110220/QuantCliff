@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\gemma-3-1b\\gemma-3-1b-it-Q6_K.gguf",
+  "model_file": "gemma-3-1b-it-Q6_K.gguf",
+  "bench": "truthfulqa",
+  "n_requested": 100,
+  "seed": 42,
+  "n_ctx": 4096,
+  "tag": "b3",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-31T12:03:20",
+  "finished": "2026-10-31T12:05:00",
+  "rows_total": 100,
+  "correct": 29,
+  "parse_ok": 100,
+  "accuracy": 0.29,
+  "parse_rate": 1.0,
+  "errors": 0
+}

@@ -1,0 +1,428 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+gemma-3-1b-it-BF16,ceval,0,"C
+理由：
+选项C“钱钟书先生的夫人绛先生在把稿酬版税捐赠给清华大学的典礼上",True,False,A,32,2.62,b3,
+gemma-3-1b-it-BF16,ceval,1,"A
+
+**解释：**
+
+直线 $l: a x + y + 1 = 0$ 与线段 AB 有交点，意味着当",True,False,B,32,2.01,b3,
+gemma-3-1b-it-BF16,ceval,2,"D
+
+解释：
+质点在匀速圆周运动中，速度方向与曲线在这一点的切线方向一致。
+A. 加速度",True,False,D,32,1.9,b3,
+gemma-3-1b-it-BF16,ceval,3,"D
+解释：
+无线局域网（LAN）通过使用MAC地址进行唯一标识，因此，MAC机制是LAN的特征。
+选项D",True,False,B,32,1.83,b3,
+gemma-3-1b-it-BF16,ceval,4,"D
+解释：
+选项D“不料这秃儿却拿着一支黄漆的棍子——就是阿Q所谓的哭丧棒——大踏",True,False,A,32,2.22,b3,
+gemma-3-1b-it-BF16,ceval,5,"C
+
+**证明：**
+
+设 $P(2{\sqrt{6}},2{\sqrt{6}})$ 是过点 $2{\sqrt{6",True,True,C,32,2.27,b3,
+gemma-3-1b-it-BF16,ceval,6,"D
+
+**解释：**
+
+*   **①从抛出到落地动量的增量相同：**  这是正确的。因为两个小物体在",True,False,B,32,2.48,b3,
+gemma-3-1b-it-BF16,ceval,7,"D
+
+解释：
+PPP协议的核心是身份认证，它通过使用NCP协议来验证连接的身份，并使用动态分配IP地址。因此",True,False,B,32,2.03,b3,
+gemma-3-1b-it-BF16,ceval,8,"D
+解释：
+选项D“多哈亚运会大约90%的专卖产品来自中国，“中国元素”已经成为本届亚",True,False,A,32,3.03,b3,
+gemma-3-1b-it-BF16,ceval,9,"C
+
+解释：
+双曲线C：$\frac{x^2}{a^2}-y^2=1$
+焦点为(-2,",True,False,B,32,2.4,b3,
+gemma-3-1b-it-BF16,ceval,10,"C
+解释：
+地球自转导致地球表面上各点都做匀速圆周运动。这意味着地球表面上的所有点都具有相同的角",True,True,C,32,2.26,b3,
+gemma-3-1b-it-BF16,ceval,11,"D
+
+解释：
+以太网中介质访问冲突是网络中数据传输的瓶颈。以太网回退算法的目的是通过重复",True,True,D,32,2.22,b3,
+gemma-3-1b-it-BF16,ceval,12,"D
+理由：
+选项A是描写景物的，表达了对美好生活的向往，没有语法错误。
+选项B是陈述事实，",True,False,D,32,2.69,b3,
+gemma-3-1b-it-BF16,ceval,13,"C
+
+解释：
+$a=1+\sin0.1$
+$b=e^{0.1}$
+$c=1.0",True,False,D,32,2.37,b3,
+gemma-3-1b-it-BF16,ceval,14,"A
+
+解释：
+*   A. 速度变化量大,加速度可能很小：这是正确的。速度越大，加速度越大，速度变化量",True,False,C,32,2.16,b3,
+gemma-3-1b-it-BF16,ceval,15,"A
+
+解释：
+TCP协议中，4种计时器是：
+*   坚持计时器：用于确定TCP连接的持续时间。
+*",True,False,C,32,2.09,b3,
+gemma-3-1b-it-BF16,ceval,16,"A
+
+解释：
+*   A句完整、准确地表达了航天飞行控制中心的成功实施和状态良好，没有语法错误或表达不",True,False,B,32,2.74,b3,
+gemma-3-1b-it-BF16,ceval,17,"D
+
+解释：
+我们知道角$\theta$的终边上一点$P\left( 1,a \right )\left( a<",True,False,A,32,2.34,b3,
+gemma-3-1b-it-BF16,ceval,18,"B
+理由：
+题目描述的是匀变速直线运动，加速度相同，初速度不同。
+根据匀变速直线运动的条件，加速度恒定",True,False,A,32,2.39,b3,
+gemma-3-1b-it-BF16,ceval,19,"B
+
+解释：
+TCP的滑动窗口协议允许重传分组的数量最多可以等于滑动窗口的大小。  这使得TCP能够处理网络拥塞，",True,True,B,32,2.1,b3,
+gemma-3-1b-it-BF16,ceval,20,"B
+
+解释：
+划线处描述了北方春天的景象，以及寒冷的天气。
+“春寒料峭”是描述北方春",True,False,D,32,2.38,b3,
+gemma-3-1b-it-BF16,ceval,21,"C
+
+证明：
+$\frac{\sin2\alpha}{3\cos\alpha-1}=\tan\alpha$
+$\frac{\sin2\",True,False,A,32,2.29,b3,
+gemma-3-1b-it-BF16,ceval,22,"C
+Explanation：
+The person is exerting a pressure on the elevator floor. The pressure is given by the formula $P = \frac{m}{r",True,False,A,32,2.26,b3,
+gemma-3-1b-it-BF16,ceval,23,"A
+
+**解释：**
+
+* **拥塞控制阈值:** 32KB 是一个合理的初始阈值，用于控制TCP连接的拥",True,False,D,32,2.52,b3,
+gemma-3-1b-it-BF16,ceval,24,"B
+
+解释：
+“认真阅读的结果，不但随时会发现晶莹的宝石，____。”这句话的意境是，在发现宝石的过程中，",True,False,D,32,2.37,b3,
+gemma-3-1b-it-BF16,ceval,25,"A
+
+**解释：**
+
+我们有 $(1+\dfrac{1}{x}+\dfrac{1}{x^2})(1+x)^6$.",True,False,C,32,2.2,b3,
+gemma-3-1b-it-BF16,ceval,26,"B
+解释：
+选项B“在国际空间站内的宇航员处于失重状态”是正确的。国际空间站是太空站，宇",True,True,B,32,2.33,b3,
+gemma-3-1b-it-BF16,ceval,27,"C
+
+解释：
+TCP/IP 协议中，窗口大小是用于控制数据传输速率的参数。当发送窗口增加到32时，",True,False,B,32,2.11,b3,
+gemma-3-1b-it-BF16,ceval,28,"C
+理由：
+选项C“我这里并没有亲人。”“好歹叫他们送我回去。”“宝玉!宝玉!你好……”",True,True,C,32,2.82,b3,
+gemma-3-1b-it-BF16,ceval,29,"C
+
+**证明：**
+
+设 $x^2 - y^2 = 2008$ 是一个双曲线。
+双曲线的",True,False,A,32,2.4,b3,
+gemma-3-1b-it-BF16,ceval,30,"B
+
+理由：
+月球表面以初速度$v_0$竖直上抛一小球，经时间t落回到手中，这",True,False,A,32,2.64,b3,
+gemma-3-1b-it-BF16,ceval,31,"C
+
+解释：
+UDP数据报的数据字段为8192B，这意味着数据报的大小为8192字节。
+在链路层",True,False,D,32,2.12,b3,
+gemma-3-1b-it-BF16,ceval,32,"D
+解释：
+选项 D “印度洋海啸发生后，中国政府进行了迄今为止最大规模的对外救援行动” 明确地表达",True,True,D,32,2.48,b3,
+gemma-3-1b-it-BF16,ceval,33,"C. 72种
+
+解释：
+题目描述了两个医疗分队，每个分队都必须有内科医生、外科医生和护",True,False,D,32,2.33,b3,
+gemma-3-1b-it-BF16,ceval,34,"D
+
+解释：
+国际单位制（SI）是全球统一的计量系统，其基本单位包括：
+*   千克 (kg) -",True,True,D,32,1.98,b3,
+gemma-3-1b-it-BF16,ceval,35,"C
+
+**解释：**
+
+*   **CRC (Cyclic Redundancy Check) 的原理：**  CRC是一种用于检测数据传输过程中发生",True,False,D,32,2.2,b3,
+gemma-3-1b-it-BF16,ceval,36,"D
+
+解释：
+“造化的神功”是“造化”的化身，而“春风”是造化的神功的化",True,False,C,32,2.64,b3,
+gemma-3-1b-it-BF16,ceval,37,"A
+
+**解释：**
+
+等差数列$\left\{a_{n}\right\}$中，若$a_{4}+a_{6}+a",True,False,D,32,2.24,b3,
+gemma-3-1b-it-BF16,ceval,38,"B
+
+解释：
+匀速直线运动是指物体沿与速度方向相反的力作用下，速度不变的运动。当沿与速度方向相反",True,False,C,32,2.31,b3,
+gemma-3-1b-it-BF16,ceval,39,"D
+
+解释：
+*   **A. 提高系统可靠性：** 计算机网络在保证数据传输的可靠性方面发挥着重要作用",True,False,B,32,2.04,b3,
+gemma-3-1b-it-BF16,ceval,40,"A
+
+解释：
+选项A“这份典籍的发现，说明了任何文化都有根，根脉里都藏着人类为生活不",True,False,D,32,2.97,b3,
+gemma-3-1b-it-BF16,ceval,41,"D
+
+**解释：**
+
+曲线 $y = \frac{1}{x}$ 围城一个封闭图形。
+
+*   **直线 $y",True,True,D,32,2.27,b3,
+gemma-3-1b-it-BF16,ceval,42,"B
+理由：
+牛顿第二定律F=ma表示，物体受到的力等于物体质量乘以加速度。当物体受到很小的力时，",True,False,C,32,2.4,b3,
+gemma-3-1b-it-BF16,ceval,43,"C
+
+解释：
+10Base-T 是一种以太网协议，它使用 10 个比特来表示 8 个位。它",True,True,C,32,2.04,b3,
+gemma-3-1b-it-BF16,ceval,44,"B
+
+解释：
+* 谙练（ān） - 错误：字形是“ān”，字音是“n”。
+* 巨",True,True,B,32,2.99,b3,
+gemma-3-1b-it-BF16,ceval,45,"A
+
+**解释：**
+
+等差数列的等差数列的等差数列的等差数列的等差数列的等差数列的等",True,True,A,32,2.37,b3,
+gemma-3-1b-it-BF16,ceval,46,"B
+
+解释：
+橡皮条的拉伸会使橡皮条内部分子间的相互作用力减小，从而导致橡皮条内",True,False,D,32,2.18,b3,
+gemma-3-1b-it-BF16,ceval,47,"D
+
+解释：
+*   A. 城域网是为淘汰局域网和广域网而提出的一种新技术：正确，城域网",True,False,B,32,2.35,b3,
+gemma-3-1b-it-BF16,ceval,48,"B
+
+解释：
+选项B“正如语言的逐渐发展必然是和听觉器官的相应完善化同时进行的一样”最准确地",True,True,B,32,2.64,b3,
+gemma-3-1b-it-BF16,ceval,49,"C
+
+Final Answer: The final answer is $\boxed{-2\tan2A}$",True,False,B,18,1.43,b3,
+gemma-3-1b-it-BF16,ceval,50,"C
+
+解释：
+木块受到的重力为10N，木块所受的摩擦力为0.4。
+木块的",True,True,C,32,2.35,b3,
+gemma-3-1b-it-BF16,ceval,51,"C
+
+解释：
+在选择重传协议中，当帧的序号字段为4bit，且接收窗口与发送窗口尺寸相同时，发送",True,False,A,32,2.11,b3,
+gemma-3-1b-it-BF16,ceval,52,"B
+
+解释：
+选项B“④②③①”符合横线上的四句话顺序。
+“④”是“不顾一天行军",True,True,B,32,2.43,b3,
+gemma-3-1b-it-BF16,ceval,53,"A
+
+**解答：**
+
+设双曲线C为 $x^2/a^2 - y^2/b^2 = 1$",True,False,D,32,2.68,b3,
+gemma-3-1b-it-BF16,ceval,54,"D
+解释：
+匀变速直线运动的加速度是0，因为匀变速直线运动的加速度始终保持不变，无论质点如何移动。",True,False,C,32,2.21,b3,
+gemma-3-1b-it-BF16,ceval,55,"C
+
+解释：
+TCP/IP网络中的端口号范围是 0 到 65535。 这是一个广泛的范围，可以用于",True,False,A,32,2.16,b3,
+gemma-3-1b-it-BF16,ceval,56,"C
+
+解释：
+选项C“戍守” $\underline{庶}民” $\underline{数}典忘祖” $\underline{束}",True,False,D,32,2.71,b3,
+gemma-3-1b-it-BF16,ceval,57,"C
+
+解释：
+命题P：$\exists n{\in}N,n^{2}>2^{n}$
+这个命题表示存在一个",True,False,D,32,2.39,b3,
+gemma-3-1b-it-BF16,ceval,58,"C
+
+解释：
+曲线运动物体运动速度始终保持不变。
+A. 大小一定改变：曲线运动物体大小不变，运动速度不变。",True,False,C,32,2.13,b3,
+gemma-3-1b-it-BF16,ceval,59,"D
+
+解释：
+*   **CSMA/CD:**  使用冲突检测和避免机制，可以有效避免碰撞。
+*   **ALOHA",True,True,D,32,2.02,b3,
+gemma-3-1b-it-BF16,ceval,60,"A
+
+解释：
+选项A是正确的，因为它准确地描述了水果的品质，并强调了水果的种类，从而体现了对水果的",True,True,A,32,2.82,b3,
+gemma-3-1b-it-BF16,ceval,61,"D
+
+解释：
+如果 $\vec{a}\cdot\vec{b} < 0$，则 $\vec{a}\cdot\vec{b",True,False,B,32,2.28,b3,
+gemma-3-1b-it-BF16,ceval,62,"C
+
+解释：
+汽车以额定功率行驶时，其动力会使它加速，并保持速度。因此，它不会做匀速直线",True,True,C,32,2.08,b3,
+gemma-3-1b-it-BF16,ceval,63,"B
+
+解释：
+TCP (Transmission Control Protocol) 是一种面向连接的协议，它提供可靠的数据传输服务。TCP 的首部包含源端口",True,True,B,32,2.05,b3,
+gemma-3-1b-it-BF16,ceval,64,"B
+
+解释：
+1936年鲁迅先生逝世时，美国作家斯诺撰写了一副挽联，托人送到鲁",True,False,A,32,2.85,b3,
+gemma-3-1b-it-BF16,ceval,65,"B
+Explanation：
+A. $\left\{4,5\right\}\in A \cup B$ is false.  The set $\{4,5",True,False,C,32,2.43,b3,
+gemma-3-1b-it-BF16,ceval,66,"B
+
+解释：
+人能够跳离地面，是因为人自身的体重与地面的重力相互作用，人通过蹬地产生向上的力，",True,False,C,32,2.31,b3,
+gemma-3-1b-it-BF16,ceval,67,"A
+
+解释：
+TCP协议的窗口大小是发送方允许的窗口大小和接收方允许的窗口大小的组合。 接收方允许的",True,True,A,32,2.16,b3,
+gemma-3-1b-it-BF16,ceval,68,"C
+理由：
+选项A是规范的，表达了对节目创作的准确描述。
+选项B是描述了俄罗斯的改革，但没有",True,False,C,32,2.79,b3,
+gemma-3-1b-it-BF16,ceval,69,"A
+
+证明：
+$\angle A = 60^{\circ}$
+$a=3, b=2$
+$\angle B = \arcs",True,False,A,32,2.32,b3,
+gemma-3-1b-it-BF16,ceval,70,"A
+
+解释：
+月球的引力是地球引力的一半，因此月球的引力加速度是 $g_m = \frac",True,False,C,32,2.4,b3,
+gemma-3-1b-it-BF16,ceval,71,"D
+
+解释：
+CSMA (Carrier Sense Multiple Access with Collision Avoidance) 是一种用于共享媒体的协议。它通过检测接收到的介质",True,True,D,32,2.1,b3,
+gemma-3-1b-it-BF16,ceval,72,"D
+解释：
+选项A中，使用了“难道还有什么个人得失不能抛弃吗？”这句话，表达了对个人利益的考量",True,False,B,32,2.51,b3,
+gemma-3-1b-it-BF16,ceval,73,"C
+
+解释：
+函数 $y = \log_{\frac{1}{2}}\left(ax^2-8x+15\right)$",True,False,D,32,2.42,b3,
+gemma-3-1b-it-BF16,ceval,74,"A
+
+**解释：**
+
+匀减速运动的位移公式为：
+
+$d = v_i t + \frac{1}{2",True,True,A,32,2.36,b3,
+gemma-3-1b-it-BF16,ceval,75,"C
+
+解释：
+1.  数据块大小：每秒产生60B的数据块。
+2.  TCP报文头部：TCP报",True,False,C,32,2.38,b3,
+gemma-3-1b-it-BF16,ceval,76,"A
+解释：
+选项A“北京将以何种方式来展示我们古老民族参与国际现代事务的能力呢？刘淇回应奥运场",True,False,D,32,2.78,b3,
+gemma-3-1b-it-BF16,ceval,77,"A
+
+证明：
+设 $A_1, A_2, \dots, A_m$ 是 $B_1, B_2,",True,False,D,32,3.06,b3,
+gemma-3-1b-it-BF16,ceval,78,"B
+
+解释：
+①描述正确。暴晒过程中，内胎容积几乎不变，但气体分子间斥力急剧增大，导致",True,False,A,32,2.69,b3,
+gemma-3-1b-it-BF16,ceval,79,"C
+
+解释：
+海明码是一种用于在4位码表中检测数据错误的一种编码方法。它通过将每个字符的二进制表示与",True,True,C,32,2.03,b3,
+gemma-3-1b-it-BF16,ceval,80,"C
+理由：
+选项C“舆论界推崇“他仅用一张照片就展示了人性的倾覆或整个非洲大陆的悲",True,False,A,32,2.65,b3,
+gemma-3-1b-it-BF16,ceval,81,"D
+
+**解释：**
+
+这两个圆的方程是：
+
+*   $(x-2)^2 + y^2 = 4$
+*",True,False,B,32,2.12,b3,
+gemma-3-1b-it-BF16,ceval,82,"C
+理由：
+选项C“在推导匀变速直线运动位移公式时，把整个运动过程划分成很多小段，每一段",True,False,A,32,2.52,b3,
+gemma-3-1b-it-BF16,ceval,83,"C
+
+解释：
+帧是传输层数据交换的基本单位。它包含数据、控制信息和错误检测信息。
+
+A. 报文段",True,True,A,32,2.01,b3,
+gemma-3-1b-it-BF16,ceval,84,"B
+
+解释：
+选项B“人们提到秋白同志，总会说起他是那样大公无私，光明磊落”最恰",True,False,A,32,2.83,b3,
+gemma-3-1b-it-BF16,ceval,85,"A
+
+解释：
+互化式是两个函数 $f(x)$ 和 $g(x)$ 的互化式，即 $f(x",True,True,A,32,2.51,b3,
+gemma-3-1b-it-BF16,ceval,86,"D
+
+**解释：**
+
+*   **甲、乙两辆汽车质量之比m1:m2=1:2**
+*",True,False,A,32,2.35,b3,
+gemma-3-1b-it-BF16,ceval,87,"C
+
+解释：
+OSI参考模型中，第n层与它之上的第n+1层相互作用，并共享资源。 这种",True,False,A,32,2.31,b3,
+gemma-3-1b-it-BF16,ceval,88,"D
+解释：
+选项D“我们虽然至今还不能够弄清‘莫扎特效应’的奥秘是什么，但是莫扎特音乐",True,True,D,32,2.86,b3,
+gemma-3-1b-it-BF16,ceval,89,"D
+
+解释：
+$A=\{x|-1<x<1\}$ 表示 $x$ 是介于 $-1$ 和 $1$ 之间的",True,True,A,32,2.18,b3,
+gemma-3-1b-it-BF16,ceval,90,"D
+解释：
+EC衰变发生于核内中子数相对过少的放射性原子核。
+在EC衰变过程中，一个质",True,True,D,32,2.62,b3,
+gemma-3-1b-it-BF16,ceval,91,"B
+
+解释：
+差分曼彻斯特码是一种用于表示数字的编码方法，它通过在每个位之间添加一个跳变来提高效率",True,False,A,32,2.04,b3,
+gemma-3-1b-it-BF16,ceval,92,"B
+理由：
+青岛啤酒和燕京啤酒是两家啤酒厂，它们各自有优势和劣势。青岛啤酒的水质和",True,True,B,32,2.69,b3,
+gemma-3-1b-it-BF16,ceval,93,"A
+
+解释：
+直三棱柱的棱锁是直线中，与直线$BC_1$异面的直线条数为4。
+直",True,False,C,32,2.12,b3,
+gemma-3-1b-it-BF16,ceval,94,"B
+
+解释：
+曲线运动的物体受到的合力是物体自身质量和外部力共同作用的结果。合力方向与速度方向不在同",True,True,B,32,2.15,b3,
+gemma-3-1b-it-BF16,ceval,95,"B
+
+解释：
+A和B建立了TCP连接，当A收到确认号为100的确认报文段时，表示末字节序号",True,False,C,32,2.29,b3,
+gemma-3-1b-it-BF16,ceval,96,"C
+解释：
+“两小无猜”形容男女之间互相理解、互相尊重，是很好的关系。在王军和李刚的背景",True,False,B,32,2.72,b3,
+gemma-3-1b-it-BF16,ceval,97,"A
+
+解释：
+如果 $1+zi=0$，那么 $zi=-1$，所以 $z = -\frac{1}{i} = -\",True,False,C,32,2.06,b3,
+gemma-3-1b-it-BF16,ceval,98,"C
+
+解释：
+*   **程** (A) 是一个矢量，它具有大小和方向。
+*   **质量** (B)",True,False,C,32,1.98,b3,
+gemma-3-1b-it-BF16,ceval,99,"B
+
+解释：
+分组交换网络 (GNN) 的核心思想是，每个节点接收来自所有其他节点的信息，然后根据这些信息进行聚合",True,True,B,32,2.09,b3,

@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\qwen2.5-1.5b\\qwen2.5-1.5b-instruct-q2_k.gguf",
+  "model_file": "qwen2.5-1.5b-instruct-q2_k.gguf",
+  "bench": "ceval",
+  "n_requested": 100,
+  "seed": 42,
+  "n_ctx": 4096,
+  "tag": "b3",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-24T19:25:31",
+  "finished": "2026-10-24T19:29:55",
+  "rows_total": 100,
+  "correct": 32,
+  "parse_ok": 99,
+  "accuracy": 0.32,
+  "parse_rate": 0.99,
+  "errors": 0
+}

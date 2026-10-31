@@ -1,0 +1,31 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,0,"A
+
+解释：Po^210 是钋-210，其原子核的平均质量为210.00000",True,True,A,32,1.57,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,1,"A
+
+问题：What is the percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more",True,False,C,32,1.44,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,2,"C
+
+解释：边际产量是指在保持其他生产要素不变的情况下，增加一个单位的某种生产要素所导致的总产量的增加量。选项",True,True,C,32,1.6,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,3,"A
+
+解析：首先，我们需要计算每天可以生产的最大数量的类型I汽车悬架支臂。由于每天有24小时，工厂可以生产",True,False,C,32,2.09,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,4,"A
+
+解释：在联邦法院，一个疏忽诉讼被提起，指控飞行员的飞行员因儿子受伤。飞行员的律师在庭审中叫来咨询",True,False,B,32,2.61,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,5,"A
+
+解释：Skinner box，也称为实验箱或行为箱，是一种在心理学实验中用于研究动物行为的设备。它通过提供一个",True,True,A,32,1.62,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,6,"A
+
+解析：首先，我们需要计算每个物品的平均成本。平均成本是成本加上利润的总和除以数量。每个物品的利润是",True,False,C,32,1.67,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,7,"C
+
+解释：选项C正确，因为这些氨基酸是必需的，因为它们不能在体内合成，必须从食物中获得。选项A和D",True,True,C,32,1.55,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,8,"A
+
+解析：平衡的支付赤字意味着一个国家的出口超过了进口。官方储备增加意味着国家的储备增加，而官方储备减少意味着国家",True,False,C,32,1.48,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,9,"D
+
+解析：燃烧和有氧呼吸的能源释放方式不同。燃烧释放能量迅速，如同热能，会破坏细胞，而有氧呼吸",True,True,D,32,1.75,b3,

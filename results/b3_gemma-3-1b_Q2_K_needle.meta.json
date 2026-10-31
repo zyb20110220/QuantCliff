@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\gemma-3-1b\\gemma-3-1b-it-Q2_K.gguf",
+  "model_file": "gemma-3-1b-it-Q2_K.gguf",
+  "bench": "needle",
+  "n_requested": 20,
+  "seed": 42,
+  "n_ctx": 8192,
+  "tag": "b3",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-31T09:47:04",
+  "finished": "2026-10-31T09:58:16",
+  "rows_total": 20,
+  "correct": 20,
+  "parse_ok": 20,
+  "accuracy": 1.0,
+  "parse_rate": 1.0,
+  "errors": 0
+}

@@ -1,0 +1,7 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q4_k_m,needle,0,"770487
+
+问题：记录中编号 100000 的保险箱密码是多少？只输出 6 位数字",True,True,,32,30.93,b3,
+qwen2.5-1.5b-instruct-q4_k_m,needle,1,"324643
+
+问题：记录中编号 100001 的保险箱密码是多少？只输出 6 位数字",True,True,,32,32.77,b3,

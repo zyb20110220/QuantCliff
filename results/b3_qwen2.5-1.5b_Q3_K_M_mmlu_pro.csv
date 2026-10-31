@@ -1,0 +1,699 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,0,"A
+
+问题：What is the available energy for the \alpha decay of Po^210 ?
+选项：
+A. 5.40MeV",True,True,A,32,2.49,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,1,"A
+
+问题：What is the percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more",True,False,C,32,2.51,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,2,"C
+
+问题：What is the difference between a public good and a private good?
+选项：
+A. Public goods are provided by the government, while private goods",True,True,C,32,2.88,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,3,"A
+
+问题：A factory can produce 699 units of type I automobile suspension struts in an hour (using a new machine) at an average",True,False,C,32,3.58,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,4,"B
+
+问题：The man was a good friend to the woman. He was always there for her when she needed him. The man was a good friend to",True,True,B,32,4.5,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,5,"A
+
+解释：Skinner box是一种操作条件箱，用于通过奖励或惩罚行为来增加或减少其发生的概率。因此，选项A正确。",True,True,A,32,2.5,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,6,"A
+
+问题：A store sells two items for $10 each. One item costs $5.25, while the other costs $6.5",True,False,C,32,2.47,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,7,"C
+
+问题：The following amino acids are all essential components of the diet:
+
+选项：
+A. methionine, serine and tyrosine
+B",True,True,C,32,2.32,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,8,"A
+
+问题：A balance of payments surplus means that a country has
+选项：
+A. exported more than it has imported.
+B. reduced its national debt",True,False,C,32,2.14,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,9,"D
+
+问题：What is the main difference between a computer and a smartphone?
+选项：
+A. A computer is a device that can be used for both personal",True,True,D,32,2.79,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,10,"D
+
+问题：Find $-\dfrac{1}{-3}\cdot\cfrac{1}{~\frac{1}{-3}~",True,False,C,32,2.29,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,11,"A
+
+问题：What is the difference between a function and a method in Python?
+选项：
+A. A function is a block of code that performs a specific",True,False,D,32,3.25,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,12,"D
+
+问题：The items for 2 machinist proficiency test have been based on 2 job analysis of machinists in 50 plants,",True,True,D,32,2.38,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,13,"C
+
+问题： The process of making a decision is a complex one that involves a variety of factors. Which of the following is NOT a factor that can influence",True,False,B,32,2.21,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,14,"A
+
+解释：这道题要求找出四个规划模型中共同的两个元素。四个模型的名称分别是：Hendrix (2002",True,False,D,32,2.38,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,15,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,C,32,2.33,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,16,"D
+
+问题：What are some advantages of doing genetics in bacteria and yeast instead of in larger organisms (i.e.,multicellular eukaryotes)?",True,True,D,32,3.03,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,17,"A
+
+解析：根据题目描述，固体的厚度为0.5英寸，空隙体积占其体积的50%，固体被完全浸泡在",True,False,D,32,3.21,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,18,"A
+
+问题：What is the value of $x$ in the equation $x^2 + 2x + 1 = 0$?
+选项",True,False,C,32,2.97,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,19,"A
+
+解释：如果每包有8个气球，那么你需要的气球总数是42个。要找出你需要多少包，你可以将",True,False,C,32,2.13,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,20,"A
+
+问题：What is the refund on an insurance policy with anannual premiumof $37 that is canceled 33 days after it was purchased?",True,False,D,32,2.48,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,21,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,A,32,2.38,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,22,"D
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,A,32,2.45,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,23,"A
+
+解释：沸点是根据分子间作用力的大小来决定的，分子间作用力越大，沸点越高。分子间作用力",True,False,B,32,3.33,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,24,"A
+
+问题：What is the most common cause of atherosclerosis?
+选项：
+A. Smoking
+B. High blood pressure
+C. High cholesterol",True,False,C,32,2.47,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,25,"A
+
+解析：首先，根据题目中给出的圆的周长，我们可以计算出圆的半径。圆的周长公式是 \(C",True,True,A,32,2.48,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,26,"C
+
+解释：根据题目，我们需要计算在500K时，氮气和氢气反应生成氨气的标准反应吉布斯自由能",True,False,B,32,3.23,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,27,"A
+
+解释：首先，我们需要将速度从英里每小时转换为英尺每秒。30 mi/hr = 30 * 5",True,True,A,32,2.56,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,28,"A
+解释：首先，我们需要计算弹簧的总重量，即950 lbs * 4 = 3800 lbs。然后，我们需要",True,False,B,32,2.74,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,29,"A
+
+问题：What is the most important factor in the success of a business?
+选项：
+A. The quality of the products
+B. The quality of",True,True,A,32,2.34,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,30,"D
+
+答案：D. potato
+
+问题：Which of the following crops was NOT an important component of Hopewell subsistence?
+选项：
+A. beans",True,False,C,32,2.12,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,31,"A
+
+解释：反射系数（也称为反射角）是描述波在传输线末端反射时的相位和幅度的量。对于电压波",True,True,A,32,2.73,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,32,"C
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,C,32,2.06,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,33,"A
+
+答案：A
+
+问题：Bill purchased a can of Sipep from the Ajax Minimart. After he finished drinking the Sipep,",True,False,D,32,2.74,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,34,"D
+
+问题：Which of the following is not a type of data?
+选项：
+A. numerical data
+B. categorical data
+C. binary data",True,False,C,32,2.34,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,35,"A
+
+解释：椭圆极化波的电场分量分别为E_x = 3 sin(\omega t - \beta z) V/m和",True,False,C,32,2.78,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,36,"A
+
+解析：根据题目，Lily 可以将糖果分给 5、3 或 2 个人，这意味着糖果的数量必须是",True,False,B,32,2.44,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,37,"D
+
+问题：A father and a son were indicted and charged with bank robbery. They allegedly participated together in robbing a bank in their hometown. After the",True,False,B,32,3.61,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,38,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,False,C,32,3.3,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,39,"A
+
+问题：Identify the algebraic expression that matches the word phrase: 4 times as many cans as Tom collected.
+选项：
+A. 4",True,True,A,32,2.18,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,40,"A
+
+解析：首先，我们需要计算出固体的摩尔质量，然后根据摩尔质量计算出固体的质量，最后根据固体的质量和摩尔",True,False,B,32,3.02,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,41,"D
+
+解释：古典经济学家通常认为，工资会快速波动，而说的法定律不成立，输入和输出价格会保持一致。政府不应该",True,True,D,32,2.46,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,42,"A
+
+问题：A balance of trade surplus can be the result of
+选项：
+A. high levels of income relative to other nations.
+B. low levels",True,False,B,32,2.15,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,43,"A
+
+解释：首先，我们需要确定10克的蔗糖在150克的乙醇中溶解后，溶液的沸点。蔗",True,False,B,32,2.63,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,44,"B
+
+问题：A 29-year-old male presents to the office with the complaints of a pounding heart, poor sleep, and a generalized feeling of rest",True,True,B,32,2.68,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,45,"A
+
+问题：The distributors of oil from theMoloRepublic are willing to buy 60-p barrels per day, when p = dollars per barrel.",True,False,B,32,3.14,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,46,"B
+
+问题：What is the main difference between the two types of government?
+选项：
+A. The first type is more democratic, while the second type is",True,True,B,32,2.22,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,47,"B
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,True,B,32,2.07,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,48,"A
+
+解释：首先，我们需要对给定的方程进行求导，以便找到y关于x的导数f'(x)。给定",True,True,A,32,2.56,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,49,"A
+
+问题：What is the meaning of ""a"" in the sentence ""a person""?
+选项：
+A. A person is a living being.
+B",True,False,C,32,2.38,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,50,"A
+
+问题：The heat capacity of uranium metal is 0.727 cal deg^-1 mole^-1 at 20° K. Calculate",True,True,A,32,2.82,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,51,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,A,32,2.67,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,52,"B
+
+解释：幂级数的收敛区间通常取决于其系数的性质，特别是系数的正负性。如果系数为正，收敛区间通常",True,True,B,32,2.56,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,53,"A
+
+问题：Statement 1 | If a group has an element of order 10, then it has elements of orders 1, 2,",True,False,D,32,2.66,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,54,"A
+解释：根据问题描述，该案件涉及一个作家将他的四页大纲发送给好莱坞的制片人，制片人表示会支付",True,True,A,32,4.24,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,55,"A
+
+问题：The normal voltage used in directional heating is
+选项：
+A. 33 KV.
+B. 0.5 KV.
+C.",True,False,C,32,2.15,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,56,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Moscow
+答案：A",True,True,A,32,2.29,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,57,"A
+
+问题：The Rosenhan study of mental institutions showed that
+选项：
+A. it is difficult to convince medical professionals that one has a disorder when one",True,False,B,32,2.56,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,58,"A
+
+问题： What is the main difference between a random sample and a non-random sample?
+选项：
+A. Random samples are more accurate.
+B. Non",True,False,C,32,2.16,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,59,"D
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,D,32,4.03,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,60,"A
+
+问题：A small electrical device is having eight pin fins each of 5 mm wide, 0.5 mm thick and 25 mm long",True,True,A,32,3.3,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,61,"D
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,False,C,32,2.35,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,62,"A
+
+问题：Apreemphasiscircuit of transfer function \vertHp(f)\vert^2 = k^2f^2 is used in an",True,False,D,32,3.69,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,63,"D
+
+答案：D
+
+问题：In Aquinas’s view, man’s ultimate happiness consists in:
+选项：
+A. achieving personal success
+B. living",True,True,D,32,2.24,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,64,"D
+
+问题：What is the value of the expression 2x^2 + 3x – 5 when x = 4?
+选项：
+A",True,False,B,32,2.64,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,65,"A
+
+问题：What arePackedarrays? How do they differfrom conventional arrays?
+选项：
+A. Packed arrays allocate fixed memory blocks regardless of the",True,False,C,32,2.59,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,66,"A
+
+解释：选项A中，""Eva""不在nameList中，因此应该显示0，但选项A显示了1，这表明该",True,False,B,32,4.34,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,67,"B
+
+解释：根据题目，当增加单位劳动时，产出从300增加到350，再到375。这表明在",True,False,A,32,2.75,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,68,"A
+
+问题：What is the most common way for a virus to kill a cell?
+选项：
+A. Induces apoptosis via caspases
+B.",True,True,A,32,2.19,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,69,"A
+
+问题：What is the main difference between a computer and a calculator?
+选项：
+A. A computer is more powerful than a calculator.
+B. A",True,True,A,32,2.46,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,70,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,False,B,32,2.4,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,71,"B
+
+问题：The first step in making a decision is to identify the problem. The second step is to gather information about the problem. The third step is",True,True,B,32,2.65,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,72,"B
+
+答案是B，18.6。首先，根据题目中给出的信息，一个人的体重是62公斤，药物剂量是15",True,False,D,32,2.29,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,73,"A
+
+问题：A公司去年的净利润为1000万元，今年的净利润为1200万元，净利润的年增长率是多少？",True,False,D,32,2.22,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,74,"B
+
+解释：首先，我们需要计算每个类别的中位数，然后计算它们的平均值。然后，我们可以使用这些值来计算skew",True,True,B,32,2.88,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,75,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D.C.
+B. New York
+C. Los Angeles
+D",True,True,A,32,2.57,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,76,"B
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,B,32,2.51,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,77,"D
+
+问题：Mayan art and iconography prominently feature depictions of:
+选项：
+A. abstract geometric shapes.
+B. infants and children.
+C.",True,False,C,32,2.04,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,78,"A
+
+解析：每次服用的药物量为150 mg，5%的药物在每次服用前留在体内，因此每次服用前的药物",True,True,A,32,2.78,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,79,"A
+
+问题：What was concluded in a recent study comparing the genomes of modern people with ancient skeletal remains in North and South America?
+选项：
+A. The",True,True,A,32,3.09,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,80,"A
+
+问题：A 1000 kg car is moving at 100 km/h. What is the kinetic energy of the car?
+选项",True,False,D,32,3.31,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,81,"A
+解释：首先，我们需要理解题目中的术语。""monozygotic twin pairs""指的是双胞胎，""club feet""指的是脚部",True,False,B,32,2.53,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,82,"A
+
+问题：Which of the following is not a factor of production? a) A factory b) A piece of land c) A worker d) A",True,True,A,32,3.24,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,83,"A
+
+问题：What is the most important factor in the development of a country?
+选项：
+A. The quality of the education system
+B. The quality",True,False,C,32,2.43,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,84,"A
+
+问题：What is the main difference between the two types of bonds?
+选项：
+A. The difference between the two types of bonds is that the difference",True,False,C,32,2.81,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,85,"C
+
+问题：What is the capital of the United States?
+选项：
+A. New York
+B. Washington D.C.
+C. Los Angeles
+D",True,False,A,32,2.45,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,86,"A
+
+问题：What is the name of the largest continent?
+选项：
+A. Africa
+B. Asia
+C. North America
+D. South America",True,True,A,32,2.51,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,87,"B
+
+解释：在卡牌游戏黑杰克中，一对牌（如一对王）的价值是它们的点数之和。一对王的价值",True,False,D,32,2.09,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,88,"A
+
+问题： Which of the following is not a name of God?
+选项：
+A. Father of Goodness
+B. Grand Architect
+C. Light",True,False,D,32,2.05,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,89,"B
+
+问题：The most common cause of death among children is
+选项：
+A. cancer
+B. heart disease
+C. accidents
+D. stroke",True,True,B,32,2.41,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,90,"D
+
+问题：The daily protein intake of a typical American diet consists of meat, dairy products and eggs. Its average net protein utilization (NPU) is",True,True,D,32,2.94,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,91,"A
+
+问题：Which of these factors increases the risk for lung cancer?
+
+选项：
+A. Vitamin D deficiency
+B. Drinking green tea
+C. High",True,False,C,32,2.11,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,92,"B
+解析：根据题干，我们可以知道这是一个关于电影剧本的合同，其中有一方（电影公司）同意支付给另一方（编剧）",True,True,B,32,4.27,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,93,"D
+
+问题：The “Lion Man” from Hohlenstein-Stadel cave is an example of:
+选项：
+A. a Venus figurine.",True,True,D,32,2.32,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,94,"A
+解释：首先，我们需要确定H2O(g)和H2O(liq)之间的热力学数据。根据题目，H2O(g",True,False,C,32,3.12,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,95,"B
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,False,A,32,2.57,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,96,"B
+
+问题：f(X) = [\pi(1 + X^2)]^-1- \infty < x < \infty. If Y",True,False,D,32,3.28,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,97,"D
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,False,A,32,2.27,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,98,"A
+
+问题：Which of the following are indicative signs and symptoms of circulatory overload?
+选项：
+A. Dyspnoea, tachycardia",True,True,A,32,2.46,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,99,"A
+
+解析：在栈式编程语言中，一个子程序的激活记录帧通常包含以下信息：子程序的指令集地址、调用",True,False,C,32,2.28,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,100,"A
+
+问题：A 35-year-old male presents to the office for the result of an HIV test, and he is informed that the result is positive",True,False,C,32,3.02,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,101,"A
+
+问题：suppose I=[0,1]\times[0,1], where exp is the exponential function. What is the numeric of the double",True,False,D,32,2.55,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,102,"A
+
+解释：首先，我们需要计算出氧在水中的溶解度。根据Henry's定律，氧在水中的溶解度可以通过以下公式计算：",True,False,B,32,3.13,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,103,"A
+
+问题：The metal beaker of a dew-point apparatus is gradually cooled from room temperature, 75°F. When the beaker temperature reaches",True,False,C,32,3.27,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,104,"C. 0
+
+问题：What is the value of the expression $2^3 + 2^2 + 2^1 + 2^",True,True,C,32,2.28,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,105,"B
+
+答案：B
+
+问题：This question refers to the following information.
+It is natural, it is a privilege, I will go farther, it is",True,True,B,32,5.75,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,106,"A
+
+问题：Which of the following offers for the sale of widgets is not enforceable if the seller changes his mind prior to acceptance?
+选项：
+A.",True,False,C,32,3.29,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,107,"D
+
+问题：What is the most important factor in the success of a business?
+选项：
+A. The quality of the products
+B. The quality of",True,True,D,32,2.39,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,108,"D
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,C,32,2.13,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,109,"B
+
+解释：1968年的《诊断和统计手册》（DSM-II）将异常行为分为六个主要类别：物质使用相关障碍",True,False,C,32,3.41,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,110,"B
+
+问题：What is the main difference between the two types of cells?
+选项：
+A. The two types of cells are different in their shape.
+B",True,True,B,32,2.83,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,111,"B
+
+问题：Consider the initial value problem
+$$
+y^{\prime \prime}+\gamma y^{\prime}+y=k \delta(t",True,True,B,32,3.24,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,112,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,A,32,2.72,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,113,"A
+
+解析：根据题意，Mr. Carson在3月15日签发了一张期限为两个月的欠款证明。两个月后，",True,False,B,32,2.37,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,114,"D
+
+问题：A 3-way, set-associative cache is
+选项：
+A. one in which each cache can store 3 main memory words",True,True,D,32,2.55,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,115,"A
+
+问题：A manufacturer of motor oil is interested in testing the effects of a newly developed additive on the lifespan of an engine. Twenty-five different engine types",True,False,B,32,2.69,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,116,"D
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,False,A,32,3.63,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,117,"A
+
+问题：The parotid duct runs
+选项：
+A. superficial to masseter and enters the mouth opposite the upper second premolar.
+B.",True,False,D,32,2.4,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,118,"A
+
+问题：What is the name of the largest city in the United States?
+选项：
+A. New York
+B. Los Angeles
+C. Chicago",True,True,A,32,2.67,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,119,"A
+
+解析：根据提供的信息，该段文字描述了亚洲和非洲国家团结一致，共同反对殖民统治和维护和平的决心。这与非",True,True,A,32,3.21,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,120,"A
+
+问题：The highest levels of learning and performance are usually associated with:
+选项：
+A. gradually increasing levels of arousal.
+B. arousal levels that are",True,False,C,32,2.22,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,121,"D
+
+解析：根据题意，我们有 $a+b+c = 1$ 和 $ab+ac+bc = -4$。我们可以通过",True,False,C,32,2.43,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,122,"A
+
+问题：What will happen to transfer earnings and economic rent if landhas only a single use?
+选项：
+A. Economic rent increases to the point where",True,False,C,32,2.48,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,123,"A
+
+问题：What is the difference between the two types of economies?
+选项：
+A. The difference in the aggregate demand for a nontrading or closed",True,True,A,32,2.43,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,124,"C
+
+问题：What are the main causes of the extinction of species?
+选项：
+A. Human activities
+B. Natural disasters
+C. Climate change",True,True,C,32,2.17,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,125,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington, D. C. B. New York City C. Los Angeles",True,False,B,32,4.57,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,126,"D
+解释：根据题干，投资者在借款后，通过执行一个绝对的抵押权，将抵押权作为额外的担保，以期在",True,False,A,32,5.66,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,127,"A
+
+答案：A
+
+问题：What is the capital of the country that is known for its rich history of producing wine?
+选项：
+A. France",True,False,D,32,4.29,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,128,"A
+
+问题：The head of the sixth rib articulates with
+选项：
+A. The superior and inferior demifacets of T7.
+B.",True,False,B,32,2.44,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,129,"A
+
+问题：This question refers to the following information.
+But you, my dear Pangloss,"" said Candide, ""how can it be that I behold",True,False,D,32,8.17,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,130,"D
+
+问题：What is the most common cause of a stroke?
+选项：
+A. High blood pressure
+B. Smoking
+C. High cholesterol
+D",True,True,D,32,2.39,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,131,"A
+
+问题：Which of the following decimal numbers has an exact representation in binary notation?
+选项：
+A. 0.5
+B. 0.",True,True,A,32,2.13,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,132,"A
+
+解释：首先，我们需要了解硫酸氢钠（NaHSO3）的化学性质。硫酸氢钠是一种强酸强碱盐，它",True,False,B,32,2.43,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,133,"D
+
+答案：D
+
+问题：在一次考试中，小明得了85分，小红得了90分，小刚得了80",True,True,D,32,2.39,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,134,"A
+
+问题：A shopper slipped and fell on a wet spot at the local mall, suffering injuries. The shopper has sued the mall owner for negligence. At",True,True,A,32,3.63,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,135,"A
+
+解析：首先，我们需要计算公司的净资产，即总资产减去总负债。根据题目，ABC Corporation的总资产为$75,00",True,True,A,32,2.48,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,136,"B
+解释：根据题干，该城市通过经济开发计划，成功征用了部分土地，但未能与九名住宅所有者达成协议。",True,True,B,32,4.06,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,137,"C
+
+问题：The primary focus of microeconomics is
+选项：
+A. the economic impact of natural disasters.
+B. international trade policies.
+C.",True,True,C,32,2.2,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,138,"D
+解析：根据题目，广告公司向当地报纸发送广告，报纸拒绝刊登，理由是广告公司有不合适的课程导致员工低分，",True,False,A,32,4.4,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,139,"D
+
+解析：根据提供的信息，问题询问的是关于“Northern India”的情况，即在北方印度，分离的州在这一时期通常只是个",True,False,B,32,3.57,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,140,"A
+解析：根据提供的信息，该问题询问的是“这个问题涉及的信息”。根据提供的信息，我们可以推断出，这个信息描述了《",True,True,A,32,5.03,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,141,"A
+
+解释：首先，我们需要将温度从°F转换为绝对温度，即从-80°F转换为绝对温度，即从313",True,False,B,32,2.69,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,142,"D
+
+问题： What is the main difference between the two types of social media?
+选项：
+A. The first type is more popular.
+B. The second",True,False,B,32,2.27,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,143,"A
+
+问题：A prism of apex angle 72° and refractive index 1.66 is immersed in water, which has an index of",True,False,B,32,2.31,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,144,"A
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,False,C,32,2.69,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,145,"C
+
+问题：A 35-year-old man comes to the physician because of pain and swelling of his right arm where he scraped it on a tree branch",True,True,C,32,2.95,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,146,"A
+
+解析：根据欧姆定律，电流（I）与电压（V）和电阻（R）之间的关系为I = V / R。",True,True,A,32,2.33,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,147,"A
+
+问题： Which of the following propositions is an immediate (one-step) consequence in PL of the given premises?
+~E ⊃ ~F
+G",True,True,A,32,2.37,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,148,"C
+解释：本题涉及的是一个关于严格责任的法律问题。严格责任是指在某些特定情况下，即使行为人没有过错，只要行为",True,False,D,32,4.43,b3,
+qwen2.5-1.5b-instruct-q3_k_m,mmlu_pro,149,"A
+
+问题：What is the meaning of the word ""skepticism""?
+选项：
+A. A person who believes in the existence of life after",True,False,C,32,2.92,b3,

@@ -1,0 +1,334 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q2_k,ceval,0,"D。
+
+解释过程：选项 A 描述了唐朝武则天亲授的第三颗佛牙舍利，新近在省当阳市玉",True,True,A,32,3.71,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,1,"B
+解释：直线$l:a x+y+1=0$与线段AB有交点，说明直线l经过点A(1,2",True,False,B,32,3.03,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,2,"D
+解释：根据物理学中的运动学原理，质点的速度方向与曲线在这一点的切线方向一致，因此选项D是正确的。选项",True,True,D,32,2.61,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,3,"A. 选项：
+B. 选项：
+C. 选项：
+D. 选项：
+A. 选项：
+A. 选项：
+A.",True,False,B,32,2.36,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,4,"D。
+解释：D 选项中的标点符号使用不正确。
+
+答案：D 选项中的标点符号使用不正确。
+
+答案：D",True,False,A,32,3.4,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,5,"B
+解释：$2\overrightarrow{P A}=5\overrightarrow{A B}$，所以$2\overrightarrow{A B}=",True,False,C,32,2.99,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,6,"D
+解释：根据动量定理，两个小物体从抛出到落地重力做的功相同，重力的平均功率相同，重",True,False,B,32,3.35,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,7,"A
+
+正确的答案是：
+B. 面向比特的协议
+
+解释：PPP协议是面向比特的协议，而不是面向字节的协议",True,True,B,32,2.23,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,8,"A.
+输出：D
+
+解释：选项 D 中提到的统计数据和“中国元素”已经成为本届亚运会的一道亮丽风景”不符合适应，因此",True,False,A,32,3.58,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,9,"A.
+解答：已知双曲线C:$\frac{x^2}{a^2}-y^2=1$的一个焦点为(-2,",True,False,B,32,2.85,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,10,"D。
+解释：由于地球的自转，地球表面上各点的线速度方向是不均匀的，而向心加速度方向指向地球球",True,False,C,32,2.67,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,11,"D。
+解释：D. 这种算法考虑了网络的负载对冲突的影响。
+
+问题：以太网中如果发生介质访问冲突，按照",True,True,D,32,2.6,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,12,"D。
+解释说明：本题考查语病的类型，即语病的类型。语病是指句子结构不完整，语意不完整，",True,True,D,32,3.13,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,13,"选择 A。
+
+解释：这个题目没有直接给出计算过程，而是通过选择题干中的几个表达式来判断大小关系。首先，注意到表达",True,False,D,32,2.53,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,14,"A
+解释：选项A是正确的，因为根据牛顿第一定律，物体的加速度取决于外力，而物体的加速度与物体的速度",True,False,C,32,2.52,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,15,"D
+解释：TCP使用四种计时器：坚持计时器、保持计时器、时间等待计时器和重传计时器",True,False,C,32,2.25,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,16,"A.
+选项：
+A. 选项：
+B. 选项：
+C. 选项：
+D. 答案：
+
+答案：D。
+
+答案：",True,False,B,32,3.18,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,17,$a^2+1=1+a^2+2a^2=1+a^2+2a^2=1+a^2+,False,False,A,32,2.57,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,18,"D
+解释：在物理学中，当两个物体同时、同地、同向做匀加速直线运动时，它们的速度变化率相同，但",True,False,A,32,2.58,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,19,"D 。
+
+解析：TCP滑动窗口协议（SACK）规定，发送方可以发送的最大数据块大小等于接收方的滑动窗口大小",True,False,B,32,2.22,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,20,"选择的答案能正确描述上文的情境吗？
+答案是：A。
+解释：选择的答案描述了上文的情境，但上文的情境",True,False,D,32,2.6,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,21,"A. $ \pm 1或\frac{1}{2}$
+解释：首先，我们需要将给定的等式$\frac{\sin2",True,True,A,32,2.39,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,22,"D。
+解释：人站在电梯中，电梯加速上升，人对电梯底部的压力为$2mg$，因为人和电梯一起向上移动，",True,False,A,32,2.16,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,23,"A。
+解释：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：",True,False,D,32,3.22,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,24,"D
+
+D
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：填入下文横线处",True,False,D,32,2.45,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,25,"A. 30
+
+解释：首先，我们需要展开式 $(1+\frac{1}{x}+\frac{1}{x^2})(1",True,False,C,32,2.4,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,26,"D
+解释：人在电梯中处于超重状态，人处于失重状态，人处于超重状态，人处于失重状态，人处于",True,False,B,32,2.57,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,27,"D
+
+在TCP/IP中，当发送窗口增加到32时，如果发生拥塞，则拥塞窗口将会变为24。因此，正确",True,False,B,32,2.12,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,28,"D。
+解释说明：D 选项中的标点符号使用不当，因为标点符号应该放在逗号或句号后面，而不是逗号后面",True,False,C,32,3.14,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,29,"A
+解释：这道题目的解答过程需要深入理解三角形的性质和几何关系，但根据给定的选项，我们无法直接从",True,True,A,32,2.58,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,30,"A、B、C、D。
+输出：A
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A)。
+问题",True,True,A,32,2.92,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,31,UDP用户数据报的数据字段为8192B，在链路层要使用以太网来传输，那么应该分成____IP数据片。,True,False,D,32,1.83,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,32,"D。
+解释：A. 语意不明确，B. 语意不明确，C. 语意不明确，D. 语",True,True,D,32,2.8,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,33,"D
+解释：首先，我们需要计算每个分队的医生和护士的组合方式。由于每个分队都必须有内科医生、外科医生和",True,True,D,32,2.4,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,34,"D.
+
+解释：国际单位制（SI）的基本单位包括：米（长度）、千克（质量）、秒（时间）、安培（电流）、克",True,True,D,32,1.95,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,35,"A. 100
+解释：计算CRC码的过程如下：
+
+1. 将信息字10111转换为二进制：",True,False,D,32,2.22,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,36,D. 依次填入下面两句话中横线上的词语恰当的一项是：D. 造化的神功又一次使人们惊异了。,True,False,C,32,2.99,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,37,"D。
+
+解释：等差数列的性质是相邻项之差为常数，设公差为$d$，则$a_{n+1",True,True,D,32,2.44,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,38,D。解析：当物体在几个力作用下做匀速直线运动，当沿与速度方向相反的一个力逐渐减小时，物体的加,True,False,C,32,2.53,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,39,"A-D
+
+解释为什么：选项中的每个字母都代表一个陈述，但这些陈述并不准确。选项中的每个字母都代表一个陈述，但这些",True,False,B,32,2.16,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,40,"A.
+解释：选项 A 描述的是关于发现典籍的发现，说明了任何文化都有根，根脉里都藏着人类为生活不懈",True,False,D,32,4.34,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,41,"$2\ln2-1$
+
+
+A.",True,False,D,11,1.88,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,42,"A-D
+解释：A-D 选项：
+A. 选项：当用很小的力去推很重的桌子时，推力小于桌子",True,False,C,32,3.02,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,43,"A. 2000m
+解析：10Base-T是一种以太网标准，它使用一个200米的线缆，",True,False,C,32,2.27,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,44,"D
+
+答案：D
+
+我的回答是：D
+
+选项：
+A. 谙练（ān）　　麇集（qún）",True,False,B,32,3.77,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,45,"$A$。
+
+解释：题目给出的等差数列前n项和公式为$S_n = \frac{a_1 + a_n",True,True,A,32,3.05,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,46,"D
+解释：将橡皮条拉长时，橡皮条内的分子间的斥力小于引力，导致分子间的距离过大，不能够产生",True,True,D,32,2.69,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,47,"A. 城域网是为淘汰局域网和广域网而提出的一种新技术
+答案是：A. 城域网",True,False,B,32,3.13,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,48,D 正如听觉器官的相应完善化必然是和语言的逐渐发展同时进行的一样，脑髓的发展也完全是和所有听觉,True,False,B,32,3.41,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,49,$\tan(\dfrac{\pi}{4}+A)-\tan(\dfrac{\pi}{4}-A)=2\tan2A$,True,False,B,32,2.54,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,50,"D
+解析：根据牛顿第二定律，作用力等于静摩擦力，即F=μN，其中μ为动摩擦因数，N",True,False,C,32,2.44,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,51,"D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：",True,False,A,32,2.1,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,52,"D. ②④①③
+答案：D. ②④①③
+答案：D. ②",True,False,B,33,2.56,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,53,"A。
+
+选择的正确选项是：
+A. $\sqrt{3}$
+B. $\frac{4\sqrt{3}}{3}$
+C",True,False,D,32,3.3,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,54,"匀速直线
+解答：匀速直线运动的加速度为0，故本题选A。
+输入：请从 A-D 中选择唯一正确的",True,False,C,32,2.52,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,55,"D
+
+答案：在TCP/IP网络中，为各种公共服务保留的端口号范围是____。
+选项：
+A. 0～1023",True,True,A,32,1.95,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,56,"D
+解释：选项中所有词语的下划线部分读音都相同，因此答案是D。
+
+解释：选项中所有词语的下划",True,True,D,32,3.37,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,57,"A
+
+解释：$\neg p$ 表示否定命题 $p$，因此正确的表达是 $\neg p$ 为 $\exists n \in",True,False,D,32,2.71,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,58,"D。
+解释：在曲线运动中，物体的速度大小可能不变，但方向可能改变，因此速度大小不一定不变。选项 A、C 是错误",True,True,C,32,2.11,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,59,"D
+
+正确的答案是：D. TDM。
+TDM（Time-Division Multiplexed）是无源网络协议（A-D）的一种",True,True,D,32,2.12,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,60,"A-D
+答案：A-D
+答案：A-D
+答案：A-D
+A-D
+D. 选项：
+A. 不要以为只有",True,True,A,32,3.19,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,61,"B。
+解释：$\vec{a}\cdot\vec{b}<0$意味着$\vec{a}$和$\vec{b}$之间的夹角",True,True,B,32,2.32,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,62,"D
+解释：汽车以额定功率行驶时，不可能做减速直线运动，因为减速直线运动是加速直线运动的一种特殊情况，不符合题干",True,False,C,32,2.01,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,63,"D
+解释：TCP（传输模式）使用端口号（Port）字段来标识源端，而使用端口号（Port）字段来标识目标",True,False,B,32,2.07,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,64,"D。
+
+解释：这个选项是关于挽联的正确填写，而不是关于徐向前元帅的挽联。正确的挽联应该是：军功心",True,False,A,32,3.09,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,65,"A。
+
+问题：A-D 中选择唯一正确的选项，只输出字母（例如：A）。
+选项：A. 选择B。
+答案：A",True,False,C,32,2.55,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,66,"D。
+解释：人对地面的作用力等于人的重力，所以人不能跳离地面。
+
+问题：某人站在地面上，先将两",True,False,C,32,2.34,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,67,"D 选择：D
+
+问题：在TCP协议中，发送方的窗口大小取决于____。
+选项：
+A. 接收方允许的窗口",True,True,A,32,2.21,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,68,"A.
+解释：选项 A 是正确的，因为它没有使用不正确的语法或逻辑错误的句子。选项 B 和选项 D 都有不正确的语法",True,False,C,32,3.06,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,69,"$\frac{\sqrt{3}}{3}$
+
+选择：A。",True,True,A,15,1.88,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,70,"A. $\sqrt{\frac{v_0^2R}{T}}$
+
+
+在月球上以初速度为$v_0$竖直",True,False,C,32,2.54,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,71,"A
+
+解释：非坚持CSMA协议在监听到介质是空闲时仍可能发送。选项：B、C、D 都不正确",True,True,D,32,1.95,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,72,"A
+解释：A 选项没有语病。
+
+解释：A 选项没有语病。
+
+选项：A
+解释：A 选项没有语病",True,False,B,32,2.65,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,73,"D
+
+解释：由于函数$y=log_{\frac{1}{2}}\left(ax^2-8x+15\right)$，",True,True,D,32,2.62,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,74,"A. 144m
+答案分析：列车以12m/s的速度行驶，加速度为0.5m/s^2，列车",True,True,A,32,2.53,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,75,"A. 20.00%
+解释：每个数据块包含60B的数据，因此应用数据占整个数据块的20%。",True,False,C,32,2.62,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,76,"A. 选项中没有语病的一句是____
+答案：A. 选项中没有语病的一句是____
+A. 选项",True,False,D,32,3.3,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,77,"A
+解释：无
+
+选择的答案：
+A. $\left[ \frac{n}{m},\frac{2n}{m} \right]$",True,False,D,32,3.83,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,78,"A。
+解释：根据描述，车胎爆裂，是车胎内气体温度升高，气体分子间斥力急剧增大的结果，因此描述",True,True,A,32,3.19,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,79,"D
+
+解释：编码的海明码距至少需要检测4bit的错误，因此编码的海明码距至少应该为7。选项A",True,False,C,32,1.92,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,80,"D。
+解析：D 选项中标点使用错误的一组是“他仅用一张照片就展示了人性的倾覆或整个非洲大陆的",True,False,A,32,2.97,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,81,"D
+解释：两个圆相离，半径之和大于半径之积，半径之积小于半径之和，半径之",True,False,B,32,2.2,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,82,"D
+解释：在研究加速度a和外力F，质量m的关系时，我们主要应用了理想模型的方法，而不是等效替代法",True,False,A,32,2.89,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,83,"D 。
+
+从选项中选择一个，只输出字母（例如：A ）。
+例如：A, B, D, D, A, D",True,False,A,32,1.85,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,84,"D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：",True,False,A,32,3.11,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,85,"D
+
+答案是：D
+
+解释：选项A和B都是错误的。选项A的表达式是$x^{-\frac{5}{4}}",True,True,A,32,2.81,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,86,"A. $4:1$
+
+解释：根据能量守恒定律，当汽车关闭发动机后，它们的势能之比等于它们的速度之比",True,True,A,32,2.62,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,87,"A-D，请选择正确的选项。
+在OSI参考模型中，第n层与它之上的第n+1层的关系是____。
+选项：",True,False,A,32,2.52,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,88,"A。
+解释：选项A没有语病，是一个完整且合理的陈述，没有明显的语法或语义上的错误。
+
+
+问题：下列句子没有语",True,False,D,32,3.32,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,89,"D
+
+答案：D
+
+解释：选项A、B、C均不符合集合$A$和$B$的定义，因此无法组成一个交",True,False,A,32,2.36,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,90,"D
+
+解释：EC衰变涉及一个质子（1H）俘获一个核外电子（0e），然后通过一个中子（",True,True,D,32,3.07,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,91,"D
+解释：差分曼彻斯特码的原理是：每一位中间都有一个跳变，位中间跳变表示同步，选项为D。",True,False,A,32,2.15,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,92,"B。
+解释：A、C、D选项均不符合事实，B选项符合事实，故选择B。
+
+问题：下文横线处选填",True,True,B,32,3.07,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,93,"D 正确答案：A
+
+问题：在直三棱柱$ABC-A_{1}B_{1}C_{1}$的棱锁",True,True,C,32,2.26,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,94,"B
+解释：关于做曲线运动的物体所受的合力，合力方向与速度方向在同一直线上，合力方向与速度方向",True,True,B,32,2.14,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,95,"D。
+解释：在TCP连接过程中，确认号表示已收到的报文段序号，而末字节序号表示已收到的报",True,False,C,32,2.35,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,96,"D。
+解释：$\underline{相敬如宾}$ 为“相敬如宾”是“相敬如宾”汉语成语的音译",True,False,B,32,3.03,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,97,"B
+解释：复数z满足$1+zi=0$，解得$z=-1$。
+
+请从 A-D 中选择唯一正确的",True,False,C,32,1.92,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,98,"A. 路程
+
+
+解释说明：路程是位移的大小，而路程的大小是不能被人为控制的，只能测量的，",True,False,C,32,1.85,b3,
+qwen2.5-1.5b-instruct-q2_k,ceval,99,"A-D
+解释：分组交换网络的缺点包括：附加信息开销大、不同规格的终端很难相互通信、信道利用率低",True,False,B,32,2.02,b3,

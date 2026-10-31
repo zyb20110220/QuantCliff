@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\gemma-3-1b\\gemma-3-1b-it-Q5_K_M.gguf",
+  "model_file": "gemma-3-1b-it-Q5_K_M.gguf",
+  "bench": "ceval",
+  "n_requested": 100,
+  "seed": 42,
+  "n_ctx": 4096,
+  "tag": "b3",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-31T11:40:14",
+  "finished": "2026-10-31T11:43:20",
+  "rows_total": 100,
+  "correct": 26,
+  "parse_ok": 100,
+  "accuracy": 0.26,
+  "parse_rate": 1.0,
+  "errors": 0
+}

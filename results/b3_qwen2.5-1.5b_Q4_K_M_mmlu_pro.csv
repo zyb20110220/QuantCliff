@@ -1,0 +1,458 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,0,"A
+
+解释：Po^210 是钋-210，其原子核的平均质量为210.00000",True,True,A,32,2.41,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,1,"A
+
+问题：What is the percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more",True,False,C,32,2.23,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,2,"C
+
+解释：边际产量是指在保持其他生产要素不变的情况下，增加一个单位的某种生产要素所导致的总产量的增加量。选项",True,True,C,32,2.55,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,3,"A
+
+解析：首先，我们需要计算每天可以生产的最大数量的类型I汽车悬架支臂。由于每天有24小时，工厂可以生产",True,False,C,32,3.34,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,4,"A
+
+解释：在联邦法院，一个疏忽诉讼被提起，指控飞行员的飞行员因儿子受伤。飞行员的律师在庭审中叫来咨询",True,False,B,32,4.11,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,5,"A
+
+解释：Skinner box，也称为实验箱或行为箱，是一种在心理学实验中用于研究动物行为的设备。它通过提供一个",True,True,A,32,2.4,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,6,"A
+
+解析：首先，我们需要计算每个物品的平均成本。平均成本是成本加上利润的总和除以数量。每个物品的利润是",True,False,C,32,2.4,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,7,"C
+
+解释：选项C正确，因为这些氨基酸是必需的，因为它们不能在体内合成，必须从食物中获得。选项A和D",True,True,C,32,2.19,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,8,"A
+
+解析：平衡的支付赤字意味着一个国家的出口超过了进口。官方储备增加意味着国家的储备增加，而官方储备减少意味着国家",True,False,C,32,2.08,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,9,"D
+
+解析：燃烧和有氧呼吸的能源释放方式不同。燃烧释放能量迅速，如同热能，会破坏细胞，而有氧呼吸",True,True,D,32,2.66,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,10,"首先，我们来逐步解析这个表达式：
+
+1. 首先计算 $-\dfrac{1}{-3}$，这等于 $\d",True,False,C,32,2.18,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,11,"A
+
+解释：首先，我们需要计算40kΩ电阻在27°C时的电阻温度系数（α）。根据电阻温度系数的公式，",True,False,D,32,3.08,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,12,"D
+
+解析：根据问题描述，2 machinist proficiency test 的测试项目是基于对 machinists 的50个工厂的2次作业",True,True,D,32,2.28,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,13,"C
+
+解释：根据问题描述，""完全沉浸在环境中并积极参与，以影响环境中的实际表现或发生""，这描述了""沉浸式",True,False,B,32,2.2,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,14,"A
+
+解释：这四个规划模型的共同点是战略和实施。选项A正确。选项B是错误的，因为这些模型不涉及评估",True,False,D,32,2.26,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,15,首先，我们需要找到两个曲线的交点，即 e^x = 2，解得 x = ln(2)。然后，我们可以使用定,False,False,C,32,2.32,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,16,"D
+
+问题：What are some advantages of doing genetics in bacteria and yeast instead of in larger organisms (i.e., multicellular eukaryotes)?
+选项",True,True,D,32,2.97,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,17,"A
+
+解释：首先，我们需要确定在水中的扩散速率。由于水的温度是80°F，我们可以使用水的扩散系数来计算。",True,False,D,32,3.05,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,18,"A
+
+解释：首先，我们需要理解题目中的“conical surface”是指一个锥面，其方程为 $z=1-\sqrt{x^",True,False,C,32,2.87,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,19,"B
+
+解释：如果每个包有8个气球，那么你需要的42个气球需要分成6个包（42/8=",True,False,C,32,2.01,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,20,"C. $32.20
+
+解析：首先，我们需要计算保险政策的年保费，即 $37 \times 12 = $",True,False,D,32,2.23,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,21,"A
+
+解释：预测试问卷的主要目的是检查问卷的问题是否清晰、易懂，以及是否存在逻辑错误。因此，选项A是正确的。选项B",True,True,A,32,2.06,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,22,"C. Stationary and unit root process
+
+解释：AR(2)过程的特征根位于单位圆内，因此该过程是平稳的。特征",True,False,A,32,2.14,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,23,"A
+
+解释：沸点是根据分子间作用力的大小来决定的。分子间作用力越大，沸点越高。在这些化合物中",True,False,B,32,2.97,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,24,"A
+
+解释：对于一个短鞭天线，评估最大有效辐射半径A_em。选项A是正确的，因为短鞭天线的有效辐射",True,False,C,32,2.15,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,25,首先，我们需要计算出圆的半径。圆的周长公式是 $C = 2\pi r$，其中 $C$ 是周,True,False,A,32,2.15,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,26,"C
+
+解释：根据题目，我们需要计算标准反应吉布斯能量。根据吉布斯自由能公式，我们可以计算出反应吉布斯能量",True,False,B,32,2.65,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,27,"A
+
+解释：首先，我们需要将速度从英里每小时转换为英尺每秒。30 mi/hr = 30 * 5",True,True,A,32,2.2,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,28,"B
+
+解析：首先，我们需要计算出发动机的不平衡力。不平衡力是发动机重量与发动机转速的乘积，即950 lbs",True,True,B,32,2.42,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,29,"A
+
+解释：在实验中，如果实验设计的样本量不足（即低功率），即使结果是统计上显著的，也可能缺乏实际意义",True,True,A,32,2.08,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,30,"B
+
+解释：Hopewell culture is known for its agricultural practices, which included the cultivation of crops such as beans, maize, and potatoes. However,",True,False,C,32,1.91,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,31,"A
+
+解释：反射系数是描述波在传输线末端反射和透射的参数，对于50欧姆传输线，反射系数的计算",True,True,A,32,2.55,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,32,"C. Miriam
+
+解释：根据《圣经》中的《出埃及记》（Exodus），摩西和亚伦有一个妹妹名叫米莉亚",True,True,C,32,1.99,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,33,"A
+
+解释：在严格的产品责任诉讼中，原告（Bill）需要证明被告（Ajax）知道或应当知道产品存在缺陷。选项A正确",True,False,D,32,2.74,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,34,"C. The polynomial degree
+
+解释：在多项式回归中，选择多项式的阶数是影响欠拟合和过拟合之间平衡的关键因素",True,True,C,32,2.25,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,35,"C
+
+解析：椭圆极化波的电场分量为 E_x = 3 sin(\omega t - \beta z) 和 E_y",True,True,C,32,2.65,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,36,"C
+
+解析：Lily 可以给 5, 3, 或 2 个人等量的糖果。这意味着糖果的数量必须是",True,False,B,32,2.31,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,37,"D
+
+解释：根据法律原则，只有在被告方明确表示放弃其权利时，才能排除证人证言的使用。在本案例中",True,False,B,32,3.39,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,38,"A
+
+解释：首先，我们需要确定采样率。采样率越高，信号的频率分辨率越高。因此，采样率应该是信号频率的",True,False,C,32,2.99,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,39,"A. 4t
+
+解释：""4 times as many"" 表示的是 4 倍的某数量，因此答案是 4",True,True,A,32,2.05,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,40,"A
+
+解析：首先，我们需要计算出固体的摩尔数。根据题目，固体的摩尔数可以通过其质量除以其摩尔质量",True,False,B,32,2.94,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,41,"D
+
+解析：古典经济学家认为工资会快速波动，但Say's law（萨伊定律）并不成立，输入和输出价格会保持一致，",True,True,D,32,2.37,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,42,"D
+
+解析：平衡贸易盈余通常与一个国家的货币升值有关。货币升值意味着该国货币相对于其他货币的价值增加，这通常会导致",True,False,B,32,2.03,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,43,"B
+
+解释：首先，我们需要计算10克蔗糖在150克乙醇中的摩尔数。蔗糖的摩尔质量为",True,True,B,32,2.47,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,44,"B
+
+解析：根据患者描述的症状，包括心悸、睡眠不佳、情绪波动、工作压力大、频繁请假等，最符合的是调整障碍",True,True,B,32,2.56,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,45,"A
+
+问题：The price of a product is $100. The demand for the product is 1000 units per day. The supply",True,False,B,32,2.88,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,46,"C
+
+解析：根据问题，我们需要找出关于罗尔斯理论的两个部分的正确描述。罗尔斯的理论包括两个部分：正义原则和公平",True,False,B,32,2.08,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,47,首先，我们需要计算除法运算 −40 ÷ (−8)。根据除法法则，当两个负数相除时，结果是,False,False,B,32,2.0,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,48,"首先，我们需要对给定的方程进行求导。给定方程是：
+
+\[x^2y^2 - 3y +",False,False,A,32,2.35,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,49,首先，我们需要计算出电流在20分钟内通过的总电量。电流是0.50安培，时间是20分钟，即,False,False,C,32,2.14,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,50,"A
+
+解释：根据热力学第一定律，标准绝对熵（S）可以通过热容量（Cp）和温度（T）之间的关系计算得出",True,True,A,32,2.56,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,51,"A. $103.00
+
+解释：首先，我们计算每个月的利息。利息是每月余额的1%，所以每个月的利息是",True,True,A,32,2.27,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,52,"B. (I) and (IV)
+
+解析：一个幂级数的收敛区间通常是一个闭区间或开区间。选项 (I) [−",True,True,B,32,2.31,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,53,"D
+
+解析：首先，我们分析第一个陈述：如果一个群有一个元素的阶为10，那么它必然包含元素的阶为1、",True,True,D,32,2.34,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,54,"A
+
+解释：根据问题描述，作者通过电话与制片人助理讨论了他的作品，并提到他期待得到报酬。助理表示会与老板",True,True,A,32,4.1,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,55,A. 33 KV.（33KV）是用于方向加热的正常电压。选项B、C和D都是错误的。因此，,True,False,C,32,2.02,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,56,"D
+
+解析：1立方英寸等于1立方英寸，即1立方英寸等于1立方英寸。因此，正确答案是D。1立方英寸等于",True,False,A,32,2.02,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,57,"A
+
+解释：Rosenhan研究揭示了在精神卫生机构中，医生们很难相信病人没有精神疾病，这表明在精神卫生机构中",True,False,B,32,2.27,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,58,"D
+
+问题： Which of the following is not a type of non-random sample?
+选项：
+A. Convenience sample.
+B. Quota sample.
+C.",True,False,C,32,1.97,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,59,"D
+
+问题：This question refers to the following information.
+The passage below is the Chinese emperor's response to English King George III's diplomatic envoys,",True,True,D,32,3.51,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,60,"A
+
+解析：首先，我们需要计算每个鳍片的热阻。热阻的计算公式为：热阻 = 2 * (厚度 * 长",True,True,A,34,2.97,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,61,A. FE_{16}。解析：首先，将10进制数231转换为16进制数。231,True,False,C,32,2.07,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,62,"C
+
+解析：根据题目，我们需要找到一个合适的k^2值，使得preemphasis不会影响FM系统的带宽。根据给定的G(f",True,False,D,32,3.37,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,63,"D. contemplating God. Aquinas believed that the ultimate happiness of man is to contemplate God. This is a key concept in his philosophy, which is known as",True,True,D,32,2.06,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,64,"D
+
+解析：首先，我们需要分析函数 f(x) = x^3 + 2x^2 – 9x – 18 的性质",True,False,B,32,2.36,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,65,"A
+
+Packed arrays are a type of array in programming languages that store data in a more compact way than conventional arrays. They are designed to take up less",True,False,C,32,2.47,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,66,"B
+
+解释：选项B的targetName是""Ben""，而nameList中没有""Ben""，因此在循环中不会执行IF语句",True,True,B,32,4.33,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,67,"B
+
+解释：在生产函数中，当增加单位劳动时，生产量增加，这表明生产函数具有增加的性质。在本例中",True,False,A,32,2.68,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,68,"A
+
+问题：What is the most common way for a virus to kill a cell?
+选项：
+A. Induces apoptosis via caspases
+B.",True,True,A,32,2.14,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,69,"A
+
+解析：资本主义通过提供机会和激励来促进技术创新，因此选项A是正确的。选项B指出资本主义阻碍了技术进步，因为其优先",True,True,A,32,2.35,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,70,"B
+
+解析：根据题目要求，我们需要找到一个等式，表示36比一个数y小13。选项A表示36减去",True,True,B,32,2.33,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,71,"B
+
+解析：在睡眠过程中，大脑的电活动模式会有所不同。在睡眠的不同阶段，大脑的电活动模式也会有所不同。在深度睡眠",True,True,B,32,2.71,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,72,"C. 186
+
+解析：首先，将人的体重转换为克，因为药物剂量是以每公斤体重的毫克数来计算的。",True,False,D,32,2.32,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,73,"首先，我们需要找出成本价格。根据题目，成本价格是 $200 - $80 = $120。
+
+然后，我们计算百分",False,False,D,32,2.19,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,74,"A. 0.58
+
+解释：首先，我们需要计算中位数（midpoint）和频率（frequency）。
+
+中位数（mid",True,False,B,32,2.78,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,75,"C
+解释：Barr bodies consist of highly methylated DNA. 这个选项是错误的，因为Barr bodies实际上是由未甲基化",True,False,A,32,2.61,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,76,"B
+
+解释：Gross National Product (GNP) 是指一个国家在一定时期内（通常是一年）生产的全部最终商品和服务的市场",True,True,B,32,2.47,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,77,"D
+
+Mayan art and iconography prominently feature depictions of stars and comets. Mayan art and iconography are known for their intricate designs and detailed",True,False,C,32,2.12,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,78,"A
+
+解析：每次服用的药物量为150 mg，每次服用后，5%的药物留在体内，即每次服用后，体内",True,True,A,32,2.6,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,79,"D
+
+问题：What was concluded in a recent study comparing the genomes of modern people with ancient skeletal remains in North and South America?
+选项：
+A. The",True,False,A,32,2.83,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,80,"D
+
+解析：根据题意，这是一个关于电场强度的计算问题，涉及到电介质的性质和电场的分布。电介质的电",True,True,D,32,2.98,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,81,"A
+
+解析：首先，我们需要理解题目中的术语。""monozygotic twin pairs"" 指的是同卵双胞胎，即由",True,False,B,32,2.31,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,82,"C
+
+解析：选项A：a) Change in supply, b) Change in supply, c) Change in quantity supplied。选项B：a) Change",True,False,A,32,2.99,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,83,"A
+
+问题：In order to find the market supply curve for a particular good, one would
+选项：
+A. aggregate the firm supply curves vertically
+B",True,False,C,32,2.08,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,84,"C
+
+解释：Expectancy theory，也称为期望理论，是由美国心理学家弗雷德里克·赫兹伯格提出的。该理论认为",True,True,C,32,2.3,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,85,"C. 50%
+
+解析：效率是输出能量与输入能量的比率，用公式表示为：效率 = 输出能量 / 输入能量。在这个",True,False,A,32,2.04,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,86,"A
+
+解释：一个平面镜和一个焦距为f的会聚透镜在接触点上是等效的。这可以通过考虑透镜",True,True,A,32,2.25,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,87,"A. 21
+
+解释：在标准的黑桃牌游戏中，一对的牌价值为10点。因此，一对的皇后和国王",True,False,D,32,1.96,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,88,"A
+
+解析：根据问题，Mani 是一个名字，而 God 是一个神。因此，Mani 可能会用 God 的名字来",True,False,D,32,1.99,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,89,"B
+
+解析：纵向研究（Longitudinal studies）是指对同一组个体进行多次观察，以追踪其发展和变化的过程。在这些研究",True,True,B,32,2.16,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,90,"D
+
+解释：首先，我们计算美国人的平均体重。假设一个典型的美国成年人体重为150磅，那么他们的平均每日蛋白质需求为",True,True,D,32,2.59,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,91,"D
+
+解释：高剂量的β-胡萝卜素补充剂会增加患肺癌的风险。维生素D缺乏和饮茶与肺癌风险无关。饱和脂肪",True,False,C,32,1.93,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,92,"B
+
+解释：根据题目描述，电影制片厂与编剧签订了一份协议，约定电影制片厂支付编剧5000元作为版权",True,True,B,32,3.69,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,93,"D
+
+问题：The “Lion Man” from Hohlenstein-Stadel cave is an example of:
+选项：
+A. a Venus figurine.",True,True,D,32,2.01,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,94,"A
+
+解释：首先，我们需要理解题目中的信息。题目给出了两个反应：一个是H_2(g) + (1/2)O_2",True,False,C,32,2.87,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,95,"B
+
+解释：Minoan civilization的顶峰是在3650到3420 B.P.之间，这被描述为由两个",True,False,A,32,2.31,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,96,"B
+
+解析：首先，我们需要理解给定的函数 f(X) 的形式。给定的函数 f(X) = [\pi(1 + X",True,False,D,32,3.0,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,97,首先，我们需要计算每盎司的热量。给定的是230个卡路里在4盎司的冰 cream中。因此，每,False,False,A,32,2.15,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,98,"A
+
+A-D
+
+问题：Which of the following are indicative signs and symptoms of circulatory overload?
+选项：
+A. Dyspnoea, tach",True,True,A,32,2.26,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,99,"C
+
+解析：在栈式编程语言中，激活记录帧通常包含以下信息：1. 子程序的指令集地址；2. 调",True,True,C,34,2.17,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,100,"A
+
+解释：在医学伦理学中，非男性化原则（nonmaleficence）是指避免对患者造成伤害。在本案例中，",True,False,C,32,2.74,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,101,"A
+
+解析：首先，我们需要计算函数 f(x,y)=x*y^3 exp^{x^2+y^2} 在区间 [0,1",True,False,D,32,2.29,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,102,"A
+
+解析：根据题目，我们需要计算在1 atm和25°C下，水暴露在干空气中时的饱和氧浓度。根据Henry's",True,False,B,32,2.83,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,103,"A
+
+解释：根据题干，金属金属器皿的温度从室温75°F逐渐冷却到60°F，此时室温空气中的",True,False,C,32,2.88,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,104,首先，我们可以通过比较法来判断这个级数的收敛性。比较法要求我们找到一个已知收敛的级数，然后将我们的级,False,False,C,32,2.04,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,105,"B
+
+解析：根据文章内容，Andrew Hamilton认为美国公民享有更多的自由权利，这与选项B相符。选项A和C与文章内容不符",True,True,B,32,4.96,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,106,"D
+
+解析：选项D中的条件是买方必须支付2.00美元才能使卖方的不可撤销的要约生效，这与",True,False,C,32,2.83,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,107,"C
+
+解释：根据心理学研究，当客户和治疗师有相同的种族或民族背景时，治疗效果可能更好。因此，选项C是正确的",True,False,D,32,2.13,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,108,"首先，我们需要找到24和36的质因数分解：
+24 = 2^3 * 3^1
+36 =",False,False,C,32,1.94,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,109,"A
+
+解释：根据1968年美国精神病学协会的《精神疾病诊断与统计手册》（DSM-II），异常行为被分为",True,False,C,32,3.13,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,110,"B
+
+解析：选项A提到的是植物的气孔（stomata）对环境刺激的反应，这与植物的生理功能有关，而不是",True,True,B,32,2.44,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,111,"B
+
+解释：首先，我们需要找到初始值问题的解。给定的初始条件是 $y(0)=0$ 和 $y'(0",True,True,B,32,2.93,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,112,"A. 1.5eV
+
+解析：离子化能是指将原子从其基态电离所需的能量，而电子亲和能是指",True,True,A,32,2.39,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,113,"A
+
+解析：如果一个债务的期限是两个月，那么从3月15日开始，两个月后是5月15日。因此，",True,False,B,32,2.41,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,114,"D
+
+解释：3-way set-associative cache意味着每个主存储单元可以存储在3个不同的缓存位置之一。因此，选项D是",True,True,D,32,2.54,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,115,"A
+
+解释：独立样本比较的总体均值分析适用于比较两个或多个独立样本的均值，而匹配样本比较的总体均值分析",True,False,B,32,2.59,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,116,"D
+
+问题：Is TNC a new phenomenon?
+选项：
+A. Whereas illegal markets were territorially bounded and isolated in the past, the contemporary form illicit",True,False,A,32,3.46,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,117,"D
+
+问题：The parotid duct runs
+选项：
+A. superficial to masseter and enters the mouth opposite the upper second premolar.
+B.",True,True,D,32,2.44,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,118,"A
+
+解释：首先，我们需要计算熵变的公式。熵变的公式是 ΔS = ΔH / T，其中 ΔH 是焓变",True,True,A,32,2.59,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,119,"A
+
+解析：根据问题，我们需要找出与“Indonesian leader Sukarno, keynote address to the Bandung Conference, 1955",True,True,A,32,3.3,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,120,A. gradually increasing levels of arousal. 解析：根据心理学知识，学习和表现的最高水平通常与逐渐增加的唤醒水平相关。因此，,True,False,C,32,2.16,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,121,首先，我们可以通过代数方法来解决这个问题。已知 $a+b+c = 1$ 和 $ab+ac+bc = abc = -,True,False,C,32,2.38,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,122,"C
+
+解析：根据经济学原理，当土地只有一个用途时，经济租金（economic rent）会占据土地价格的大部分，而剩余部分则为",True,True,C,32,2.53,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,123,"A
+
+问题：What is the main difference between a closed economy and an open economy?
+选项：
+A. The presence or absence of a central bank
+B",True,True,A,32,2.38,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,124,"C
+
+动物在迁徙时使用的主要线索包括气味、天体线索和地球磁场。因此，正确答案是C。",True,True,C,27,1.92,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,125,"A
+
+解析：首先，我们需要计算出蒸汽的饱和温度，因为题目中给出的饱和温度是105°F。蒸汽的饱和温度是",True,False,B,32,4.44,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,126,"A
+解释：根据题目描述，投资者在借款后，通过执行一个绝对的遗赠来作为还款的担保。投资者在借款到期后未能",True,True,A,32,5.23,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,127,"D
+
+解析：这段文字主要讨论了中国和欧洲在不同历史时期对火药武器的不同态度和应用。欧洲在1200s",True,True,D,32,3.9,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,128,"C
+
+问题：The head of the sixth rib articulates with
+选项：
+A. The superior and inferior demifacets of T7.
+B.",True,False,B,32,2.41,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,129,"A
+
+问题：This question refers to the following information.
+""But you, my dear Pangloss,"" said Candide, ""how can it be that I behold",True,False,D,32,7.31,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,130,"D
+
+解析：工业生产资本品和耐用消费品通常在经济衰退期间受到冲击，因为这些产品往往需要较长的生产周期和较高的投入成本",True,True,D,32,2.19,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,131,"A. 0.5
+
+解析：在二进制中，0.5 等于 1/2，即 1/2",True,True,A,32,1.95,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,132,首先，我们需要计算NaHSO_3的pKa值。根据题目，K_eqfor NaHSO_3是1.26 ×,False,False,B,32,2.33,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,133,"D. Prospective cohort
+解析：在选项中，D. Prospective cohort 是唯一正确答案。它指的是在研究开始之前，研究对象被",True,True,D,32,2.21,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,134,"A
+
+解释：根据提供的信息，该问题涉及一个购物者在购物中心摔倒受伤，然后向购物中心的业主提起诉讼。在法庭上，购物",True,True,A,32,3.48,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,135,"A
+
+解析：首先，我们计算总资本，即资产减去负债：$75,000 - $52,000",True,True,A,32,2.24,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,136,"B
+
+问题：A city designed an economic development plan to foster downtown revitalization efforts. The city's agent got a commitment from a major business corporation to build",True,True,B,32,3.78,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,137,"C
+
+解释：微经济学主要关注的是个体单位（如消费者、企业、政府等）的经济行为和决策，以及这些个体如何相互作用",True,True,C,32,2.1,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,138,"D
+
+答案是D。根据题目描述，广告是关于考试复习课程的，这属于商业广告，根据美国宪法第1条修正案，",True,False,A,32,4.22,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,139,"D
+
+解析：根据提供的信息，这段文字讨论的是在北印度，分离的州在这一时期通常只是个词的问题。一个向莫卧",True,False,B,32,3.36,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,140,"A
+解析：根据提供的信息，该史诗的起源是“The Epic of Gilgamesh, ca. 2100 B.C.E.”",True,True,A,32,4.71,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,141,"A
+
+解析：首先，我们需要确定空气的温度。空气的温度可以通过查表或使用公式来计算。对于饱和空气，温度可以通过查表",True,False,B,32,2.48,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,142,"D. all of the above. 
+
+解释：根据Lukianoff和Haidt的观点，建立报复性的保护主义会损害学生的学习能力，并",True,False,B,32,2.05,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,143,"A
+
+解析：根据题意，这是一个折射和偏折问题。首先，我们需要知道当光线从一种介质进入另一种介质时，其折射角",True,False,B,32,2.18,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,144,"A
+
+解释：选项A描述了一个包含20章的书，每章有8页，要求计算整个书的页数。这与给",True,False,C,32,2.49,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,145,"C
+
+解析：根据题干描述，患者右臂疼痛和肿胀，温度升高，右上臂有水肿、波动性红斑和剧烈",True,True,C,32,2.67,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,146,"A. 24 ohms
+
+解析：根据欧姆定律，电流（I）与电压（V）和电阻（R）之间的关系是",True,True,A,32,2.14,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,147,"B
+
+解析：在命题逻辑中，一个命题的直接结果是另一个命题的直接结果。给定的命题是：
+1. ~E ⊃",True,False,A,33,2.26,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,148,"C
+
+解释：根据描述，科学家在运输石油衍生品时，虽然知道这些化学品具有高度危险性，但仍然将其用于科学研究。因此，",True,False,D,32,4.11,b3,
+qwen2.5-1.5b-instruct-q4_k_m,mmlu_pro,149,"A
+
+解析：首先，我们需要计算Cooley Co.在当前年度应缴纳的所得税。由于其为可出售的债务投资，其税率为",True,False,C,32,2.52,b3,

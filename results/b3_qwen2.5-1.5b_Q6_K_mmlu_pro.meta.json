@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\qwen2.5-1.5b\\qwen2.5-1.5b-instruct-q6_k.gguf",
+  "model_file": "qwen2.5-1.5b-instruct-q6_k.gguf",
+  "bench": "mmlu_pro",
+  "n_requested": 150,
+  "seed": 42,
+  "n_ctx": 4096,
+  "tag": "b3",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-24T21:43:16",
+  "finished": "2026-10-24T21:48:57",
+  "rows_total": 150,
+  "correct": 76,
+  "parse_ok": 150,
+  "accuracy": 0.506667,
+  "parse_rate": 1.0,
+  "errors": 0
+}

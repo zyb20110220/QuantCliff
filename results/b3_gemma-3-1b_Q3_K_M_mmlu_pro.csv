@@ -1,0 +1,573 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+gemma-3-1b-it-Q3_K_M,mmlu_pro,0,"B
+Explanation: The available energy for the alpha decay of Po-210 is approximately 4.90 MeV.
+
+Final Answer: B",True,False,A,32,1.68,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,1,"B
+
+Explanation:
+According to the data from the 2015 survey, 9% of children aged 13-15 in China",True,False,C,32,1.51,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,2,"C
+Explanation：The marginal product of a productive factor is the additional output produced by adding one more unit of that factor, while all other factors remain constant.",True,True,C,32,1.61,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,3,"(i)
+
+Explanation：
+(i) The factory can produce 699 units of type I automobile suspension struts in an hour at an average cost",False,False,C,32,2.15,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,4,"B
+
+Explanation:
+
+The attorney-client privilege protects confidential communications between an attorney and their client. It generally prevents an attorney from disclosing a client's confidential",True,True,B,32,2.63,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,5,"A
+解释：
+Skinner box is a tool for enhancing the cognitive abilities of animals through exposure to various puzzles.
+选项A准确地描述了 Skinner",True,True,A,32,1.56,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,6,"C
+
+Explanation:
+The problem states that the average markup is based on the selling price of 40%.
+The selling price of the first item is",True,True,C,32,1.58,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,7,"A
+
+**Explanation:**
+
+*   **Methionine, serine and tyrosine:** These amino acids are essential components of the diet.
+*   **Valine",True,False,C,32,1.36,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,8,"C
+
+解释：
+*   A balance of payments deficit means a country has less income than it receives in payments.
+*   Option C, ""low",True,True,C,32,1.35,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,9,"D
+
+Explanation:
+*   **A. Combustion can occur in both living cells and non-living matter, while aerobic respiration only occurs in living cells:**",True,True,D,32,1.74,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,10,"A
+Explanation:
+We are asked to find $-\dfrac{1}{-3}\cdot\cfrac{1}{~\frac{1}{-3}~}.$",True,False,C,32,1.42,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,11,"B
+Explanation:
+The noise voltage is determined by the thermal noise, which is proportional to the square of the temperature.
+For a 40k",True,False,D,32,2.11,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,12,"B
+解释：
+2. procedure would contribute directly to the test's
+    * concurrent validity: Concurrent validity refers to the extent to which the test",True,False,D,32,1.54,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,13,"C
+
+Explanation:
+The passage describes a state where individuals are deeply involved in their environment, actively shaping its outcomes. This aligns perfectly with the concept of an",True,False,B,32,1.46,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,14,"A
+
+Explanation: All four models share the common theme of using planning models to analyze and understand the strategic processes of organizations.",True,False,D,26,1.36,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,15,"A
+Explanation:
+The volume of the solid generated when the region bounded by the y-axis, y = e^x, and y = 2",True,False,C,32,1.6,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,16,"C
+Explanation:
+The question asks for advantages of using bacteria and yeast over larger organisms.  The best answer is C, which highlights stability, ease of",True,False,D,32,2.04,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,17,"A
+Explanation:
+The problem describes a diffusion process. The rate of diffusion is proportional to the concentration gradient. The rate of diffusion is given by the formula",True,False,D,32,2.35,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,18,"B
+
+Explanation:
+The given conical surface is $z = 1 - \sqrt{x^2 + y^2}$. We want to find the",True,False,C,32,2.17,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,19,"D
+
+**Explanation:**
+
+*   Each package contains 8 balloons.
+*   You need 42 balloons.
+*   To find the number",True,False,C,32,1.63,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,20,A,True,False,D,2,0.6,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,21,"A
+
+解释：
+Pre-testing a questionnaire is useful for identifying any problems with the question wording and routing.  This is a key part of the process",True,True,A,32,1.55,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,22,"D
+
+Explanation:
+The given process is a unit root process because it has a single root (yt) and the terms yt-1 and yt-2",True,False,A,32,1.43,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,23,"B
+
+Explanation：
+The boiling points of the hydrocarbons are as follows:
+- methane (CH₄) has the lowest boiling point (30.2",True,True,B,32,2.0,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,24,"C
+
+Explanation:
+The maximum effective aperture of a short dipole antenna is given by the formula:
+A_em = (λ_max / 2",True,True,C,32,1.45,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,25,"A
+Explanation:
+The circumference of a circle is given by $C = 2\pi r$, where $r$ is the radius. We are",True,True,A,32,1.44,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,26,"A
+
+Explanation:
+The standard Gibbs free energy change for the reaction is given by:
+$ΔG = RT \ln(\frac{aC}{",True,False,B,32,1.77,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,27,"C
+
+Explanation:
+The force required to stop the automobile is given by the product of the weight of the automobile and the coefficient of friction.
+Force =",True,False,A,32,1.63,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,28,"B
+Explanation:
+The problem states that the engine weighs 950 lbs and functions at 1300 rpm. The number of springs is",True,True,B,32,1.82,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,29,"B
+
+解释：
+选项B，统计非显著性，在低功率下，通常是最小的。因为低功率意味着实验的样本量小",True,False,A,32,1.37,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,30,"D
+
+Explanation: Hopewell people were primarily agricultural, and the potato was a crucial staple crop for them. The other options (beans, sunflower) were also",True,False,C,32,1.37,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,31,"B
+Explanation:
+The reflection coefficient (Γ) for a 50 ohm transmission line terminated with a load impedance of 25 - j75",True,False,A,32,1.83,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,32,"C
+
+最终答案：C",True,True,C,7,0.5,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,33,"A
+
+解释：
+A. Ajax knew or should have known of the defective condition: This is the most accurate and fundamental element of product liability.  If",True,False,D,32,1.89,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,34,"B
+
+Explanation:
+The number of input variables is the most significant factor affecting the trade-off between underfitting and overfitting.  A larger number of variables",True,False,C,32,1.54,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,35,"A
+Explanation:
+The power per unit area conveyed by the wave is given by the formula:
+P = E_x * E_y
+where",True,False,C,32,1.87,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,36,"A
+
+Explanation:
+The problem states that Lily can give an equal number of pieces of candy to 5, 3, or 2 people. This",True,False,B,32,1.51,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,37,"D
+
+解释：
+选项D是正确的。
+在大多数司法管辖区，如果一个人在有胁迫的情况下，承认犯罪，那么该承认",True,False,B,32,2.25,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,38,"B
+理由：
+选择A-D中的选项，设计一个模拟到数字转换器（A. D. C.)，将f(t)",True,False,C,32,2.14,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,39,"B
+Explanation:
+The phrase is ""4 times as many cans as Tom collected."" This can be expressed as 4 * (Tom's number of",True,False,A,32,1.37,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,40,"A
+
+Explanation:
+The effusion cell is a type of cell that is formed by the diffusion of a solid through a liquid. The diameter of the circular hole",True,False,B,32,1.92,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,41,"D
+
+**Explanation:**
+
+*   **I. Wages fluctuate quickly:** This is a core belief of classical economists. They believe wages are determined by supply and",True,True,D,32,1.63,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,42,"B
+
+Explanation: A balance of trade surplus occurs when a country exports more than it imports. This is primarily driven by a lower cost of production and a higher",True,True,B,32,1.52,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,43,"A
+
+Explanation:
+The boiling point of the solution is determined by the heat of solution. The heat of solution is the heat absorbed by the solution when it",True,False,B,32,1.78,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,44,"B
+理由：
+A 29-year-old male presents with the complaints of a pounding heart, poor sleep, and a generalized feeling of restlessness",True,True,B,32,1.79,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,45,"A
+Explanation:
+Let p be the equilibrium price of oil in dollars per barrel.
+i) The distributors are willing to buy 60-",True,False,B,32,1.99,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,46,"B
+解释：
+Rawls argues that the two parts of his theory are independent. He believes that individuals should be judged based on their position in the """,True,True,B,32,1.51,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,47,"B
+
+Explanation:
+We are asked to find the quotient of −40 ÷ (−8).
+First, we divide −40 by −8.",True,True,B,32,1.35,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,48,"A
+
+**Explanation:**
+
+Let $F(x, y) = x^2 y^2 - 3y + 2x^3$.",True,True,A,32,1.67,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,49,"B
+Explanation: The deposition rate is given by the product of current, time, and the surface area of the spoon. The surface area of a spoon is",True,False,C,32,1.49,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,50,"A
+Explanation:
+The heat capacity of uranium metal is given as 0.727 cal deg^-1 mole^-1 at 20°",True,True,A,32,1.78,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,51,"A
+
+Explanation:
+The problem states that Mr. Scaccioborrows pays back $20 a month with interest of 1% per month on the",True,True,A,32,1.57,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,52,"A
+Explanation：
+The question asks for the valid intervals of convergence for a power series. A valid interval of convergence means that the series converges. Let'",True,False,B,32,1.64,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,53,"C
+
+Explanation:
+Statement 1 is correct. If a group has an element of order 10, then it has elements of orders 1,",True,False,D,32,1.6,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,54,"D
+理由：
+选项D是正确的。因为没有明确的合同条款，没有考虑了任何形式的考虑。因此，该合同的有效性",True,False,A,32,2.58,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,55,"B
+
+Explanation:
+Directional heating uses a lower voltage to achieve a higher temperature. The normal voltage used is typically around 0.5 KV.",True,False,C,32,1.35,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,56,"A
+
+Explanation:
+1 cubic centimeter (cc) is equal to 1000 cubic inches (in).
+Therefore, 1 cubic inch is",True,True,A,32,1.32,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,57,"B
+
+解释：
+Rosenhan 的研究揭示了医疗机构中对精神疾病患者的偏见。研究表明，医生和治疗师对患者",True,True,B,32,1.59,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,58,"A
+
+解释：
+*   **Systematic and quota samples** are designed to ensure representativeness by systematically selecting a subset of a population based on a predetermined",True,False,C,32,1.36,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,59,"D
+Explanation：
+The passage states that the Chinese emperor doesn't care about strange or ingenious objects, and doesn't have any use for the country",True,True,D,32,2.46,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,60,"A
+
+Explanation:
+The power dissipated through the fins is given by the formula:
+P = h * A * t * k
+where:
+h",True,True,A,32,2.04,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,61,"B
+Explanation:
+The decimal number 231 is represented as 231 in base 10. We need to convert this to hexadecimal",True,False,C,32,1.61,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,62,"B
+理由：
+Apreemphasis circuit is designed to enhance the spectral content of the transmitted signal, which is achieved by introducing a preemphasis effect. The",True,False,D,32,2.35,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,63,"D
+
+Explanation: Aquinas believed that the ultimate goal of human life is to attain a relationship with God, and this is achieved through contemplation and the pursuit of virtue",True,True,D,32,1.44,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,64,"A
+
+Explanation:
+Let's analyze the function f(x) = x^3 + 2x^2 – 9x – 1",True,False,B,32,1.77,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,65,"C
+
+Explanation: Packed arrays are designed to store data in a compact manner, minimizing memory usage. This is achieved by packing multiple data elements into a single block",True,True,C,32,1.67,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,66,"B
+理由：
+The procedure finds the index of the target name in the list. The given example is ""Andrea"", ""Ben"", ""Chris"", """,True,True,B,32,2.64,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,67,"A
+
+Explanation:
+The production increases from 300 to 350, then to 375. This indicates that the firm is",True,True,A,32,1.73,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,68,"B
+
+Explanation:
+The most common way for a virus to kill a cell is through disruption of cell division. Viruses often utilize mechanisms like blocking mitosis (B",True,False,A,32,1.36,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,69,"A
+
+Explanation:
+Capitalism, in its purest form, is driven by the pursuit of profit.  The incentives for innovation are provided through competition and the",True,True,A,32,1.62,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,70,"A
+Explanation:
+The problem states that 36 less than a number y is equal to 13. This can be written as:
+3",True,False,B,32,1.51,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,71,"B
+
+解释：
+Cyrus is experiencing a significant decrease in activity and a reduction in the amplitude of his EEG waves. This is characteristic of delta waves,",True,True,B,32,1.63,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,72,"B
+
+Explanation:
+The person weighs 62 kg, and their drug dose is 15 mg/kg.
+The dose is calculated as:",True,False,D,32,1.44,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,73,"A
+
+Explanation:
+The selling price is $200. The dollar markup is $80.
+The percent markup is calculated as:
+Percent",True,False,D,32,1.42,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,74,"A
+Explanation: The degree of skewness is calculated using the formula:
+Skewness = (Range - Mean) / Standard Deviation
+Here, the range",True,False,B,32,1.76,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,75,"A
+
+Explanation:
+Barr bodies are a unique feature of mammalian cells, specifically found under the nuclear membrane. They are formed by the condensation of DNA and are",True,True,A,32,1.63,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,76,A,True,False,B,2,0.62,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,77,"B
+
+解释：Mayan art and iconography prominently feature depictions of infants and children. This is a key element of Mayan belief systems, which emphasized the cyclical nature",True,False,C,32,1.32,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,78,"A
+
+Explanation:
+Let $x_n$ be the quantity of the drug in the body after the $n$-th tablet.
+At the first",True,True,A,32,1.71,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,79,"D
+Explanation：The study concluded that all Native Americans, both ancient and modern, are derived from a single migration of Austral-Melanesians into the Americas",True,False,A,32,1.82,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,80,"D
+Explanation：
+The problem describes an infinite hollow circular cylinder with dielectric radius a and b (b > a). It's set with a uniform electric",True,True,D,32,1.96,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,81,"A
+
+Explanation:
+The problem describes a situation where there are 83 monozygotic twin pairs, and 50 do not show the trait.",True,False,B,32,1.48,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,82,"A
+
+**Explanation:**
+
+*   **a) Cold weather in Florida destroys a great deal of the orange crop. Therefore there are fewer oranges in the country",True,True,A,32,1.98,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,83,"D
+
+Explanation: The market supply curve is formed by aggregating the supply curves of individual firms.  The horizontal aggregation of firm supply curves is the most appropriate method",True,False,C,32,1.38,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,84,"A
+
+解释：
+Expectancy theory focuses on the belief that an individual has the ability to succeed at their job. Valence refers to the positive emotional state or",True,False,C,32,1.57,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,85,"A
+
+Explanation:
+The efficiency of a device is defined as the ratio of the useful work output to the input power. In this case, the input power",True,True,A,32,1.45,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,86,"B
+
+Explanation:
+The given setup is a plane mirror in contact with a converging lens. The lens is converging, and the plane mirror is in contact with",True,False,A,32,1.46,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,87,"D
+Explanation: A queen and a king are worth 21 together.
+
+Final Answer: D",True,True,D,22,1.01,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,88,"B
+
+Explanation: Mani referred to God by the name ""Light Bringer"" in the Buddhist tradition.
+
+Final Answer: B",True,False,D,27,1.16,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,89,"B
+解释：
+Longitudinal studies of children with specific reading disabilities show that reading chills usually do not reach normal levels as these children reach adulthood. 这表明",True,True,B,32,1.41,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,90,"C
+Explanation:
+The daily protein requirement of the body is 0.3 g per pound of body weight.
+The average American's weight is",True,False,D,32,1.73,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,91,"C
+
+Explanation: High dose ß-carotene supplements have been linked to an increased risk of lung cancer.",True,True,C,22,1.04,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,92,"D
+
+解释：
+选项D“ irrevocable assignment”是正确的。
+理由：
+- 法律赠与是法律赠与，这意味着赠与人",True,False,B,32,2.42,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,93,"B
+
+Explanation:
+The “Lion Man” from Hohlenstein-Stadel cave is a remarkable example of parietal art. P parietal art is a type",True,False,D,32,1.37,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,94,"A
+Explanation: The heat of vaporization is the amount of heat required to change a substance from the liquid to the gas phase at a constant temperature. The given",True,False,C,32,1.96,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,95,"B
+
+解释：
+Minoan civilization's peak was marked by the collapse of the palace of Knossos and the subsequent destruction of the city. The",True,False,A,32,1.56,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,96,"B
+Explanation:
+Let $f(X) = [\pi(1 + X^2)]^-1- \infty < x < \infty$.",True,False,D,32,1.93,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,97,"A
+
+Explanation:
+The problem states that there are 230 calories in 4 ounces of ice cream. We want to find the number of calories",True,True,A,32,1.45,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,98,"A
+
+Explanation:
+Circulatory overload is characterized by a decrease in blood flow to the organs. The signs and symptoms include:
+- Dyspnoea",True,True,A,32,1.45,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,99,"C
+
+Explanation:
+- A subroutine's activation record frame is used to store the information needed to execute the subroutine.
+- The activation record frame contains",True,True,C,32,1.46,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,100,"C
+理由：
+*   **Autonomy** refers to the patient's right to make decisions about their own healthcare.
+*   The physician is",True,True,C,32,1.83,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,101,"A
+Explanation:
+The integral of the function f(x,y) = x*y^3 exp^{x^2+y^2}",True,False,D,32,1.55,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,102,"B
+Explanation:
+The Henry's constant for dissolved oxygen in water at 25°C is 4.12 × 10^",True,True,B,32,1.87,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,103,"B
+Explanation:
+The problem is asking for the partial pressure of vapor in the room air at 14.7 psia when the beaker temperature reaches",True,False,C,32,1.93,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,104,"A
+Explanation:
+The series is $\sum_{i=0}^{\infty} \frac{n-1}{n^3+1}$.
+We",True,False,C,32,1.36,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,105,"B
+理由：
+Andrew Hamilton's concluding argument is a powerful defense of liberty and the importance of free speech. He emphasizes the right of all people to",True,True,B,32,3.41,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,106,"A
+
+Explanation:
+The key to an enforceable offer is that the seller must have the right to change his mind.  The offer in option A states the",True,False,C,32,1.88,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,107,"D
+
+解释：
+心理治疗在不同种族和民族的客户之间效果相同。
+
+A. 错误，因为心理治疗的效果因种族",True,True,D,32,1.41,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,108,"B
+Explanation:
+The least common multiple (LCM) of 24 and 36 is the smallest positive integer that is a multiple of both",True,False,C,32,1.34,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,109,"A
+
+Explanation：
+The DSM-II provides a six-category framework for describing abnormal behavior. The categories are:
+1. Neuroses
+2.",True,False,C,32,2.02,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,110,"A
+
+Explanation:
+The question asks how to argue that impulses occur in plants. Option A is the most direct and logical way to argue this. It highlights",True,False,B,32,1.57,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,111,"B
+Explanation:
+The given initial value problem is
+$$
+y^{\prime \prime}+\gamma y^{\prime}+y=k \delta(t",True,True,B,32,1.92,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,112,"C
+Explanation:
+The ionization potential of sodium is 5.1 eV, and the electron affinity of chlorine is 3.6 eV. The energy",True,False,A,32,1.55,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,113,"B
+
+Explanation:
+The note had a term of two months. Mr. Carson signed the note on March 15. Two months from March 1",True,True,B,32,1.43,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,114,"B
+Explanation：
+A 3-way, set-associative cache is designed to provide a high degree of performance. It is effective only if",True,False,D,32,1.58,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,115,"D
+理由：
+ANOVA (Analysis of Variance) 是一种用于比较多个组的分析方法。它通过比较不同组的平均值，从而确定",True,False,B,32,1.67,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,116,"A
+
+Explanation:
+The passage argues that the contemporary form of illicit markets is characterized by interconnectedness and mutual support, aligning with the description of how illegal markets",True,True,A,32,2.27,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,117,A,True,False,D,2,0.56,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,118,"A
+
+Explanation:
+The entropy change for the transition from β to α is given by:
+ΔS = ΔH / T
+where ΔH is",True,True,A,32,1.7,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,119,"A
+
+Explanation：
+The passage is a statement about the importance of peace and the role of Asia and Africa in promoting it. It emphasizes the need to inject",True,True,A,32,2.14,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,120,"C
+Explanation: The passage suggests that the highest levels of learning and performance are typically achieved with moderate arousal levels.",True,True,C,24,1.1,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,121,"A
+
+Let $a, b, c$ be such that $a+b+c = 1$ and $ab+ac+bc = -",True,False,C,32,1.45,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,122,"A
+
+Explanation:
+The question states that the land has only one use. This means there is no potential for diversification or additional income streams.  Therefore,",True,False,C,32,1.64,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,123,"B
+Explanation: The question asks about the difference in aggregate demand between a nontrading and trading economy. This difference is primarily driven by the inclusion or exclusion",True,False,A,32,1.48,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,124,"C
+Explanation：
+Migration is a complex behavior driven by a combination of cues. The options provided – scent, celestial clues, and earth's magnetic field",True,True,C,32,1.46,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,125,"B
+Explanation: The problem describes a vertical cylinder with a diameter of 1.0 ft and length of 2.0 ft. The steam is condensing",True,True,B,32,2.85,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,126,"B
+
+理由：
+选项B正确地说明了该权利的有效性。根据美国法律，如果一个权利的性质是“仅作为补充保障",True,False,A,32,3.41,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,127,"B
+理由：
+这段文字描述了西方欧洲在1200-1400年期间，由于早期火炮的实用性，",True,False,D,32,2.61,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,128,"D
+Explanation: The head of the sixth rib articulates with the inferior articular demifacet of T6 and the superior articular demifacet of T7",True,False,B,32,1.65,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,129,"A. demonstrating the unpredictability and randomness of life
+
+Explanation:
+The passage describes a series of unfortunate events – being hanged, dissected, whipped, and",True,False,D,32,4.87,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,130,"B
+
+Explanation:
+Recessions typically hit industries that are heavily reliant on capital goods (like factories and machinery) and consumer durables (like cars and appliances",True,False,D,32,1.45,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,131,"A
+Explanation:
+The decimal number 0.5 can be expressed as 1/2 in binary.
+0.7 is not directly represented in",True,True,A,32,1.38,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,132,"A
+Explanation:
+The pH of a solution is calculated using the formula: pH = -log[H+]
+First, we need to calculate the concentration",True,False,B,32,1.62,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,133,"C
+
+Explanation:
+A longitudinal study is a type of study design where researchers follow a group of people over time to observe the effects of a variable. In",True,False,D,32,1.51,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,134,"C
+理由：
+The housekeeper's testimony is related to the case because it relates to the shopper's injuries and the circumstances surrounding the fall. The",True,False,A,32,2.42,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,135,"A
+
+Explanation：
+The total assets are $75,000 and the total liabilities are $52,000. The total equity",True,True,A,32,1.69,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,136,"D
+
+Explanation：
+The Supreme Court's decision will likely be that the taking is improper because the government did not negotiate with the property owners in good faith",True,False,B,32,2.66,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,137,"C
+
+Explanation: Microeconomics is the study of individual economic units, such as households and firms, and their interactions. The overall national economy is a broader concept",True,True,C,32,1.72,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,138,"B
+
+Explanation:
+The editor's argument is based on a personal experience – her daughter's success and failure due to the review course. This is",True,False,A,32,2.81,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,139,"D
+
+解释：
+原文描述了在北印度，由于 Mogul的统治，地方邦的地位相对模糊，因此，zamindars可以建立",True,False,B,32,2.8,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,140,"A
+理由：
+选项A“The rise of a literate class of scribes in cities who could record poems”是正确的。
+在古希",True,True,A,32,3.09,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,141,"A
+Explanation:
+The saturation vapor pressure (SV) is given by: SV = (R * T) / (M * b) where R is",True,False,B,32,1.71,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,142,"D
+
+解释：
+Lukianoff and Haidt argue that institutionalizing vindictive protectiveness leads to a cycle of harm.  They suggest that this protective",True,False,B,32,1.51,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,143,"A
+
+Explanation:
+The formula for the angle of minimum deviation in a prism is given by:
+θ_min = 2π / (n_",True,False,B,32,1.51,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,144,"A
+Explanation：
+The fraction 20/8 represents the number of boxes of cupcakes Mary bought.
+20 boxes of cupcakes contain 20",True,False,C,32,1.46,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,145,"B
+理由：
+A. Separation of endothelial junctions: This is unlikely to be the primary mechanism of edema in this scenario.
+B. Increased hydrostatic pressure",True,False,C,32,1.52,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,146,"A
+Explanation: The resistance of an electric toaster is determined by the current and the voltage. The formula is R = V/I, where R is the",True,True,A,32,1.15,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,147,"A
+Explanation:
+The given premises are:
+~E ⊃ ~F
+G ⊃ F
+H ∨ ~E
+H ⊃",True,True,A,32,1.22,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,148,"C
+
+解释：
+
+严格责任的原则，在某些情况下，会适用。严格责任的原则认为，制造商应承担其产品可能造成的损害的",True,False,D,32,2.12,b3,
+gemma-3-1b-it-Q3_K_M,mmlu_pro,149,"D
+Explanation:
+The unrealized gain is $100000. The corporate tax rate is 25%.
+The amount of gain",True,False,C,32,1.28,b3,

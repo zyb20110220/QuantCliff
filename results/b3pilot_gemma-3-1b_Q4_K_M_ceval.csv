@@ -1,0 +1,22 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+gemma-3-1b-it-Q4_K_M,ceval,0,"C
+理由：
+选项C是正确的。
+选项A：唐朝武则天亲授的、被称为传家之宝的第三颗佛",True,True,A,32,2.19,b3,
+gemma-3-1b-it-Q4_K_M,ceval,1,"A
+
+**证明：**
+
+设直线 $l: a x + y + 1 = 0$ 与线段 AB 有交点。",True,False,B,32,1.61,b3,
+gemma-3-1b-it-Q4_K_M,ceval,2,"D
+
+解释：
+质点在匀速圆周运动中，速度方向与切线方向一致。因此，D选项是正确的。
+其他",True,True,D,32,1.37,b3,
+gemma-3-1b-it-Q4_K_M,ceval,3,"D
+
+解释：
+*   A. 实现了载波监听：无线局域网通常不实现载波监听，因为无线局域网的",True,False,B,32,1.27,b3,
+gemma-3-1b-it-Q4_K_M,ceval,4,"D
+理由：
+选项D“不料这秃儿却拿着一支黄漆的棍子——就是阿Q所谓的哭丧棒——大踏",True,False,A,32,1.84,b3,

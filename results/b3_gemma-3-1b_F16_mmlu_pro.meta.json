@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\gemma-3-1b\\gemma-3-1b-it-BF16.gguf",
+  "model_file": "gemma-3-1b-it-BF16.gguf",
+  "bench": "mmlu_pro",
+  "n_requested": 150,
+  "seed": 42,
+  "n_ctx": 4096,
+  "tag": "b3",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-31T13:00:13",
+  "finished": "2026-10-31T13:06:17",
+  "rows_total": 150,
+  "correct": 60,
+  "parse_ok": 150,
+  "accuracy": 0.4,
+  "parse_rate": 1.0,
+  "errors": 0
+}

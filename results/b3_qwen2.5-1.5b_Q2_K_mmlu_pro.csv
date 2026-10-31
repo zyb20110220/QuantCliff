@@ -1,0 +1,474 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,0,"A
+解释：对于选项A，5.40MeV，这是Po^210的核子数，而不是它的能量。对于选项",True,True,A,32,1.71,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,1,"D
+
+解释：根据提供的信息，选项中没有直接给出2015年12个月期间13-15岁学生在学校发生过",True,False,C,32,1.59,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,2,"C
+
+解释：边际生产要素的边际产品是指当增加一个单位的要素时，总产量增加了多少，而同时保持其他要素不变的情况下，",True,True,C,32,1.75,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,3,"D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：D
+答案：",True,False,C,32,2.46,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,4,"C
+解释：在联邦法院，一个疏忽的诉讼被提起，原告的父亲的儿子在咨询时被击中并受伤。在联邦法院，",True,False,B,32,3.1,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,5,"A
+解释：Skinner box is a type of experimental set-up used in operant conditioning to study the effects of positive and negative reinforcement on behavior. It",True,True,A,32,1.69,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,6,"D
+
+解释：为了计算平均售价为40%的平均成本，我们需要首先确定总成本。总成本是两个物品的总成本，即",True,False,C,32,1.73,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,7,"D
+
+解释说明：正确答案是D，因为它们是必需氨基酸，而不是错误的选项。解释说明：A-D 中没有选项是正确的，",True,False,C,32,1.75,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,8,"D
+
+从选项中选择一个，填入正确的答案：A、B、C 或 D。
+答案：A
+
+从选项中选择一个，填",True,False,C,32,1.53,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,9,"D
+解释：选项D准确描述了两者之间的区别。燃烧释放能量的包块较小，而有氧呼吸释放能量的包块较大，",True,True,D,32,1.9,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,10,"D。
+
+答案：D。
+
+解释：这个表达式涉及到复杂的数学运算，包括分数和除法。首先，我们需要计算 $-\frac{1",True,False,C,32,1.61,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,11,"B。
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：A 40k resistor at a room",True,False,D,32,2.5,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,12,"B. discriminant validity
+
+解释：选项A和D都与测试无关，因此不正确。选项C和D都与测试无关，因此不",True,False,D,32,1.64,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,13,"C. Immersive realm。
+解释：选项C描述的是沉浸式环境，即完全沉浸在环境中并参与其中，以影响实际发生或存在的环境。",True,False,B,32,1.38,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,14,"D. Research and evaluation
+答案是：D. Research and evaluation
+因此，唯一正确的选项是：D. Research and evaluation。 请从 A",True,True,D,32,1.49,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,15,"A. 1.052
+答案解释：首先，我们需要计算该立体的体积，即计算两个曲面之间的体积。这两个曲面",True,False,C,32,1.49,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,16,"D
+解释：选项D准确地描述了Bacteria和yeast的特性，使得它们成为进行遗传学研究的合适选择。选项A和",True,True,D,32,2.07,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,17,"A. 4.00 min
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：A rectangular",True,False,D,32,2.19,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,18,"$A$。
+
+
+问题：从给定的选项中选择正确的数学表达式，用于计算从点 $(0, -1, 0)$",True,False,C,32,2.28,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,19,"D
+
+解释：首先，我们需要计算所需的气球包数量。既然我们知道气球包的容量为8，我们需要计算42除以8的结果",True,False,C,32,1.34,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,20,"D
+
+解释：首先，我们需要计算33天后的保费，然后计算33天后的退款。
+
+33天后的保费：$37 -",True,True,D,32,1.7,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,21,"A. 识别任何与问卷题目的问题和路由。
+解释：在问卷测试阶段，识别任何问题和问题的路由是识别问卷设计和",True,True,A,32,1.62,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,22,"A. Unit root和explosive过程
+答案是：C. Stationary和unit root过程。 选项A和D都错误，因为它们",True,True,A,32,1.65,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,23,"A. 2,3-dimethylbutane < neopentane < n-hexane < methane < n-undecane
+解释：",True,False,B,32,2.24,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,24,"A. 0.119 wavelength^2
+
+解释：对于短鞭状天线，评估最大有效辐射半轴为0.11",True,False,C,32,1.54,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,25,"D 正确答案：12
+
+答案：12
+
+正确的答案是：12。
+
+请从 A-D 中选择唯一正确的答案，只",True,False,A,32,1.4,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,26,$\mathrm{N}_2(\mathrm{g})+3 \mathrm{H}_2(\mathrm{g}}_{\mathrm{g}} \rightarrow,False,False,B,32,1.97,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,27,"A. 43 ft
+解释：首先，我们需要计算汽车在减速时的位移。由于汽车以30 mi/hr的速度减速，我们可以",True,True,A,32,1.55,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,28,"D
+解释：首先，我们需要计算出所需的弹簧 rate。由于弹簧 rate is proportional to the weight of the engine, we can set up the equation:",True,False,B,32,1.79,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,29,"D
+
+解释：选项A和B都是统计学中的术语，但它们并不直接对应于实验的“信息性”。选项C和D是关于",True,False,A,32,1.45,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,30,"D
+解释：根据Hopewell的农业历史，玉米（D. potato）并不是Hopewell的主食，而是大豆（A. beans",True,False,C,32,1.31,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,31,"A. - 0.745∠116.5651°
+解释：计算反射系数（反射系数）的正确方法",True,True,A,32,1.84,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,32,"根据《圣经》摩西和阿南有一个姐姐叫什么？
+选项：
+A. 以弗特
+B. 以实
+C.",True,False,C,32,1.3,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,33,"A
+解释：根据文本，Bill购买了一个装有Sipep的罐，但后来发现罐子底部有死昆虫。在严格的产品责任",True,False,D,32,1.92,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,34,"D
+解释：对于多项式回归，最能影响训练和泛化之间的权衡的结构假设是：
+选项：
+A. 计算复杂",True,False,C,32,1.56,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,35,"A. 0.15 watt/meter^2
+解释：首先，我们需要计算出波的功率密度，即功率密度等于波功率除",True,False,C,32,1.84,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,36,"D
+
+解释：为了找到满足给定条件的糖果数量，我们需要找到所有给定数的乘积。5的乘积是20，",True,False,B,32,1.54,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,37,"D
+解释：根据法庭程序，证据必须经过交叉检查和交叉审查，因此该证据不能直接证明犯罪行为，因此不能作为证据直接进入",True,False,B,32,2.49,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,38,"A. Sampling rate of 10 samples/sec, ramp slope of 500 V/sec, counting rate of 5,000 counts/",True,False,C,32,2.17,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,39,"A. 4t
+解释：这个表达式是将4倍于Tom收集的罐头的数量。
+
+
+问题：Identify the algebraic expression",True,True,A,32,1.36,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,40,"A. 12 $\mathrm{mg}$
+
+解释：此题没有提供足够的信息来计算固体的质量变化，因为没有给出固体的初始质量",True,False,B,32,2.08,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,41,"D. I, II and III only
+答案：D. I, II and III only
+答案：D. I, II and III only
+答案",True,True,D,32,1.61,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,42,"D
+
+问题：A balance of trade surplus can be the result of
+选项：
+A. 低收入
+B. 低收入
+C.",True,False,B,32,1.39,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,43,"D
+
+解释：此题涉及热力学和化学知识，但核心问题是如何选择正确的计算方法。首先，我们注意到，由于 sucrose (C",True,False,B,32,1.87,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,44,"B
+解释：根据患者的症状，他感到无法集中精力，这可能是由于他感到无法适应他的新责任，所以他感到焦虑。这符合诊断",True,True,B,32,2.27,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,45,"_____
+正确的答案是：____。
+选择：D。
+解释：D选项是正确的。
+
+选择：A。
+解释：A选项是正确的。在给",True,False,B,32,2.64,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,46,"C. are dependent on each other, but can be accepted separately.
+解释：根据拉姆斯的理论，两个部分是相互依赖的，但可以",True,False,B,32,1.46,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,47,"B. 5
+
+问题：Find the quotient of −40 ÷ (−8).
+选项：
+A. −1 over 5
+B.",True,True,B,32,1.44,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,48,"A. 8
+解析：首先，我们需要计算函数 \(f(x) = x^2 - 3y + 2x^3\) 的",True,True,A,32,1.97,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,49,"D
+
+解释：这个题目没有提供足够的信息来计算实际的银量，因为没有给出银的重量或银的密度。然而，根据给",True,False,C,32,1.69,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,50,"A. 0.2423 cal mol^-1K^-1
+解释：标准绝对熵的计算公式为：\[E_{\text",True,True,A,32,2.13,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,51,"D
+解释：我们可以通过计算来解决这个问题。首先，我们需要计算每月的利息。每月的利息等于每月还款的利息，即每月还款的",True,False,A,32,1.62,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,52,"D
+
+解释：选项A、B、C都是错误的，因为它们都表示一个区间，而不是一个区间。选项D是正确的，因为它表示",True,False,B,32,1.62,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,53,"D
+
+解释过程：
+选项 A 和 B 的陈述都是错误的，因为它们都违反了数学事实。选项 C 的陈述是正确的，因为根据",True,True,D,32,1.65,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,54,"D
+解释：选项A和B都与事实不符。选项C是正确的，因为法院不会认为双方之间存在合同，除非一方明确表示同意",True,False,A,32,3.01,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,55,"D
+
+解释：答案是D，因为正常使用的电压是200KV，而不是33KV、0.5KV或1.5KV",True,False,C,32,1.41,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,56,"D。
+
+解释：立方英（立方英）是英制单位，用于表示体积。1立方英英（16.4 cc）是1",True,False,A,32,1.53,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,57,"D
+
+选择正确的选项。
+
+选项A：A
+问题：The Rosenhan study of mental institutions showed that it is difficult to convince medical professionals that one has",True,False,B,32,1.74,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,58,"D 正确答案：D
+解释：系统随机和系统随机（选项：A 和 D）都是随机的，而系统随机（选项：",True,False,C,32,1.59,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,59,"B
+解释：根据文章，中国皇帝对英国的贸易并没有兴趣，因为他们相信英国人试图欺骗他们。因此，他们没有对英国的贸易",True,False,D,32,3.02,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,60,"A. 0.95 W
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：A small",True,True,A,32,2.25,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,61,"C. E7_{16}
+解释：首先，我们需要将10进制转换为16进制。10进制转换为1",True,True,C,32,1.53,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,62,"A
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：Apreemphasiscircuitoftransferfunction",True,False,D,32,2.95,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,63,"D
+
+解释：根据Aquinas的描述，他的最终幸福是通过与上帝的互动来实现的。因此，他的最终幸福是通过与上帝",True,True,D,32,1.36,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,64,"D
+解释：为了确定陈述是否正确，我们需要分析给定函数 f(x) = x^3 + 2x^2 – 9x",True,False,B,32,1.75,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,65,"D。
+解释：Packed arrays are designed to store data in the most efficient manner, which may require more memory space but also reduces the processing time compared to",True,False,C,32,1.91,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,66,"A-D
+解释：A. FindName ([""Andrea"", ""Ben"", ""Chris"", ""Diane"", ""Eva"", ""Frank"", """,True,False,B,32,3.87,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,67,"A
+解释：选项中的描述与生产函数的解释不符。生产函数解释为：随着劳动增加，产量增加，但边际产量减少。选项",True,True,A,32,2.51,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,68,"D
+解释：病毒通常通过破坏DNA和RNA来杀死细胞，从而导致细胞死亡。这通常涉及破坏DNA和RNA，导致细胞死亡。",True,False,A,32,1.9,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,69,A.,True,True,A,2,1.01,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,70,"A. 36 - y = 13
+解释：这个表达式表示36减去y等于13，因此选择A。",True,False,B,32,1.85,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,71,"D. theta waves。
+解释：根据描述，Cyrus感到比他去睡觉时更差，连起来吃饭都困难。一个EEG（",True,False,B,32,1.99,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,72,"A. 186
+解释：首先，我们需要将单位进行转换。15 mg/kg * 62 kg = 186 mg",True,False,D,32,1.87,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,73,"D
+
+解释过程：这个题目没有提供足够的信息来计算百分比标价，因为没有给出成本价或销售价。然而，根据给定",True,True,D,32,1.57,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,74,"A. 0.58
+解释：计算离散分布的偏度系数，得到结果为0.58，因此选择A。",True,False,B,32,2.22,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,75,"A
+解释：Barr bodies are not visible under the nuclear membrane in mammals. 选项：D 正确。 选项：A 不正确。",True,True,A,32,1.94,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,76,"B。
+解释：净国内生产总值（GNP）是年度内一个国家的总产出，扣除所有商品和服务的支付，净进口，然后得到",True,True,B,32,1.9,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,77,"D
+
+从A-D中选择唯一正确的答案，只输出字母（例如：A)。
+选项：A) 选项中没有提供足够的信息来",True,False,C,32,1.62,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,78,"A. 157.875 $\mathrm{mg}$
+
+解释：首先，我们需要计算每一张药丸后剩余的药量。",True,True,A,32,2.13,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,79,"D
+
+答案：D
+
+问题：在一次研究中，比较了现代人和北美洲和南美洲的骨骼的基因组，结论是什么？",True,False,A,32,2.2,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,80,"A
+
+解释：选项中的表达式和计算过程都与实际情况不符，因此选择A。请提供正确的数学表达式和计算过程。请提供",True,False,D,32,2.63,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,81,"D
+
+解释：频率计算为：(50 - 13) / (50 + 13) = 37 / 6",True,False,B,32,1.78,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,82,"D. a) Change in quantity supplied, b) Change in supply, c) Change in supply
+答案：D. a) Change in quantity supplied,",True,False,A,32,2.39,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,83,"D。
+
+答案：D。
+
+答案：D。 选项：D。 选项：D。 选项：D。 选项：D。 选项",True,False,C,32,1.51,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,84,"A
+
+问题：Expectancy theory suggests that worker motivation is influenced by several factors, including:
+选项：
+A. the employee's beliefs about the inherent (in",True,False,C,32,1.74,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,85,"D
+
+解释：答案是D，因为当100J的能量被一个能产生40J有用能量的设备消耗掉时，它的效率",True,False,A,32,1.51,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,86,"A. equivalent to a concave spherical mirror with radius of curvature f。
+
+问题：Show that a plane mirror in contact with a converging lens of focal length",True,True,A,32,1.68,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,87,"D. 20
+
+答案：在卡牌游戏大牌中，王和王的值是多少？
+选项：
+A. 21
+B",True,True,D,32,1.45,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,88,"D
+解释：在基督教中，上帝被称为“Father of Goodness”。因此，正确答案是D。
+
+解释：在基督教中，上帝被称为“",True,True,D,32,1.44,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,89,"D
+解释：答案是D，因为文章提到纵向研究显示儿童有特定的阅读残疾，他们通常不会达到正常水平，也不会显著改善，",True,False,B,32,1.65,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,90,"D
+解释：根据选项，正确答案是D。选项中的数字是错误的，因为它们没有单位。选项中的数字应该是以g为单位",True,True,D,32,1.95,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,91,"D
+解释：根据文章，饱和脂肪（D）是导致肺癌风险增加的唯一因素。A.维生素D缺乏和C.高剂量β",True,False,C,32,1.39,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,92,"D. irrevocable assignment.
+解释：根据题干，该承诺实际上是不可撤销的，因此可以被解释为“不可撤销的承诺”。",True,False,B,32,2.92,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,93,"D. mobiliary art.
+答案分析：Lion Man is a term used to describe a type of mobiliary art, which refers to movable art pieces.",True,True,D,32,1.47,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,94,"A. 9.81 kJ
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：Predict",True,False,C,32,2.18,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,95,"B
+
+解释：根据所给信息，Minoan civilization的最高峰时期，从公元前3420到公元前3650年，",True,False,A,32,1.72,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,96,"B
+解释：首先，我们需要理解给定的函数 \(f(x) = [\pi(1 + x^2)]^{-1}\)。这个",True,False,D,32,2.33,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,97,"D
+
+解释：这个题目没有直接给出答案，而是提供了一个关于冰激凌的信息，让我们根据这个信息计算出冰激凌的热量。",True,False,A,32,1.49,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,98,"A. Dyspnoea, tachycardia, and distended neck veins.
+解释：A选项是正确的，因为它描述了循环性负荷",True,True,A,32,1.71,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,99,"A-D
+解释：在大多数情况下，A-D选项都不应该出现在一个栈式编程语言的子程序激活记录帧中。选项：B-D",True,False,C,32,1.48,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,100,"A
+解释：此陈述涉及一个关于HIV测试的陈述，患者隐瞒了他的外遇。医生的建议是患者告知他的妻子，因为",True,False,C,32,2.11,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,101,"A. 0.3078
+解释：计算这个积分的值需要使用适当的数学方法，但根据提供的选项，答案是正确的。",True,False,D,32,1.73,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,102,"A
+解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：解析：",True,False,B,32,2.25,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,103,"A.
+解释：房间空气的相对湿度为14.7psia，室内的蒸汽含量为0.01357，室内的",True,False,C,32,2.38,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,104,"A. 0.5
+答案解释：该表达式为级数，当 n趋于无穷大时，分母为n3+1，",True,False,C,32,1.49,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,105,"D
+问题：This question refers to the following information.
+It is natural, it is a privilege, I will go farther, it is a right, which",True,False,B,32,4.31,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,106,"D
+解释：选项D描述的场景中，如果买方没有支付款项，卖方可以撤销合同，因此D选项不满足选项D的",True,False,C,32,2.35,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,107,"D
+解释：答案是D，因为选项中的陈述与事实不符。选项中的陈述是错误的。 选项：A、B、C 都是",True,True,D,34,1.75,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,108,"A. 180
+
+解释：为了找到24和36的Lcm，我们需要找到它们的最大公因数（GCD）。2",True,False,C,32,1.45,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,109,"A. DSM-II categorizes abnormal behavior into neuroses, personality disorders, psychoses, cognitive disorders, mood disorders, and anxiety disorders.
+答案：B.",True,False,C,32,2.52,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,110,"B。
+解释：选项A和D都是错误的，因为它们没有提供足够的信息来支持植物的传冲动。选项C提供了一个合理的论点",True,True,B,32,1.94,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,111,"A
+
+答案：A
+
+答案：A
+
+请从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：Consider",True,False,B,32,2.41,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,112,"A. 1.5eV
+答案解释：计算钠（Na）原子和氯（Cl）原子之间的能量转移所需的能量，需要计算",True,True,A,32,1.76,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,113,"D. June 15
+解释：如果一张期限为两个月的票据（即，期限为两个月）的到期日为6月15日",True,False,B,32,1.67,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,114,"D。
+
+解释：A-D 3-way, set-associative cache is one in which each main memory word can be stored at any of 3 cache",True,True,D,32,1.79,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,115,"D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：",True,False,B,32,1.98,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,116,"A-B
+答案：B
+答案：D
+答案：A-B
+C. Whereas illegal markets were territorially bounded and isolated in the past, the",True,True,A,32,2.65,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,117,"D。
+解释：正确答案是D，因为描述的是腮腺的路径，而不是腮腺本身。腮腺位于下颌下，而不是腮腺",True,True,D,32,1.68,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,118,B 正确的解释是：\DeltaH = -34 cal mol^-1 \DeltaS = 0.25 J / °K,True,False,A,32,1.99,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,119,"A-D 中选择唯一正确的答案，只输出答案（例如：A-E）。
+选项：A-D 中选择唯一正确的答案，只输出答案（",True,True,A,32,2.58,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,120,"C. moderate levels of arousal。
+
+问题：The highest levels of learning and performance are usually associated with:
+选项：
+A. gradually increasing levels of arousal.
+B",True,True,C,32,1.48,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,121,"D. 4
+
+解释：这是一个数学问题，其中给出了三个变量a、b和c，以及它们之间的关系。我们可以通过代数方法来",True,False,C,32,1.64,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,122,"A
+解释：经济租金和经济租金的增加，以及剩余的转移收益，如果土地只有一种用途，经济租金和经济租金的增加，",True,False,C,32,1.72,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,123,"A. absence of the trade components
+
+问题：为什么会有这么多的选项？
+答案：因为选项是基于问题的复杂性和多样性。在回答这个问题时",True,True,A,32,1.62,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,124,"C
+解释：动物在迁徙时使用的一些线索包括嗅觉、天体线索和地球磁场。选项A和D都包含了风向，",True,True,C,32,1.48,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,125,"A
+
+
+正确的答案是：A. 1000 Btu/hr-ft^2-°F, 119,000 B",True,False,B,32,3.32,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,126,"D
+解释：根据选项，D。
+
+问题：An investor owned a four-story office building located in downtown. The building was old and badly in need of",True,False,A,32,4.17,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,127,"D
+解释：本题答案为D。解释：本题答案为D。解释：本题答案为D。解释：本题答案为",True,True,D,32,3.14,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,128,"B
+解释：根据骨骼学知识，第六肋骨（肋骨）的头（头）与第七肋骨（肋骨）的头（",True,True,B,32,1.68,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,129,"A
+问题：选择所有正确的选项。
+A. 选择所有正确的选项。
+B. 选择所有正确的选项。
+C. 选择所有正确的选项",True,False,D,32,5.91,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,130,"D
+解释：答案：D
+解析：答案：D
+
+问题：为什么工业生产资本密集型和消费品密集型产品通常在衰退时期受到",True,True,D,32,1.45,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,131,"D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：D
+
+答案：",True,False,A,32,1.37,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,132,"A. 1.90
+解释：首先，我们需要计算NaHSO_3的K_eq，然后将其乘以0.500",True,False,B,32,1.65,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,133,"D
+解释：这道题的答案是D，即“前瞻性 cohort”。解释如下：
+
+A. 随机对照试验：这是另一种类型的试验",True,True,D,32,1.61,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,134,"A
+解释：根据陈述，陈述人陈述的是关于现时身体状况的陈述，而不是关于医疗治疗的陈述，因此陈述人陈述的证",True,True,A,32,2.69,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,135,"D。
+
+解释：总资产减去总负债等于总所有者权益，即75,000 - 52,000 =",True,False,A,32,1.68,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,136,"B
+解释：The Supreme Court will decide that the taking is proper because developing the city's economy constitutes a public use. 选择正确的答案。 选择",True,True,B,32,2.87,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,137,"C
+
+问题：A-D 中选择唯一正确的答案，只输出字母（例如：A-B）。
+选项：A. 100% B",True,True,C,32,1.41,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,138,"D
+解释：D选项正确，因为广告在《美国法典》第1条第3款中被定义为“商业广告或商业性",True,False,A,32,3.2,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,139,"D. feudal system
+问题：选择正确的选项。
+A. W. H. Moreland的陈述是否正确？
+B. W. H. Moreland",True,False,B,32,2.6,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,140,"A-D
+解释：The passage describes the origins of epic poetry as the rise of a literate class of scribes in cities who could record poems. The",True,True,A,32,3.83,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,141,"A. 3.99 × 10^-6lbmwater/lbmdry air
+解释：根据湿空气的定义，湿空气",True,False,B,32,2.17,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,142,"D
+
+解释：根据Lukoff和Haidt的说法，将保护性但又可耻的制度化将导致学生在学习上变得不",True,False,B,32,1.76,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,143,"A. 19.5 degrees
+解释：在这个问题中，我们没有足够的信息来计算出棱锥的最小折射角。我们需要更多的信息",True,False,B,32,1.71,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,144,"D
+解释：这个选项是正确的，因为它直接对应于给出的数学问题。玛丽买了8个盒子，每个盒子有20个，所以",True,False,C,32,2.06,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,145,"D
+解释：根据描述，患者的右臂在树上划破后，水肿的原因最有可能是炎症导致的血管通透性增加。因此",True,False,C,32,2.14,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,146,"A. 24 ohms
+
+解释：在这个问题中，我们不需要计算实际的电阻值，因为题目没有提供足够的信息来确定实际的",True,True,A,32,1.83,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,147,"E ⊃ ~F
+~D. E ⊃ F
+答案：E ⊃ ~F
+答案：E ⊃ ~F
+答案：",True,False,A,32,1.73,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,148,"D
+解释：答案基于对事故的分析，而不是对事故的分析。尽管事故涉及玻璃瓶中的化学物质，但这并不意味着事故是由于",True,True,D,32,3.71,b3,
+qwen2.5-1.5b-instruct-q2_k,mmlu_pro,149,"A. $50000 $50000。
+解释：由于Cooley Co.的债务投资为可出售资产，其税",True,False,C,32,2.87,b3,

@@ -1,0 +1,545 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,0,"A
+解释：Po^210 的半衰期为 138 天，因此它在 α 衰变时释放的能量为",True,True,A,32,3.83,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,1,"A
+
+问题：What is the percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more",True,False,C,32,3.3,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,2,"C
+解释：边际产量是指在保持其他生产要素数量不变的情况下，增加一个单位的某种生产要素投入量所导致的总产量增加量",True,True,C,32,3.7,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,3,"A
+
+解析：首先，我们需要计算每天可以生产的类型I汽车悬架阻尼器的数量。由于每小时可以生产699个类型I",True,False,C,32,4.63,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,4,"B
+
+问题：One afternoon, a pilot was flying a small airplane when it suddenly ran out of gas. As he was coming in for an emergency landing,",True,True,B,32,5.56,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,5,"A
+
+解释：Skinner box，也称为斯金纳箱，是一种实验设备，用于研究动物的行为和学习。它通过提供奖励或惩罚",True,True,A,32,3.68,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,6,"A
+
+解释：首先，我们需要计算出每个物品的平均成本。因为总成本是 $10，一个物品的成本是 $5.25",True,False,C,32,3.61,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,7,"C
+
+解释：选项C正确，因为它是所有必需氨基酸的组合，包括甲硫氨酸、赖氨酸和苏氨酸。选项A不正确，",True,True,C,32,3.32,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,8,"A
+
+问题：A balance of payments deficit means that a country has
+选项：
+A. exported more than it has imported.
+B. reduced its national debt",True,False,C,32,3.08,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,9,"D
+
+问题：What is the primary function of the heart?
+选项：
+A. To pump blood throughout the body
+B. To regulate body temperature
+C",True,True,D,32,3.83,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,10,"A
+
+问题：What is the value of $x$ in the equation $2x + 3 = 7$?
+选项：
+A. 1",True,False,C,32,3.25,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,11,"A
+
+解释：根据电阻的温度系数，对于一个40kΩ的电阻，温度每升高1°C，电阻值会增加约0.",True,False,D,32,4.43,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,12,"D
+
+解释：内容效度是指测试所涵盖的内容是否能够全面反映所要测量的特质或能力。在本题中，测试的项目",True,True,D,32,3.63,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,13,"C
+
+问题： The process of creating a new product or service that is not yet available in the market is called:
+选项：
+A. Innovation.
+B.",True,False,B,32,3.31,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,14,"A
+
+解释：这道题考察的是对四个不同规划模型的共同点的理解。四个模型分别是Hendrix（2002）、K",True,False,D,32,3.42,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,15,"C
+
+问题：What is the sum of the first 10 terms of the arithmetic sequence 3, 7, 11, 15",True,True,C,32,3.46,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,16,"D
+解释：Bacteria and yeast are haploid, making single inactivation more likely. Yeast are eukaryotic, closely related to multicellular",True,True,D,32,4.28,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,17,"A
+解释：首先，我们需要确定固体的体积和质量。由于空隙占固体体积的50%，我们可以计算出固体的体积和质量",True,False,D,32,4.45,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,18,"A
+
+解释：首先，我们需要理解题目中的“conical surface”是指一个锥面，其方程为 $z=1-\sqrt{x^",True,False,C,32,4.27,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,19,"C
+
+问题：A train travels at a speed of 60 miles per hour. How far will it travel in 3 hours?
+选项：
+A.",True,True,C,32,3.21,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,20,"C
+
+解释：保险政策的退款金额取决于政策的类型和条款。在某些情况下，保险公司可能会提供全额退款，但在其他情况下，可能会提供",True,False,D,32,3.4,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,21,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,True,A,32,3.27,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,22,"C
+
+解释：AR(2)过程的特征根为1.5和-0.5，均小于1，因此该过程是平稳的",True,False,A,32,3.39,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,23,"A
+
+解释：沸点的高低取决于分子间作用力的大小。分子间作用力越大，沸点越高。在这些化合物中，分子",True,False,B,32,4.65,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,24,"C
+
+问题：For a short dipole antenna, evaluate the maximum effective apertureA_em.
+选项：
+A. 0.119 wavelength
+B",True,True,C,32,3.36,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,25,"A
+
+解释：首先，我们需要计算出圆的半径。圆的周长公式是 \(C = 2\pi r\)，其中 \(",True,True,A,32,3.35,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,26,"C
+
+解释：根据吉布斯自由能公式，标准反应吉布斯能量（ΔG°）可以通过以下公式计算：
+
+\[ \Delta G",True,False,B,32,4.08,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,27,"A
+解释：汽车的初始速度为30 mi/hr，转换为ft/sec为44 ft/sec。汽车的质量为3000 lb",True,True,A,32,3.49,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,28,"B
+解释：首先，我们需要计算出发动机的不平衡力。不平衡力 = 发动机重量 * 转速 / 1000 =",True,True,B,32,3.69,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,29,"A
+
+解释：在实验中，如果实验设计的样本量不足（低功率），即使结果统计上不显著，也可能因为样本量小而",True,True,A,32,3.17,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,30,"B
+
+解释：Hopewell culture is known for its agricultural practices, which included the cultivation of crops such as beans, maize, and potatoes. However,",True,False,C,32,3.01,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,31,"A
+
+问题：What is the value of the integral of the function f(x) = x^2 from 0 to 1?
+选项：
+A.",True,True,A,32,3.9,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,32,"C
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,C,32,2.98,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,33,"A
+
+答案：A。根据问题描述，Bill购买了Sipep并发现其含有死昆虫，这表明Ajax可能知道或应知S",True,False,D,32,3.79,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,34,"C
+
+问题：Which one of these is not a type of data?
+选项：
+A. Text
+B. Image
+C. Audio
+D. Video",True,True,C,32,3.33,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,35,"C
+解释：根据题干，E_x = 3 sin(\omegat-\betaz) volts/meter E_y = 6 sin (\",True,True,C,32,3.95,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,36,"C
+
+解释：Lily可以给5，3，2个人，所以她给每个人相同的数量，所以她给每个人相同的数量，所以她给",True,False,B,32,3.49,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,37,"D
+
+解释：根据法律原则，只有在被告方（即父亲）被指控参与犯罪时，才能将被告方的供述作为证据使用",True,False,B,32,4.85,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,38,"A
+
+解释：首先，我们需要确定采样率。采样率越高，信号的频率分辨率越高。因此，采样率应该尽可能高。",True,False,C,32,4.46,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,39,"A
+
+解释：""4 times as many""意味着4乘以某个数量，所以答案是4乘以Tom收集的数量，即4t。选项",True,True,A,32,3.2,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,40,"C
+
+解释：首先，我们需要计算出固体的摩尔数。根据题目，固体的摩尔质量为300 g/mol，所以摩",True,False,B,32,4.2,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,41,"D
+
+解释：古典经济学家通常认为工资会快速波动（I），斯密定律（Say's law）不成立（II），输入和输出价格",True,True,D,32,3.57,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,42,"D
+
+问题：A balance of trade surplus can be the result of
+选项：
+A. high levels of income relative to other nations.
+B. low levels",True,False,B,32,3.28,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,43,"B
+
+解释：首先，我们需要知道在100°C时，水的沸点。然后，我们需要知道100°C时，水的",True,True,B,32,3.78,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,44,"B
+解释：根据患者的症状，他出现了睡眠障碍、焦虑和注意力不集中，这些症状符合调整障碍的特征。调整障碍是一种由于生活",True,True,B,32,3.91,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,45,"A
+解释：首先，我们需要找到两个函数的交点，即价格p的值，使得供应量等于需求量。供应量为(p^",True,False,B,32,4.33,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,46,"C
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,B,32,3.3,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,47,"B
+
+问题：What is the result of 12 ÷ (−3)?
+选项：
+A. 4
+B. -4
+C.",True,True,B,32,3.07,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,48,"A
+
+解释：首先，我们需要对给定的方程进行求导。给定方程为 \(x^2y^2 - 3",True,True,A,32,3.69,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,49,"C
+
+解释：根据电化学沉积原理，电流密度（A/m²）与沉积速率（g/m²）之间的关系为：g = I",True,True,C,32,3.37,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,50,"A
+解释：根据热力学第一定律，熵的定义为：ΔS = ΔU/T，其中ΔU是系统内能的变化，T",True,True,A,32,3.95,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,51,"A
+解释：每月支付的金额为：$100 + ($100 * 1%) = $101。每月支付的",True,True,A,32,3.55,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,52,"B
+
+解释：一个幂级数的收敛区间通常由其和函数的定义域决定。对于幂级数，其收敛区间通常是一个闭",True,True,B,32,3.56,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,53,"D
+
+解析：首先，我们分析Statement 1。如果一个群有一个元素的阶为10，那么根据群论的基本原理，这个群",True,True,D,32,3.63,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,54,"A
+解释：根据题目描述，双方之间存在一种隐含的合同关系，即在没有书面合同的情况下，双方通过行为（如电话沟通",True,True,A,32,5.38,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,55,"A
+
+问题：The normal voltage used in directional heating is
+选项：
+A. 33 KV.
+B. 0.5 KV.
+C.",True,False,C,32,3.11,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,56,"D
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,A,32,3.14,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,57,"A
+
+问题：The Rosenhan study of mental institutions showed that
+选项：
+A. it is difficult to convince medical professionals that one has a disorder when one",True,False,B,32,3.51,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,58,"D
+
+问题： What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,C,32,3.09,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,59,"D
+解释：根据这段文字，中国皇帝明确表示他们对英国的贸易产品没有兴趣，因此他们没有计划开始自己的制造业。所以正确答案",True,True,D,32,5.0,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,60,"C
+解释：首先，我们需要计算每个鳍的热阻。热阻的计算公式为：热阻 = 1 / 导热系数 *",True,False,A,32,4.16,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,61,"D
+
+问题：Which of the following is the hexadecimal representation of the decimal number 231_{10} ?
+选项：
+A. FE_{1",True,False,C,32,3.24,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,62,"C
+
+解释：在FM系统中，预加重电路的传递函数 \vertHp(f)\vert^2 = k^2f^2 的使用",True,False,D,32,4.77,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,63,"D
+
+解释：托马斯·阿奎那（Thomas Aquinas）是中世纪著名的神学家和哲学家，他的哲学思想对后世",True,True,D,32,3.14,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,64,"D
+
+解释：首先，我们需要找到函数 f(x) = x^3 + 2x^2 – 9x – 18 的导",True,False,B,32,3.66,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,65,"A
+解释：Packed arrays are a type of array in programming that store values in memory in the most compact way possible, taking up less space but increasing",True,False,C,32,3.72,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,66,"B
+解释：选项B的targetName是""Ben""，在nameList中没有找到，所以应该显示0，但选项B的输出是",True,True,B,32,5.45,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,67,"C
+
+解释：根据题目描述，随着劳动投入的增加，产出也相应增加，但增加的幅度逐渐减小。这表明在短期内，",True,False,A,32,3.79,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,68,"A
+
+问题：What is the most common way for a virus to kill a cell?
+选项：
+A. Induces apoptosis via caspases
+B.",True,True,A,32,3.16,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,69,"A
+
+问题：What is the primary purpose of the United Nations?
+选项：
+A. To promote peace and security
+B. To promote economic development
+C",True,True,A,32,3.53,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,70,"B
+
+解释：要找到36比一个数y少的表达式，我们需要将36减去y。因此，正确的表达式是y",True,True,B,32,3.42,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,71,"B
+解释：Cyrus在一天的劳累后感到非常疲倦，这表明他的大脑活动可能处于深度睡眠状态。在深度睡眠期间",True,True,B,32,3.67,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,72,"C. 186
+
+解释：首先，将人的体重转换为毫克，即62 kg * 1000 mg/kg =",True,False,D,32,3.38,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,73,"A
+
+解释：首先，我们需要计算成本价格。成本价格 = 卖出价格 - 标准化价格 = $200 - $8",True,False,D,32,3.33,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,74,"C
+
+解释：首先，我们需要计算中位数（midpoint），然后计算每个区间内的频率（frequency），最后计算每个区间内的频率与中",True,False,B,32,4.01,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,75,"C
+解释：Barr bodies are visible structures in the nuclei of female cells that are inactivated copies of the X chromosome. They are named after the genetic",True,False,A,32,3.76,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,76,"B
+解释：Gross National Product (GNP) is the total market value of all final goods and services produced in the economy in one year. It",True,True,B,32,3.59,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,77,"D
+
+Mayan art and iconography prominently feature depictions of stars and comets. This is a well-known characteristic of Mayan art, which often included",True,False,C,32,3.13,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,78,"C
+
+问题： A patient takes $150 \mathrm{mg}$ of a drug at the same time every day. Just before each tablet is taken",True,False,A,32,4.01,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,79,"D
+
+问题：What was concluded in a recent study comparing the genomes of modern people with ancient skeletal remains in North and South America?
+选项：
+A. The",True,False,A,32,4.14,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,80,"D
+
+解释：这个问题涉及静电场中的电介质问题。根据电介质的性质，电场强度在电介质内部和外部是不同的。对于",True,True,D,32,4.38,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,81,"A
+解释：首先，我们需要计算总样本数，即83对双胞胎。然后，我们需要计算每种情况下的样本数：5",True,False,B,32,3.59,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,82,"C
+
+解析：
+a) 冷天气导致橙子产量减少，意味着橙子的供应量减少，因此这是一个供应量的减少，而不是供应",True,False,A,32,4.47,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,83,"C
+
+问题：What is the primary purpose of the Federal Reserve?
+选项：
+A. To regulate the stock market
+B. To control the money supply",True,True,C,32,3.24,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,84,"C
+
+问题：Which of the following is not a type of data?
+选项：
+A. numerical data
+B. categorical data
+C. qualitative data",True,True,C,32,3.53,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,85,"C
+
+解释：效率是输出能量与输入能量的比率。在这个问题中，输入能量是100 J，输出能量是40 J",True,False,A,32,3.28,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,86,"A
+
+问题：What is the name of the largest planet in our solar system?
+选项：
+A. Jupiter
+B. Saturn
+C. Uranus",True,True,A,32,3.49,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,87,"D
+
+解释：在标准的黑桃牌游戏中，一对的牌（如一对的皇后和一对的国王）通常被视为一对，而不是两个单独",True,True,D,32,3.09,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,88,"A
+
+问题： Which of the following is not a name of God?
+选项：
+A. Grand Architect
+B. Light Bringer
+C. Divine Guardian",True,False,D,32,3.05,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,89,"B
+
+解释：纵向研究显示，患有特定阅读障碍的儿童在成年后阅读能力通常不会达到正常水平。因此，正确答案是B。",True,True,B,32,3.36,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,90,"D
+
+解释：首先，我们需要计算出一个典型的美国人的体重。假设一个典型的美国人的体重是150磅，那么他们的每日蛋白质需求",True,True,D,32,3.82,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,91,"D
+
+解释：高剂量β-胡萝卜素补充剂会增加患肺癌的风险。维生素D缺乏和饱和脂肪与肺癌风险无关。绿茶中的茶",True,False,C,32,3.13,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,92,"B
+解析：根据题干，电影公司支付了5000美元的版权费，并且10%的票房收入。因此，电影",True,True,B,32,5.27,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,93,"B
+
+问题：The “Lion Man” from Hohlenstein-Stadel cave is an example of:
+选项：
+A. a Venus figurine.",True,False,D,32,3.21,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,94,"C
+解释：首先，我们需要确定H2O(g)和H2O(l)之间的热力学变化。根据题目，H2O(g)",True,True,C,32,4.31,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,95,"B
+
+解释：Minoan civilization的高峰是3650到3420 B.P.，这期间有两个事件：一是宫殿的",True,False,A,32,3.68,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,96,"B
+解释：首先，我们需要找到 Y 的概率密度函数。由于 Y = X^2，我们可以将 X 的概率密度函数代入 Y 的",True,False,D,32,4.46,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,97,"C
+
+问题：A 12-year-old boy is 5 feet 6 inches tall. How tall is he in centimeters?
+选项：
+A.",True,False,A,32,3.32,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,98,"A
+
+问题：Which of the following are indicative signs and symptoms of circulatory overload?
+选项：
+A. Dyspnoea, tachycardia",True,True,A,32,3.56,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,99,"C
+
+解释：在栈式编程语言中，一个子程序的激活记录帧通常包含以下信息：子程序的指令集地址、调用",True,True,C,32,3.28,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,100,"A
+解释：在医学伦理中，医生有责任告知患者关于其健康状况的信息，这是基于非歧视和尊重患者自主权的原则。因此",True,False,C,32,4.18,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,101,"A
+
+解释：首先，我们需要计算函数 f(x,y)=x*y^3 exp^{x^2+y^2} 在区间 [0,1",True,False,D,32,3.66,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,102,"A
+解释：首先，我们需要计算出水中的溶解氧浓度。根据Henry's定律，溶解氧浓度（C）可以通过以下公式计算：
+C",True,False,B,32,4.16,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,103,"A
+解释：首先，我们需要确定露点温度。露点温度是空气达到饱和状态时的温度。在本例中，露点温度",True,False,C,32,4.42,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,104,"C
+
+问题：Does the following series $\sum_{i=0}^{\infty} \frac{n-1}{n^3+1}$",True,True,C,32,3.38,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,105,"B
+解析：根据文章内容，Andrew Hamilton认为美国公民有更多的自由，因此答案是B。其他选项与文章内容不符。 问题：This",True,True,B,32,7.0,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,106,"D
+
+解析：根据合同法，如果卖方在买方接受前改变主意，买方有权撤销合同。选项D中，卖方没有",True,False,C,32,4.27,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,107,"D
+
+问题：What is the most common cause of death in the United States?
+选项：
+A. Heart disease
+B. Cancer
+C. Stroke",True,True,D,32,3.37,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,108,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,C,32,3.13,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,109,"A
+解释：根据1968年美国精神病学会的《精神疾病诊断与统计手册》（DSM-II）的分类，异常行为",True,False,C,32,4.75,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,110,"B
+
+解析：选项A描述了植物对环境刺激的反应，但没有直接说明植物如何传递冲动。选项C描述了植物细胞内结构",True,True,B,32,3.85,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,111,"B
+
+解释：首先，我们需要找到微分方程的解。由于初始条件为 $y(0)=0$ 和 $y'(0)=",True,True,B,32,4.35,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,112,"A
+解释：根据题目，离子化能为5.1eV，电子亲和能为3.6eV。要从一个钠",True,True,A,32,3.67,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,113,"A
+
+解释：如果一个债务的期限是两个月，那么从3月15日开始计算，两个月后是5月15日。因此",True,False,B,32,3.45,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,114,"D
+
+问题：A 3-way, set-associative cache is
+选项：
+A. one in which each cache can store 3 main memory words",True,True,D,32,3.61,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,115,"A
+解释：独立样本比较的总体均值分析适用于比较两个或多个独立样本的均值，而匹配对样本比较的总体均值",True,False,B,32,3.75,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,116,"D
+
+问题：Is TNC a new phenomenon?
+选项：
+A. Whereas illegal markets were territorially bounded and isolated in the past, the contemporary form illicit",True,False,A,32,4.76,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,117,"D
+
+问题：The parotid duct runs
+选项：
+A. superficial to masseter and enters the mouth opposite the upper second premolar.
+B.",True,True,D,32,3.52,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,118,"C
+
+解释：根据热力学第一定律，ΔH = ΔU + Δ(PV)，其中ΔU是内能的变化，Δ( PV)",True,False,A,32,3.81,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,119,"A
+解析：根据问题，我们需要找出与“印尼领导人苏加诺在万隆会议上的讲话”相关的事件。苏加诺的讲话强调",True,True,A,32,4.58,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,120,"A
+
+问题：The highest levels of learning and performance are usually associated with:
+选项：
+A. gradually increasing levels of arousal.
+B. arousal levels that are",True,False,C,32,3.17,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,121,"A
+
+解释：根据题目条件，我们可以使用代数恒等式来求解 $a^3+b^3+c^3$。首先，",True,False,C,32,3.47,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,122,"C
+
+解析：根据经济学原理，当土地只有一个用途时，其经济租金（Economic Rent）会占据土地价格的大部分，而剩余部分",True,True,C,32,3.59,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,123,"A
+
+问题：What is the difference between a closed economy and an open economy?
+选项：
+A. The presence or absence of a central bank
+B.",True,True,A,32,3.34,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,124,"C
+
+解释：动物在迁徙时使用的主要线索包括气味、天体线索和地球磁场。这些线索帮助动物确定方向和目的地。选项",True,True,C,32,3.26,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,125,"A
+
+解析：首先，我们需要计算蒸汽的饱和温度，然后根据热力学原理计算热传递系数、总热传递率和总蒸发量。",True,False,B,32,5.96,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,126,"D
+解释：根据题目描述，投资者在借款后，通过执行一个绝对的遗赠来作为额外的担保，意图在投资者未能在到期",True,False,A,32,7.38,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,127,"D
+解释：这段文字主要讨论了中国和欧洲在1200s到1400s期间的武器发展情况。中国在",True,True,D,32,5.77,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,128,"B
+
+问题：The head of the sixth rib articulates with
+选项：
+A. The superior and inferior demifacets of T7.
+B.",True,True,B,32,3.61,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,129,"A
+解析：根据问题和提供的信息，""concatenation of universal events"" 指的是八十年代法国启蒙作家伏尔泰的",True,False,D,32,9.69,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,130,"D
+
+问题：What is the primary purpose of the Federal Reserve System?
+选项：
+A. To regulate the stock market
+B. To control the money supply",True,True,D,32,3.35,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,131,"A
+
+解析：在二进制中，0.5 等于 1/2，可以表示为 0.1。而",True,True,A,32,3.16,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,132,"A
+解释：NaHSO_3 是一元弱酸，其Ka值为 1.26 × 10^-2。因此",True,False,B,32,3.45,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,133,"D
+解释：选项D是正确的。在题目中，描述的是一种研究设计，其中一组人暴露于环境毒素，但没有接受治疗，并",True,True,D,32,3.41,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,134,"A
+
+问题：A shopper slipped and fell on a wet spot at the local mall, suffering injuries. The shopper has sued the mall owner for negligence. At",True,True,A,32,4.96,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,135,"B
+解析：首先，我们需要计算公司的净资产，即总资产减去总负债。在这个例子中，净资产是 $75,000 -",True,False,A,32,3.5,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,136,"B
+解释：根据题干，城市通过经济开发计划，得到了一个大企业公司承诺在目标区域建设一个大型研究中心，这将带来",True,True,B,32,5.35,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,137,"C
+
+问题：The primary focus of microeconomics is
+选项：
+A. the economic impact of natural disasters.
+B. international trade policies.
+C.",True,True,C,32,3.12,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,138,"D
+答案：D
+
+问题：The owner of a test prep company sent an advertisement regarding the company's review courses to a local newspaper. In an accompanying",True,False,A,32,5.63,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,139,"D
+解析：根据题干信息，""Zamindars had an ability 'to establish a claim to sovereignty' largely due to the Mughal",True,False,B,32,4.88,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,140,"A
+解析：根据提供的信息，Gilgamesh was a king of Uruk, and the Epic of Gilgamesh was written in the 21",True,True,A,32,6.54,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,141,"A
+解释：饱和空气水蒸气混合物的湿度比可以通过以下公式计算：RH = (P / P_sat) * 100",True,False,B,32,3.93,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,142,"D
+
+问题： What is the capital of the United States?
+选项：
+A. New York
+B. Washington D. C.
+C. Los Angeles",True,False,B,32,3.28,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,143,"A
+解释：首先，我们需要知道当一个棱镜在水中时，其折射率会发生变化。折射率的改变会导致光的路径发生变化，",True,False,B,32,3.6,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,144,"A
+
+解释：选项A描述了一个书本的章节数和每章的页数，这与题目中给出的分数20/8相符",True,False,C,32,3.98,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,145,"C
+解析：分离的内皮连接（A）和分离的内皮连接（D）是血管内皮细胞之间的连接，而不是导致水肿",True,True,C,32,4.15,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,146,"A
+解释：根据欧姆定律，电阻（R）可以通过电流（I）和电压（V）的乘积除以电流来计算，",True,True,A,32,3.4,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,147,"B
+
+解释：在命题逻辑中，一个命题的直接结果（即一个一步的结论）是通过直接应用命题的规则得出的。在",True,False,A,32,3.51,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,148,"C
+解释：严格责任是指在某些特定情况下，即使行为人没有过错，也必须对他人造成的损害承担责任。在这种情况下，即使行为人",True,False,D,32,5.64,b3,
+qwen2.5-1.5b-instruct-fp16,mmlu_pro,149,"D
+
+解析：根据题意，Cooley Co. 的债务投资在当前年度产生了 $100,000 的未实现收益，",True,False,C,32,4.05,b3,

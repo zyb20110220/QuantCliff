@@ -1,0 +1,16 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q4_k_m,ceval,0,"A
+
+选项：A. 唐朝武则天亲授的、被称为传家之宝的第三颗佛牙舍利，新近",True,True,A,32,1.98,b3,
+qwen2.5-1.5b-instruct-q4_k_m,ceval,1,"C
+
+解析：直线$l:a x+y+1=0$的斜率为$-a$，与线段AB有交点，说明直线",True,False,B,32,1.68,b3,
+qwen2.5-1.5b-instruct-q4_k_m,ceval,2,"D
+
+解析：质点做曲线运动时，其速度方向与曲线在该点的切线方向一致，加速度方向与速度方向可能",True,True,D,32,1.58,b3,
+qwen2.5-1.5b-instruct-q4_k_m,ceval,3,"D
+
+解析：无线局域网（Wireless Local Area Network，简称WLAN）是一种利用无线通信技术实现的局域网，它通过",True,False,B,32,1.46,b3,
+qwen2.5-1.5b-instruct-q4_k_m,ceval,4,"B
+
+解析：选项A中的标点符号使用正确，表示的是一个问句的结束。选项B中的标点符号使用不正确，因为",True,False,A,32,1.93,b3,

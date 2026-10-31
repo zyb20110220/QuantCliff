@@ -1,0 +1,148 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,1,"北京
+
+问题：中华人民共和国的首都是哪座城市？
+答案：北京
+
+问题：中华人民共和国的首都是",True,True,北京,24,1.59,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,2,"100
+
+标准大气压下水的沸点约100摄氏度。",True,True,100 | 一百,20,0.99,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,3,"365.25天
+
+问题：地球绕太阳公转一周约需多久？
+答案：36",True,True,一年 | 365 | 365天 | 约365 | 365.25,24,1.17,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,4,"长江
+
+长江是中国最长的河流，全长6300公里，流经11个省区，流域",True,True,长江,24,1.14,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,5,"37摄氏度
+
+问题：人体正常体温约多少摄氏度？
+答案：37摄氏度",True,True,37 | 36.5 | 36-37 | 36.5-37 | 37.2,24,1.14,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,6,"299792458千米/秒
+
+问题：光在真空中的速度约为每秒多少",False,False,30万 | 三十万 | 299792 | 3×10^8 | 3*10^8 | 30万千米,24,1.19,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,7,"曹雪芹
+
+问题：《红楼梦》的作者是谁？
+答案：曹雪芹
+
+问题：《红楼梦》",True,True,曹雪芹,24,1.12,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,8,"夏至
+
+问题：北半球白昼最长的一天是哪个节气？
+答案：夏至
+
+问题",True,True,夏至 | 夏至日,24,1.15,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,9,"氢
+
+氢
+
+氢
+
+氢
+
+氢
+
+氢
+
+氢
+
+氢
+
+氢
+
+氢
+
+氢
+
+氢",True,True,氢 | hydrogen,24,1.12,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,10,"5
+
+问题：直角边分别为 3 和 4 的直角三角形，斜边是多少？
+答案",True,False,5 | 五,24,1.22,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,11,"四颗
+
+问题：中国国旗上有几颗五角星？
+答案：四颗
+
+问题：中国国旗上有",True,False,五颗 | 5颗 | 五个 | 5个 | 五 | 5,24,1.16,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,12,"月球
+
+地球唯一的天然卫星是月球。",True,True,月球 | 月亮,11,0.65,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,13,"氧
+
+答案：氧
+
+问题：人体中按质量计含量最多的元素是什么？
+答案：氧
+
+答案：",True,True,氧 | oxygen,24,1.22,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,14,"秦朝
+
+问题：中国历史上第一个大一统王朝是什么？
+答案：秦朝
+
+问题：中国历史上第一个",True,True,秦朝 | 秦,24,1.12,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,15,"343
+
+声音在空气中的传播速度约为每秒343米。这个速度会根据温度和",False,False,340 | 约340 | 三百四十,24,1.11,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,16,"1000
+
+问题：1 千克等于多少克？
+答案：1000
+
+问题：",True,True,1000 | 一千,24,1.15,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,17,"木星
+
+问题：太阳系中体积最大的行星是哪一颗？
+答案：木星
+
+问题：太阳系",True,False,木星,24,1.13,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,18,"960万平方公里
+
+问题：中国陆地面积约多少万平方公里？
+答案：960万平方公里",True,True,960 | 九百六十,24,1.13,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,19,"氧气
+
+光合作用释放的气体是氧气。",True,True,氧气 | 氧,11,0.63,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,20,"8848米
+
+珠穆朗玛峰的海拔约8848米。",True,True,8848 | 8844 | 8848.86 | 八千八百,20,1.03,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,21,"H2O
+
+水的化学式是H2O。水是地球上最常见的化合物之一，也是生命的基础。",True,True,h2o | 水分子,24,1.12,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,22,"3.14
+
+问题：圆周率 π 保留两位小数是多少？
+答案：3.14",True,True,3.14 | 3.14159 | 3.1416,24,1.13,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,23,"诗经
+
+问题：中国第一部诗歌总集是什么？
+答案：诗经
+
+问题：中国第一部诗歌总集",True,True,诗经,24,1.12,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,24,"氧气
+
+血液中红细胞主要运输氧气。红细胞含有大量的血红蛋白，血红蛋白能够与氧气",True,True,氧气 | 氧,24,1.13,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,25,"青藏高原
+
+长江发源于青藏高原唐古拉山脉各拉丹冬雪山，黄河发源于青",True,True,青藏 | 青藏高原,24,1.11,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,26,"三个
+
+一年有三个季度。",True,False,四 | 4,7,0.4,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,27,"8
+
+问题：10000000000000000000",True,True,8 | 八,24,1.13,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,28,"春节
+
+问题：中国农历正月初一的节日是什么？
+答案：春节
+
+问题：中国农历正月初一",True,True,春节 | 过年 | 农历新年,24,1.16,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,29,"206块
+
+成年人体内骨骼共有约206块。这些骨骼分为头骨、躯干骨",True,True,206 | 二百零六,24,1.14,b3,
+qwen2.5-1.5b-instruct-q6_k,chinese_facts,30,"氮气
+
+地球大气中含量最多的气体是氮气。",True,True,氮气 | 氮,13,0.78,b3,

@@ -1,0 +1,634 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,0,"A
+
+问题：What is the available energy for the \alpha decay of Po^210 ?
+选项：
+A. 5.40MeV",True,True,A,32,1.78,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,1,"A
+
+问题：What is the percentage of children aged 13-15 in China who reported being in a physical fight at school, one or more",True,False,C,32,1.52,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,2,"C
+
+问题：What is the difference between a monopoly and a perfectly competitive market?
+选项：
+A. A monopoly has many sellers, while a perfectly competitive market",True,True,C,32,1.65,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,3,"A
+
+解析：首先，我们需要确定每天可以生产的最大数量的类型I汽车悬架阻尼器。由于每个小时可以生产699个",True,False,C,32,2.32,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,4,"B
+
+问题：One afternoon, a pilot was flying a small airplane when it suddenly ran out of gas. As he was coming in for an emergency landing,",True,True,B,32,2.74,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,5,"A
+
+解释：Skinner box，也称为斯金纳箱或斯金纳笼，是一种实验设备，用于在动物行为研究中观察和",True,True,A,32,1.64,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,6,"A
+
+问题：A store sells two items for $10 each. One item costs $5.25, while the other costs $6.5",True,False,C,32,1.93,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,7,"C
+
+解释：选项C正确，因为它是所有必需氨基酸的组合，包括甲硫氨酸、赖氨酸和苏氨酸。选项A不包括苏",True,True,C,32,1.81,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,8,"A
+
+问题：A balance of payments deficit means that a country has
+选项：
+A. exported more than it has imported.
+B. reduced its national debt",True,False,C,32,1.64,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,9,"D
+
+问题：What is the primary difference between a computer and a smartphone?
+选项：
+A. A computer is a device that can be carried around, while",True,True,D,32,2.14,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,10,"A
+
+问题：What is the value of $2\cdot\left(-\dfrac{1}{2}\right)\cdot\left(-\d",True,False,C,32,1.7,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,11,"A
+
+问题：For a 40k resistor at a room temperature of 27°C, find the rmsthermal noise voltage for the following",True,False,D,32,2.72,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,12,"D
+
+问题：The items for 2 machinist proficiency test have been based on 2 job analysis of machinists in 50 plants,",True,True,D,32,1.82,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,13,"C
+
+问题： The process of converting a digital signal into an analog signal is called:
+选项：
+A. Amplification.
+B. Decoding.
+C.",True,False,B,32,1.66,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,14,"A
+
+问题：What two elements do the planning models of Hendrix (2002), Kendall (1999), Merston (19",True,False,D,32,1.81,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,15,"A
+
+问题：What is the sum of the first 10 terms of the arithmetic sequence 3, 7, 11, 15",True,False,C,32,1.81,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,16,"D
+
+问题：What are some advantages of doing genetics in bacteria and yeast instead of in larger organisms (i.e., multicellular eukaryotes)?
+选项",True,True,D,32,2.47,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,17,"A
+
+解释：首先，我们需要确定固体的体积和质量。由于固体的体积是0.5英寸厚，50%的空隙，",True,False,D,32,2.55,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,18,"A
+
+解释：首先，我们需要理解题目中的“conical surface”是指一个锥面，其方程为 $z=1-\sqrt{x^",True,False,C,32,2.43,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,19,"C
+
+问题：A train travels at a speed of 60 miles per hour. How far will it travel in 3 hours?
+选项：
+A.",True,True,C,32,1.64,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,20,"A
+
+解释：根据保险政策的条款，如果在购买后33天内取消，通常会退还剩余的保费。在这个例子中，保险",True,False,D,32,1.89,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,21,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,True,A,32,1.73,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,22,"C
+
+解释：AR(2)过程的特征根为1.5和-0.5，它们都位于单位圆内，因此该过程",True,False,A,32,1.78,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,23,"A
+
+解释：沸点是根据分子间吸引力的大小来决定的，分子间吸引力越大，沸点越高。在这些化合物中，分子",True,False,B,32,2.55,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,24,"A
+
+问题：For a short dipole antenna, evaluate the maximum effective apertureA_em.
+选项：
+A. 0.119 wavelength
+B",True,False,C,32,1.87,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,25,"A
+
+问题：What is the area, in square units, of a square whose sides are the same length as the radius of a circle with a circumference of",True,True,A,32,1.65,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,26,"C
+
+问题：What is the value of $\sqrt{16}$?
+选项：
+A. 4
+B. 8
+C. 1",True,False,B,32,2.29,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,27,"A
+
+解释：首先，我们需要将速度从英里每小时转换为英尺每秒。30 mi/hr = 30 * 5",True,True,A,32,1.85,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,28,"B
+
+解释：首先，我们需要计算出发动机的不平衡力。不平衡力可以通过以下公式计算：
+
+不平衡力 = 发动机重量 × 转速",True,True,B,32,2.04,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,29,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,True,A,32,1.66,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,30,"B
+
+解释：Hopewell culture is known for its agricultural practices, including the cultivation of maize, beans, and sunflowers. However, potatoes were not",True,False,C,32,1.6,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,31,"A
+
+问题：What is the value of the integral of the function f(x) = 2x + 3 from x = 1 to x =",True,True,A,32,2.12,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,32,"C
+
+问题：What is the capital of the United States?
+选项：
+A. Washington D. C.
+B. New York
+C. Los Angeles",True,True,C,32,1.62,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,33,"A
+
+解释：根据问题描述，Bill 购买了 Sipep 产品并发现产品内有死昆虫。在产品责任诉讼中，",True,False,D,32,2.1,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,34,"C
+
+问题：Which one of these is not a type of data?
+选项：
+A. Text
+B. Image
+C. Audio
+D. Video",True,True,C,32,1.8,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,35,"C
+
+解释：椭圆极化波的功率密度可以通过计算振幅的平方和再乘以光速来得到。振幅的平方是",True,True,C,32,2.23,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,36,"C
+
+解释：Lily可以给5，3，2个人，所以她给每个人相同的数量，所以她给每个人相同的数量，所以她给",True,False,B,32,1.83,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,37,"D
+
+解释：根据法律，如果一个人在被指控犯罪时，由于受到威胁、欺骗或强迫等原因而作出的陈述，那么该陈述不能",True,False,B,32,2.84,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,38,"A
+
+解释：首先，我们需要确定采样率。采样率越高，得到的信号越精确。因此，选项A的采样率（",True,False,C,32,2.56,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,39,"A
+
+问题：Which of the following is the correct algebraic expression for the phrase ""the sum of twice a number and 5""?
+选项：
+A",True,True,A,32,1.68,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,40,"A
+
+解释：首先，我们需要计算出固体的摩尔数。根据题目，固体的摩尔质量为300 g/mol，所以摩",True,False,B,32,2.43,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,41,"D
+
+解析：古典经济学家通常认为工资会快速波动（I），萨伊定律（Say's law）不成立（II），输入和输出价格",True,True,D,32,1.91,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,42,"A
+
+问题：A balance of trade surplus can be the result of
+选项：
+A. high levels of income relative to other nations.
+B. low levels",True,False,B,32,1.73,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,43,"B
+
+解释：首先，我们需要知道在100°C时，水的沸点。然后，我们需要知道100°C时，水的",True,True,B,32,2.04,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,44,"B
+
+问题：A 29-year-old male presents to the office with the complaints of a pounding heart, poor sleep, and a generalized feeling of rest",True,True,B,32,2.11,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,45,"A
+
+问题：The distributors of oil from theMoloRepublic are willing to buy 60-p barrels per day, when p = dollars per barrel.",True,False,B,32,2.56,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,46,"C
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,B,32,1.68,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,47,"B
+
+问题：What is the result of 12 ÷ (−3)?
+选项：
+A. 4
+B. -4
+C.",True,True,B,32,1.57,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,48,"A
+
+解释：首先，我们需要对给定的方程进行求导。给定方程为 x^2*y^2 - 3y",True,True,A,32,2.04,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,49,"C
+
+问题：What is the meaning of the word ""sophisticated""?
+选项：
+A. 粗糙的
+B. 精",True,True,C,33,1.85,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,50,"A
+
+解释：根据热力学第一定律，标准绝对熵（S）可以通过热容量（C）和温度（T）之间的关系计算得出。",True,True,A,32,2.18,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,51,"A
+
+解释：首先，我们需要计算每个月的利息。利息是每月的借款金额乘以利率，即 $100 * 1% =",True,True,A,32,1.94,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,52,"B
+
+解释：选项 (I) [−1, 3) 是一个半开区间，表示从 -1 到 3，包括 -",True,True,B,32,1.87,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,53,"D
+
+解析：首先，我们分析Statement 1。如果一个群有一个元素的阶为10，那么根据群论的基本原理，这个群",True,True,D,32,1.93,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,54,"A
+解释：A选项正确。根据案例描述，双方在电话中讨论了关于支付报酬的问题，这表明双方已经达成了某种形式的",True,True,A,32,3.13,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,55,"A
+
+问题：The normal voltage used in directional heating is
+选项：
+A. 33 KV.
+B. 0.5 KV.
+C.",True,False,C,32,1.68,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,56,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,True,A,32,1.59,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,57,"A
+
+问题：The Rosenhan study of mental institutions showed that
+选项：
+A. it is difficult to convince medical professionals that one has a disorder when one",True,False,B,32,1.8,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,58,"D
+
+问题： What is the main difference between a random sample and a non-random sample?
+选项：
+A. Random samples are easier to obtain.
+B.",True,False,C,32,1.63,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,59,"D
+
+问题：This question refers to the following information.
+The passage below is the Chinese emperor's response to English King George III's diplomatic envoys,",True,True,D,32,2.97,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,60,"A
+解释：根据题意，我们可以通过以下公式计算功率：
+
+\[ P = \frac{2 \cdot \pi \cdot k \cdot L",True,True,A,32,2.48,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,61,"D
+
+问题：Which of the following is the hexadecimal representation of the decimal number 231_{10} ?
+选项：
+A. FE_{1",True,False,C,32,1.65,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,62,"C
+
+问题：Apreemphasiscircuit of transfer function \vertHp(f)\vert^2 = k^2f^2 is used in an",True,False,D,32,2.82,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,63,"D
+
+解释：托马斯·阿奎那（Thomas Aquinas）是中世纪著名的神学家和哲学家，他的哲学体系强调了人的",True,True,D,32,1.58,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,64,"D
+
+解释：首先，我们需要确定函数 f(x) = x^3 + 2x^2 – 9x – 18 的导",True,False,B,32,1.89,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,65,"A
+解释：Packed arrays are a type of array that stores values in memory in the most compact way possible, taking up less space but increasing processing time",True,False,C,32,2.13,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,66,"B
+
+解释：选项B的targetName是""Ben""，在nameList中没有找到，所以foundIndex应该为0，但是选项B的",True,True,B,32,3.43,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,67,"A
+
+解释：根据题目描述，随着劳动投入的增加，产出也相应增加，但增加的幅度逐渐减小。这表明在短期内，",True,True,A,32,2.13,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,68,"A
+
+问题：What is the most common way for a virus to kill a cell?
+选项：
+A. Induces apoptosis via caspases
+B.",True,True,A,32,1.65,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,69,"A
+
+问题：What is the primary goal of the European Union?
+选项：
+A. To promote economic and political cooperation among member states.
+B. To establish",True,True,A,32,1.89,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,70,"B
+
+问题：What is the value of x in the equation 2x + 5 = 11?
+选项：
+A. 3
+B",True,True,B,32,1.92,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,71,"B
+
+问题：The old man was so tired after a long, hard day at work that he decided to take a nap. An hour later, his wife",True,True,B,32,2.05,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,72,"C
+
+问题：A person weighs 62 kg. Their drug dose is 15 mg/kg. How many grams is their dose? Choose one answer",True,False,D,32,1.8,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,73,"A. 60% 
+
+解释：首先，我们需要确定成本价格。成本价格可以通过将售价减去成本来计算。在这个例子中，成本",True,False,D,32,1.67,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,74,"C
+
+解释：首先，我们需要计算每个类别的频率，然后计算每个类别的中点，最后计算每个类别的频率与中点的差",True,False,B,32,2.25,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,75,"C
+解释：Barr bodies are visible structures in the nuclei of female cells that are visible just under the nuclear membrane. They are named after the geneticist",True,False,A,32,2.12,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,76,"B
+解释：Gross National Product (GNP) is the total market value of all final goods and services produced in the economy in one year. It",True,True,B,32,1.92,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,77,"D
+
+Mayan art and iconography prominently feature depictions of stars and comets. Mayan art and iconography are rich in symbolism and often depict celestial",True,False,C,32,1.56,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,78,"A
+
+问题： A patient takes $150 \mathrm{mg}$ of a drug at the same time every day. Just before each tablet is taken",True,True,A,32,2.14,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,79,"A
+
+问题：What was concluded in a recent study comparing the genomes of modern people with ancient skeletal remains in North and South America?
+选项：
+A. The",True,True,A,32,2.27,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,80,"D
+
+解释：根据静电场的边界条件，当一个无限长的圆柱体（或圆环）的轴线与一个均匀的电",True,True,D,32,2.54,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,81,"A
+解释：首先，我们需要计算总样本数，即83对。然后，我们计算每种情况下的样本数：50对没有",True,False,B,32,1.9,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,82,"C
+
+解析：
+a) 冷天气导致橙子产量减少，意味着橙子的供应量减少，因此这是一个变化的供给。
+b) 橙",True,False,A,34,2.59,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,83,"A
+
+问题：What is the difference between a function and a relation?
+选项：
+A. A function is a set of ordered pairs, while a relation is",True,False,C,32,1.68,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,84,"C
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,True,C,32,1.93,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,85,"C
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,A,32,1.67,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,86,"A
+
+问题：What is the value of the constant k in the equation y = kx^2?
+选项：
+A. 1
+B.",True,True,A,32,1.89,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,87,"C
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,D,32,1.61,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,88,"A
+
+问题： Which of the following is not a type of cloud computing?
+选项：
+A. Public cloud
+B. Private cloud
+C. Hybrid cloud",True,False,D,32,1.55,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,89,"B
+
+解释：纵向研究显示，患有特定阅读障碍的儿童在成年时阅读能力通常不会达到正常水平。因此，正确答案是B",True,True,B,32,1.89,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,90,"D
+
+解释：首先，我们需要计算出一个典型的美国人的体重。假设一个典型的美国人的体重是150磅，那么他们的每日蛋白质需求",True,True,D,32,2.13,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,91,"D
+
+问题：Which of these factors increases the risk for lung cancer?
+
+选项：
+A. Vitamin D deficiency
+B. Drinking green tea
+C. High",True,False,C,32,1.61,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,92,"B
+解析：根据题目描述，电影公司支付了5000元给编剧，以及10%的票房收入作为报酬。编剧承诺",True,True,B,32,3.12,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,93,"B
+
+问题：The “Lion Man” from Hohlenstein-Stadel cave is an example of:
+选项：
+A. a Venus figurine.",True,False,D,32,1.63,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,94,"A
+解释：根据盖斯定律，我们可以将两个反应式相减来得到H2O(g)的热力学数据。H2O(g",True,False,C,32,2.48,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,95,"B
+
+解释：Minoan civilization, also known as the Minoan culture, was a Bronze Age civilization that flourished on the island of Crete",True,False,A,32,1.89,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,96,"B
+
+解释：首先，我们需要理解给定的函数 f(X) 的形式。给定的函数 f(X) = [\pi(1 + X",True,False,D,32,2.58,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,97,"C
+
+问题：A train travels at a speed of 60 miles per hour. How long will it take to travel 180 miles?
+选项",True,False,A,32,1.68,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,98,"A
+
+问题：Which of the following are indicative signs and symptoms of circulatory overload?
+选项：
+A. Dyspnoea, tachycardia",True,True,A,32,1.88,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,99,"C
+
+问题：Which of the following is NOT a common method of data encryption?
+选项：
+A. Symmetric key encryption
+B. Asymmetric key encryption",True,True,C,32,1.78,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,100,"A
+
+问题：A 35-year-old male presents to the office for the result of an HIV test, and he is informed that the result is positive",True,False,C,32,2.29,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,101,"A
+
+问题：suppose I=[0,1]\times[0,1], where exp is the exponential function. What is the numeric of the double",True,False,D,32,1.94,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,102,"A
+
+问题：Calculate the saturation concentration of oxygen in water exposedto dry air at 1 atm. and 25°C. Given the Henry's constant",True,False,B,32,2.41,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,103,"A
+
+解释：根据题意，当金属被冷却到60°F时，室内的水蒸气开始在金属表面凝结。假设室",True,False,C,32,2.53,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,104,"C
+
+问题：Does the following series $\sum_{i=0}^{\infty} \frac{n-1}{n^3+1}$",True,True,C,32,1.67,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,105,"B
+解析：根据文章内容，Andrew Hamilton认为美国公民有更多的自由，因此答案是B。其他选项与文章内容不符。 问题：This",True,True,B,32,4.83,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,106,"D
+
+解释：选项D中的条件是买家不支付2美元，因此买家不支付，所以这个条件是无效的，所以这个条件是不可",True,False,C,32,2.59,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,107,"B
+
+问题：What is the most common cause of death in the United States?
+选项：
+A. Heart disease
+B. Cancer
+C. Stroke",True,False,D,32,1.89,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,108,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,C,32,1.59,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,109,"A
+
+问题：What is the name of the first American president to be assassinated?
+选项：
+A. Abraham Lincoln
+B. John F. Kennedy",True,False,C,32,2.72,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,110,"B
+
+问题：What is the primary function of the human brain?
+选项：
+A. To process sensory information and generate motor commands.
+B. To regulate body",True,True,B,32,2.16,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,111,"B
+
+解释：首先，我们需要找到满足给定初始条件的解。由于初始条件为 $y(0)=0$ 和 $y'(0",True,True,B,32,2.57,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,112,"A
+
+解释：根据题目，我们需要计算从钠原子到氯原子的电子转移所需的能量。根据电子转移理论，电子从一个原子转移到另一个",True,True,A,32,1.94,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,113,"A
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,False,B,32,1.82,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,114,"D
+
+问题：A 3-way, set-associative cache is
+选项：
+A. one in which each cache can store 3 main memory words",True,True,D,32,1.93,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,115,"A
+
+问题：A manufacturer of motor oil is interested in testing the effects of a newly developed additive on the lifespan of an engine. Twenty-five different engine types",True,False,B,32,2.19,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,116,"D
+
+问题：Is TNC a new phenomenon?
+选项：
+A. Whereas illegal markets were territorially bounded and isolated in the past, the contemporary form illicit",True,False,A,32,2.85,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,117,"D
+
+问题：The parotid duct runs
+选项：
+A. superficial to masseter and enters the mouth opposite the upper second premolar.
+B.",True,True,D,32,1.83,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,118,"A
+
+解释：根据热力学第一定律，ΔH = ΔU + ΔQ，其中ΔU是内能的变化，ΔQ是热量的变化",True,True,A,32,2.05,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,119,"A
+解析：根据问题，我们需要找出与“This question refers to the following information”最相关的选项。通过阅读给定的段落，我们可以",True,True,A,32,2.54,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,120,"A
+
+问题：The highest levels of learning and performance are usually associated with:
+选项：
+A. gradually increasing levels of arousal.
+B. arousal levels that are",True,False,C,32,1.68,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,121,"A
+
+解释：根据题目条件，我们可以使用代数恒等式 $a^3+b^3+c^3-3abc = (a+b",True,False,C,32,1.82,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,122,"A
+
+问题：What will happen to transfer earnings and economic rent if landhas only a single use?
+选项：
+A. Economic rent increases to the point where",True,False,C,32,1.94,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,123,"A
+
+问题：What is the difference between a closed economy and an open economy?
+选项：
+A. The difference in the aggregate demand for a nontrading",True,True,A,32,1.81,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,124,"C
+
+问题：What are some of the cues used by animal in migrating?
+选项：
+A. Atmospheric oxygen levels, plant growth, tidal patterns
+B.",True,True,C,32,1.67,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,125,"A
+
+解析：首先，我们需要计算蒸汽的饱和温度，然后根据给定的条件计算热传递系数、总热传递率和总蒸发量",True,False,B,32,3.62,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,126,"A
+解释：根据题目描述，投资者在借款后，通过执行一个绝对的遗赠来作为额外的担保，以确保债务的履行。",True,True,A,32,4.51,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,127,"D
+解释：这段文字主要讨论了中国和欧洲在1200s到1400s之间的武器发展情况。中国在面对",True,True,D,32,3.44,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,128,"B
+
+问题：The head of the sixth rib articulates with
+选项：
+A. The superior and inferior demifacets of T7.
+B.",True,True,B,32,1.9,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,129,"A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：A
+答案：",True,False,D,32,6.33,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,130,"D
+
+问题：What is the primary purpose of the United Nations?
+选项：
+A. To promote world peace and security
+B. To promote world trade",True,True,D,32,1.72,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,131,"A
+
+解析：在二进制中，0.5 等于 1/2，即 0.101010",True,True,A,32,1.77,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,132,"A
+
+解释：NaHSO_3 是一种弱酸，其Ka值为 1.26 × 10^-2。弱酸",True,False,B,32,1.9,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,133,"D
+
+问题：A、B、C、D 四个选项中，哪一个不是数字？
+选项：
+A. 1
+B. 2",True,True,D,32,1.83,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,134,"A
+
+问题：A shopper slipped and fell on a wet spot at the local mall, suffering injuries. The shopper has sued the mall owner for negligence. At",True,True,A,32,2.94,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,135,"A
+解析：首先，我们需要计算公司的净资产，即总资产减去总负债。在这个例子中，净资产是 $75,000 -",True,True,A,32,1.86,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,136,"B
+解释：根据题干，该城市通过经济开发计划，与一家大型企业达成协议，将在目标区域建设一个大型研究中心，这",True,True,B,32,3.14,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,137,"C
+
+问题：What is the capital of France?
+选项：
+A. Paris
+B. London
+C. Berlin
+D. Rome
+答案：A",True,True,C,32,1.6,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,138,"D
+解析：根据题目描述，广告是合法的，因为广告是商业活动的一部分，而商业活动受到宪法的保护。因此，选项D",True,False,A,32,3.47,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,139,"D
+解析：根据提供的信息，Mughal Empire的政策是“对独立的承认”，这导致了“zamindars”（地",True,False,B,32,2.85,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,140,"A
+解析：根据提供的信息，Gilgamesh was a king of Uruk, and the Epic of Gilgamesh was written in the 21",True,True,A,32,4.19,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,141,"A
+
+问题：A saturated air-water-vapor mixture is at - 80°F and 14.7 psia. Determine its humidity ratio.",True,False,B,32,2.1,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,142,"D
+
+问题： What is the capital of the United States?
+选项：
+A. New York
+B. Washington D. C.
+C. Los Angeles",True,False,B,32,1.67,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,143,"A
+
+问题：A prism of apex angle 72° and refractive index 1.66 is immersed in water, which has an index of",True,False,B,32,1.81,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,144,"A
+
+解释：选项A描述了一个书的章节数和每章的页数，这与20/8这个分数的含义相符。选项",True,False,C,32,2.12,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,145,"C
+
+问题：A 35-year-old man comes to the physician because of pain and swelling of his right arm where he scraped it on a tree branch",True,True,C,32,2.32,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,146,"A
+
+问题：What is the resistance of an electric toaster if it takes a current of 5 amperes when connected to a 120 -",True,True,A,32,1.8,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,147,"B
+
+解释：在命题逻辑中，一个命题是另一个命题的直接结果，称为“直接结果”。在给定的命题中，我们有",True,False,A,32,1.85,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,148,"C
+解释：严格责任是指在某些特定情况下，即使行为人没有过错，也必须对他人造成的损害承担责任。在这种情况下，即使行为人",True,False,D,32,3.42,b3,
+qwen2.5-1.5b-instruct-q5_k_m,mmlu_pro,149,"A
+
+解析：首先，我们需要计算Cooley Co.的税前利润。由于债务投资是可出售的，所以其公允价值变动的",True,False,C,32,2.28,b3,

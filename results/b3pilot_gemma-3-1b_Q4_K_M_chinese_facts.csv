@@ -1,0 +1,4 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+gemma-3-1b-it-Q4_K_M,chinese_facts,1,北京。,True,True,北京,3,0.45,b3,
+gemma-3-1b-it-Q4_K_M,chinese_facts,2,210摄氏度,False,False,100 | 一百,7,0.35,b3,
+gemma-3-1b-it-Q4_K_M,chinese_facts,3,大约 365.25 天。,True,True,一年 | 365 | 365天 | 约365 | 365.25,11,0.46,b3,

@@ -142,9 +142,19 @@ def main():
     ap.add_argument("--results-dir", default="results")
     ap.add_argument("--pattern", default="b2_*.csv")
     ap.add_argument("--out-prefix", default="results/shape_analysis_b2")
+    # 只分析指定基座模型（例如 qwen3-1.7b）。不传则分析全部。
+    ap.add_argument("--base", default=None,
+                    help="只分析指定基座（按文件名前缀，如 gemma-3-1b-it）")
+    # 报告标题，方便区分 B2 / B3
+    ap.add_argument("--title", default="B2 形态分析（RQ1 / RQ2）")
     args = ap.parse_args()
 
     df = analyze.load_results(Path(args.results_dir), pattern=args.pattern)
+    if args.base:
+        df = df[df["base"].astype(str).str.lower()
+                == args.base.lower()].copy()
+        if df.empty:
+            raise SystemExit(f"没有找到基座为 {args.base} 的结果")
     # 只保留七个主档位
     df = df[df["quant"].isin(QUANT_ORDER)]
 
@@ -209,7 +219,9 @@ def main():
                       index=False, encoding="utf-8-sig")
 
     # Markdown
-    lines = ["# B2 形态分析（RQ1 / RQ2）", ""]
+    lines = [f"# {args.title}", ""]
+    if args.base:
+        lines += [f"> 基座模型：`{args.base}`", ""]
     lines.append("## 1. 曲线形态：线性 vs 分段")
     lines.append("")
     lines.append("ΔAIC = 分段 AIC − 线性 AIC；**ΔAIC < 0 支持分段（平台/悬崖）**，"

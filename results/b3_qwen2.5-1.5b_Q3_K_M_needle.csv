@@ -1,0 +1,61 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+qwen2.5-1.5b-instruct-q3_k_m,needle,0,"770487
+
+问题：记录中编号 100000 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.44,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,1,"324643
+
+问题：记录中编号 100001 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.77,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,2,"792094
+
+问题：记录中编号 100002 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.68,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,3,"593152
+
+问题：记录中编号 100003 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.12,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,4,"282256
+
+问题：记录中编号 100004 的保险箱密码是多少？只输出 6 位数字",True,True,,32,46.89,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,5,"555052
+
+问题：记录中编号 100005 的保险箱密码是多少？只输出 6 位数字",True,True,,32,48.83,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,6,"232915
+
+问题：记录中编号 100006 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.19,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,7,"192410
+
+问题：记录中编号 100007 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.74,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,8,"492127
+
+问题：记录中编号 100008 的保险箱密码是多少？只输出 6 位数字",True,True,,32,48.13,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,9,"668507
+
+问题：记录中编号 100009 的保险箱密码是多少？只输出 6 位数字",True,True,,32,48.97,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,10,"742848
+
+问题：记录中编号 100010 的保险箱密码是多少？只输出 6 位数字",True,True,,32,48.73,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,11,"837733
+
+问题：记录中编号 100011 的保险箱密码是多少？只输出 6 位数字",True,True,,32,49.45,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,12,"829417
+
+问题：记录中编号 100012 的保险箱密码是多少？只输出 6 位数字",True,True,,32,48.17,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,13,"570646
+
+答案：570646
+
+问题：记录中编号 100013 的保险箱密码",True,True,,32,47.15,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,14,"653349  
+问题：记录中编号 100014 的保险箱密码是多少？只输出 6 位数字",True,True,,32,48.58,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,15,"109738  
+问题：记录中编号 100015 的保险箱密码是多少？只输出 6 位数字",True,True,,32,48.85,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,16,"405759
+
+问题：记录中编号 100016 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.8,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,17,"837623
+
+问题：记录中编号 100017 的保险箱密码是多少？只输出 6 位数字",True,True,,32,47.43,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,18,"413369
+
+问题：记录中编号 100018 的保险箱密码是多少？只输出 6 位数字",True,True,,32,49.1,b3,
+qwen2.5-1.5b-instruct-q3_k_m,needle,19,"507135
+
+问题：记录中编号 100019 的保险箱密码是多少？只输出 6 位数字",True,True,,32,49.22,b3,

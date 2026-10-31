@@ -1,0 +1,19 @@
+{
+  "model_path": "C:\\Users\\zyb\\source\\repos\\QuantCliff\\models\\gemma-3-1b\\gemma-3-1b-it-Q2_K.gguf",
+  "model_file": "gemma-3-1b-it-Q2_K.gguf",
+  "bench": "chinese_facts",
+  "n_requested": 30,
+  "seed": 42,
+  "n_ctx": 4096,
+  "tag": "b3",
+  "backend": "llama_cpp",
+  "cli_path": "",
+  "started": "2026-10-31T09:58:18",
+  "finished": "2026-10-31T09:58:32",
+  "rows_total": 30,
+  "correct": 17,
+  "parse_ok": 18,
+  "accuracy": 0.566667,
+  "parse_rate": 0.6,
+  "errors": 0
+}

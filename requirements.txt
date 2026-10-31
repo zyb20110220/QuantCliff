@@ -13,3 +13,5 @@ gradio>=4.44.0
 torch>=2.2.0
 transformers>=4.44.0
 scikit-learn>=1.4.0
+# 单元测试（scripts/test_*.py 共 54 个用例）
+pytest>=8.0.0
