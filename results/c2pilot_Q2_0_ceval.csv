@@ -1,0 +1,14 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,0,"D
+根据以下分析，选项 D 中没有语病。其他选项中存在语病。例如，句 A 中的 ""第三颗佛牙舍",True,True,A,31,14.37,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,1,"C
+根据题目，直线$l:a x+y+1=0$与线段AB有交点。线段AB的两端是A(1",True,False,B,31,11.83,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,2,"C
+问题：下列关于质点做曲线运动的说法中，正确的是____
+选项：
+A. 加速度方向与速度方向可能平行
+B",True,False,D,31,8.93,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,3,"D
+根据题干，正确答案是D。因为MACA机制用于实现载波监听，而冲突被发送站发现是MACA机制的一部分",True,False,B,31,7.99,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,4,"C
+根据题意，正确答案是C。因为《故事新编》是鲁迅晚年完成的一部小说集，而题中说“",True,False,A,31,13.17,c2,

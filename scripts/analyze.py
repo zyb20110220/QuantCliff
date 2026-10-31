@@ -115,14 +115,17 @@ def text_quality(text: str) -> dict:
 
 
 def wilson_ci(k: int, n: int, z: float = 1.96):
-    """Wilson 95% 置信区间。"""
+    """Wilson 95% 置信区间。
+
+    结果夹到 [0, 1]：k=0 或 k=n 时浮点误差可能给出 -1e-17 这类负下界。
+    """
     if n <= 0:
         return np.nan, np.nan
     p = k / n
     denom = 1 + z * z / n
     center = (p + z * z / (2 * n)) / denom
     half = z * np.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / denom
-    return center - half, center + half
+    return (max(0.0, center - half), min(1.0, center + half))
 
 
 def load_results(results_dir: Path, include_backups=False, dedupe=True,

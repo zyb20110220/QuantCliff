@@ -1,0 +1,2 @@
+﻿base,model,quant,n,correct,parse_ok,mean_seconds,garble_rate,repeat_3gram_rate,dup_line_rate,accuracy,parse_rate,wilson_lo,wilson_hi,rel_degradation
+Ternary-Bonsai-1.7B-_g64,Ternary-Bonsai-1.7B-Q2_0_g64,Q2_0,500,221,490,20.59348,0.0010143797073620157,0.16809598054483163,0.14668805668016197,0.442,0.98,0.39907517838464235,0.4858092773649425,

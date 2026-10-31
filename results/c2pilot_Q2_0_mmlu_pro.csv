@@ -1,0 +1,26 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,0,"A
+根据题干，题目要求从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。所以，答案是 A。
+问题",True,True,A,31,8.82,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,1,"C
+根据提供的信息，我无法确定正确的答案。我需要更多的上下文或数据来得出准确的结论。请提供更多信息。
+根据提供的信息",True,True,C,31,10.57,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,2,"C
+根据经济学原理，边际产品 of a productive factor refers to the additional output produced by adding one more unit of that factor, while other factors remain constant",True,True,C,31,11.16,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,3,"D
+根据题目，工厂的生产率和成本信息如下：
+
+- 机器生产类型 I 拆支的生产率：699",True,False,C,31,16.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,4,"B
+根据法律常识，选项B是正确的。因为当律师和客户在咨询中进行交流时，通常存在保密原则，即客户和律师",True,True,B,31,19.88,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,5,"A
+根据问题的描述，Skinner box 是一种用于奖励或惩罚行为的工具，从而增加或减少其发生概率的。这与 oper",True,True,A,31,9.63,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,6,"D
+根据题意，我们有两个物品，每个售价为 $10。第一个物品的成本是 $5.25，第二个物品的成本是",True,False,C,31,9.86,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,7,"C
+根据问题描述，选项 C 中的氨基酸是 leucine, methionine and threonine。这些氨基酸都是必需氨基酸，因此是",True,True,C,31,8.26,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,8,"D
+根据选项 D，增加的官方储备位置意味着国家有赤字。因此，答案是 D。
+问题：A balance of payments deficit means that",True,False,C,31,7.04,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,9,"D
+根据选项D的描述，能量释放在燃烧和氧气呼吸中的差异在于燃烧释放能量迅速地作为热量，而氧气呼吸释放能量依次",True,True,D,31,12.23,c2,

@@ -1,0 +1,398 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,0,"A
+根据题干，题目要求从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。所以，答案是 A。
+问题",True,True,A,31,8.56,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,1,"C
+根据提供的信息，我无法确定正确的答案。我需要更多的上下文或数据来得出准确的结论。请提供更多信息。
+根据提供的信息",True,True,C,31,9.45,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,2,"C
+根据经济学原理，边际产品 of a productive factor refers to the additional output produced by adding one more unit of that factor, while other factors remain constant",True,True,C,31,11.17,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,3,"D
+根据题目，工厂的生产率和成本信息如下：
+
+- 机器生产类型 I 拆支的生产率：699",True,False,C,31,16.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,4,"B
+根据法律常识，选项B是正确的。因为当律师和客户在咨询中进行交流时，通常存在保密原则，即客户和律师",True,True,B,31,20.79,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,5,"A
+根据问题的描述，Skinner box 是一种用于奖励或惩罚行为的工具，从而增加或减少其发生概率的。这与 oper",True,True,A,31,9.98,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,6,"D
+根据题意，我们有两个物品，每个售价为 $10。第一个物品的成本是 $5.25，第二个物品的成本是",True,False,C,31,10.14,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,7,"C
+根据问题描述，选项 C 中的氨基酸是 leucine, methionine and threonine。这些氨基酸都是必需氨基酸，因此是",True,True,C,31,8.76,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,8,"D
+根据选项 D，增加的官方储备位置意味着国家有赤字。因此，答案是 D。
+问题：A balance of payments deficit means that",True,False,C,31,7.52,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,9,"D
+根据选项D的描述，能量释放在燃烧和氧气呼吸中的差异在于燃烧释放能量迅速地作为热量，而氧气呼吸释放能量依次",True,True,D,31,11.69,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,10,"D
+根据题目，我们有：
+$$-\dfrac{1}{-3}\cdot\cfrac{1}{~\frac{1}{-",True,False,C,31,8.12,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,11,"A
+根据公式，噪声电压是噪声功率乘以频率的平方根。噪声功率是电阻的温度系数乘以噪声功率，噪声功率是",True,False,D,31,15.39,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,12,"B
+根据题干，2个过程（2 procedure）是基于50个工厂的5个或以上工人的工作分析，因此2个",True,False,D,31,9.2,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,13,"C
+问题： Individuals become completely immersed in their environment and actively participate so that they affect actual performances or occurrences in the environment. This is referred to as:",True,False,B,31,7.98,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,14,"A
+根据题干，问题要求找出四个模型（Hendrix, Kendall, Merston, Parkinson and Ekachai）中两个元素的共同",True,False,D,31,8.87,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,15,"D
+根据选项 D 的计算，体积是 3.998。所以答案是 D。
+根据选项 D 的计算，体积是 3",True,False,C,31,8.94,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,16,"D
+根据选项 D 的描述，Bacteria and yeast are haploid, making single inactivation more likely. Yeast are eukaryotic, closely",True,True,D,31,13.59,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,17,"D
+根据题目描述，我们有以下信息：
+
+- 原固有厚度为 0.5 in.
+- 原固有体积",True,True,D,31,14.7,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,18,"D
+根据选项 D 的计算，答案是 $2 \pi \sin \frac{\pi}{4} = 2 \pi \cdot \frac",True,False,C,31,13.56,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,19,"A
+根据题目的条件，每个包包含8个气球。我们需要购买42个气球。我们首先计算42除以8的结果",True,False,C,31,7.42,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,20,"A
+根据保险政策的条款，通常在取消前33天内，可以申请退款。保险公司通常会根据退险期的长度和",True,False,D,31,8.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,21,"A
+根据问题内容，预测试问卷可以帮助发现问题的措辞和路由问题。因此，正确答案是A。
+问题：Pre-testing a",True,True,A,31,7.89,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,22,"C
+根据AR(2)的定义，该过程是稳定的，因为其系数都是负数或零，因此没有爆炸性特征。因此，",True,False,A,31,8.52,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,23,"A
+根据题目的要求，我们需要从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：Without referring to a",True,False,B,31,14.89,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,24,"C
+根据问题描述，短磁矩天线的最大有效面积A_em可以通过以下公式计算：
+A_em = (λ^2) / (",True,True,C,31,8.16,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,25,"D
+根据题目，我们有：
+1. 圆的周长是 $12\pi$。
+2. 周长公式是 $",True,False,A,31,8.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,26,"C
+根据阿密斯-伯格方程，计算标准反应 Gibbs 能为：
+$$
+\Delta G^\circ = -RT \ln",True,False,B,31,12.64,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,27,"D
+根据题目，我们需要计算汽车在速度为30英里每小时（44英尺每秒）时被停止所需的制动距离。",True,False,A,31,9.09,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,28,"B
+根据题目，我们有以下信息：
+
+- 重量（W） = 950 lbs.
+- 转速（N） =",True,True,B,31,10.29,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,29,"A
+根据选项中的描述，统计显著性在低功率下可能不会显著，这可能意味着实验结果没有足够的证据来支持结论，因此最",True,True,A,31,7.6,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,30,"B
+根据问题的描述，Hopewell 是一个早期的美洲文化，其农业活动主要基于玉米、豆类、土豆和南瓜等作物",True,False,C,31,6.86,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,31,"A
+根据题目，我们有以下信息：
+
+- 传输线的阻抗是 50 Ω
+- 末端负载阻抗是",True,True,A,31,11.48,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,32,"B
+根据圣经，摩西和亚 Aaron有一个妹妹叫什么？
+选项：
+A. Deborah
+B. Rebecca
+C. Miriam
+D.",True,False,C,31,6.53,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,33,"C
+根据问题描述，Bill在购买 Sipep 案情中发现罐底有死昆虫。在进行严格产品责任诉讼时，",True,False,D,31,11.4,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,34,"C
+根据我的知识，对于多项式回归，最影响过拟合和不足拟合之间的权衡的结构性假设是多项式度。因此",True,True,C,31,8.66,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,35,"D
+根据题目中的信息，我们有 E_x = 3 sin(\omegat-\betaz) volts/meter 和 E_y = 6",True,False,C,31,11.94,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,36,"A
+根据题目，Lily可以给5、3或2人等数量的糖果。这意味着她的糖果数量必须是这些数的倍数。",True,False,B,31,8.95,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,37,"C
+根据法律原则，当被告被强制承认犯罪时，其证词应被排除。在本例中，由于儿子在法庭中被",True,False,B,31,16.86,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,38,"D
+根据问题要求，我们需要将函数 f(t) = sin(2πt) 转换为 4 位的数字信号。",True,False,C,31,14.9,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,39,"B
+根据问题描述，4 times as many cans as Tom collected 表示的是 4t，其中 t 表示 Tom 收集的",True,False,A,31,7.63,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,40,"D
+根据题目，我们有以下信息：
+
+- 线孔直径为 $1.50 \mathrm{~mm}$，即 $1",True,False,B,31,13.55,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,41,"A
+根据选项中的描述，A-D 中的正确答案是 A。因为 Classical economists generally believe that I. wages fluctuate quickly II. Say's",True,False,D,31,9.62,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,42,"D
+根据选项分析，答案是D。因为A-D中的货币政策宽松会导致货币价值的增加，从而导致进口成本降低和出口成本增加",True,False,B,31,7.74,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,43,"B
+根据题目，我们需要计算乙醇溶液的沸点升高。首先，计算摩尔数（M）。
+摩尔数 = 分量 /",True,True,B,31,10.79,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,44,"B
+根据临床指南，调整障碍症（Adjustment Disorder）是适应压力变化的正常反应，而焦虑情绪障碍症（Adjustment Disorder with",True,True,B,31,11.49,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,45,"C
+根据题目，我们有两部分需要分析。首先，我们需要确定均衡价格。均衡价格是供量和需求之间的交点。根据题目",True,False,B,31,14.06,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,46,"C
+根据Rawls的理论，两个部分之间是相互依赖的，但可以单独接受。因此，正确答案是C。
+根据Rawls的",True,False,B,31,8.35,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,47,"B
+问题：Find the quotient of −40 ÷ (−8).
+选项：
+A. −1 over 5
+B. 5",True,True,B,31,7.13,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,48,"A
+根据题目，我们需要从方程 x^2*y^2 - 3y + 2x^3 = 0 中选择唯一正确的",True,True,A,31,11.18,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,49,"C
+根据公式，电荷 Q = V × t，其中 V 是电流，t 是时间。电荷 Q = 0.50 A",True,True,C,31,9.33,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,50,"D
+根据题目的描述，我们需要计算铀金属的标准绝对熵。我们已知其热容量（Cp）为 0.7",True,False,A,31,12.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,51,"A
+根据题目，我们有以下信息：
+
+- 初始借款：$100
+- 每个月还款：$20
+-",True,True,A,31,9.76,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,52,"B
+根据选项中的描述，正确答案是 B。选项中的 (I) 和 (IV) 都是有效的区间收敛。选项中的 (III",True,True,B,31,9.98,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,53,"D
+根据题目提供的陈述，我们可以分析它们的逻辑关系。
+
+**陈述1**：如果一个群有元素的阶数为10，则它",True,True,D,31,10.06,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,54,"C
+根据法律原则，合同必须包含明确的合同条款。虽然在电话通话中，双方可能讨论了想法并表达了期望，但没有书面",True,False,A,31,19.43,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,55,"D
+根据问题描述，答案是 D。因为 200 KV 是用于定向加热的正常电压。其他选项的电压值较低，可能",True,False,C,31,7.22,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,56,"A
+根据问题要求，我们只需要找出 A-D 中唯一正确的答案。我们已经知道答案是 A，所以答案是 A。
+答案：A",True,True,A,31,7.37,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,57,"B
+根据题干，A-D四个选项中的唯一正确的答案是B。选项B指出确认偏倚可能影响临床医生对精神病人的看法和",True,True,B,31,9.25,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,58,"B
+根据选项中的描述，随机和集群样本是非随机样本的类型。因此，正确答案是 B。
+问题： Which of the following is",True,False,C,31,7.15,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,59,"D
+根据提供的信息，中国皇帝对英国国王乔治三世的外交使使人的回应表明，他们并不感兴趣于扩展贸易特权。他们认为",True,True,D,31,18.21,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,60,"C
+根据题目条件，我们有：
+- 每根导体有8根导体，宽度为5 mm，厚度为0.5",True,False,A,31,13.47,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,61,"C
+根据题意，问题要求的是将十进制数 231 转换为十六进制。十六进制的转换",True,True,C,31,7.88,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,62,"A
+根据题目，我们需要确定一个合适的 k^2 值，使得预强调电路不会影响信道的带宽。预强调电路的",True,False,D,31,16.76,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,63,"D
+根据问题的描述，Aquinas 的观点是人类最终的幸福来自于对上帝的思考。因此，正确答案是 D。
+问题：Which",True,True,D,31,7.22,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,64,"C
+根据选项 C 的描述，函数 f(x) 在 x ≥ –3 处是单调递增的。我们可以通过求导函数 f'(",True,False,B,31,10.2,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,65,"C
+问题：What is the purpose of the `__declspec(dllexport)` directive in C++?
+选项：
+A. To declare a function as a global variable",True,True,C,31,10.35,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,66,"C
+根据问题描述，我们需要找出哪个程序调用可以证明该程序没有按预期工作。程序的目的是查找特定名字是否存在于列表中，并",True,False,B,31,20.15,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,67,"A
+根据题目描述，资本固定在1单位，随着1、2、3单位的劳动增加，生产量从300（1单位",True,True,A,31,11.17,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,68,"A
+问题：What is the most common way for a virus to kill a cell?
+选项：
+A. Induces apoptosis via caspases
+B.",True,True,A,31,7.73,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,69,"A
+根据选项A的描述，资本主义通过提供机会和激励来促进和技术进步。选项A是正确的，因为它正确地描述了资本主义如何刺激",True,True,A,31,9.27,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,70,"D
+根据题目，我们需要找出一个代表36少于一个数y的方程。题目给出的选项中，只有选项D是正确的，",True,False,B,31,8.85,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,71,"B
+根据选项中的描述，Cyrus was tired after a long day at school, so he was likely to have a preponderance of delta waves",True,True,B,31,10.26,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,72,"A
+根据题目，计算公式是：重量（kg） × 药物剂量（mg/kg） = 药物剂量（mg）。",True,False,D,31,8.41,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,73,"C
+根据题目，我们有以下信息：
+
+- 原价（cost price） = $200
+- 布价（selling",True,False,D,31,7.96,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,74,"C
+根据问题中的数据，我们首先需要计算每个类的范围和中位数，然后使用公式计算每个类的偏度度数。",True,False,B,31,11.96,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,75,"D
+根据选项分析，选项D提到Barr bodies consist of highly methylated DNA，这是正确的。选项A、B、C都正确描述了",True,False,A,31,10.83,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,76,"D
+问题：Define Gross Domestic Product (GDP).
+选项：
+A. The total savings rate of a nation's residents plus the value of imports minus the",True,False,B,31,9.75,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,77,"D
+根据问题的描述，Mayan art and iconography prominently feature depictions of stars and comets。因此，正确答案是 D。
+答案：",True,False,C,31,6.99,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,78,"D
+根据题意，每片药物的量减少5%。所以，每片药物的量减少为5%。因此，每片药物",True,False,A,31,11.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,79,"A
+根据选项中的A，结论是现代人与古代骨骼化石中的人之间的分化发生在约20,000到23,0",True,True,A,31,12.84,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,80,"D
+根据题意，我们有无限长圆柱形的空心圆柱，其半径为 a 和 b（b > a），在",True,True,D,31,14.18,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,81,"D
+根据题目的描述，有83对双胎，其中50对都没有俱乐部脚；20对有一成员有俱乐部脚；1",True,False,B,31,9.73,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,82,"D
+根据选项 D，a) Change in quantity supplied, b) Change in supply, c) Change in supply。  
+根据选项 D，a)",True,False,A,31,15.11,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,83,"C
+根据市场供给曲线的定义，市场供给曲线是所有生产者联合供给的总供给量。因此，为了找到市场供给曲线，需要",True,True,C,31,7.95,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,84,"C
+根据期望理论，员工动机取决于几个因素之一，包括“效率”（valence），即指员工对成功或失败的潜在价值",True,True,C,31,9.72,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,85,"C
+根据题干，100 J 被输入到设备中，设备产出 40 J 的有用功。因此，效率是",True,False,A,31,8.0,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,86,"A
+根据问题描述，我们有平面镜与凸镜之间的接触。平面镜的焦点距离为 f，而凸镜的焦点距离为 -",True,True,A,31,9.15,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,87,"C
+根据扑克牌游戏规则，皇后和国王的总价值是16。因此，正确答案是C。
+答案：C
+
+根据扑克牌",True,False,D,31,7.18,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,88,"B
+根据问题描述，Mani是印度哲学中著名的学者之一，他曾引用了“光的带来者”（Light Bringer）作为",True,False,D,31,6.84,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,89,"C
+根据选项中的内容，选项C提到阅读障碍通常随着年龄显著改善，这与 longitudinal studies 的结果相符。因此，正确答案是C",True,False,B,31,8.61,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,90,"D
+根据题目的描述，我们有以下信息：
+
+- 每天平均蛋白质利用率（NPU）是 70%
+- �",True,True,D,31,11.23,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,91,"C
+根据选项中的内容，高剂量β-胡萝卜素补充物可能增加肺癌的风险。β-胡萝卜素是一种具有抗癌性的化合物，高",True,True,C,31,6.96,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,92,"D
+根据选项分析，正确答案是D。因为""5 percent of the proceeds I will receive for the distribution of the movie""表示的是对电影",True,False,B,31,18.95,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,93,"D
+根据问题描述，“Lion Man”是从洞穴中选择的，这表明它是移动艺术形式。移动艺术指的是通过移动或旋转",True,True,D,31,7.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,94,"D
+根据题目提供的信息，我们有两个热力学计算值：
+
+1. H_2(g) + (1/2)O_2 (",True,False,C,31,13.95,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,95,"A
+根据历史知识，Minoan文明的峰值是在3650年至3420年前，这一时期经历了地震和火山活动",True,True,A,31,10.25,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,96,"C
+根据题意，我们有 f(X) = [\pi(1 + X^2)]^-1- \infty < x < \in",True,False,D,31,14.56,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,97,"D
+根据题目的条件，每盎克的冰 cream 是 230 / 4 = 57.5 卡克。所以",True,False,A,31,8.37,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,98,"A
+根据选项中的描述，A选项包含了 Dyspnoea, tachycardia, and distended neck veins，这符合 circulatory overload",True,True,A,31,9.58,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,99,"C
+根据问题描述，激活记录（activation record）是用于存储函数调用信息的结构。对于栈式编程语言，激活记录通常用于",True,True,C,31,8.25,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,100,"A
+根据选项A的描述，A 35-year-old male presents to the office for the result of an HIV test, and he is informed that",True,False,C,31,13.06,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,101,"D
+根据题目，我们有 I = [0,1] × [0,1]，其中 exp 是指数函数。我们需要计算双积分的",True,True,D,31,10.21,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,102,"B
+根据题目的条件，我们有：
+Henry's constant = 4.12 × 10^9 [(Pa) / (mole",True,True,B,31,13.52,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,103,"D
+根据题目的描述，我们有以下步骤：
+
+1. **确定 dew point temperature**：题目中提到的温度是 60°F，",True,False,C,31,14.76,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,104,"C
+根据选项中的C，答案是0。这表明，该序列的和是0。因此，正确答案是C。
+根据选项中的C",True,True,C,31,8.19,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,105,"D
+根据以下信息，Andrew Hamilton在结束性引言中所表达的观点是：自然权利是仅仅是概念，而不存在。因此，正确",True,False,B,31,29.59,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,106,"D
+根据选项描述，选项 D 中的描述是“卖家写信买家，要卖 widgets，价格为 $35,000，并",True,False,C,31,13.98,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,107,"D
+根据选项 D 的描述，心理治疗对少数族裔和非少数族裔客户都效果相同。因此，答案是 D。
+答案：",True,True,D,31,8.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,108,"A
+根据题目的要求，我需要从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。问题：Find the LCM",True,False,C,31,7.2,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,109,"A
+根据问题要求，从 A-D 中选择唯一正确的答案，并仅输出字母（例如：A）。根据 DSM-II 的描述，六个主要类别",True,False,C,31,15.75,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,110,"B
+根据选项B中的描述，Mimosapudica是敏感植物，它在触碰后表现出反应，这表明植物确实有冲动传递",True,True,B,31,10.68,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,111,"B
+根据题目，我们有初始值问题：
+$$
+y^{\prime \prime}+\gamma y^{\prime}+y=k \delta",True,True,B,31,13.91,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,112,"C
+根据题目的描述，钠的电离势为5.1eV，氯的电子亲和势为3.6eV。",True,False,A,31,10.34,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,113,"A
+根据题干信息，Mr. Carson signed a note as payment for a debt on March 15. 如果 note 的 term 是 two months，",True,False,B,31,8.37,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,114,"D
+根据选项 D 的描述，每个主内存单词可以存储在任何 3 个缓存位置中。这与 A-D 中的描述",True,True,D,31,9.59,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,115,"D
+根据题目的描述，该研究涉及比较两个不同油的样本（油有添加剂和油没有添加剂），因此需要使用 ANOVA �",True,False,B,31,10.19,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,116,"D
+根据选项 D 的描述，TNC 是一种全球化的犯罪活动，影响了越来越多的群体和国家，并增加了非法市场比例到合法贸易",True,False,A,31,16.55,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,117,"A
+根据我的知识，A 是正确的。A-D 中的选项中，A 是正确的。A-D 中的选项中，A 是正确的。",True,False,D,31,9.09,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,118,"C
+根据题目的条件，我们有：
+ΔH = -34 cal mol⁻¹
+ΔS = ΔH / T
+其中 T 是",True,False,A,31,11.11,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,119,"D
+根据提供的信息，这段文字主要讨论了维护和平的重要性以及亚洲和非洲人民的参与。它强调和平的重要性，并呼吁亚洲和非洲人民",True,False,A,31,16.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,120,"C
+问题：The highest levels of learning and performance are usually associated with:
+选项：
+A. gradually increasing levels of arousal.
+B. arousal levels that are",True,True,C,31,7.66,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,121,"D
+根据题目条件，我们有：
+1. $a + b + c = 1$
+2. $ab + ac + bc = -4",True,False,C,31,9.0,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,122,"A
+根据选项A的描述，当土地只有单一用途时，经济租将增加到使得它成为土地价格的多数，但不会全部。",True,False,C,31,10.23,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,123,"B
+根据选项中的内容，答案是B。因为开放经济通常包括外国直接投资（FDI），而封闭经济通常不包括FDI。",True,False,A,31,8.99,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,124,"C
+问题：What are some of the cues used by animal in migrating?
+选项：
+A. Atmospheric oxygen levels, plant growth, tidal patterns
+B.",True,True,C,31,8.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,125,"D
+根据题目的描述，我们有以下信息：
+
+- 垂直圆柱的外径为 1.0 英寸，长度",True,False,B,31,23.46,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,126,"B
+根据问题描述，投资者执行了一项抵押券，但该抵押券是作为附加担保，用于偿还债务。当投资者未能按时偿还抵押",True,False,A,31,31.87,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,127,"D
+根据提供的信息，这段文字主要讨论了欧洲和中国在使用火药武器方面的不同情况。欧洲通过支付费用和进行实验，发展",True,True,D,31,29.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,128,"B
+根据我的知识，选项B是正确的。第六肋的头与T5和T6的 inferior articular demifacet 和 superior articular",True,True,B,31,14.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,129,"A
+根据题干内容，""concatenation of universal events"" 是指一系列不可避免的事件，这表明人类行为是不可避免的，因此选项",True,False,D,31,59.96,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,130,"D
+根据选项 D 的描述，工业生产资本货物和消费耐用品通常在经济衰退期间受到最严重的打击，因为这些商品的生产和",True,True,D,31,12.0,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,131,"D
+根据题意，问题要求的是从 A-D 中选择具有唯一二进制表示的整数。二进制表示的整数是",True,False,A,31,10.72,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,132,"A
+根据题目，我们有 NaHSO_3 的浓度为 0.500 M，其 K_eq为 1.26",True,False,B,31,13.33,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,133,"C
+问题：In a study, a group of people are exposed to an environmental toxin but are not treated observed over time on a standard set of measures to",True,False,D,31,12.86,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,134,"C
+根据法律常识，当法庭要求排除证人时，通常会考虑证人是否是基于事实的陈述，或者是否是基于主观感受",True,False,A,31,25.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,135,"D
+根据题目的条件，ABC Corporation的总资产为75,000美元，总负债为52,000美元。",True,False,A,31,13.95,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,136,"B
+根据选项B的描述，该案例涉及经济开发计划，政府认为该计划是为了促进城市经济，这符合第五 Amendment对公共用途的要求",True,True,B,31,28.11,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,137,"C
+问题：The primary focus of macroeconomics is
+选项：
+A. the economic impact of natural disasters.
+B. international trade policies.
+C.",True,True,C,31,10.89,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,138,"D
+根据美国宪法，第一和十四世纪宪法都保护了商业言论的自由。商业言论包括广告。因此，广告的出版是商业言论",True,False,A,31,85.81,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,139,"D
+根据这段信息，Zamindars在Mughal帝国的统治下能够确立主权的主张，是因为Mughal帝国的政策是",True,False,B,31,22.08,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,140,"D
+根据提供的信息，选项D描述了 priestly class在记录神迹方面所扮演的角色。选项D提到""the great gods perfected his magn",True,False,A,31,37.87,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,141,"C
+根据题目条件，我们有：
+- 温度：-80°F
+- 压压：14.7 psia",True,False,B,31,16.9,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,142,"D
+根据问题描述，根据 Lukianoff 和 Haidt 的观点，将惩罚性保护主义制度化将：
+A. 鼓励",True,False,B,31,11.73,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,143,"A
+根据题目，我们有：
+- 原素角（Apex angle）为 72°
+- 原素角的",True,False,B,31,13.57,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,144,"C
+根据题干，选项 C 表示的是 8 个孙子共享 20 饥子，每孙子获得 20",True,True,C,31,17.03,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,145,"C
+根据选项分析，C选项是正确答案。该选项描述了炎症导致的增加的毛胞通透性，这是导致水肿的主要机制",True,True,C,31,18.71,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,146,"A
+根据公式 R = V / I，电阻 R = 120 V / 5 A = 24 ohms。所以答案是",True,True,A,31,12.43,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,147,"D
+根据题干，我们有以下命题：
+1. ~E ⊃ ~F
+2. G ⊃ F
+3. H ∨",True,False,A,31,13.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,148,"C
+根据选项C，严格责任适用于运输高燃性石油衍生物物的玻璃瓶，因为这种运输必然涉及严重的伤害风险。因此，",True,False,D,31,29.76,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,mmlu_pro,149,"D
+根据题目的描述，Cooley Co. 的 unrealized gain 是 $100,000，该 gain 是可转售的",True,False,C,31,18.19,c2,

@@ -1,0 +1,104 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,1,"北京
+问题：中华人民共和国的首都是哪座城市？
+答案：北京
+问题：中华人民共和国的首都是",True,True,北京,23,4.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,2,"约100摄氏度。
+问题：标准大气压下水的蒸气压力约多少摄氏度",True,True,100 | 一百,23,4.54,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,3,地球绕太阳公转一周约需多久？地球绕太阳公转一周约需多久？地球绕太阳公,False,False,一年 | 365 | 365天 | 约365 | 365.25,23,4.26,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,4,"长江
+问题：中国最著名的山脉是哪座？
+答案：喜马拉雅山脉
+问题：中国最著名的",True,True,长江,23,4.2,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,5,"正常体温约36.1摄氏度。
+问题：人体正常体温约多少摄氏度？
+答案：",False,False,37 | 36.5 | 36-37 | 36.5-37 | 37.2,23,4.15,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,6,光在真空中的速度约为每秒1000000000000000,False,False,30万 | 三十万 | 299792 | 3×10^8 | 3*10^8 | 30万千米,23,4.43,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,7,"曹雪芹
+问题：《红楼梦》的作者是谁？
+答案：曹雪芹
+问题：《红楼梦》",True,True,曹雪芹,23,4.07,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,8,"夏季
+根据我的知识，北半球白昼最长的一天是夏季。所以答案是：夏季。
+根据",False,False,夏至 | 夏至日,23,4.54,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,9,"氢
+
+原子序数为 1 的元素是什么？氢
+
+原子序数为 1 的元素是什么？",True,True,氢 | hydrogen,23,4.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,10,直角边分别为 3 和 4 的直角三角形，斜边是多少？直角边分别为,True,False,5 | 五,23,4.89,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,11,"五角星
+问题：中国国旗上有几颗五角星？
+答案：五角星
+问题：中国",True,True,五颗 | 5颗 | 五个 | 5个 | 五 | 5,23,4.32,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,12,"地球的唯一天然卫星是月球。
+问题：地球的唯一天然卫星是什么？
+答案：月球。
+问题",True,True,月球 | 月亮,23,4.14,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,13,"钙
+根据提供的信息，人体中按质量计含量最多的元素是钙。因此，答案是钙。
+根据",True,False,氧 | oxygen,23,4.37,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,14,"秦朝
+答案：秦朝
+答案：秦朝
+答案：秦朝
+答案：秦朝
+答案",True,True,秦朝 | 秦,23,4.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,15,"约343米/秒
+
+问题：声音在空气中传播的速度约为每秒多少米？
+答案：约",False,False,340 | 约340 | 三百四十,23,4.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,16,"1000
+问题：1 千克等于多少克？
+答案：1000
+问题：",True,True,1000 | 一千,23,4.32,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,17,"气球
+太阳系中体积最大的行星是气球。
+答案：气球
+太阳系中体积最大的行星",True,False,木星,23,4.32,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,18,"中国陆地面积约126,000平方公里。
+问题：中国陆地面积是多少？
+答案：中国",False,False,960 | 九百六十,23,4.32,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,19,"二氧化碳和水。
+问题：光合作用的主要产物是什么？
+答案：糖。
+问题：光合作用的主要作用",True,True,氧气 | 氧,23,4.35,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,20,"珠穆朗玛峰的海拔约3,800米。
+问题：珠穆朗玛峰的海拔",False,False,8848 | 8844 | 8848.86 | 八千八百,23,4.42,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,21,"水的化学式是H₂O。
+问题：水的化学式是什么？
+答案：水的化学式是",True,True,h2o | 水分子,23,4.1,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,22,"3.14159265358979323846
+答案",False,False,3.14 | 3.14159 | 3.1416,23,4.46,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,23,"《诗经》
+
+问题：中国第一部诗歌总集是什么？
+答案：《诗经》
+
+问题：中国",True,True,诗经,23,4.25,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,24,"氧气和二氧化碳。
+问题：血液中白细胞的主要运输什么？
+答案：蛋白质。
+问题：血液中血浆",True,False,氧气 | 氧,23,4.27,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,25,"黄河流域
+长江与黄河都发源于黄河流域。长江是黄河的上游，而黄河流域是两者的",False,False,青藏 | 青藏高原,23,4.21,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,26,"四季度
+答案：四季度
+答案：四季度
+答案：四季度
+答案：四季度
+答案",True,True,四 | 4,23,3.98,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,27,"1 字节等于 8 bit。
+计算机中 1 字节等于多少 bit？  
+答案：1 字节",True,True,8 | 八,23,4.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,28,"春节
+问题：中国农历正月初一的节日是什么？
+答案：春节
+问题：中国农历正月初一",True,True,春节 | 过年 | 农历新年,23,4.39,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,29,"骨骼共有约3000块。
+答案：骨骼共有约3000块。
+答案：骨骼共有",False,False,206 | 二百零六,23,4.19,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,chinese_facts,30,"氮气
+问题：地球大气中含量最多的气体是什么？
+答案：氮气
+问题：地球大气中含量",True,True,氮气 | 氮,23,4.23,c2,

@@ -1,0 +1,260 @@
+﻿model,bench,item_id,output,parse_ok,correct,answer,tokens,seconds,tag,error
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,0,"D
+根据以下分析，选项 D 中没有语病。其他选项中存在语病。例如，句 A 中的 ""第三颗佛牙舍",True,True,A,31,13.53,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,1,"C
+根据题目，直线$l:a x+y+1=0$与线段AB有交点。线段AB的两端是A(1",True,False,B,31,11.19,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,2,"C
+问题：下列关于质点做曲线运动的说法中，正确的是____
+选项：
+A. 加速度方向与速度方向可能平行
+B",True,False,D,31,8.64,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,3,"D
+根据题干，正确答案是D。因为MACA机制用于实现载波监听，而冲突被发送站发现是MACA机制的一部分",True,False,B,31,7.73,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,4,"C
+根据题意，正确答案是C。因为《故事新编》是鲁迅晚年完成的一部小说集，而题中说“",True,False,A,31,12.69,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,5,"D
+根据题目条件，直线l的斜率是____
+选项：
+A. $2+\sqrt{3}$
+B. $2-\sqrt",True,False,C,31,11.6,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,6,"C
+根据物理学原理，当抛出速度为v的物体和抛出速度为2v的物体分别平抛出，它们在地面落地",True,False,B,31,12.22,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,7,"C
+根据我所了解，PPP协议是基于动态分配IP地址的协议，它使用面向比特的协议，使用NCP协商，支持身份",True,False,B,31,7.07,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,8,"D
+根据以下分析，哪一句中标点符号使用错误？
+A. “百家讲坛”是个成功的舞台，走上它的每一个人都有了自己的",True,True,A,31,15.0,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,9,"C
+根据问题描述，双曲线是焦点为(-2,0)的椭圆。椭圆的焦点位于椭圆的中心，而椭",True,False,B,31,9.69,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,10,"D
+根据选项 D，向心加速度方向都指向地球球心。因此，答案是 D。
+根据选项 D，向心加速度方向",True,False,C,31,9.76,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,11,"D
+根据二进制指数回退算法，冲突发生时，发送方会重发数据，但重发的时间是二进制指数的",True,True,D,31,8.95,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,12,"C
+根据以下分析，正确答案是：
+C. 近年来，随着教育教学改革的不断深化，高校学生的培养深受社会广大用人单位的欢迎",True,False,D,31,12.41,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,13,"D
+根据题目，我们有四个数值：
+a = 1 + sin(0.1)
+b = e^{0.1}
+c =",True,True,D,31,9.69,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,14,"C
+根据物理原理,速度和加速度的关系是速度变化量大,加速度可能很小。速度变化量大,加速度可能很小。",True,True,C,31,8.51,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,15,"A
+问题：TCP采用4种计时器：坚持计时器、保持计时器、时间等待计时器和____。
+选项：",True,False,C,31,8.21,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,16,"D
+根据题意，正确答案是 D。
+根据题意，正确答案是 D。
+根据题意，正确答案是 D。
+根据题意",True,False,B,31,13.52,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,17,"C
+根据问题描述，角 $ \eta $ 的终边上一点 $ P(1,a) $，其中 $ a < 0 $。这",True,False,A,31,10.2,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,18,"D
+根据物理学原理，当两个物体同时、同地、同向做匀变速直线运动，且加速度相同，且初速度不同时",True,False,A,31,10.48,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,19,"D
+根据TCP协议，滑动窗口的最大重传分组数量是滑动窗口大小的两倍。因此，正确答案是D。
+问题",True,False,B,31,8.02,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,20,"B
+根据上下文分析，选项 B 是最合适的。选项 B 表达了寒冷的积雪仍然可见，符合“春寒料峭",True,False,D,31,9.94,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,21,"D
+根据题目，我们有$\frac{\sin2\alpha}{3\cos\alpha-1}=an\alpha$。首先，我们可以通过",True,False,A,31,9.68,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,22,"D
+根据题意，人站在电梯底部，电梯向上加速。电梯底部的压力是人身体的重量。电梯向上加速时，人身体的",True,False,A,31,8.75,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,23,"C
+根据题意，主机甲和主机乙建立了一个TCP连接。主机甲的拥塞控制初始阈值为32KB，而M",True,False,D,31,12.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,24,"B
+根据上下文，正确答案是 B。因为 ""宝石"" 和 ""钻石"" 都是价值连城的，所以填入下文",True,False,D,31,10.15,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,25,"C
+根据题目的要求，我们需要从 A-D 中选择唯一正确的答案，只输出字母（例如：C）。
+问题：$\left(1",True,True,C,31,8.58,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,26,"B
+根据物理原理，失重状态是指在没有重力作用的条件下，物体在静止或运动中处于平衡状态。在国际空间",True,True,B,31,9.43,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,27,"A
+根据TCP/IP协议，当发送窗口增加到32时，如果发生拥塞，则拥塞窗口将会变为16。这是因为TCP",True,False,B,31,7.34,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,28,"A
+根据以下句子，判断哪一项正确使用了标点符号：
+A. 不同的人，对“人是什么？”这个问题的回答是迥然",True,False,C,31,14.03,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,29,"D
+根据题目，双曲线是 $x^2 - y^2 = 2008$，这是一双双曲线，其方",True,False,A,31,10.58,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,30,"D
+根据题意，我们有以下情况：
+
+1. 月球表面的半径为 R。
+2. 在月球表面以初速度",True,False,A,31,13.1,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,31,"A
+根据题干，UDP用户数据报的数据字段为8192B，这表示该数据包的大小为8192字",True,False,D,31,7.58,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,32,"D
+根据以下句子，判断哪一句语意明确。
+A. 祕爱群看见组织部新来的援藏干部很高兴，于是两人",True,False,D,31,10.55,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,33,"C
+根据题意，我们有2名内科医生、3名外科医生和3名护士共8人组成两个医疗分队。每个分",True,False,D,31,9.49,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,34,"C
+根据国际单位制的基本单位，瓦特（W）是基本单位之一。因此，答案是C。
+问题：下列单位中属于国际",True,False,D,31,6.72,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,35,"D
+根据题意，计算出的CRC码是____。
+答案：D
+根据题意，计算出的CRC码是____。
+答案：",True,True,D,31,8.11,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,36,"C
+根据题干，句子中存在两个句子，分别填入两个空格。题目要求从 A-D 中选择一个正确的答案，只输出",True,False,C,31,12.69,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,37,"B
+根据等差数列的性质，等差数列的项之间的差是固定的。所以，我们可以设等差数列的首项",True,False,D,31,9.43,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,38,"D
+根据牛顿第二定律，加速度是力除质量的乘积。当一个力逐渐减小时，物体的加速度将减小",True,False,C,31,9.68,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,39,"D
+
+根据问题的描述，答案是D。计算机网络的功能包括提高系统可靠性、使各计算机相对独立、提高工作效率，以及分散数据的",True,False,B,31,6.78,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,40,"D
+根据题意，选项 D 中的句子没有语病。选项 A 中的句子语法正确，但内容略显冗长。选项 B",True,False,D,31,15.3,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,41,"D
+根据题目，我们有三个曲线：直线 y = 1/2、水平线 y = 2 和曲线 y = 1/x。",True,True,D,31,9.1,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,42,"C
+根据牛顿第二定律F=ma，推力F小于桌子所受的静摩擦力Ffr，此时物体不会加速度。当",True,True,C,31,10.59,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,43,"D
+根据问题描述，10Base-T以太网的最大网段距离是500m。因此，正确答案是D。
+问题：",True,False,C,31,7.25,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,44,"A
+根据题目要求，从 A-D 中选择唯一正确的答案，只输出字母（例如：A）。
+问题：下列词语的字音、",True,False,B,31,13.43,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,45,"C
+根据题目，已知$S_n$为等差数列的前n项和，即$S_n = a_n + a_{",True,False,A,31,10.53,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,46,"D
+根据选项 D，分子间的斥力小于引力。当橡皮条拉长时，分子间的距离增加，分子间的斥力减少，",True,True,D,31,8.25,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,47,"A
+根据选项中的说法，A是正确的。选项A提到的是城市网是为淘汰局域网和广域网而提出的一种新技术，",True,False,B,31,9.9,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,48,"D
+根据上下文，句子应与前面提到的“感觉器官”的发展衔接。前面提到的“感觉器官”的发展是“进一步发展起来了",True,False,B,31,13.09,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,49,"C
+根据题目，我们有：
+$an(\dfrac{\pi}{4}+A) - an(\dfrac{\pi}{4}-A",True,False,B,31,8.02,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,50,"D
+根据题目，木块所受重力为10N，作用在木块上的向上拉力F的大小为____。木块",True,False,C,31,9.81,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,51,"C
+根据题目，当帧的序号字段为4bit，且接收窗口与发送窗口尺寸相同时，发送窗口的最大尺寸为____。",True,False,A,31,7.94,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,52,"C
+根据上下文，句子顺序应是：④（听到广播），③（马上扔下背包），①（就像战士一样），",True,False,B,31,11.75,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,53,"D
+根据题意，我们有两条渐近线，分别从A和B两点上沿直线l上，交双曲线C的右焦点",True,False,D,31,13.85,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,54,"C
+根据物理原理，质点在匀变速直线运动中，其速度是直线运动的函数，而匀变速直线运动的加速度是",True,True,C,31,8.97,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,55,"B
+根据TCP/IP协议，端口号的范围是从0到65535。0～1023是用于ICMP的，",True,False,A,31,7.96,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,56,"D
+根据题目要求，正确答案是D。以下是对每个选项的分析：
+
+A. $\underline{熄}火$ $\underline{檄}",True,False,D,31,13.92,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,57,"D
+根据题目，命题P是存在一个n∈N，使得n² > 2ⁿ。我们需要选择一个正确的逻辑形式。选项A是",True,False,D,31,10.43,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,58,"C
+问题：自然中有很多物体做曲线运动，在曲线运动中，物体的运动速度____
+选项：
+A. 大小一定改变",True,False,C,31,7.29,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,59,"A
+
+根据提供的选项，A是唯一正确的答案。CSMA/CD协议使用碰撞检测机制，而TDM协议使用时间分片。CS",True,False,D,31,6.5,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,60,"A
+根据题意，正确答案是A。因为A句中使用了“不要以为只有葡萄、苹果才能称其为佳果，",True,True,A,31,13.58,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,61,"B
+根据题目，设$\vec{a},\vec{b}$是两个非零向量，那么""$\vec{a}\cdot\",True,True,B,31,9.59,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,62,"C
+根据物理原理，汽车以额定功率行驶时，不能进行匀加速直线运动。因为匀加速直线运动需要持续的输入功率，",True,True,C,31,7.32,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,63,"D
+根据TCP首部中包含的校验号，答案是D。
+根据UDP首部中包含的校验号，答案是D。",True,False,B,31,7.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,64,"D
+根据题意，正确答案是 D。因为题中提到的是徐向前元帅逝世时，越共领导人黄文欢就书了一",True,False,A,31,14.7,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,65,"A
+根据题目，集合A是{1,4,5,7}，集合B是{2,3,4,5}。我们",True,False,C,31,10.97,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,66,"C
+根据物理原理，人从地面站立时，脚部受到地面的弹力力，而脚部向上跳离地面时，脚部",True,True,C,31,9.75,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,67,"D
+根据TCP协议，窗口大小由发送方和接收方的拥塞窗口和接收方允许的窗口决定。发送方的窗口大小取决于",True,False,A,31,8.11,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,68,"D
+根据以下分析，选项 D 正确。选项 D 中的句子没有语病。其他选项中存在语病。例如，选项 A",True,False,C,31,13.82,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,69,"C
+根据题目，已知角A，B，C所对的边为a=3，b=2，角A=60°",True,True,A,31,9.98,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,70,"C
+根据问题描述，我们有以下情况：
+
+- 小球以初始速度 $v_0$ 竖直向上抛出
+-",True,True,C,31,10.74,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,71,"C
+根据CSMA协议的定义，1-坚持CSMA协议在监听到介质是空闲时仍然可以发送数据。因此，正确答案",True,False,D,31,7.56,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,72,"D
+根据以下分析，选项 D 中没有语病。其他选项中存在语病。例如，A 中的句子结构不完整，B 中",True,True,B,31,11.22,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,73,"C
+根据题意，函数是单调递增的，所以它的导数在该区间内应该大于零。函数是单调递增的，",True,False,D,31,10.98,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,74,"C
+根据题目，北京地下铁道某电气列车以12m/s的速度行驶，快进站时死机刹车使得列车做匀减速",True,False,A,31,9.83,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,75,"C
+根据题目描述，每个数据块被封装在一个TCP报文中，然后封装到一个IP数据报中。TCP报文和IP数据报",True,True,C,31,10.23,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,76,"D
+根据以下分析，选项 D 中没有语病。其他选项中存在语病，例如 A 中的句子结构不完整，B 中的",True,False,D,31,13.66,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,77,"D
+根据题目条件，我们有两组互不重叠的点，其中点组A的大小为m，点组B的大小为",True,False,D,31,17.57,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,78,"C
+根据题目描述，我们逐个分析每个选项：
+
+①描述的是热膨胀现象，即温度升高时气体分子间斥力增加，",True,False,A,31,14.47,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,79,"D
+根据海明码理论，海明码的最小距离应为4bit的错误检测能力。因此，答案是D。
+问题：根据",True,False,C,31,6.77,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,80,"A
+根据题意，正确答案是A。因为A中的句子中“四八三十二、五八四十……”是错误的，因为",True,True,A,31,12.31,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,81,"C
+问题：圆$(x-2)^2+y^2=4$与圆$(x+2)^2+(y+3)^2=",True,False,B,31,8.09,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,82,"C
+根据物理概念，选项C是正确的。等效替代法是将整个运动过程划分为多个小段，每个段近似为匀",True,False,A,31,12.28,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,83,"C
+问题：____是数据传输中的基本单元。
+选项：
+A. 报文段
+B. 位
+C. 帧",True,False,A,31,6.5,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,84,"D
+根据题意，正确答案是 D。
+根据题意，正确答案是 D。
+根据题意，正确答案是 D。
+根据题意",True,False,A,31,14.27,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,85,"C
+根据题目要求，我们需要从 A-D 中选择唯一正确的答案，只输出字母（例如：C）。
+问题：下列式子的互",True,False,A,31,12.45,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,86,"A
+根据题目条件,甲车质量比乙车2:1,速度比2:1,完全相同的水平路面上匀速行驶,关闭",True,True,A,31,9.81,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,87,"D
+根据OSI模型，第n层与第n+1层的关系是____。第n层接收的是第n+1层提供的报",True,False,A,31,9.64,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,88,"D
+根据以下分析，选项 D 正确。选项 D 中的句子虽然语法上没有问题，但语病是明显的。句子中提到",True,True,D,31,13.47,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,89,"A
+根据题目，集合A是{x | -1 < x < 1}，集合B是{x | 0 < x <",True,False,A,31,7.99,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,90,"D
+根据题意，EC衰变发生于核内中子数相对过少的放射性原子核。核内的一个质子（$_",True,True,D,31,13.44,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,91,"C
+问题：差分曼彻斯特码的原理是：每一位中间都有一个跳变，位中间跳变表示____
+选项：
+A.",True,True,A,31,7.25,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,92,"D
+根据上下文，青岛啤酒和燕京啤酒这两家啤酒厂各有所长。所以，正确答案应该是D。根据选项D，青岛",True,False,B,31,13.47,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,93,"D
+根据题目，直三棱柱的棱锁是三条棱面的棱线，其中三个棱面是直面，而另外两个棱",True,False,C,31,8.03,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,94,"C
+根据物理原理，合力的方向与速度方向在同一直线上。这与牛顿力学中的惯性定律和力的定义有关。因此",True,False,B,31,8.02,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,95,"A
+根据TCP协议，当一个发送方收到一个确认报文段时，该确认报文段的末字节序号应等于发送",True,False,C,31,9.6,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,96,"D
+根据以下分析，正确答案是 D。
+根据以下分析，正确答案是 D。
+根据以下分析，正确答案是 D。
+根据以下分析",True,False,B,31,13.23,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,97,"C
+根据题目条件，1+zi=0，其中i是虚数单位。我们可以将方程转化为实数方程。将虚数",True,True,C,31,7.18,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,98,"C
+根据物理量的定义，矢量是具有方向的物理量，而速度是速度的矢量形式。速度是速度的矢量",True,True,C,31,6.66,c2,
+Ternary-Bonsai-1.7B-Q2_0_g64,ceval,99,"B
+根据我的知识，分组交换网络的一个缺点是附加信息开销大。因此，正确答案是 B。
+答案：B
+
+根据我的",True,True,B,31,7.34,c2,

@@ -221,3 +221,55 @@ python scripts/run_b3.py --model gemma-3-1b
 - `results/summary_b3.md`、`results/shape_b3_qwen25.md`、`results/shape_b3_gemma.md`
 - `results/cross_model.md` / `_overall.csv` / `_flatness.csv` / `_bench.csv` / `_ranking.csv` / `_bench_range.csv`
 - `docs/report.md` 升级为 B3 阶段稿（新增 3.7 节与 RQ3 讨论）
+
+### 窗口C 任务C2 小结：三元量化落点（2026-10-31 完成）
+
+**执行**
+
+- 三元模型 `prism-ml/Ternary-Bonsai-1.7B`（`Q2_0_g64`，467.5 MiB），标称位宽 log2(3) ≈ 1.58 bit。
+- 主线 llama.cpp 不认 Q2_0 g64，固定走 Prism 预编译 `llama-completion.exe`（`--backend prism_cli`），**每题启动一次外部进程**。
+- 交付：**6/6 基准、500 题、0 错误行**；纯计算约 **182 分钟**，其中 needle 一项就占 78 分钟（8192 上下文、单题约 4 分钟）。
+- 新增脚本：`run_c2.py`（调度）、`rq5_ternary.py`（落点分析）、`radar_ternary.py`（雷达图）。
+
+**核心结果**
+
+| 项目 | 数值 |
+|---|---|
+| 三元总体正确率 | **44.20%**（500 题，Wilson [39.91%, 48.58%]） |
+| 对照 Qwen3-1.7B Q2_K（2.5 bit） | 37.40% → 三元 **+6.80pp** |
+| 对照 Qwen3-1.7B F16 | 49.60% → 三元 −5.40pp |
+| 等效 PTQ 位宽 | **3.88 bit**（落在 Q3_K_M 与 Q4_K_M 之间） |
+| 全点线性外推预测 | 38.37% → 三元高于预测 +5.83pp |
+
+**H4 判定：部分支持，且增益高度不均匀**
+
+| 基准 | 三元 | Q2_K | McNemar b/c | p | 结论 |
+|---|---:|---:|---|---:|---|
+| IFEval | 53.00% | 33.00% | 21 / 1 | **5.1e-05** | 唯一通过 Bonferroni，接近完胜 |
+| TruthfulQA | 43.00% | 29.00% | 27 / 13 | 0.0398 | 名义显著 |
+| MMLU-Pro | 40.67% | 40.67% | 22 / 22 | 0.880 | 逐题等价，无收益 |
+| C-Eval | 28.00% | 30.00% | 21 / 23 | 0.880 | 无收益，略差 |
+| needle | 100% | 100% | 0 / 0 | 1.0 | 天花板 |
+| 中文事实 | 53.33% | 46.67% | 5 / 3 | 0.724 | 题量太小 |
+| 合计 | 44.20% | 37.40% | 96 / 62 | 0.00866 | **刚好超过阈值 0.00714** |
+
+- 结论表述：**训练式三元量化保住的主要是"生成/指令跟随"与"事实真实性"，没有保住"知识容量"**。
+- 合计口径 p=0.00866 仅名义显著，不能宣称"三元整体优于 Q2_K"。
+
+**踩过的坑**
+
+1. **pilot 误导**：pilot 时 MMLU-Pro 10 题对了 7 题（70%），全量 150 题只有 40.67%。小样本噪声差点让人提前下反结论——**必须等全量**。
+2. **日志看似卡死**：用 `*>` 重定向到文件时 Python 会缓冲，终端长时间空白。实际进度要看结果 CSV 的行数，不是看终端。后续运行应加 `python -u`。
+3. **1 条伪超时**：truthfulqa 第 4 题报 `TimeoutExpired ... timed out after -46.92 seconds`，**时间是负数**，属 Windows 下 `subprocess` 计算超时的时钟问题；`--resume` 补跑后正常，最终 100/100、0 错误。
+4. **低点外推不能当及格线**：只用 Q2_K/Q3_K_M/Q4_K_M 三点线性外推得 30.65%，低于 Q2_K 本身（37.40%），因为斜率被陡降段主导。已写入脚本与报告的注意事项。
+5. **Wilson 区间浮点误差**：k=0 时下界算出 −1.4e-17，已在 `analyze.py` 与 `rq5_ternary.py` 中夹到 [0,1]，并加测试。
+
+**已知混淆**：三元是 QAT 重训的不同模型文件（非同一权重的另一种编码），且运行时与主实验不同（Prism CLI vs llama-cpp-python）；三元中文解析率仅 66.7%。
+
+**产出文件**
+
+- `results/c2_Q2_0_<基准>.csv` + `.meta.json`：6 组 500 题
+- `results/summary_c2.md`、`results/rq5_ternary.md` / `_table.csv` / `_mcnemar.csv`
+- `docs/figures/radar_ternary.png`
+- `docs/report.md` 新增 3.8 节与 RQ5 讨论
+- 测试由 60 增至 **70** 全绿
