@@ -140,7 +140,8 @@ def analyse_curve(sub: pd.DataFrame):
 def main():
     ap = argparse.ArgumentParser(description="B2 形态分析")
     ap.add_argument("--results-dir", default="results")
-    ap.add_argument("--pattern", default="b2_*.csv")
+    ap.add_argument("--pattern", default="b2_*.csv",
+                    help="结果文件通配符；可用逗号分隔多个，如 b2_*.csv,b3_*.csv")
     ap.add_argument("--out-prefix", default="results/shape_analysis_b2")
     # 只分析指定基座模型（例如 qwen3-1.7b）。不传则分析全部。
     ap.add_argument("--base", default=None,
@@ -149,7 +150,17 @@ def main():
     ap.add_argument("--title", default="B2 形态分析（RQ1 / RQ2）")
     args = ap.parse_args()
 
-    df = analyze.load_results(Path(args.results_dir), pattern=args.pattern)
+    # 支持逗号分隔的多批次合并（例如把 B2 主模型与 B3 验证模型一起检验）
+    parts = [p.strip() for p in args.pattern.split(",") if p.strip()]
+    if len(parts) == 1:
+        df = analyze.load_results(Path(args.results_dir), pattern=parts[0])
+    else:
+        frames = []
+        for pat in parts:
+            sub = analyze.load_results(Path(args.results_dir), pattern=pat)
+            sub["batch"] = pat
+            frames.append(sub)
+        df = pd.concat(frames, ignore_index=True)
     if args.base:
         df = df[df["base"].astype(str).str.lower()
                 == args.base.lower()].copy()
@@ -186,7 +197,10 @@ def main():
          "linear_slope", "piecewise_slope"]]
 
     # McNemar：逐基准 + ALL
-    pivot = df.pivot_table(index=["bench", "item_id"], columns="quant",
+    # 注意：索引必须带上 base（模型）。否则多模型合并时同一 item_id 在多个模型下
+    # 重复出现，aggfunc="first" 会静默只保留第一个模型的结果，把"合并检验"
+    # 变成"单模型检验"。
+    pivot = df.pivot_table(index=["base", "bench", "item_id"], columns="quant",
                            values="correct", aggfunc="first")
     mrows = []
     for bench in list(df["bench"].unique()) + ["ALL", "ALL_no_needle"]:

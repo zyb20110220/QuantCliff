@@ -191,6 +191,24 @@ python scripts/run_b3.py --model gemma-3-1b
 - `pytest tests -q` → **54 passed**（安装 pytest 9.2.0 后首次执行）。
 - 所有 meta 校验：`errors == 0` 且 `rows_total == n_requested`，无异常组。
 
+**发现的 bug 与修复（2026-10-31，重要）**
+
+- 现象：为做"三模型合并"检验，把 `b2_*.csv` 与 `b3_*.csv` 一起喂给 `shape_analysis.py`，
+  得到的 McNemar 计数与单模型 Qwen3 完全一致，怀疑合并未生效。
+- 定位：`shape_analysis.py` 的 McNemar 透视表索引为 `["bench", "item_id"]`，
+  **没有带模型维度**。多模型数据下同一 `item_id` 会重复出现，
+  `pivot_table(aggfunc="first")` 静默只保留第一个模型，把"合并检验"变成"单模型检验"，
+  且**不报任何错**。曲线拟合部分不受影响（走 groupby 求均值）。
+- 影响范围：`results/shape_analysis_b3.md`（两模型合并）与当时的三模型合并结果全部作废；
+  单模型的三份分析（`shape_analysis_b2` / `shape_b3_qwen25` / `shape_b3_gemma`）不受影响。
+- 修复：索引改为 `["base", "bench", "item_id"]`；新增 `tests/test_shape_analysis.py`
+  （6 个用例，其中一个显式复现旧写法的错误行为作为文档）。
+- 修复后结论变化：三模型合并的 Q2_K→Q3_K_M 由"p=7.52e-05（其实是 Qwen2.5 单模型值）"
+  修正为 **p=6.65e-04（b=176, c=247）**，仍是唯一存活全局 Bonferroni 的相邻档差异。
+- 附带发现：Qwen2.5 单模型 p=7.52e-05，Gemma 单模型 p=0.856，合并后 p 值反而变大 →
+  **效应在模型间不同质**，这是"必须分模型报告"的统计证据。
+- 测试总数由 54 增至 **60**，全绿。
+
 **已知混淆（写入报告局限）**
 
 1. Gemma 的 TruthfulQA 基线 27% ≈ 随机水平 25%，存在地板效应，陡峭度对比被压缩。
