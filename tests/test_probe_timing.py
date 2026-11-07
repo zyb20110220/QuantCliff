@@ -124,3 +124,19 @@ def test_save_models(tmp_path, monkeypatch):
     p = bundle["p100"]["pipe"].predict_proba(
         data["L21_p100"][:5])
     assert p.shape == (5, 2)
+
+
+def test_conf_length_artifact_is_flagged(tmp_path):
+    """置信度若与答案长度强相关（历史错位 bug 的特征），必须被标记不可用。"""
+    d = _synthetic(tmp_path, n=80, seed=6)
+    # 人为制造伪影：conf 完全由答案长度决定
+    d["mean_logprob"] = d["n_answer"].astype(float) / 100.0
+    np.savez_compressed(tmp_path / "probe_think_syn.npz", **d)
+    data = pt.load_think("syn", tmp_path)
+    summary, rows, _, _ = pt.analyse_bench(data, seed=6)
+    assert summary["conf_valid"] is False
+    assert abs(summary["conf_len_corr"]) > 0.8
+    # 表格里不应再报「vs 置信度 p」
+    assert all(r["vs 置信度 p"] == "—" for r in rows)
+    md = pt.render_md(summary, rows)
+    assert "不可用" in md

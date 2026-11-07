@@ -1,6 +1,6 @@
 # 下阶段规划：预警时机曲线拓展（窗口 D）
 
-> 版本：2026-10-31 · 状态：设计定稿，尚未开工
+> 版本：2026-11-07 · 状态：D1/D2/D5 代码已完成，采集待重跑（见第 9 节）
 > 本规划是窗口 C 完成后的延伸，**不修改已完成的三部分主线结论**。
 
 ## 1. 为什么是它（定位）
@@ -94,3 +94,70 @@ RQ6 留下一个未拆开的二义性：探针在 MMLU-Pro 上只有 0.572、在
 - 设计依据：`docs/report.md` 3.9 节（RQ6）与局限条目 18
 - 复用代码：`scripts/probe_collect.py`、`scripts/probe_train.py`（分析口径直接沿用）
 - 完成后新增：`scripts/probe_collect_thinking.py`、`scripts/probe_timing.py`、`results/probe_timing.md`
+
+## 9. 执行记录（2026-11-07）
+
+### 已完成
+
+| 任务 | 状态 | 备注 |
+|---|---|---|
+| D1a thinking 前提验证 | ✅ | `<think>`=151667、`</think>`=151668；触发率 95.6% |
+| D1b 采集脚本 + 测试 | ✅ | 双臂（思考/非思考）、五观察点、KV 前缀前向 |
+| D1c TruthfulQA 250 题 | ✅ | 0 错误，耗时 5.3 h，96 s/题 |
+| D1c MMLU-Pro 250 题 | ⏸ | 首轮跑完但 **conf 列作废**（见下） |
+| D2 分析脚本 + 测试 | ✅ | `probe_timing.py`，8 个测试全绿 |
+| D5 思考模式演示 Tab | ✅ | 流式思考 + 走动表盘 + 五位置曲线，浏览器实测通过 |
+
+### 已发现的实现缺陷（必须重跑）
+
+**症状**：`mean_logprob`（置信度基线）AUROC 仅 0.363，显著低于 0.5；
+`conf` 与答案长度相关 0.999，3-token 答案的 conf 恒在 1e-13 量级。
+
+**根因**：答案 token 与 `generate().scores` 错位 1 位。生成的第一个 token 是
+`<think>` 本身，它不在思考段内，旧公式用「思考长度 + 1」当偏移，实际取到了
+`</think>` 那一步的分布去查答案 token 的对数概率。重算同一题得 0.999，
+与采集时存下的 1e-13 相差四个数量级。
+
+**影响范围**：
+- 作废：`mean_logprob` / `conf`（置信度基线）
+- 有效：探针 AUROC、选层、正确率、五位置特征、非思考臂
+  （特征是独立前向，与 conf 计算无关）
+
+**修复**：`_split_think` 改为返回答案起点的**绝对索引**（`</think>` 位置 + 1），
+对数概率按 `scores[ans_off + j]` 取；新增 `tests/test_probe_collect_thinking.py`
+（含专防此错位的回归测试）。
+
+### 首轮 TruthfulQA 的有效结果（重跑前参考）
+
+| 观察点 | AUROC | 95% CI | 选层 |
+|---|---|---|---|
+| 0% | 0.709 | [0.642, 0.775] | L21 |
+| 25% | 0.577 | [0.502, 0.643] | L14 |
+| 50% | 0.597 | [0.528, 0.668] | L21 |
+| 75% | 0.630 | [0.558, 0.703] | L28 |
+| 100% | **0.826** | [0.775, 0.874] | L21 |
+
+- 100% vs 0%：DeLong p<0.001 → 「位置问题」成立
+- 非单调 U 形：思考中段信号最弱，思考结束前陡升
+- 对照：非思考臂 0.728、题型难度 0.641、窗口 C 裸提示词 0.693
+- 正确率：thinking 36.8% vs 非思考 31.2%（McNemar p=0.170，不显著）
+
+### 重跑计划（待执行）
+
+```powershell
+$env:HF_HUB_OFFLINE='1'
+.\.venv\Scripts\python.exe -u scripts\probe_collect_thinking.py `
+    --bench truthfulqa,mmlu_pro --force *> think_collect.log
+```
+
+- **必须带 `--force`**：`_is_done` 会跳过已存在且 0 错误的结果
+- 预计 **约 13 小时**（实测 96 s/题 × 500 题，挂后台过夜）
+- 跑完后执行：
+
+```powershell
+.\.venv\Scripts\python.exe -u scripts\probe_timing.py `
+    --bench truthfulqa,mmlu_pro --save-models
+```
+
+- 该命令会同时刷新 `results/probe_timing.md`、两张曲线图，
+  以及 `results/probe_timing_models_<基准>.joblib`（D5 演示自动切换为思考分布探针）

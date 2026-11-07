@@ -127,10 +127,18 @@ def analyse_bench(data: dict, seed: int) -> dict:
                "chosen": chosen_nt, "y": y_nt}
 
     # ---- 3. 置信度基线（同一批题的答案段平均对数概率）----
+    # 自检：真实的置信度不该由答案长度决定。如果它与 n_answer 高度相关，
+    # 几乎一定是在 token/scores 对齐上出了错（历史上真实发生过：错位 1 位
+    # 使 conf 与答案长度相关 0.999，AUROC 从 0.57 跌到 0.36）。
     conf = data["mean_logprob"]
     ok = np.isfinite(conf)
+    conf_len_corr = float("nan")
+    if ok.sum() > 10:
+        conf_len_corr = float(np.corrcoef(
+            conf[ok], data["n_answer"][ok].astype(float))[0, 1])
+    conf_valid = bool(np.isfinite(conf_len_corr) and abs(conf_len_corr) < 0.8)
     auc_conf = float(roc_auc_score(y[ok], conf[ok])) if ok.sum() > 10 else float("nan")
-    ci_conf = bootstrap_auc_ci(y, conf, seed=seed)
+    ci_conf = bootstrap_auc_ci(y, conf, seed=seed) if conf_valid else (float("nan"), float("nan"))
 
     # ---- 4. 题型难度基线（折外）----
     groups = load_groups(bench, n, seed, data["item_id"])
@@ -147,7 +155,7 @@ def analyse_bench(data: dict, seed: int) -> dict:
     for key in POS_KEYS:
         r = positions[key]
         p_conf = delong_test(y[ok_conf], r["oof"][ok_conf],
-                             conf[ok_conf])["p"]
+                             conf[ok_conf])["p"] if conf_valid else float("nan")
         p_nt = delong_test(y, r["oof"], nothink["oof"])["p"] \
             if key == "p100" else float("nan")
         p_prev = delong_test(y, r["oof"], prev["oof"])["p"] \
@@ -217,6 +225,8 @@ def analyse_bench(data: dict, seed: int) -> dict:
         "n_think_mean": float(n_t.mean()),
         "n_think_median": float(np.median(n_t)),
         "conf_auc": auc_conf, "conf_ci": list(ci_conf),
+        "conf_valid": conf_valid,
+        "conf_len_corr": conf_len_corr,
         "diff_auc": auc_diff,
         "nothink": {"auc": auc_nt, "ci": list(ci_nt),
                     "chosen": chosen_nt},
@@ -320,7 +330,11 @@ def render_md(summary: dict, rows: list) -> str:
         df,
         "",
         f"- 置信度基线（答案段平均对数概率）：AUROC "
-        f"{summary['conf_auc']:.3f} {summary['conf_ci']}",
+        f"{summary['conf_auc']:.3f} {summary['conf_ci']}"
+        if summary.get("conf_valid", True) else
+        f"- 置信度基线：**不可用**（与答案长度相关 "
+        f"{summary.get('conf_len_corr', float('nan')):.3f}，疑为 token/scores "
+        f"错位等实现缺陷导致的伪影；本表不做此对照）",
         f"- 题型难度基线（折外）：AUROC {summary['diff_auc']:.3f}"
         if np.isfinite(summary["diff_auc"]) else "- 题型难度基线：无分组字段，未报",
         f"- 非思考臂探针（模板未插思考块）：AUROC "

@@ -73,13 +73,20 @@ def _is_done(bench: str, n: int) -> bool:
 
 
 def _split_think(new_ids: torch.Tensor, tok, open_id: int, close_id: int):
-    """把生成序列切成 (思考段, 答案段)。无思考块时思考段为空。"""
+    """把生成序列切成 (思考段, 答案段, 答案起点绝对索引)。
+
+    关键：生成的第一个 token 通常是 `<think>` 本身，它不在思考段里（思考段
+    只含 `<think>` 与 `</think>` 之间的内容），所以答案第 j 个 token 的
+    绝对索引是 `</think>` 位置 + 1 + j，而不是“思考长度 + 1 + j”。
+    这个偏差会让对数概率去错位查表（实测误差达四个数量级），必须用
+    绝对索引。无思考块时答案从 0 开始。
+    """
     ids = new_ids.tolist()
     if open_id in ids and close_id in ids:
         o = ids.index(open_id)
         c = ids.index(close_id, o + 1)
-        return new_ids[o + 1:c], new_ids[c + 1:]
-    return new_ids[:0], new_ids
+        return new_ids[o + 1:c], new_ids[c + 1:], c + 1
+    return new_ids[:0], new_ids, 0
 
 
 def collect_bench(model, tok, bench_name: str, n: int, seed: int,
@@ -122,21 +129,20 @@ def collect_bench(model, tok, bench_name: str, n: int, seed: int,
                     output_scores=True, return_dict_in_generate=True,
                     pad_token_id=pad_id)
             new_ids = out.sequences[0][n_prompt:]
-            think_tok, ans_tok = _split_think(new_ids, tok, open_id, close_id)
+            think_tok, ans_tok, ans_off = _split_think(
+                new_ids, tok, open_id, close_id)
             n_t = int(think_tok.shape[0])
             n_a = int(ans_tok.shape[0])
             answer = tok.decode(ans_tok, skip_special_tokens=True).strip()
 
             # 答案段的平均对数概率（与 C4 同口径）
+            # scores[step] 预测的是 new_ids[step]，所以答案第 j 个 token
+            # 对应 scores[ans_off + j]（ans_off 是绝对索引）。
             logp = []
-            for step, score in enumerate(out.scores):
-                if step < n_t + (1 if n_t else 0):
-                    continue  # 跳过思考段与 </think>
-                if step - (n_t + (1 if n_t else 0)) >= n_a:
-                    break
-                lp = torch.log_softmax(score[0].float(), dim=-1)
-                logp.append(
-                    float(lp[int(ans_tok[step - (n_t + (1 if n_t else 0))])]))
+            for j in range(min(n_a, len(out.scores) - ans_off)):
+                lp = torch.log_softmax(out.scores[ans_off + j][0].float(),
+                                       dim=-1)
+                logp.append(float(lp[int(ans_tok[j])]))
             conf = float(np.exp(np.mean(logp))) if logp else float("nan")
             del out
 
