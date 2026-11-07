@@ -26,13 +26,14 @@ import json
 import sys
 from pathlib import Path
 
+import joblib
 import numpy as np
 import pandas as pd
 from scipy import stats
 from sklearn.metrics import roc_auc_score
 
-from probe_train import (bootstrap_auc_ci, delong_test, load_groups,
-                         nested_cv_oof, oof_group_baseline)
+from probe_train import (_pipeline, bootstrap_auc_ci, delong_test,
+                         load_groups, nested_cv_oof, oof_group_baseline)
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RESULTS = REPO_ROOT / "results"
@@ -228,6 +229,35 @@ def analyse_bench(data: dict, seed: int) -> dict:
     return summary, rows, positions, nothink
 
 
+def save_models(data: dict, summary: dict, positions: dict,
+                nothink: dict) -> Path:
+    """在全量数据上重训每个观察位置的探针并落盘，供 Gradio 思考模式演示。
+
+    层取嵌套 CV 的多数选层；阈值取该位置折外分数的 30/80 分位，
+    与 RQ6 演示（probe_train._save_model）同口径。非思考臂一并保存。
+    """
+    out = {}
+    for key in POS_KEYS:
+        r = positions[key]
+        layer = int(pd.Series(r["chosen"]).mode().iloc[0])
+        pipe = _pipeline()
+        pipe.fit(data[f"L{layer}_{key}"], data["correct"])
+        q_lo, q_hi = np.percentile(r["oof"], [30.0, 80.0])
+        out[key] = {"layer": layer, "pipe": pipe,
+                    "thr_yellow": float(q_lo), "thr_green": float(q_hi),
+                    "auc": r["auc"], "ci": list(r["ci"])}
+    layer_nt = int(pd.Series(nothink["chosen"]).mode().iloc[0])
+    pipe_nt = _pipeline()
+    pipe_nt.fit(data[f"L{layer_nt}_nothink"], data["nothink_correct"])
+    q_lo, q_hi = np.percentile(nothink["oof"], [30.0, 80.0])
+    out["nothink"] = {"layer": layer_nt, "pipe": pipe_nt,
+                       "thr_yellow": float(q_lo), "thr_green": float(q_hi),
+                       "auc": nothink["auc"], "ci": list(nothink["ci"])}
+    path = RESULTS / f"probe_timing_models_{data['bench']}.joblib"
+    joblib.dump(out, path)
+    return path
+
+
 def plot_curve(summary: dict, rows: list, out_png: Path) -> None:
     import matplotlib
     matplotlib.use("Agg")
@@ -335,6 +365,8 @@ def main() -> None:
     ap.add_argument("--bench", default="truthfulqa",
                     help="基准名，逗号分隔")
     ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--save-models", action="store_true",
+                    help="同时保存各观察位置的探针模型（供演示）")
     args = ap.parse_args()
 
     benches = [b.strip() for b in args.bench.split(",") if b.strip()]
@@ -343,7 +375,7 @@ def main() -> None:
         if data is None:
             print(f"跳过（无数据）：{bench}")
             continue
-        summary, rows, _, _ = analyse_bench(data, args.seed)
+        summary, rows, positions, nothink = analyse_bench(data, args.seed)
         png = RESULTS / f"probe_timing_{bench}.png"
         plot_curve(summary, rows, png)
         md = render_md(summary, rows)
@@ -351,6 +383,9 @@ def main() -> None:
         (RESULTS / f"probe_timing_{bench}.json").write_text(
             json.dumps(summary, ensure_ascii=False, indent=2,
                        default=str), encoding="utf-8")
+        if args.save_models:
+            mp = save_models(data, summary, positions, nothink)
+            print(f"探针模型已保存：{mp}")
         print(pd.DataFrame(rows).to_string(index=False))
         print(f"图：{png}")
 

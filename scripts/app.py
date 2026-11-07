@@ -19,7 +19,14 @@
     开了之后必须走 chat template，提示词格式从此改变；而探针是在
     "裸提示词末位激活"这个分布上训练的。两者的隐藏状态分布不同，
     把旧探针的分打在新提示上会得到无效结果。要用 thinking 就得重采数据、
-    重训探针，属于另一个实验，不能在这里混用。
+    重训探针，属于另一个实验（窗口 D），不能在第一步混用。
+
+关于「思考模式」Tab（窗口 D 任务 D5）
+    该 Tab 单独展示 RQ7：模型先流式思考，表盘随思考推进实时走动。
+    - 思考分布探针（results/probe_timing_models_<基准>.joblib，D2 产出）
+      存在时，表盘在 0/25/50/75/100% 五个观察点使用对应探针；
+    - 该文件不存在时，表盘退化为「旧分布探针」占位（沿用第一步的 L21
+      裸提示词探针），界面上会明确标注这一占位行为。
 
 启动
     python scripts/app.py
@@ -56,6 +63,11 @@ PRESET_BENCH = "truthfulqa"
 PRESET_N = 500
 SEED = 42
 MAX_LEN = 2048
+
+# 思考模式（窗口 D）：思考段上限、采样间隔、答案段上限
+THINK_MAX_NEW = 768
+THINK_PROBE_EVERY = 25
+THINK_ANS_MAX = 64
 
 LIGHT_STYLE = {
     "green": ("#1f9d55", "可信", "模型大概率能答对"),
@@ -219,7 +231,150 @@ class Interceptor:
         return "yellow"
 
 
+class ThinkPanel:
+    """思考模式（窗口 D）：流式思考 + 探针分随思考推进的走动表盘。
+
+    手动逐 token 生成（带 KV cache），所以能精确知道 <think>…</think>
+    的边界，以及思考进行到第几个 token：
+      - 思考期间每 THINK_PROBE_EVERY 个 token 采样一次表盘（占位探针）；
+      - 思考结束时在 0/25/50/75/100% 五个观察点用对应探针打分，
+        形成最终的「预警时机曲线」。
+    思考分布探针不存在时自动退化为旧分布探针（占位，界面会标注）。
+    """
+
+    def __init__(self, inter: "Interceptor"):
+        self.inter = inter
+        tok = inter.tok
+        self.open_id = tok.convert_tokens_to_ids("<think>")
+        self.close_id = tok.convert_tokens_to_ids("</think>")
+        if self.open_id is None or self.close_id is None:
+            raise SystemExit("tokenizer 不支持 <think>/</think>")
+        self.eos_id = tok.eos_token_id
+        self.think_probes = self._load_think_probes()
+
+    def _load_think_probes(self):
+        p = RESULTS / f"probe_timing_models_{self.inter.bench_name}.joblib"
+        return joblib.load(p) if p.exists() else None
+
+    # ---- 探针打分 ----
+    def _score(self, prefix_ids, key: str | None) -> float:
+        """对给定前缀的末位激活用探针打分。
+
+        key 为观察点名（p0/p25/p50/p75/p100/nothink）时用思考分布探针；
+        key 为 None 时用旧分布探针（占位）。
+        """
+        if key is not None and self.think_probes and key in self.think_probes:
+            m = self.think_probes[key]
+            layer, pipe = m["layer"], m["pipe"]
+        else:
+            layer, pipe = self.inter.layer, self.inter.pipe
+        with torch.inference_mode():
+            fwd = self.inter.model(prefix_ids, output_hidden_states=True)
+        feat = (fwd.hidden_states[layer][0, -1, :]
+                .float().numpy().reshape(1, -1))
+        return float(pipe.predict_proba(feat)[0, 1])
+
+    def _thr(self, key: str | None):
+        """当前打分探针对应的黄/绿阈值。"""
+        if key is not None and self.think_probes and key in self.think_probes:
+            m = self.think_probes[key]
+            return m["thr_yellow"], m["thr_green"]
+        return self.inter.meta["thr_yellow"], self.inter.meta["thr_green"]
+
+    # ---- 主流程：逐 token 流式思考 → 作答 ----
+    def stream(self, item: dict):
+        prompt = self.inter.bench.build_prompt(item)
+        msgs = [{"role": "user", "content": prompt}]
+        enc = self.inter.tok.apply_chat_template(
+            msgs, add_generation_prompt=True, enable_thinking=True,
+            return_tensors="pt", return_dict=True)
+        ids = enc["input_ids"]
+        tok = self.inter.tok
+        model = self.inter.model
+
+        # 0% 观察点：提示词末位
+        p0 = self._score(ids, "p0")
+        ev = {"phase": "start", "probe": p0, "key": "p0",
+              "n_think": 0, "think_text": "", "answer_text": "",
+              "live": [], "canonical": [(0.0, p0)],
+              "n_answer": 0, "closed": True}
+        yield {**ev}
+
+        think_ids: list[int] = []
+        ans_ids: list[int] = []
+        ans_logp: list[float] = []
+        past = None
+        cur_in = ids
+        phase = "thinking"
+        last_sample = 0
+        model.eval()
+        with torch.inference_mode():
+            for _step in range(THINK_MAX_NEW + THINK_ANS_MAX):
+                out = model(cur_in, past_key_values=past, use_cache=True)
+                past = out.past_key_values
+                nid = int(out.logits[0, -1].argmax())
+                nid_t = torch.tensor([[nid]])
+                cur_in = nid_t
+
+                if phase == "thinking":
+                    if nid == self.close_id:
+                        phase = "answer"
+                        ev.update({"phase": "answer_begin",
+                                   "n_think": len(think_ids)})
+                        p100 = self._score(
+                            torch.cat([ids, torch.tensor([think_ids])], dim=1),
+                            "p100")
+                        ev.update({"probe": p100, "key": "p100",
+                                   "canonical": ev["canonical"] + [(1.0, p100)]})
+                        yield {**ev}
+                        continue
+                    think_ids.append(nid)
+                    if len(think_ids) - last_sample >= THINK_PROBE_EVERY:
+                        last_sample = len(think_ids)
+                        prefix = torch.cat(
+                            [ids, torch.tensor([think_ids])], dim=1)
+                        pk = self._score(prefix, None)
+                        ev.update({"phase": "thinking",
+                                   "probe": pk, "key": None,
+                                   "n_think": len(think_ids),
+                                   "think_text": tok.decode(
+                                       think_ids, skip_special_tokens=True),
+                                   "live": ev["live"] + [(len(think_ids), pk)]})
+                        yield {**ev}
+                else:
+                    ans_ids.append(nid)
+                    lp = torch.log_softmax(out.logits[0, -1].float(), dim=-1)
+                    ans_logp.append(float(lp[nid]))
+                    if nid == self.eos_id or len(ans_ids) >= THINK_ANS_MAX:
+                        break
+                    ev.update({"phase": "answer", "n_answer": len(ans_ids),
+                               "answer_text": tok.decode(
+                                   ans_ids, skip_special_tokens=True)})
+                    yield {**ev}
+            else:
+                # 循环自然耗尽：思考段可能没有闭合
+                if phase == "thinking":
+                    ev["closed"] = False
+
+        # ---- 收尾：25/50/75% 三个观察点 + 判分 ----
+        n_t = len(think_ids)
+        if n_t:
+            for key, p in (("p25", 0.25), ("p50", 0.5), ("p75", 0.75)):
+                k = int(round(p * n_t))
+                prefix = torch.cat([ids, torch.tensor([think_ids[:k]])], dim=1)
+                ev["canonical"].append((p, self._score(prefix, key)))
+        answer = tok.decode(ans_ids, skip_special_tokens=True).strip()
+        res = self.inter.bench.judge(answer, item)
+        conf = float(np.exp(np.mean(ans_logp))) if ans_logp else float("nan")
+        ev.update({"phase": "done", "answer": answer,
+                   "correct": bool(res["correct"]),
+                   "parse_ok": bool(res["parse_ok"]),
+                   "conf": conf, "n_think": n_t, "n_answer": len(ans_ids)})
+        yield {**ev}
+
+
 INTER: Interceptor | None = None
+THINK: ThinkPanel | None = None
 
 
 # ---------------------------------------------------------------- 页面
@@ -412,9 +567,149 @@ def _custom_item(question: str, a: str, b: str, c: str, d: str):
     return {"question": question.strip(), "options": opts}, ""
 
 
+# ---------------------------------------------------------------- 思考模式（窗口 D）
+
+POS_LABELS = {"p0": "0%", "p25": "25%", "p50": "50%",
+              "p75": "75%", "p100": "100%"}
+
+
+def _dial_html(ev: dict) -> str:
+    """半圆表盘：指针随探针分转动，下方是走动轨迹。
+
+    表盘分只对应当前采样点的探针分（实时采样用占位探针，最终曲线用
+    五位置探针）。轨迹图里灰点为实时采样，彩色折线为五位置标准点。
+    """
+    import math
+    p = float(np.clip(ev.get("probe", 0.5), 0.0, 1.0))
+    thr_lo, thr_hi = THINK._thr(ev.get("key"))
+    band = "green" if p >= thr_hi else ("red" if p < thr_lo else "yellow")
+    color = LIGHT_STYLE[band][0]
+    ang = 90.0 - 180.0 * p  # p=0 指向左，p=1 指向右
+
+    # 三档背景弧：红（左）黄（中）绿（右）
+    def arc(a0: float, a1: float, c: str) -> str:
+        pts = []
+        for a in np.linspace(a0, a1, 30):
+            rad = math.radians(a)
+            pts.append(f"{170 + 130 * math.cos(rad):.1f}, "
+                       f"{110 - 130 * math.sin(rad):.1f}")
+        return (f"<path d='M {pts[0]} L {' L '.join(pts[1:])}' "
+                f"fill='none' stroke='{c}' stroke-width='13' "
+                f"stroke-linecap='round'/>")
+
+    a_y = 180.0 - 180.0 * thr_hi
+    a_r = 180.0 - 180.0 * thr_lo
+    arcs = (arc(180, max(a_r, 180.05), "#e53e3e")
+            + arc(a_r, a_y, "#d69e2e")
+            + arc(a_y, 0.05, "#1f9d55"))
+
+    dial = (
+        "<div style='text-align:center'>"
+        f"<svg width='340' height='150' viewBox='0 0 340 150'>"
+        f"{arcs}"
+        f"<g transform='rotate({ang:.1f} 170 110)'>"
+        f"<polygon points='170,100 163,126 177,126' fill='{color}'/>"
+        f"<circle cx='170' cy='110' r='7' fill='{color}'/></g>"
+        f"<text x='42' y='136' font-size='11' fill='#888'>0</text>"
+        f"<text x='284' y='136' font-size='11' fill='#888'>1</text>"
+        f"<text x='170' y='32' font-size='15' font-weight='700' "
+        f"fill='{color}' text-anchor='middle'>{p:.3f}</text>"
+        "</svg>"
+        f"<div style='font-size:13px;color:{color};font-weight:700'>"
+        f"{LIGHT_STYLE[band][1]}</div></div>")
+
+    # ---- 走动轨迹 ----
+    def pt_xy(x: float, y: float) -> str:
+        return f"{20 + x * 300:.1f},{90 - y * 70:.1f}"
+
+    live = ev.get("live", [])
+    canon = sorted(ev.get("canonical", []))
+    dots = "".join(
+        f"<circle cx='{20 + min(t / 600.0, 1.0) * 300:.1f}' "
+        f"cy='{90 - s * 70:.1f}' r='3.5' fill='#94a3b8'/>"
+        for t, s in live)
+    if len(canon) >= 2:
+        line = ("<polyline fill='none' stroke='#3182ce' stroke-width='2' "
+                "points='" + " ".join(pt_xy(x, s) for x, s in canon)
+                + "'/>")
+    else:
+        line = ""
+    cpts = "".join(
+        f"<circle cx='{20 + x * 300:.1f}' cy='{90 - s * 70:.1f}' r='4' "
+        f"fill='#3182ce'/>"
+        for x, s in canon)
+    caption = ("实时采样（灰点）用占位探针；彩色折线为五位置标准点"
+               if THINK.think_probes is None
+               else "实时采样（灰点）为旧分布探针；彩色折线为思考分布五位置探针")
+    traj = (
+        "<div style='text-align:center'>"
+        f"<svg width='340' height='100' viewBox='0 0 340 100'>"
+        "<line x1='20' y1='90' x2='320' y2='90' stroke='#d0d0d0'/>"
+        "<line x1='20' y1='20' x2='20' y2='90' stroke='#d0d0d0'/>"
+        f"{line}{dots}{cpts}</svg>"
+        f"<div style='font-size:11px;color:#888'>{caption}</div></div>")
+
+    return dial + traj
+
+
+def _think_done_md(ev: dict, truth: str | None) -> str:
+    head = _answer_head(ev["answer"], ev["correct"])
+    lines = [head, ""]
+    n_t = ev["n_think"]
+    close_note = "" if ev.get("closed", True) else "（未闭合，思考超上限）"
+    lines.append(f"- 思考 **{n_t} token**{close_note}，答案 {ev['n_answer']} token，"
+                 f"置信度 {ev['conf']:.3f}")
+    lines += ["", "**五个观察点的探针分**（P 答对）：", ""]
+    for x, s in sorted(ev.get("canonical", [])):
+        lines.append(f"- {int(round(x * 100)):>3}% 观察点 → **{s:.3f}**")
+    if truth is not None:
+        lines += ["", f"**标准答案**：{truth}　模型本题"
+                      f"{'答对 ✅' if ev['correct'] else '答错 ❌'}"]
+    if not ev["parse_ok"]:
+        lines += ["", "> ⚠️ 答案解析失败（可能思考未闭合或答案格式异常）。"]
+    note = ("本曲线由思考分布五位置探针（窗口 D 产物）计算。"
+            if THINK.think_probes
+            else "⚠️ 思考分布探针尚未训练（D2 未完成），本曲线暂用旧分布占位探针，"
+                 "只演示交互流程，数值不具备研究结论含义。")
+    lines += ["", f"> {note}"]
+    return "\n".join(lines)
+
+
+def think_preset(item_id: str):
+    if INTER is None or THINK is None:
+        yield "<p>模型未加载</p>", "", ""
+        return
+    item = INTER.by_id.get(str(item_id))
+    if item is None:
+        yield "<p>找不到该题</p>", "", ""
+        return
+    truth = str(item.get("answer"))
+    for ev in THINK.stream(item):
+        dial = _dial_html(ev)
+        ph = ev["phase"]
+        if ph == "start":
+            think_md = "**模型开始思考（逐 token 流式）…**"
+            ans_md = ""
+        elif ph == "thinking":
+            think_md = (f"**正在思考（第 {ev['n_think']} 个 token）…**\n\n"
+                        f"```text\n{ev['think_text'][-300:]}\n```")
+            ans_md = ""
+        elif ph == "answer_begin":
+            think_md = (f"✅ **思考结束**（共 {ev['n_think']} token）\n\n"
+                        f"```text\n{ev['think_text'][-400:]}\n```")
+            ans_md = "**模型开始作答…**"
+        elif ph == "answer":
+            ans_md = ("**模型作答中（流式）…**\n\n```text\n"
+                      + ev["answer_text"][-200:] + "\n```")
+        else:
+            ans_md = _think_done_md(ev, truth)
+        yield dial, think_md, ans_md
+
+
 def build_ui(probe_bench: str, n_preset: int) -> gr.Blocks:
-    global INTER
+    global INTER, THINK
     INTER = Interceptor(probe_bench, n_preset)
+    THINK = ThinkPanel(INTER)
     meta = INTER.meta
 
     choices = []
@@ -488,6 +783,37 @@ def build_ui(probe_bench: str, n_preset: int) -> gr.Blocks:
                        outputs=[out2, det2])
             btn2b.click(answer_custom, inputs=[q, a, b, c, d],
                         outputs=[ans2, det2b])
+
+        with gr.Tab("思考模式（预警时机）"):
+            probe_note = (
+                "### 思考模式演示（窗口 D · RQ7）\n"
+                "模型先**流式思考**（Qwen3 thinking 模式），表盘随思考推进实时"
+                "走动；思考结束后在 0/25/50/75/100% 五个观察点用对应探针打分，"
+                "得到预警时机曲线，最后模型再作答。\n\n"
+                "当前探针状态："
+                "**思考分布五位置探针已加载（D2 产物）**。"
+                if THINK.think_probes else
+                "### 思考模式演示（窗口 D · RQ7）\n"
+                "模型先**流式思考**（Qwen3 thinking 模式），表盘随思考推进实时"
+                "走动；思考结束后在 0/25/50/75/100% 五个观察点用对应探针打分，"
+                "得到预警时机曲线，最后模型再作答。\n\n"
+                "当前探针状态：⚠️ **思考分布探针尚未训练完成（D2 进行中）**，"
+                "表盘暂用旧分布占位探针演示交互流程，数值不具备研究结论含义；"
+                "采集与分析完成后将自动切换。")
+            gr.Markdown(probe_note)
+            dd3 = gr.Dropdown(choices=choices,
+                              value=choices[0][1] if choices else None,
+                              label="从 TruthfulQA 题库中选择")
+            preview3 = gr.Markdown(
+                _render_item(INTER.items[0]) if INTER.items else "")
+            btn3 = gr.Button("▶ 开始思考（流式）", variant="primary")
+            dial_out = gr.HTML()
+            think_out = gr.Markdown()
+            ans3 = gr.Markdown()
+            dd3.change(lambda i: _render_item(INTER.by_id.get(str(i), {})),
+                       inputs=[dd3], outputs=[preview3])
+            btn3.click(think_preset, inputs=[dd3],
+                       outputs=[dial_out, think_out, ans3])
     return demo
 
 

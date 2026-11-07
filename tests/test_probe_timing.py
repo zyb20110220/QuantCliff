@@ -104,3 +104,23 @@ def test_plot_curve_saves(tmp_path):
     png = tmp_path / "curve.png"
     pt.plot_curve(summary, rows, png)
     assert png.exists() and png.stat().st_size > 1000
+
+
+def test_save_models(tmp_path, monkeypatch):
+    import joblib
+    _synthetic(tmp_path, n=80)
+    data = pt.load_think("syn", tmp_path)
+    summary, rows, positions, nothink = pt.analyse_bench(data, seed=5)
+    out = tmp_path / "probe_timing_models_syn.joblib"
+    monkeypatch.setattr(pt, "RESULTS", tmp_path)
+    saved = pt.save_models(data, summary, positions, nothink)
+    assert saved == out
+    bundle = joblib.load(out)
+    assert set(bundle) == set(pt.POS_KEYS) | {"nothink"}
+    for key in pt.POS_KEYS:
+        m = bundle[key]
+        assert 0.0 <= m["thr_yellow"] <= m["thr_green"] <= 1.0
+        assert m["layer"] in pt.LAYERS
+    p = bundle["p100"]["pipe"].predict_proba(
+        data["L21_p100"][:5])
+    assert p.shape == (5, 2)
